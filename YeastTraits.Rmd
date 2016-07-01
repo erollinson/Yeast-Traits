@@ -1,0 +1,90 @@
+---
+title: "Yeast Trait x Env"
+author: "Emily J. Rollinson"
+date: "July 1, 2016"
+output: html_document
+---
+Load packages
+
+```{r}
+require(FD)
+```
+
+
+Read in the data
+
+```{r}
+traits<-read.csv("TraitMatrix_Imputed_2016-06-27.csv", check.names=FALSE, row.names=1)
+envs<-read.csv("IsolationMatrix_Imputed_2016-06-27.csv", check.names=FALSE, row.names=1)
+```
+
+
+
+For the FD (functional diversity) package, species have to be the columns in the species x site (here, species x environment) matrix. Species have to be rows in the species x traits matrix, which they already are.
+
+Transpose the species x environment matrix
+
+```{r}
+envt<-as.data.frame(t(envs))
+```
+
+
+Calculate functional diversity and CWM for the environments. (CWM = "community weighted means"; this is built for plant communities so each community is a site. For us, this is going to tell us the mean trait value for each environment. Since all of them are binary, we're essentially getting "proportion of species found in this environment that have this trait")
+
+```{r}
+fdiv<-dbFD(traits, envt, stand.x=FALSE, stand.FRic=TRUE)
+#stand.x means whether or not the trait measures need to be standardized. these are all binary so we'll leave them alone. 
+#stand.FRic standardizes the functional richness for each env by the global FRic (1 = the trait diversity encompassing all the species in the dataset)
+
+CWM<-fdiv[2] #save the CWM for the environments
+
+```
+
+^ The above currently fails because some species are totally absent (not isolated from any environments):
+Zygotorulaspora mrakii
+Kazachstania rosinii
+Kazachstania aerobica
+Kazachstania bulderi
+Blastobotrys americana 
+Blastobotrys arbuscula
+Blastobotrys elegans 
+Blastobotrys raffinosifermentans
+Candida atmosphaerica 
+Candida sequanensis 
+Myxozyma lipomycoides
+ 
+-------------------------------------------------------------------------------
+
+http://stackoverflow.com/questions/6422273/how-to-randomize-or-permute-a-dataframe-rowwise-and-columnwise
+
+use sample or permatswap in vegan or randomizeMatrix in picante
+
+*this is old plant code still*
+```{r}
+#require(vegan)
+
+require(picante)
+require(FD)
+rep=99
+permFEve<-matrix(nrow=rep, ncol=24)
+permFDiv<-matrix(nrow=rep, ncol=24)
+permFDis<-matrix(nrow=rep, ncol=24)
+permRaoQ<-matrix(nrow=rep, ncol=24)
+for (i in 11:rep) {
+  temp<-randomizeMatrix(cover, null.model="independentswap", iterations = 1000)
+  try(FDtemp<-dbFD(pref_traits, temp, stand.x=TRUE, ord="podani", corr = "cailliez"), silent=TRUE)
+  FEve = FDtemp$FEve
+  FDiv = FDtemp$FDiv
+  FDis = FDtemp$FDis
+  RaoQ = FDtemp$RaoQ
+  permFEve[i,]<-FEve
+  permFDiv[i,]<-FDiv
+  permFDis[i,]<-FDis
+  permRaoQ[i,]<-RaoQ
+}
+
+#this will provide each row as a permutation and each column as one of the communities, with a separate table for each statistic.  This can be used to test each community for environmental filtering etc -  calculate probabilities on the histogram w/ observed values outside the 0.025 and .975 tails)
+
+
+#It would be a good idea to export the null tables so I don't have to run this again.  
+
