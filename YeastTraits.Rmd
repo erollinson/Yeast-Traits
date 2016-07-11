@@ -4,6 +4,47 @@ author: "Emily J. Rollinson"
 date: "July 1, 2016"
 output: html_document
 ---
+
+------------------------------------------------------------------------------
+*PERMUTATION*
+
+Given a certain set of correlations between traits and environments, how many trait co-occurrences would we expect due to chance? 
+
+If less than expected we could infer trade-offs (something is reducing the number of traits co-occuring below what we would expect to randomly occur)
+
+If more than expected, assume some syndrome of traits that is good in that environment.
+
+I THINK what we want is to maintain the species x iso_environment matrix as is, and permute the species x traits matrix.
+
+use library (picante) and function randomizeMatrix for each permutation. WITHIN each permutation use 1000 iterations (this is 1000 random swaps of cells, producing one permuted matrix) and then run the permutation 999 times
+
+randomizeMatrix(matrix, null.model="independentswap", iterations=1000)
+
+
+1) The pseudoloop-
+
+999 repetitions
+  Permute the species x trait matrix (see code for randomizeMatrix above)
+    Within each permutation...
+    For environments 1 to x
+      For trait pair 1 to y
+        In environment x, how many species have both of trait pair y? (Both are '1'?)
+        Save this as a list of matrices (or whatever it is called) - so we have 999 values for each environment by trait-pair
+        
+        
+        
+2) Calculate the same for the real data (in each environment 'x', how many species have both of trait-pair 'y'?)
+
+
+3) For each environment 'x' by trait-pair 'y', ask if the observed # of species is smaller than the lowest 2.5% of permuted values, or larger than the largest 97.5% of permuted values, for that environment 'x' by trait-pair 'y'.
+
+
+n.b. This doesn't yet correct for multiple comparisons
+
+
+---------------------------------------------------------------------------------------------------
+*Some test code to make sure the matrices are playing nicely; this ends up calculating the proportion of species within each isolation environment that have a particular trait.*
+
 Load packages
 
 ```{r}
@@ -14,8 +55,8 @@ require(FD)
 Read in the data
 
 ```{r}
-traits<-read.csv("TraitMatrix_Imputed_2016-06-27.csv", check.names=FALSE, row.names=1)
-envs<-read.csv("IsolationMatrix_Imputed_2016-06-27.csv", check.names=FALSE, row.names=1)
+traits<-read.csv("TraitMatrix_Imputed_2016-06-27_pruned.csv", check.names=FALSE, row.names=1)
+envs<-read.csv("isomatrix_pruned.csv", check.names=FALSE, row.names=1)
 ```
 
 
@@ -25,41 +66,26 @@ For the FD (functional diversity) package, species have to be the columns in the
 Transpose the species x environment matrix
 
 ```{r}
-envt<-as.data.frame(t(envs))
+envt<-as.matrix(t(envs))
 ```
 
 
 Calculate functional diversity and CWM for the environments. (CWM = "community weighted means"; this is built for plant communities so each community is a site. For us, this is going to tell us the mean trait value for each environment. Since all of them are binary, we're essentially getting "proportion of species found in this environment that have this trait")
 
 ```{r}
-fdiv<-dbFD(traits, envt, stand.x=FALSE, stand.FRic=TRUE)
+#fdiv<-dbFD(traits, envt, stand.x=FALSE, stand.FRic=TRUE)
 #stand.x means whether or not the trait measures need to be standardized. these are all binary so we'll leave them alone. 
 #stand.FRic standardizes the functional richness for each env by the global FRic (1 = the trait diversity encompassing all the species in the dataset)
 
-CWM<-fdiv[2] #save the CWM for the environments
-
+CWM<-functcomp(traits, envt, CWM.type="all")
+#"all" returns abundance of each trait in each isolation environment. so for instance, for things isolated from bromeliads, it would give x% that can't metabolize maltose (Maltose_0) and x% can (Maltose_1).
 ```
-
-^ The above currently fails because some species are totally absent (not isolated from any environments):
-Zygotorulaspora mrakii
-Kazachstania rosinii
-Kazachstania aerobica
-Kazachstania bulderi
-Blastobotrys americana 
-Blastobotrys arbuscula
-Blastobotrys elegans 
-Blastobotrys raffinosifermentans
-Candida atmosphaerica 
-Candida sequanensis 
-Myxozyma lipomycoides
  
--------------------------------------------------------------------------------
+So in the CWM, very high values would suggest a strong relationship of that trait within that environment (e.g., most species in that environment have (need?) that trait).
 
-http://stackoverflow.com/questions/6422273/how-to-randomize-or-permute-a-dataframe-rowwise-and-columnwise
+-----------------------------------------------------------------------------
 
-use sample or permatswap in vegan or randomizeMatrix in picante
-
-*this is old plant code still*
+*probably unhelpful old code for permuting plant communities*
 ```{r}
 #require(vegan)
 
@@ -84,7 +110,4 @@ for (i in 11:rep) {
 }
 
 #this will provide each row as a permutation and each column as one of the communities, with a separate table for each statistic.  This can be used to test each community for environmental filtering etc -  calculate probabilities on the histogram w/ observed values outside the 0.025 and .975 tails)
-
-
-#It would be a good idea to export the null tables so I don't have to run this again.  
 
