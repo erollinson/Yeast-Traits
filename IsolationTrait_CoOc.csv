@@ -1,0 +1,1941 @@
+sp1,sp2,sp1_inc,sp2_inc,obs_cooccur,prob_cooccur,exp_cooccur,p_lt,p_gt,sp1_name,sp2_name,Association
+1,41,90,607,68,0.079,65.7,0.75366,0.33357,Pathogenic,Glucose_F,Random
+1,42,90,259,31,0.034,28.1,0.79812,0.27499,Pathogenic,Galactose_F,Random
+1,43,90,209,30,0.027,22.6,0.97619,0.04124,Pathogenic,Sucrose_F,Positive
+1,44,90,165,22,0.022,17.9,0.90029,0.15484,Pathogenic,Maltose_F,Random
+1,45,90,29,1,0.004,3.1,0.15788,0.96612,Pathogenic,Lactose_F,Random
+1,46,90,132,20,0.017,14.3,0.96694,0.05995,Pathogenic,Raffinose_F,Random
+1,47,90,261,31,0.034,28.3,0.78289,0.29286,Pathogenic,Trehalose_F,Random
+1,48,90,831,90,0.108,90,1,1,Pathogenic,Glucose,Random
+1,49,90,108,11,0.014,11.7,0.48691,0.64398,Pathogenic,Inulin,Random
+1,50,90,503,49,0.066,54.5,0.12818,0.91316,Pathogenic,Sucrose,Random
+1,51,90,237,32,0.031,25.7,0.95229,0.07648,Pathogenic,Raffinose,Random
+1,52,90,103,14,0.013,11.2,0.87003,0.20984,Pathogenic,Melibiose,Random
+1,53,90,541,62,0.071,58.6,0.81954,0.24961,Pathogenic,Galactose,Random
+1,54,90,100,13,0.013,10.8,0.82188,0.27576,Pathogenic,Lactose,Random
+1,55,90,578,58,0.075,62.6,0.15993,0.89091,Pathogenic,Trehalose,Random
+1,56,90,468,49,0.061,50.7,0.39351,0.68953,Pathogenic,Maltose,Random
+1,57,90,383,44,0.05,41.5,0.75087,0.32496,Pathogenic,Melezitose,Random
+1,58,90,388,44,0.051,42,0.71075,0.36984,Pathogenic,Methyl-?-D-glucoside,Random
+1,59,90,196,30,0.026,21.2,0.99102,0.017,Pathogenic,Soluble Starch,Positive
+1,60,90,524,53,0.068,56.8,0.2251,0.83731,Pathogenic,Cellobiose,Random
+1,61,90,517,53,0.067,56,0.28144,0.79004,Pathogenic,Salicin,Random
+1,62,90,437,52,0.057,47.3,0.87634,0.1756,Pathogenic,L-Sorbose,Random
+1,63,90,181,28,0.024,19.6,0.99009,0.01886,Pathogenic,L-Rhamnose,Positive
+1,64,90,578,62,0.075,62.6,0.48543,0.6095,Pathogenic,D-Xylose,Random
+1,65,90,288,41,0.038,31.2,0.99142,0.01555,Pathogenic,L-Arabinose,Positive
+1,66,90,247,29,0.032,26.8,0.75122,0.33086,Pathogenic,D-Arabinose,Random
+1,67,90,338,42,0.044,36.6,0.90919,0.13329,Pathogenic,D-Ribose,Random
+1,68,90,67,5,0.009,7.3,0.24284,0.87459,Pathogenic,Methanol,Random
+1,69,90,700,79,0.091,75.8,0.87274,0.20773,Pathogenic,Ethanol,Random
+1,70,90,737,80,0.096,79.8,0.58127,0.5588,Pathogenic,Glycerol,Random
+1,71,90,220,28,0.029,23.8,0.88045,0.17575,Pathogenic,Erythritol,Random
+1,72,90,501,55,0.065,54.3,0.60912,0.48063,Pathogenic,Ribitol,Random
+1,73,90,100,17,0.013,10.8,0.98528,0.03068,Pathogenic,Galactitol,Positive
+1,74,90,672,67,0.088,72.8,0.07016,0.95915,Pathogenic,D-Mannitol,Random
+1,75,90,659,70,0.086,71.4,0.39745,0.70227,Pathogenic,D-Glucitol,Random
+1,76,90,75,9,0.01,8.1,0.71429,0.42546,Pathogenic,myo-Inositol,Random
+1,77,90,381,50,0.05,41.3,0.9806,0.03269,Pathogenic,DL-Lactate,Positive
+1,78,90,692,79,0.09,74.9,0.91767,0.14281,Pathogenic,Succinate,Random
+1,79,90,513,66,0.067,55.6,0.99483,0.0101,Pathogenic,Citrate,Positive
+1,80,90,459,63,0.06,49.7,0.99917,0.0018,Pathogenic,D-Gluconate,Positive
+1,81,90,314,38,0.041,34,0.84943,0.20996,Pathogenic,D-Glucosamine,Random
+1,82,90,144,11,0.019,15.6,0.11081,0.93847,Pathogenic,Nitrate,Random
+1,83,90,161,19,0.021,17.4,0.72488,0.37424,Pathogenic,Vitamin-free,Random
+1,84,90,367,46,0.048,39.7,0.93511,0.09826,Pathogenic,2-Keto-D-gluconate,Random
+1,85,90,107,6,0.014,11.6,0.03787,0.98497,Pathogenic,Starch formation,Negative
+1,86,90,820,85,0.107,88.8,0.00364,0.99959,Pathogenic,Growth at 19°C,Negative
+1,87,90,822,90,0.107,89,1,0.35453,Pathogenic,Growth at 25°C,Random
+1,88,90,732,87,0.095,79.3,0.99941,0.00284,Pathogenic,Growth at 30°C,Positive
+1,89,90,345,66,0.045,37.4,1,0,Pathogenic,Growth at 37°C,Positive
+2,41,11,607,10,0.01,8,0.96919,0.15799,Clinical,Glucose_F,Random
+2,42,11,259,6,0.004,3.4,0.97408,0.09075,Clinical,Galactose_F,Random
+2,43,11,209,7,0.003,2.8,0.99885,0.00745,Clinical,Sucrose_F,Positive
+2,44,11,165,5,0.003,2.2,0.98927,0.04787,Clinical,Maltose_F,Positive
+2,46,11,132,3,0.002,1.7,0.91862,0.24768,Clinical,Raffinose_F,Random
+2,47,11,261,6,0.004,3.5,0.97293,0.0938,Clinical,Trehalose_F,Random
+2,48,11,831,11,0.013,11,1,1,Clinical,Glucose,Random
+2,49,11,108,1,0.002,1.4,0.57078,0.78592,Clinical,Inulin,Random
+2,50,11,503,9,0.008,6.7,0.96818,0.12448,Clinical,Sucrose,Random
+2,51,11,237,5,0.004,3.1,0.93863,0.17749,Clinical,Raffinose,Random
+2,52,11,103,2,0.002,1.4,0.85431,0.40432,Clinical,Melibiose,Random
+2,53,11,541,9,0.009,7.2,0.93981,0.20036,Clinical,Galactose,Random
+2,54,11,100,1,0.002,1.3,0.61078,0.75817,Clinical,Lactose,Random
+2,55,11,578,9,0.009,7.7,0.89439,0.29984,Clinical,Trehalose,Random
+2,56,11,468,9,0.007,6.2,0.98332,0.07567,Clinical,Maltose,Random
+2,57,11,383,9,0.006,5.1,0.99738,0.01717,Clinical,Melezitose,Positive
+2,58,11,388,8,0.006,5.1,0.98103,0.0747,Clinical,Methyl-?-D-glucoside,Random
+2,59,11,196,4,0.003,2.6,0.90821,0.24754,Clinical,Soluble Starch,Random
+2,60,11,524,7,0.008,6.9,0.62821,0.61706,Clinical,Cellobiose,Random
+2,61,11,517,7,0.008,6.8,0.65025,0.59402,Clinical,Salicin,Random
+2,62,11,437,6,0.007,5.8,0.66548,0.57015,Clinical,L-Sorbose,Random
+2,63,11,181,4,0.003,2.4,0.93169,0.20145,Clinical,L-Rhamnose,Random
+2,64,11,578,9,0.009,7.7,0.89439,0.29984,Clinical,D-Xylose,Random
+2,65,11,288,5,0.005,3.8,0.85858,0.32191,Clinical,L-Arabinose,Random
+2,66,11,247,3,0.004,3.3,0.57774,0.68164,Clinical,D-Arabinose,Random
+2,67,11,338,7,0.005,4.5,0.96833,0.10633,Clinical,D-Ribose,Random
+2,69,11,700,10,0.011,9.3,0.85036,0.46214,Clinical,Ethanol,Random
+2,70,11,737,11,0.012,9.8,1,0.26475,Clinical,Glycerol,Random
+2,71,11,220,2,0.004,2.9,0.40934,0.8334,Clinical,Erythritol,Random
+2,72,11,501,9,0.008,6.6,0.96928,0.12118,Clinical,Ribitol,Random
+2,73,11,100,2,0.002,1.3,0.86373,0.38922,Clinical,Galactitol,Random
+2,74,11,672,10,0.011,8.9,0.90481,0.34668,Clinical,D-Mannitol,Random
+2,75,11,659,10,0.01,8.7,0.92334,0.30013,Clinical,D-Glucitol,Random
+2,77,11,381,7,0.006,5,0.93307,0.18749,Clinical,DL-Lactate,Random
+2,78,11,692,11,0.011,9.2,1,0.13174,Clinical,Succinate,Random
+2,79,11,513,11,0.008,6.8,1,0.00476,Clinical,Citrate,Positive
+2,80,11,459,10,0.007,6.1,0.99862,0.01398,Clinical,D-Gluconate,Positive
+2,81,11,314,7,0.005,4.2,0.98039,0.0733,Clinical,D-Glucosamine,Random
+2,82,11,144,2,0.002,1.9,0.70598,0.59398,Clinical,Nitrate,Random
+2,83,11,161,3,0.003,2.1,0.85382,0.36169,Clinical,Vitamin-free,Random
+2,84,11,367,7,0.006,4.9,0.94679,0.1579,Clinical,2-Keto-D-gluconate,Random
+2,85,11,107,0,0.002,1.4,0.21738,1,Clinical,Starch formation,Random
+2,86,11,820,11,0.013,10.9,1,0.86288,Clinical,Growth at 19°C,Random
+2,87,11,822,11,0.013,10.9,1,0.88646,Clinical,Growth at 25°C,Random
+2,88,11,732,11,0.012,9.7,1,0.24552,Clinical,Growth at 30°C,Random
+2,89,11,345,10,0.005,4.6,0.99994,0.00097,Clinical,Growth at 37°C,Positive
+3,41,98,607,69,0.086,71.6,0.30313,0.77446,Rotting.Decaying,Glucose_F,Random
+3,42,98,259,29,0.037,30.5,0.4084,0.67926,Rotting.Decaying,Galactose_F,Random
+3,43,98,209,18,0.03,24.6,0.06075,0.96504,Rotting.Decaying,Sucrose_F,Random
+3,44,98,165,17,0.023,19.5,0.30415,0.78521,Rotting.Decaying,Maltose_F,Random
+3,45,98,29,1,0.004,3.4,0.12365,0.97542,Rotting.Decaying,Lactose_F,Random
+3,46,98,132,11,0.019,15.6,0.11307,0.93694,Rotting.Decaying,Raffinose_F,Random
+3,47,98,261,35,0.037,30.8,0.8626,0.19356,Rotting.Decaying,Trehalose_F,Random
+3,48,98,831,98,0.118,98,1,1,Rotting.Decaying,Glucose,Random
+3,49,98,108,6,0.015,12.7,0.01715,0.99383,Rotting.Decaying,Inulin,Negative
+3,50,98,503,52,0.071,59.3,0.06752,0.9565,Rotting.Decaying,Sucrose,Random
+3,51,98,237,21,0.034,27.9,0.0597,0.96472,Rotting.Decaying,Raffinose,Random
+3,52,98,103,10,0.015,12.1,0.30355,0.80402,Rotting.Decaying,Melibiose,Random
+3,53,98,541,59,0.077,63.8,0.16579,0.88353,Rotting.Decaying,Galactose,Random
+3,54,98,100,15,0.014,11.8,0.88746,0.1835,Rotting.Decaying,Lactose,Random
+3,55,98,578,67,0.082,68.2,0.43392,0.65488,Rotting.Decaying,Trehalose,Random
+3,56,98,468,50,0.066,55.2,0.15452,0.89117,Rotting.Decaying,Maltose,Random
+3,57,98,383,40,0.054,45.2,0.15694,0.88958,Rotting.Decaying,Melezitose,Random
+3,58,98,388,45,0.055,45.8,0.47865,0.60608,Rotting.Decaying,Methyl-?-D-glucoside,Random
+3,59,98,196,22,0.028,23.1,0.44484,0.65332,Rotting.Decaying,Soluble Starch,Random
+3,60,98,524,67,0.074,61.8,0.89912,0.14703,Rotting.Decaying,Cellobiose,Random
+3,61,98,517,67,0.073,61,0.92753,0.10919,Rotting.Decaying,Salicin,Random
+3,62,98,437,57,0.062,51.5,0.90082,0.14239,Rotting.Decaying,L-Sorbose,Random
+3,63,98,181,27,0.026,21.3,0.94282,0.09168,Rotting.Decaying,L-Rhamnose,Random
+3,64,98,578,78,0.082,68.2,0.99358,0.01264,Rotting.Decaying,D-Xylose,Positive
+3,65,98,288,39,0.041,34,0.8938,0.15269,Rotting.Decaying,L-Arabinose,Random
+3,66,98,247,39,0.035,29.1,0.99163,0.01512,Rotting.Decaying,D-Arabinose,Positive
+3,67,98,338,40,0.048,39.9,0.55767,0.52936,Rotting.Decaying,D-Ribose,Random
+3,68,98,67,14,0.01,7.9,0.99246,0.01832,Rotting.Decaying,Methanol,Positive
+3,69,98,700,91,0.099,82.6,0.9979,0.00611,Rotting.Decaying,Ethanol,Positive
+3,70,98,737,89,0.105,86.9,0.80799,0.30383,Rotting.Decaying,Glycerol,Random
+3,71,98,220,28,0.031,25.9,0.7362,0.34773,Rotting.Decaying,Erythritol,Random
+3,72,98,501,58,0.071,59.1,0.44679,0.6379,Rotting.Decaying,Ribitol,Random
+3,73,98,100,12,0.014,11.8,0.60404,0.52575,Rotting.Decaying,Galactitol,Random
+3,74,98,672,77,0.095,79.2,0.31045,0.77668,Rotting.Decaying,D-Mannitol,Random
+3,75,98,659,72,0.094,77.7,0.08544,0.94754,Rotting.Decaying,D-Glucitol,Random
+3,76,98,75,12,0.011,8.8,0.91077,0.15885,Rotting.Decaying,myo-Inositol,Random
+3,77,98,381,52,0.054,44.9,0.94863,0.07831,Rotting.Decaying,DL-Lactate,Random
+3,78,98,692,90,0.098,81.6,0.99705,0.00794,Rotting.Decaying,Succinate,Positive
+3,79,98,513,68,0.073,60.5,0.96313,0.0593,Rotting.Decaying,Citrate,Random
+3,80,98,459,47,0.065,54.1,0.07607,0.95025,Rotting.Decaying,D-Gluconate,Random
+3,81,98,314,46,0.045,37,0.98136,0.03108,Rotting.Decaying,D-Glucosamine,Positive
+3,82,98,144,14,0.02,17,0.24419,0.83882,Rotting.Decaying,Nitrate,Random
+3,83,98,161,18,0.023,19,0.45571,0.65034,Rotting.Decaying,Vitamin-free,Random
+3,84,98,367,44,0.052,43.3,0.60527,0.47976,Rotting.Decaying,2-Keto-D-gluconate,Random
+3,85,98,107,8,0.015,12.6,0.08829,0.95642,Rotting.Decaying,Starch formation,Random
+3,86,98,820,97,0.116,96.7,0.75074,0.62091,Rotting.Decaying,Growth at 19°C,Random
+3,87,98,822,97,0.117,96.9,0.67864,0.71231,Rotting.Decaying,Growth at 25°C,Random
+3,88,98,732,90,0.104,86.3,0.92281,0.14463,Rotting.Decaying,Growth at 30°C,Random
+3,89,98,345,51,0.049,40.7,0.99052,0.01656,Rotting.Decaying,Growth at 37°C,Positive
+4,41,17,607,12,0.015,12.4,0.5013,0.70398,Spoiled,Glucose_F,Random
+4,42,17,259,2,0.006,5.3,0.06203,0.98554,Spoiled,Galactose_F,Random
+4,43,17,209,5,0.005,4.3,0.76252,0.43192,Spoiled,Sucrose_F,Random
+4,44,17,165,1,0.004,3.4,0.11844,0.97772,Spoiled,Maltose_F,Random
+4,46,17,132,3,0.003,2.7,0.72173,0.52284,Spoiled,Raffinose_F,Random
+4,47,17,261,4,0.006,5.3,0.3392,0.83376,Spoiled,Trehalose_F,Random
+4,48,17,831,17,0.02,17,1,1,Spoiled,Glucose,Random
+4,49,17,108,1,0.003,2.2,0.32907,0.90851,Spoiled,Inulin,Random
+4,50,17,503,9,0.012,10.3,0.34128,0.81597,Spoiled,Sucrose,Random
+4,51,17,237,6,0.006,4.8,0.81711,0.34996,Spoiled,Raffinose,Random
+4,52,17,103,4,0.003,2.1,0.95156,0.1488,Spoiled,Melibiose,Random
+4,53,17,541,11,0.013,11.1,0.57802,0.62308,Spoiled,Galactose,Random
+4,54,17,100,4,0.002,2,0.95669,0.13725,Spoiled,Lactose,Random
+4,55,17,578,8,0.014,11.8,0.04242,0.98669,Spoiled,Trehalose,Negative
+4,56,17,468,7,0.012,9.6,0.15284,0.93509,Spoiled,Maltose,Random
+4,57,17,383,6,0.009,7.8,0.25763,0.87521,Spoiled,Melezitose,Random
+4,58,17,388,7,0.01,7.9,0.41734,0.75845,Spoiled,Methyl-?-D-glucoside,Random
+4,59,17,196,4,0.005,4,0.62839,0.59699,Spoiled,Soluble Starch,Random
+4,60,17,524,9,0.013,10.7,0.26408,0.86935,Spoiled,Cellobiose,Random
+4,61,17,517,9,0.013,10.6,0.28897,0.85278,Spoiled,Salicin,Random
+4,62,17,437,10,0.011,8.9,0.777,0.39368,Spoiled,L-Sorbose,Random
+4,63,17,181,2,0.004,3.7,0.2472,0.91417,Spoiled,L-Rhamnose,Random
+4,64,17,578,9,0.014,11.8,0.11014,0.95758,Spoiled,D-Xylose,Random
+4,65,17,288,7,0.007,5.9,0.79828,0.36877,Spoiled,L-Arabinose,Random
+4,66,17,247,6,0.006,5.1,0.78501,0.39279,Spoiled,D-Arabinose,Random
+4,67,17,338,6,0.008,6.9,0.42423,0.75672,Spoiled,D-Ribose,Random
+4,68,17,67,1,0.002,1.4,0.59555,0.76393,Spoiled,Methanol,Random
+4,69,17,700,15,0.017,14.3,0.77667,0.48272,Spoiled,Ethanol,Random
+4,70,17,737,15,0.018,15.1,0.59083,0.69971,Spoiled,Glycerol,Random
+4,71,17,220,5,0.005,4.5,0.72004,0.48292,Spoiled,Erythritol,Random
+4,72,17,501,10,0.012,10.2,0.54313,0.65101,Spoiled,Ribitol,Random
+4,73,17,100,5,0.002,2,0.98931,0.04331,Spoiled,Galactitol,Positive
+4,74,17,672,11,0.017,13.7,0.08671,0.97126,Spoiled,D-Mannitol,Random
+4,75,17,659,11,0.016,13.5,0.11824,0.95711,Spoiled,D-Glucitol,Random
+4,76,17,75,1,0.002,1.5,0.53647,0.80298,Spoiled,myo-Inositol,Random
+4,77,17,381,10,0.009,7.8,0.90827,0.20059,Spoiled,DL-Lactate,Random
+4,78,17,692,13,0.017,14.2,0.31294,0.86092,Spoiled,Succinate,Random
+4,79,17,513,8,0.013,10.5,0.15724,0.9326,Spoiled,Citrate,Random
+4,80,17,459,7,0.011,9.4,0.17573,0.92253,Spoiled,D-Gluconate,Random
+4,81,17,314,5,0.008,6.4,0.32682,0.83412,Spoiled,D-Glucosamine,Random
+4,82,17,144,2,0.004,2.9,0.41278,0.82331,Spoiled,Nitrate,Random
+4,83,17,161,1,0.004,3.3,0.12808,0.9753,Spoiled,Vitamin-free,Random
+4,84,17,367,5,0.009,7.5,0.16105,0.93384,Spoiled,2-Keto-D-gluconate,Random
+4,85,17,107,0,0.003,2.2,0.09369,1,Spoiled,Starch formation,Random
+4,86,17,820,17,0.02,16.8,1,0.79552,Spoiled,Growth at 19°C,Random
+4,87,17,822,17,0.02,16.8,1,0.8295,Spoiled,Growth at 25°C,Random
+4,88,17,732,15,0.018,15,0.62083,0.67004,Spoiled,Growth at 30°C,Random
+4,89,17,345,12,0.008,7.1,0.99656,0.01401,Spoiled,Growth at 37°C,Positive
+5,41,29,607,19,0.025,21.2,0.23229,0.87214,Plant.Pathogen,Glucose_F,Random
+5,42,29,259,12,0.011,9,0.91847,0.1574,Plant.Pathogen,Galactose_F,Random
+5,43,29,209,8,0.009,7.3,0.70856,0.45085,Plant.Pathogen,Sucrose_F,Random
+5,44,29,165,6,0.007,5.8,0.65171,0.53066,Plant.Pathogen,Maltose_F,Random
+5,45,29,29,1,0.001,1,0.73148,0.64943,Plant.Pathogen,Lactose_F,Random
+5,46,29,132,7,0.006,4.6,0.92624,0.16223,Plant.Pathogen,Raffinose_F,Random
+5,47,29,261,8,0.011,9.1,0.41121,0.7389,Plant.Pathogen,Trehalose_F,Random
+5,48,29,831,29,0.035,29,1,1,Plant.Pathogen,Glucose,Random
+5,49,29,108,9,0.005,3.8,0.99786,0.00798,Plant.Pathogen,Inulin,Positive
+5,50,29,503,20,0.021,17.6,0.87377,0.22781,Plant.Pathogen,Sucrose,Random
+5,51,29,237,14,0.01,8.3,0.99381,0.0172,Plant.Pathogen,Raffinose,Positive
+5,52,29,103,1,0.004,3.6,0.10573,0.97993,Plant.Pathogen,Melibiose,Random
+5,53,29,541,15,0.023,18.9,0.09186,0.95643,Plant.Pathogen,Galactose,Random
+5,54,29,100,1,0.004,3.5,0.11618,0.97733,Plant.Pathogen,Lactose,Random
+5,55,29,578,20,0.024,20.2,0.54371,0.61721,Plant.Pathogen,Trehalose,Random
+5,56,29,468,17,0.02,16.3,0.66928,0.47758,Plant.Pathogen,Maltose,Random
+5,57,29,383,13,0.016,13.4,0.52209,0.62677,Plant.Pathogen,Melezitose,Random
+5,58,29,388,14,0.016,13.5,0.64287,0.5045,Plant.Pathogen,Methyl-?-D-glucoside,Random
+5,59,29,196,8,0.008,6.8,0.77505,0.37189,Plant.Pathogen,Soluble Starch,Random
+5,60,29,524,19,0.022,18.3,0.67781,0.47314,Plant.Pathogen,Cellobiose,Random
+5,61,29,517,17,0.022,18,0.41096,0.72898,Plant.Pathogen,Salicin,Random
+5,62,29,437,18,0.018,15.3,0.89128,0.19766,Plant.Pathogen,L-Sorbose,Random
+5,63,29,181,1,0.008,6.3,0.00661,0.9993,Plant.Pathogen,L-Rhamnose,Negative
+5,64,29,578,19,0.024,20.2,0.38279,0.75769,Plant.Pathogen,D-Xylose,Random
+5,65,29,288,7,0.012,10.1,0.15531,0.92444,Plant.Pathogen,L-Arabinose,Random
+5,66,29,247,7,0.01,8.6,0.32966,0.80786,Plant.Pathogen,D-Arabinose,Random
+5,67,29,338,5,0.014,11.8,0.00582,0.99849,Plant.Pathogen,D-Ribose,Negative
+5,68,29,67,0,0.003,2.3,0.0836,1,Plant.Pathogen,Methanol,Random
+5,69,29,700,20,0.029,24.4,0.0276,0.99074,Plant.Pathogen,Ethanol,Negative
+5,70,29,737,24,0.031,25.7,0.2227,0.90157,Plant.Pathogen,Glycerol,Random
+5,71,29,220,2,0.009,7.7,0.00775,0.99867,Plant.Pathogen,Erythritol,Negative
+5,72,29,501,15,0.021,17.5,0.22044,0.8749,Plant.Pathogen,Ribitol,Random
+5,73,29,100,3,0.004,3.5,0.5306,0.69972,Plant.Pathogen,Galactitol,Random
+5,74,29,672,21,0.028,23.5,0.17222,0.91691,Plant.Pathogen,D-Mannitol,Random
+5,75,29,659,20,0.028,23,0.12394,0.94296,Plant.Pathogen,D-Glucitol,Random
+5,76,29,75,0,0.003,2.6,0.06125,1,Plant.Pathogen,myo-Inositol,Random
+5,77,29,381,16,0.016,13.3,0.88774,0.20134,Plant.Pathogen,DL-Lactate,Random
+5,78,29,692,24,0.029,24.1,0.54952,0.64623,Plant.Pathogen,Succinate,Random
+5,79,29,513,15,0.022,17.9,0.17462,0.90588,Plant.Pathogen,Citrate,Random
+5,80,29,459,12,0.019,16,0.0909,0.95676,Plant.Pathogen,D-Gluconate,Random
+5,81,29,314,5,0.013,11,0.01347,0.99608,Plant.Pathogen,D-Glucosamine,Negative
+5,82,29,144,6,0.006,5,0.77641,0.38786,Plant.Pathogen,Nitrate,Random
+5,83,29,161,3,0.007,5.6,0.15459,0.94221,Plant.Pathogen,Vitamin-free,Random
+5,84,29,367,11,0.015,12.8,0.31161,0.80949,Plant.Pathogen,2-Keto-D-gluconate,Random
+5,85,29,107,6,0.004,3.7,0.93282,0.15794,Plant.Pathogen,Starch formation,Random
+5,86,29,820,29,0.034,28.6,1,0.67493,Plant.Pathogen,Growth at 19°C,Random
+5,87,29,822,26,0.035,28.7,0.00279,0.99987,Plant.Pathogen,Growth at 25°C,Negative
+5,88,29,732,21,0.031,25.5,0.01552,0.99562,Plant.Pathogen,Growth at 30°C,Negative
+5,89,29,345,11,0.014,12,0.42206,0.71997,Plant.Pathogen,Growth at 37°C,Random
+6,41,104,607,78,0.091,76,0.72224,0.36311,Animal,Glucose_F,Random
+6,42,104,259,33,0.039,32.4,0.60091,0.48797,Animal,Galactose_F,Random
+6,43,104,209,35,0.031,26.2,0.98635,0.02399,Animal,Sucrose_F,Positive
+6,44,104,165,23,0.025,20.6,0.77568,0.30815,Animal,Maltose_F,Random
+6,45,104,29,1,0.004,3.6,0.10243,0.98073,Animal,Lactose_F,Random
+6,46,104,132,25,0.02,16.5,0.99319,0.0137,Animal,Raffinose_F,Positive
+6,47,104,261,32,0.039,32.7,0.48942,0.59985,Animal,Trehalose_F,Random
+6,48,104,831,104,0.125,104,1,1,Animal,Glucose,Random
+6,49,104,108,13,0.016,13.5,0.50961,0.6141,Animal,Inulin,Random
+6,50,104,503,59,0.076,63,0.2289,0.83024,Animal,Sucrose,Random
+6,51,104,237,37,0.036,29.7,0.96374,0.058,Animal,Raffinose,Random
+6,52,104,103,15,0.016,12.9,0.79953,0.29673,Animal,Melibiose,Random
+6,53,104,541,68,0.081,67.7,0.56605,0.52141,Animal,Galactose,Random
+6,54,104,100,16,0.015,12.5,0.89767,0.1672,Animal,Lactose,Random
+6,55,104,578,70,0.087,72.3,0.33452,0.74299,Animal,Trehalose,Random
+6,56,104,468,58,0.07,58.6,0.49273,0.59068,Animal,Maltose,Random
+6,57,104,383,52,0.058,47.9,0.83166,0.22633,Animal,Melezitose,Random
+6,58,104,388,52,0.058,48.6,0.79635,0.26796,Animal,Methyl-?-D-glucoside,Random
+6,59,104,196,34,0.03,24.5,0.9917,0.01528,Animal,Soluble Starch,Positive
+6,60,104,524,62,0.079,65.6,0.25064,0.81258,Animal,Cellobiose,Random
+6,61,104,517,63,0.078,64.7,0.39509,0.68481,Animal,Salicin,Random
+6,62,104,437,54,0.066,54.7,0.4835,0.59914,Animal,L-Sorbose,Random
+6,63,104,181,33,0.027,22.7,0.99611,0.00765,Animal,L-Rhamnose,Positive
+6,64,104,578,74,0.087,72.3,0.68581,0.39961,Animal,D-Xylose,Random
+6,65,104,288,46,0.043,36,0.98854,0.01967,Animal,L-Arabinose,Positive
+6,66,104,247,32,0.037,30.9,0.64584,0.44188,Animal,D-Arabinose,Random
+6,67,104,338,47,0.051,42.3,0.86621,0.18484,Animal,D-Ribose,Random
+6,68,104,67,7,0.01,8.4,0.38077,0.75983,Animal,Methanol,Random
+6,69,104,700,92,0.105,87.6,0.92476,0.12955,Animal,Ethanol,Random
+6,70,104,737,92,0.111,92.2,0.52196,0.60778,Animal,Glycerol,Random
+6,71,104,220,35,0.033,27.5,0.96875,0.05105,Animal,Erythritol,Random
+6,72,104,501,66,0.075,62.7,0.79162,0.27557,Animal,Ribitol,Random
+6,73,104,100,19,0.015,12.5,0.98436,0.03129,Animal,Galactitol,Positive
+6,74,104,672,79,0.101,84.1,0.11166,0.92942,Animal,D-Mannitol,Random
+6,75,104,659,82,0.099,82.5,0.49505,0.6063,Animal,D-Glucitol,Random
+6,76,104,75,10,0.011,9.4,0.66945,0.46834,Animal,myo-Inositol,Random
+6,77,104,381,56,0.057,47.7,0.96804,0.05021,Animal,DL-Lactate,Random
+6,78,104,692,92,0.104,86.6,0.95605,0.08067,Animal,Succinate,Random
+6,79,104,513,73,0.077,64.2,0.97881,0.03538,Animal,Citrate,Positive
+6,80,104,459,71,0.069,57.4,0.99865,0.00269,Animal,D-Gluconate,Positive
+6,81,104,314,44,0.047,39.3,0.86939,0.18145,Animal,D-Glucosamine,Random
+6,82,104,144,16,0.022,18,0.34376,0.75377,Animal,Nitrate,Random
+6,83,104,161,21,0.024,20.1,0.64646,0.45493,Animal,Vitamin-free,Random
+6,84,104,367,53,0.055,45.9,0.94463,0.08303,Animal,2-Keto-D-gluconate,Random
+6,85,104,107,7,0.016,13.4,0.02646,0.98936,Animal,Starch formation,Negative
+6,86,104,820,97,0.123,102.6,9.00E-05,0.99999,Animal,Growth at 19°C,Negative
+6,87,104,822,102,0.124,102.9,0.31331,0.90892,Animal,Growth at 25°C,Random
+6,88,104,732,98,0.11,91.6,0.99187,0.02194,Animal,Growth at 30°C,Positive
+6,89,104,345,72,0.052,43.2,1,0,Animal,Growth at 37°C,Positive
+7,41,217,607,175,0.191,158.5,0.999,0.00185,Insect,Glucose_F,Positive
+7,42,217,259,88,0.081,67.6,0.99978,0.00041,Insect,Galactose_F,Positive
+7,43,217,209,67,0.066,54.6,0.98995,0.01589,Insect,Sucrose_F,Positive
+7,44,217,165,62,0.052,43.1,0.99991,0.00019,Insect,Maltose_F,Positive
+7,45,217,29,12,0.009,7.6,0.97938,0.04987,Insect,Lactose_F,Positive
+7,46,217,132,41,0.041,34.5,0.93392,0.09752,Insect,Raffinose_F,Random
+7,47,217,261,102,0.082,68.2,1,0,Insect,Trehalose_F,Positive
+7,48,217,831,217,0.261,217,1,1,Insect,Glucose,Random
+7,49,217,108,20,0.034,28.2,0.0324,0.98203,Insect,Inulin,Negative
+7,50,217,503,153,0.158,131.3,0.99985,0.00027,Insect,Sucrose,Positive
+7,51,217,237,58,0.074,61.9,0.27807,0.77785,Insect,Raffinose,Random
+7,52,217,103,26,0.032,26.9,0.46787,0.62611,Insect,Melibiose,Random
+7,53,217,541,165,0.17,141.3,0.99998,4.00E-05,Insect,Galactose,Positive
+7,54,217,100,22,0.031,26.1,0.19118,0.86953,Insect,Lactose,Random
+7,55,217,578,164,0.182,150.9,0.99077,0.01465,Insect,Trehalose,Positive
+7,56,217,468,152,0.147,122.2,1,0,Insect,Maltose,Positive
+7,57,217,383,130,0.12,100,1,0,Insect,Melezitose,Positive
+7,58,217,388,131,0.122,101.3,1,0,Insect,Methyl-?-D-glucoside,Positive
+7,59,217,196,45,0.062,51.2,0.14503,0.89393,Insect,Soluble Starch,Random
+7,60,217,524,155,0.165,136.8,0.999,0.00174,Insect,Cellobiose,Positive
+7,61,217,517,158,0.162,135,0.99995,1.00E-04,Insect,Salicin,Positive
+7,62,217,437,121,0.137,114.1,0.87869,0.15625,Insect,L-Sorbose,Random
+7,63,217,181,54,0.057,47.3,0.91579,0.11706,Insect,L-Rhamnose,Random
+7,64,217,578,157,0.182,150.9,0.87044,0.16984,Insect,D-Xylose,Random
+7,65,217,288,78,0.091,75.2,0.70865,0.35044,Insect,L-Arabinose,Random
+7,66,217,247,72,0.078,64.5,0.91588,0.11365,Insect,D-Arabinose,Random
+7,67,217,338,107,0.106,88.3,0.99896,0.00175,Insect,D-Ribose,Positive
+7,68,217,67,10,0.021,17.5,0.01751,0.99255,Insect,Methanol,Negative
+7,69,217,700,183,0.22,182.8,0.55637,0.5299,Insect,Ethanol,Random
+7,70,217,737,200,0.232,192.5,0.98049,0.03627,Insect,Glycerol,Positive
+7,71,217,220,64,0.069,57.4,0.89591,0.13959,Insect,Erythritol,Random
+7,72,217,501,159,0.157,130.8,1,0,Insect,Ribitol,Positive
+7,73,217,100,22,0.031,26.1,0.19118,0.86953,Insect,Galactitol,Random
+7,74,217,672,203,0.211,175.5,1,0,Insect,D-Mannitol,Positive
+7,75,217,659,201,0.207,172.1,1,0,Insect,D-Glucitol,Positive
+7,76,217,75,12,0.024,19.6,0.02185,0.98989,Insect,myo-Inositol,Negative
+7,77,217,381,84,0.12,99.5,0.00858,0.99451,Insect,DL-Lactate,Negative
+7,78,217,692,187,0.217,180.7,0.92675,0.10876,Insect,Succinate,Random
+7,79,217,513,152,0.161,134,0.99883,0.002,Insect,Citrate,Positive
+7,80,217,459,151,0.144,119.9,1,0,Insect,D-Gluconate,Positive
+7,81,217,314,100,0.099,82,0.99863,0.0023,Insect,D-Glucosamine,Positive
+7,82,217,144,20,0.045,37.6,9.00E-05,0.99997,Insect,Nitrate,Negative
+7,83,217,161,28,0.051,42,0.0027,0.99864,Insect,Vitamin-free,Negative
+7,84,217,367,129,0.115,95.8,1,0,Insect,2-Keto-D-gluconate,Positive
+7,85,217,107,11,0.034,27.9,2.00E-05,1,Insect,Starch formation,Negative
+7,86,217,820,215,0.258,214.1,0.82672,0.42015,Insect,Growth at 19°C,Random
+7,87,217,822,216,0.258,214.6,0.93537,0.2729,Insect,Growth at 25°C,Random
+7,88,217,732,206,0.23,191.1,0.99997,9.00E-05,Insect,Growth at 30°C,Positive
+7,89,217,345,81,0.108,90.1,0.08394,0.93829,Insect,Growth at 37°C,Random
+8,41,200,607,128,0.176,146.1,0.00078,0.99958,Tree,Glucose_F,Negative
+8,42,200,259,52,0.075,62.3,0.04131,0.97227,Tree,Galactose_F,Negative
+8,43,200,209,38,0.061,50.3,0.01243,0.99265,Tree,Sucrose_F,Negative
+8,44,200,165,32,0.048,39.7,0.06934,0.95469,Tree,Maltose_F,Random
+8,45,200,29,3,0.008,7,0.05396,0.98402,Tree,Lactose_F,Random
+8,46,200,132,24,0.038,31.8,0.0507,0.96943,Tree,Raffinose_F,Random
+8,47,200,261,57,0.076,62.8,0.17655,0.86554,Tree,Trehalose_F,Random
+8,48,200,831,200,0.241,200,1,1,Tree,Glucose,Random
+8,49,200,108,31,0.031,26,0.90639,0.13885,Tree,Inulin,Random
+8,50,200,503,124,0.146,121.1,0.71536,0.34361,Tree,Sucrose,Random
+8,51,200,237,63,0.069,57,0.87677,0.16314,Tree,Raffinose,Random
+8,52,200,103,25,0.03,24.8,0.57552,0.52199,Tree,Melibiose,Random
+8,53,200,541,102,0.157,130.2,0,1,Tree,Galactose,Negative
+8,54,200,100,27,0.029,24.1,0.80526,0.26867,Tree,Lactose,Random
+8,55,200,578,152,0.167,139.1,0.99166,0.01351,Tree,Trehalose,Positive
+8,56,200,468,110,0.136,112.6,0.36285,0.69644,Tree,Maltose,Random
+8,57,200,383,91,0.111,92.2,0.45649,0.60723,Tree,Melezitose,Random
+8,58,200,388,91,0.112,93.4,0.38014,0.68005,Tree,Methyl-?-D-glucoside,Random
+8,59,200,196,61,0.057,47.2,0.99644,0.00609,Tree,Soluble Starch,Positive
+8,60,200,524,148,0.152,126.1,0.99994,0.00013,Tree,Cellobiose,Positive
+8,61,200,517,145,0.15,124.4,0.99983,0.00033,Tree,Salicin,Positive
+8,62,200,437,101,0.127,105.2,0.27508,0.77634,Tree,L-Sorbose,Random
+8,63,200,181,60,0.052,43.6,0.99943,0.00109,Tree,L-Rhamnose,Positive
+8,64,200,578,161,0.167,139.1,0.99998,5.00E-05,Tree,D-Xylose,Positive
+8,65,200,288,81,0.083,69.3,0.98055,0.0289,Tree,L-Arabinose,Positive
+8,66,200,247,85,0.072,59.4,1,1.00E-05,Tree,D-Arabinose,Positive
+8,67,200,338,96,0.098,81.3,0.99366,0.00994,Tree,D-Ribose,Positive
+8,68,200,67,31,0.019,16.1,0.99999,3.00E-05,Tree,Methanol,Positive
+8,69,200,700,178,0.203,168.5,0.98921,0.01976,Tree,Ethanol,Positive
+8,70,200,737,179,0.213,177.4,0.70243,0.39295,Tree,Glycerol,Random
+8,71,200,220,65,0.064,52.9,0.98872,0.01778,Tree,Erythritol,Positive
+8,72,200,501,128,0.145,120.6,0.90596,0.12526,Tree,Ribitol,Random
+8,73,200,100,18,0.029,24.1,0.0798,0.95263,Tree,Galactitol,Random
+8,74,200,672,178,0.195,161.7,0.99985,0.00035,Tree,D-Mannitol,Positive
+8,75,200,659,172,0.191,158.6,0.99794,0.00398,Tree,D-Glucitol,Positive
+8,76,200,75,25,0.022,18.1,0.98001,0.03689,Tree,myo-Inositol,Positive
+8,77,200,381,94,0.11,91.7,0.67629,0.38412,Tree,DL-Lactate,Random
+8,78,200,692,179,0.2,166.5,0.99829,0.00358,Tree,Succinate,Positive
+8,79,200,513,126,0.149,123.5,0.69285,0.36823,Tree,Citrate,Random
+8,80,200,459,104,0.133,110.5,0.16498,0.87223,Tree,D-Gluconate,Random
+8,81,200,314,80,0.091,75.6,0.79557,0.25482,Tree,D-Glucosamine,Random
+8,82,200,144,64,0.042,34.7,1,0,Tree,Nitrate,Positive
+8,83,200,161,57,0.047,38.7,0.99991,2.00E-04,Tree,Vitamin-free,Positive
+8,84,200,367,77,0.106,88.3,0.03805,0.97373,Tree,2-Keto-D-gluconate,Negative
+8,85,200,107,38,0.031,25.8,0.99858,0.0029,Tree,Starch formation,Positive
+8,86,200,820,198,0.237,197.4,0.78481,0.48365,Tree,Growth at 19°C,Random
+8,87,200,822,198,0.238,197.8,0.67811,0.62693,Tree,Growth at 25°C,Random
+8,88,200,732,157,0.212,176.2,0,1,Tree,Growth at 30°C,Negative
+8,89,200,345,76,0.1,83,0.14092,0.89287,Tree,Growth at 37°C,Random
+9,41,29,607,23,0.025,21.2,0.83816,0.29523,Feces.Dung,Glucose_F,Random
+9,42,29,259,9,0.011,9,0.5836,0.57766,Feces.Dung,Galactose_F,Random
+9,43,29,209,9,0.009,7.3,0.83275,0.29144,Feces.Dung,Sucrose_F,Random
+9,44,29,165,6,0.007,5.8,0.65171,0.53066,Feces.Dung,Maltose_F,Random
+9,45,29,29,0,0.001,1,0.35057,1,Feces.Dung,Lactose_F,Random
+9,46,29,132,5,0.006,4.6,0.6931,0.49942,Feces.Dung,Raffinose_F,Random
+9,47,29,261,8,0.011,9.1,0.41121,0.7389,Feces.Dung,Trehalose_F,Random
+9,48,29,831,29,0.035,29,1,1,Feces.Dung,Glucose,Random
+9,49,29,108,3,0.005,3.8,0.46628,0.75106,Feces.Dung,Inulin,Random
+9,50,29,503,12,0.021,17.6,0.02655,0.98965,Feces.Dung,Sucrose,Negative
+9,51,29,237,5,0.01,8.3,0.12043,0.94916,Feces.Dung,Raffinose,Random
+9,52,29,103,0,0.004,3.6,0.02007,1,Feces.Dung,Melibiose,Negative
+9,53,29,541,14,0.023,18.9,0.04357,0.98173,Feces.Dung,Galactose,Negative
+9,54,29,100,3,0.004,3.5,0.5306,0.69972,Feces.Dung,Lactose,Random
+9,55,29,578,20,0.024,20.2,0.54371,0.61721,Feces.Dung,Trehalose,Random
+9,56,29,468,13,0.02,16.3,0.14039,0.92736,Feces.Dung,Maltose,Random
+9,57,29,383,10,0.016,13.4,0.1383,0.93003,Feces.Dung,Melezitose,Random
+9,58,29,388,11,0.016,13.5,0.22051,0.87577,Feces.Dung,Methyl-?-D-glucoside,Random
+9,59,29,196,7,0.008,6.8,0.62811,0.54548,Feces.Dung,Soluble Starch,Random
+9,60,29,524,14,0.022,18.3,0.07085,0.96775,Feces.Dung,Cellobiose,Random
+9,61,29,517,15,0.022,18,0.1607,0.91489,Feces.Dung,Salicin,Random
+9,62,29,437,13,0.018,15.3,0.25359,0.85107,Feces.Dung,L-Sorbose,Random
+9,63,29,181,10,0.008,6.3,0.967,0.07714,Feces.Dung,L-Rhamnose,Random
+9,64,29,578,18,0.024,20.2,0.24231,0.86299,Feces.Dung,D-Xylose,Random
+9,65,29,288,9,0.012,10.1,0.42087,0.72662,Feces.Dung,L-Arabinose,Random
+9,66,29,247,6,0.01,8.6,0.19214,0.90545,Feces.Dung,D-Arabinose,Random
+9,67,29,338,9,0.014,11.8,0.1894,0.89927,Feces.Dung,D-Ribose,Random
+9,68,29,67,2,0.003,2.3,0.58101,0.6957,Feces.Dung,Methanol,Random
+9,69,29,700,28,0.029,24.4,0.99371,0.04185,Feces.Dung,Ethanol,Positive
+9,70,29,737,24,0.031,25.7,0.2227,0.90157,Feces.Dung,Glycerol,Random
+9,71,29,220,6,0.009,7.7,0.31594,0.82353,Feces.Dung,Erythritol,Random
+9,72,29,501,15,0.021,17.5,0.22044,0.8749,Feces.Dung,Ribitol,Random
+9,73,29,100,2,0.004,3.5,0.30028,0.88382,Feces.Dung,Galactitol,Random
+9,74,29,672,19,0.028,23.5,0.03493,0.9872,Feces.Dung,D-Mannitol,Negative
+9,75,29,659,19,0.028,23,0.05704,0.97703,Feces.Dung,D-Glucitol,Random
+9,76,29,75,0,0.003,2.6,0.06125,1,Feces.Dung,myo-Inositol,Random
+9,77,29,381,17,0.016,13.3,0.9445,0.11226,Feces.Dung,DL-Lactate,Random
+9,78,29,692,25,0.029,24.1,0.74323,0.45048,Feces.Dung,Succinate,Random
+9,79,29,513,16,0.022,17.9,0.28962,0.82538,Feces.Dung,Citrate,Random
+9,80,29,459,17,0.019,16,0.71154,0.4299,Feces.Dung,D-Gluconate,Random
+9,81,29,314,13,0.013,11,0.8393,0.27102,Feces.Dung,D-Glucosamine,Random
+9,82,29,144,5,0.006,5,0.61214,0.58405,Feces.Dung,Nitrate,Random
+9,83,29,161,8,0.007,5.6,0.91128,0.18136,Feces.Dung,Vitamin-free,Random
+9,84,29,367,14,0.015,12.8,0.74128,0.3938,Feces.Dung,2-Keto-D-gluconate,Random
+9,85,29,107,0,0.004,3.7,0.01705,1,Feces.Dung,Starch formation,Negative
+9,86,29,820,25,0.034,28.6,0.00033,0.99999,Feces.Dung,Growth at 19°C,Negative
+9,87,29,822,27,0.035,28.7,0.03638,0.99721,Feces.Dung,Growth at 25°C,Negative
+9,88,29,732,27,0.031,25.5,0.88014,0.30719,Feces.Dung,Growth at 30°C,Random
+9,89,29,345,20,0.014,12,0.99939,0.00222,Feces.Dung,Growth at 37°C,Positive
+10,41,38,607,23,0.033,27.8,0.05914,0.972,Pine,Glucose_F,Random
+10,42,38,259,13,0.014,11.8,0.72792,0.3996,Pine,Galactose_F,Random
+10,43,38,209,2,0.012,9.6,0.00128,0.99982,Pine,Sucrose_F,Negative
+10,44,38,165,3,0.009,7.5,0.0372,0.98944,Pine,Maltose_F,Negative
+10,45,38,29,0,0.002,1.3,0.25124,1,Pine,Lactose_F,Random
+10,46,38,132,1,0.007,6,0.01016,0.99882,Pine,Raffinose_F,Negative
+10,47,38,261,16,0.014,11.9,0.94604,0.10281,Pine,Trehalose_F,Random
+10,48,38,831,38,0.046,38,1,1,Pine,Glucose,Random
+10,49,38,108,0,0.006,4.9,0.00442,1,Pine,Inulin,Negative
+10,50,38,503,18,0.028,23,0.06435,0.96798,Pine,Sucrose,Random
+10,51,38,237,10,0.013,10.8,0.46022,0.68169,Pine,Raffinose,Random
+10,52,38,103,9,0.006,4.7,0.987,0.03571,Pine,Melibiose,Positive
+10,53,38,541,25,0.03,24.7,0.59853,0.53945,Pine,Galactose,Random
+10,54,38,100,13,0.006,4.6,0.99995,0.00021,Pine,Lactose,Positive
+10,55,38,578,32,0.032,26.4,0.98957,0.0288,Pine,Trehalose,Positive
+10,56,38,468,21,0.026,21.4,0.51065,0.62054,Pine,Maltose,Random
+10,57,38,383,17,0.021,17.5,0.49976,0.63065,Pine,Melezitose,Random
+10,58,38,388,21,0.021,17.7,0.89438,0.17929,Pine,Methyl-?-D-glucoside,Random
+10,59,38,196,10,0.011,9,0.73265,0.40518,Pine,Soluble Starch,Random
+10,60,38,524,29,0.029,24,0.97484,0.05615,Pine,Cellobiose,Random
+10,61,38,517,29,0.028,23.6,0.98047,0.04502,Pine,Salicin,Positive
+10,62,38,437,19,0.024,20,0.43529,0.68951,Pine,L-Sorbose,Random
+10,63,38,181,17,0.01,8.3,0.9997,0.00102,Pine,L-Rhamnose,Positive
+10,64,38,578,36,0.032,26.4,0.99999,0.00012,Pine,D-Xylose,Positive
+10,65,38,288,27,0.016,13.2,1,0,Pine,L-Arabinose,Positive
+10,66,38,247,24,0.014,11.3,1,1.00E-05,Pine,D-Arabinose,Positive
+10,67,38,338,23,0.019,15.5,0.99647,0.00915,Pine,D-Ribose,Positive
+10,68,38,67,8,0.004,3.1,0.99793,0.00809,Pine,Methanol,Positive
+10,69,38,700,36,0.039,32,0.98934,0.04472,Pine,Ethanol,Positive
+10,70,38,737,34,0.041,33.7,0.64193,0.56652,Pine,Glycerol,Random
+10,71,38,220,18,0.012,10.1,0.99872,0.00375,Pine,Erythritol,Positive
+10,72,38,501,29,0.028,22.9,0.98941,0.02629,Pine,Ribitol,Positive
+10,73,38,100,6,0.006,4.6,0.83895,0.30205,Pine,Galactitol,Random
+10,74,38,672,36,0.037,30.7,0.99733,0.01379,Pine,D-Mannitol,Positive
+10,75,38,659,37,0.036,30.1,0.99988,0.00136,Pine,D-Glucitol,Positive
+10,76,38,75,7,0.004,3.4,0.98407,0.04703,Pine,myo-Inositol,Positive
+10,77,38,381,15,0.021,17.4,0.26195,0.83486,Pine,DL-Lactate,Random
+10,78,38,692,34,0.038,31.6,0.90487,0.20869,Pine,Succinate,Random
+10,79,38,513,26,0.028,23.5,0.85093,0.24499,Pine,Citrate,Random
+10,80,38,459,30,0.025,21,0.99952,0.00169,Pine,D-Gluconate,Positive
+10,81,38,314,20,0.017,14.4,0.98104,0.0407,Pine,D-Glucosamine,Positive
+10,82,38,144,13,0.008,6.6,0.99741,0.00772,Pine,Nitrate,Positive
+10,83,38,161,7,0.009,7.4,0.53874,0.62794,Pine,Vitamin-free,Random
+10,84,38,367,22,0.02,16.8,0.97171,0.05779,Pine,2-Keto-D-gluconate,Random
+10,85,38,107,2,0.006,4.9,0.11104,0.96771,Pine,Starch formation,Random
+10,86,38,820,37,0.045,37.5,0.40433,0.91366,Pine,Growth at 19°C,Random
+10,87,38,822,37,0.045,37.6,0.34515,0.94015,Pine,Growth at 25°C,Random
+10,88,38,732,35,0.04,33.5,0.85302,0.31571,Pine,Growth at 30°C,Random
+10,89,38,345,19,0.019,15.8,0.89464,0.17902,Pine,Growth at 37°C,Random
+11,41,81,607,74,0.071,59.2,1,2.00E-05,Flower,Glucose_F,Positive
+11,42,81,259,18,0.03,25.2,0.04156,0.9773,Flower,Galactose_F,Negative
+11,43,81,209,22,0.025,20.4,0.72088,0.3744,Flower,Sucrose_F,Random
+11,44,81,165,22,0.019,16.1,0.96654,0.05958,Flower,Maltose_F,Random
+11,45,81,29,12,0.003,2.8,1,0,Flower,Lactose_F,Positive
+11,46,81,132,17,0.015,12.9,0.92704,0.12406,Flower,Raffinose_F,Random
+11,47,81,261,26,0.031,25.4,0.60968,0.48897,Flower,Trehalose_F,Random
+11,48,81,831,81,0.097,81,1,1,Flower,Glucose,Random
+11,49,81,108,6,0.013,10.5,0.07438,0.96746,Flower,Inulin,Random
+11,50,81,503,65,0.059,49,0.99998,6.00E-05,Flower,Sucrose,Positive
+11,51,81,237,18,0.028,23.1,0.11521,0.9293,Flower,Raffinose,Random
+11,52,81,103,4,0.012,10,0.01734,0.99479,Flower,Melibiose,Negative
+11,53,81,541,72,0.063,52.7,1,0,Flower,Galactose,Positive
+11,54,81,100,4,0.012,9.7,0.02178,0.99325,Flower,Lactose,Negative
+11,55,81,578,52,0.068,56.3,0.16437,0.88957,Flower,Trehalose,Random
+11,56,81,468,62,0.055,45.6,0.99998,6.00E-05,Flower,Maltose,Positive
+11,57,81,383,54,0.045,37.3,0.99997,7.00E-05,Flower,Melezitose,Positive
+11,58,81,388,39,0.046,37.8,0.65374,0.43587,Flower,Methyl-?-D-glucoside,Random
+11,59,81,196,7,0.023,19.1,0.00026,0.99993,Flower,Soluble Starch,Negative
+11,60,81,524,56,0.061,51.1,0.90688,0.1415,Flower,Cellobiose,Random
+11,61,81,517,57,0.061,50.4,0.9585,0.06886,Flower,Salicin,Random
+11,62,81,437,73,0.051,42.6,1,0,Flower,L-Sorbose,Positive
+11,63,81,181,3,0.021,17.6,0,1,Flower,L-Rhamnose,Negative
+11,64,81,578,58,0.068,56.3,0.70517,0.38881,Flower,D-Xylose,Random
+11,65,81,288,10,0.034,28.1,0,1,Flower,L-Arabinose,Negative
+11,66,81,247,15,0.029,24.1,0.01182,0.9945,Flower,D-Arabinose,Negative
+11,67,81,338,33,0.04,32.9,0.55477,0.53988,Flower,D-Ribose,Random
+11,68,81,67,1,0.008,6.5,0.00683,0.99924,Flower,Methanol,Negative
+11,69,81,700,65,0.082,68.2,0.18835,0.88252,Flower,Ethanol,Random
+11,70,81,737,69,0.086,71.8,0.19107,0.88834,Flower,Glycerol,Random
+11,71,81,220,3,0.026,21.4,0,1,Flower,Erythritol,Negative
+11,72,81,501,54,0.059,48.8,0.91326,0.13194,Flower,Ribitol,Random
+11,73,81,100,5,0.012,9.7,0.05571,0.97822,Flower,Galactitol,Random
+11,74,81,672,71,0.079,65.5,0.96799,0.06388,Flower,D-Mannitol,Random
+11,75,81,659,73,0.077,64.2,0.99798,0.00568,Flower,D-Glucitol,Positive
+11,76,81,75,0,0.009,7.3,0.00031,1,Flower,myo-Inositol,Negative
+11,77,81,381,22,0.045,37.1,0.00023,0.99991,Flower,DL-Lactate,Negative
+11,78,81,692,66,0.081,67.5,0.3732,0.73525,Flower,Succinate,Random
+11,79,81,513,53,0.06,50,0.79924,0.27576,Flower,Citrate,Random
+11,80,81,459,55,0.054,44.7,0.99479,0.0102,Flower,D-Gluconate,Positive
+11,81,81,314,36,0.037,30.6,0.92148,0.11942,Flower,D-Glucosamine,Random
+11,82,81,144,9,0.017,14,0.07574,0.96227,Flower,Nitrate,Random
+11,83,81,161,10,0.019,15.7,0.05729,0.97169,Flower,Vitamin-free,Random
+11,84,81,367,57,0.043,35.8,1,0,Flower,2-Keto-D-gluconate,Positive
+11,85,81,107,3,0.013,10.4,0.00367,0.99922,Flower,Starch formation,Negative
+11,86,81,820,80,0.096,79.9,0.67869,0.70819,Flower,Growth at 19°C,Random
+11,87,81,822,80,0.096,80.1,0.60455,0.78398,Flower,Growth at 25°C,Random
+11,88,81,732,75,0.086,71.4,0.94055,0.12463,Flower,Growth at 30°C,Random
+11,89,81,345,30,0.04,33.6,0.22973,0.83636,Flower,Growth at 37°C,Random
+12,41,47,607,29,0.041,34.3,0.05431,0.97269,Cactus,Glucose_F,Random
+12,42,47,259,11,0.018,14.6,0.15338,0.91362,Cactus,Galactose_F,Random
+12,43,47,209,11,0.014,11.8,0.46602,0.66851,Cactus,Sucrose_F,Random
+12,44,47,165,9,0.011,9.3,0.53861,0.61087,Cactus,Maltose_F,Random
+12,45,47,29,1,0.002,1.6,0.50271,0.82065,Cactus,Lactose_F,Random
+12,46,47,132,6,0.009,7.5,0.3595,0.78597,Cactus,Raffinose_F,Random
+12,47,47,261,12,0.018,14.8,0.23491,0.85497,Cactus,Trehalose_F,Random
+12,48,47,831,47,0.057,47,1,1,Cactus,Glucose,Random
+12,49,47,108,3,0.007,6.1,0.11692,0.95801,Cactus,Inulin,Random
+12,50,47,503,18,0.034,28.4,0.00127,0.99955,Cactus,Sucrose,Negative
+12,51,47,237,8,0.016,13.4,0.04679,0.97963,Cactus,Raffinose,Negative
+12,52,47,103,2,0.007,5.8,0.05337,0.98669,Cactus,Melibiose,Random
+12,53,47,541,27,0.037,30.6,0.16429,0.90039,Cactus,Galactose,Random
+12,54,47,100,2,0.007,5.7,0.06146,0.98423,Cactus,Lactose,Random
+12,55,47,578,18,0.039,32.7,0,1,Cactus,Trehalose,Negative
+12,56,47,468,16,0.032,26.5,0.0013,0.99955,Cactus,Maltose,Negative
+12,57,47,383,15,0.026,21.7,0.03055,0.98553,Cactus,Melezitose,Negative
+12,58,47,388,14,0.026,21.9,0.01165,0.9951,Cactus,Methyl-?-D-glucoside,Negative
+12,59,47,196,6,0.013,11.1,0.04632,0.98161,Cactus,Soluble Starch,Negative
+12,60,47,524,23,0.036,29.6,0.0296,0.98569,Cactus,Cellobiose,Negative
+12,61,47,517,25,0.035,29.2,0.12391,0.92766,Cactus,Salicin,Random
+12,62,47,437,24,0.03,24.7,0.47322,0.64327,Cactus,L-Sorbose,Random
+12,63,47,181,8,0.012,10.2,0.27011,0.84052,Cactus,L-Rhamnose,Random
+12,64,47,578,28,0.039,32.7,0.08779,0.95217,Cactus,D-Xylose,Random
+12,65,47,288,10,0.02,16.3,0.03062,0.98663,Cactus,L-Arabinose,Negative
+12,66,47,247,13,0.017,14,0.44646,0.67971,Cactus,D-Arabinose,Random
+12,67,47,338,14,0.023,19.1,0.07743,0.9591,Cactus,D-Ribose,Random
+12,68,47,67,2,0.005,3.8,0.25019,0.90799,Cactus,Methanol,Random
+12,69,47,700,45,0.048,39.6,0.99745,0.01305,Cactus,Ethanol,Positive
+12,70,47,737,43,0.05,41.7,0.80159,0.36775,Cactus,Glycerol,Random
+12,71,47,220,4,0.015,12.4,0.00164,0.99964,Cactus,Erythritol,Negative
+12,72,47,501,22,0.034,28.3,0.03777,0.98115,Cactus,Ribitol,Negative
+12,73,47,100,3,0.007,5.7,0.15922,0.93854,Cactus,Galactitol,Random
+12,74,47,672,29,0.046,38,0.00126,0.99959,Cactus,D-Mannitol,Negative
+12,75,47,659,26,0.045,37.3,0.00011,0.99997,Cactus,D-Glucitol,Negative
+12,76,47,75,2,0.005,4.2,0.18305,0.93883,Cactus,myo-Inositol,Random
+12,77,47,381,32,0.026,21.5,0.99954,0.00132,Cactus,DL-Lactate,Positive
+12,78,47,692,43,0.047,39.1,0.96952,0.08116,Cactus,Succinate,Random
+12,79,47,513,30,0.035,29,0.67357,0.44466,Cactus,Citrate,Random
+12,80,47,459,21,0.031,26,0.08932,0.95006,Cactus,D-Gluconate,Random
+12,81,47,314,18,0.021,17.8,0.59473,0.52748,Cactus,D-Glucosamine,Random
+12,82,47,144,3,0.01,8.1,0.02405,0.99355,Cactus,Nitrate,Negative
+12,83,47,161,2,0.011,9.1,0.00245,0.99962,Cactus,Vitamin-free,Negative
+12,84,47,367,21,0.025,20.8,0.59071,0.52883,Cactus,2-Keto-D-gluconate,Random
+12,85,47,107,4,0.007,6.1,0.25193,0.87837,Cactus,Starch formation,Random
+12,86,47,820,47,0.056,46.4,1,0.52496,Cactus,Growth at 19°C,Random
+12,87,47,822,47,0.056,46.5,1,0.59061,Cactus,Growth at 25°C,Random
+12,88,47,732,47,0.05,41.4,1,0.00214,Cactus,Growth at 30°C,Positive
+12,89,47,345,40,0.023,19.5,1,0,Cactus,Growth at 37°C,Positive
+13,41,34,607,29,0.03,24.8,0.97359,0.06851,Ipomoea,Glucose_F,Random
+13,42,34,259,5,0.013,10.6,0.02209,0.9929,Ipomoea,Galactose_F,Negative
+13,43,34,209,7,0.01,8.6,0.34557,0.79316,Ipomoea,Sucrose_F,Random
+13,44,34,165,6,0.008,6.8,0.47258,0.69793,Ipomoea,Maltose_F,Random
+13,45,34,29,4,0.001,1.2,0.99504,0.02682,Ipomoea,Lactose_F,Positive
+13,46,34,132,4,0.006,5.4,0.34915,0.81666,Ipomoea,Raffinose_F,Random
+13,47,34,261,13,0.013,10.7,0.85605,0.24261,Ipomoea,Trehalose_F,Random
+13,48,34,831,34,0.041,34,1,1,Ipomoea,Glucose,Random
+13,49,34,108,3,0.005,4.4,0.33405,0.84208,Ipomoea,Inulin,Random
+13,50,34,503,26,0.025,20.6,0.98558,0.03603,Ipomoea,Sucrose,Positive
+13,51,34,237,5,0.012,9.7,0.04596,0.98345,Ipomoea,Raffinose,Negative
+13,52,34,103,1,0.005,4.2,0.06085,0.98992,Ipomoea,Melibiose,Random
+13,53,34,541,33,0.027,22.1,1,1.00E-05,Ipomoea,Galactose,Positive
+13,54,34,100,0,0.005,4.1,0.01163,1,Ipomoea,Lactose,Negative
+13,55,34,578,25,0.028,23.6,0.75547,0.38119,Ipomoea,Trehalose,Random
+13,56,34,468,25,0.023,19.1,0.98915,0.02741,Ipomoea,Maltose,Positive
+13,57,34,383,23,0.019,15.7,0.99715,0.00808,Ipomoea,Melezitose,Positive
+13,58,34,388,16,0.019,15.9,0.58799,0.55082,Ipomoea,Methyl-?-D-glucoside,Random
+13,59,34,196,0,0.01,8,9.00E-05,1,Ipomoea,Soluble Starch,Negative
+13,60,34,524,24,0.026,21.4,0.86754,0.22956,Ipomoea,Cellobiose,Random
+13,61,34,517,24,0.025,21.2,0.8882,0.19954,Ipomoea,Salicin,Random
+13,62,34,437,34,0.022,17.9,1,0,Ipomoea,L-Sorbose,Positive
+13,63,34,181,1,0.009,7.4,0.00213,0.99981,Ipomoea,L-Rhamnose,Negative
+13,64,34,578,26,0.028,23.6,0.86225,0.24453,Ipomoea,D-Xylose,Random
+13,65,34,288,1,0.014,11.8,1.00E-05,1,Ipomoea,L-Arabinose,Negative
+13,66,34,247,4,0.012,10.1,0.01136,0.99697,Ipomoea,D-Arabinose,Negative
+13,67,34,338,9,0.017,13.8,0.05896,0.97389,Ipomoea,D-Ribose,Random
+13,68,34,67,0,0.003,2.7,0.05399,1,Ipomoea,Methanol,Random
+13,69,34,700,28,0.034,28.6,0.45288,0.72,Ipomoea,Ethanol,Random
+13,70,34,737,31,0.036,30.2,0.76173,0.45049,Ipomoea,Glycerol,Random
+13,71,34,220,0,0.011,9,2.00E-05,1,Ipomoea,Erythritol,Negative
+13,72,34,501,25,0.025,20.5,0.96617,0.07372,Ipomoea,Ribitol,Random
+13,73,34,100,1,0.005,4.1,0.06826,0.98837,Ipomoea,Galactitol,Random
+13,74,34,672,34,0.033,27.5,1,0.00062,Ipomoea,D-Mannitol,Positive
+13,75,34,659,34,0.032,27,1,0.00031,Ipomoea,D-Glucitol,Positive
+13,76,34,75,0,0.004,3.1,0.03744,1,Ipomoea,myo-Inositol,Negative
+13,77,34,381,6,0.019,15.6,0.00045,0.9999,Ipomoea,DL-Lactate,Negative
+13,78,34,692,32,0.034,28.3,0.98591,0.05673,Ipomoea,Succinate,Random
+13,79,34,513,25,0.025,21,0.95106,0.10113,Ipomoea,Citrate,Random
+13,80,34,459,22,0.023,18.8,0.90599,0.16922,Ipomoea,D-Gluconate,Random
+13,81,34,314,16,0.015,12.8,0.90525,0.1687,Ipomoea,D-Glucosamine,Random
+13,82,34,144,3,0.007,5.9,0.13084,0.95253,Ipomoea,Nitrate,Random
+13,83,34,161,0,0.008,6.6,0.00056,1,Ipomoea,Vitamin-free,Negative
+13,84,34,367,26,0.018,15,0.99998,1.00E-04,Ipomoea,2-Keto-D-gluconate,Positive
+13,85,34,107,0,0.005,4.4,0.00832,1,Ipomoea,Starch formation,Negative
+13,86,34,820,34,0.04,33.5,1,0.62979,Ipomoea,Growth at 19°C,Random
+13,87,34,822,34,0.04,33.6,1,0.68534,Ipomoea,Growth at 25°C,Random
+13,88,34,732,33,0.036,29.9,0.98781,0.07091,Ipomoea,Growth at 30°C,Random
+13,89,34,345,13,0.017,14.1,0.4171,0.7146,Ipomoea,Growth at 37°C,Random
+14,41,63,607,47,0.055,46,0.66326,0.45103,Oak,Glucose_F,Random
+14,42,63,259,19,0.024,19.6,0.4908,0.62065,Oak,Galactose_F,Random
+14,43,63,209,17,0.019,15.8,0.69691,0.41364,Oak,Sucrose_F,Random
+14,44,63,165,12,0.015,12.5,0.51012,0.62004,Oak,Maltose_F,Random
+14,45,63,29,1,0.003,2.2,0.33838,0.90245,Oak,Lactose_F,Random
+14,46,63,132,13,0.012,10,0.89202,0.18361,Oak,Raffinose_F,Random
+14,47,63,261,15,0.024,19.8,0.11146,0.93514,Oak,Trehalose_F,Random
+14,48,63,831,63,0.076,63,1,1,Oak,Glucose,Random
+14,49,63,108,6,0.01,8.2,0.26331,0.85416,Oak,Inulin,Random
+14,50,63,503,37,0.046,38.1,0.42956,0.67151,Oak,Sucrose,Random
+14,51,63,237,21,0.022,18,0.84732,0.22875,Oak,Raffinose,Random
+14,52,63,103,8,0.009,7.8,0.62321,0.53184,Oak,Melibiose,Random
+14,53,63,541,33,0.049,41,0.02082,0.98935,Oak,Galactose,Negative
+14,54,63,100,9,0.009,7.6,0.78551,0.34196,Oak,Lactose,Random
+14,55,63,578,45,0.053,43.8,0.67931,0.42927,Oak,Trehalose,Random
+14,56,63,468,32,0.043,35.5,0.21508,0.85344,Oak,Maltose,Random
+14,57,63,383,30,0.035,29,0.65062,0.45038,Oak,Melezitose,Random
+14,58,63,388,28,0.035,29.4,0.40602,0.69174,Oak,Methyl-?-D-glucoside,Random
+14,59,63,196,15,0.018,14.9,0.58701,0.53493,Oak,Soluble Starch,Random
+14,60,63,524,39,0.048,39.7,0.4716,0.6336,Oak,Cellobiose,Random
+14,61,63,517,40,0.047,39.2,0.63462,0.4709,Oak,Salicin,Random
+14,62,63,437,37,0.04,33.1,0.87451,0.18839,Oak,L-Sorbose,Random
+14,63,63,181,15,0.017,13.7,0.71953,0.39334,Oak,L-Rhamnose,Random
+14,64,63,578,43,0.053,43.8,0.45755,0.65136,Oak,D-Xylose,Random
+14,65,63,288,21,0.026,21.8,0.46816,0.63926,Oak,L-Arabinose,Random
+14,66,63,247,23,0.023,18.7,0.91264,0.14002,Oak,D-Arabinose,Random
+14,67,63,338,23,0.031,25.6,0.28723,0.79704,Oak,D-Ribose,Random
+14,68,63,67,8,0.006,5.1,0.94251,0.12441,Oak,Methanol,Random
+14,69,63,700,57,0.064,53.1,0.95209,0.10419,Oak,Ethanol,Random
+14,70,63,737,59,0.067,55.9,0.94301,0.13576,Oak,Glycerol,Random
+14,71,63,220,14,0.02,16.7,0.26272,0.82696,Oak,Erythritol,Random
+14,72,63,501,39,0.046,38,0.65528,0.44793,Oak,Ribitol,Random
+14,73,63,100,3,0.009,7.6,0.04014,0.98817,Oak,Galactitol,Negative
+14,74,63,672,52,0.061,50.9,0.68984,0.43811,Oak,D-Mannitol,Random
+14,75,63,659,54,0.06,50,0.93419,0.12389,Oak,D-Glucitol,Random
+14,76,63,75,8,0.007,5.7,0.89669,0.19825,Oak,myo-Inositol,Random
+14,77,63,381,50,0.035,28.9,1,0,Oak,DL-Lactate,Positive
+14,78,63,692,57,0.063,52.5,0.96889,0.07196,Oak,Succinate,Random
+14,79,63,513,36,0.047,38.9,0.25793,0.82015,Oak,Citrate,Random
+14,80,63,459,31,0.042,34.8,0.19218,0.87118,Oak,D-Gluconate,Random
+14,81,63,314,23,0.029,23.8,0.4709,0.63462,Oak,D-Glucosamine,Random
+14,82,63,144,14,0.013,10.9,0.89017,0.18363,Oak,Nitrate,Random
+14,83,63,161,15,0.015,12.2,0.86187,0.21979,Oak,Vitamin-free,Random
+14,84,63,367,22,0.033,27.8,0.07916,0.95355,Oak,2-Keto-D-gluconate,Random
+14,85,63,107,8,0.01,8.1,0.57619,0.57894,Oak,Starch formation,Random
+14,86,63,820,63,0.075,62.2,1,0.41781,Oak,Growth at 19°C,Random
+14,87,63,822,63,0.075,62.3,1,0.4901,Oak,Growth at 25°C,Random
+14,88,63,732,56,0.067,55.5,0.64369,0.51682,Oak,Growth at 30°C,Random
+14,89,63,345,27,0.031,26.2,0.64166,0.46098,Oak,Growth at 37°C,Random
+15,41,15,607,12,0.013,11,0.81513,0.39133,Hibiscus,Glucose_F,Random
+15,42,15,259,2,0.006,4.7,0.10602,0.97228,Hibiscus,Galactose_F,Random
+15,43,15,209,4,0.005,3.8,0.68248,0.54526,Hibiscus,Sucrose_F,Random
+15,44,15,165,3,0.004,3,0.65408,0.59833,Hibiscus,Maltose_F,Random
+15,46,15,132,3,0.003,2.4,0.79611,0.43481,Hibiscus,Raffinose_F,Random
+15,47,15,261,4,0.006,4.7,0.46673,0.74477,Hibiscus,Trehalose_F,Random
+15,48,15,831,15,0.018,15,1,1,Hibiscus,Glucose,Random
+15,49,15,108,2,0.002,1.9,0.69227,0.60072,Hibiscus,Inulin,Random
+15,50,15,503,12,0.011,9.1,0.97135,0.09536,Hibiscus,Sucrose,Random
+15,51,15,237,5,0.005,4.3,0.76558,0.4334,Hibiscus,Raffinose,Random
+15,52,15,103,2,0.002,1.9,0.71844,0.57311,Hibiscus,Melibiose,Random
+15,53,15,541,14,0.012,9.8,0.99851,0.01382,Hibiscus,Galactose,Positive
+15,54,15,100,0,0.002,1.8,0.1436,1,Hibiscus,Lactose,Random
+15,55,15,578,11,0.013,10.4,0.71812,0.49969,Hibiscus,Trehalose,Random
+15,56,15,468,12,0.01,8.4,0.98687,0.05085,Hibiscus,Maltose,Random
+15,57,15,383,9,0.008,6.9,0.91184,0.20332,Hibiscus,Melezitose,Random
+15,58,15,388,9,0.008,7,0.90393,0.21716,Hibiscus,Methyl-?-D-glucoside,Random
+15,59,15,196,1,0.004,3.5,0.09748,0.983,Hibiscus,Soluble Starch,Random
+15,60,15,524,8,0.011,9.5,0.29725,0.8545,Hibiscus,Cellobiose,Random
+15,61,15,517,8,0.011,9.3,0.32187,0.83782,Hibiscus,Salicin,Random
+15,62,15,437,14,0.009,7.9,0.99994,0.00087,Hibiscus,L-Sorbose,Positive
+15,63,15,181,0,0.004,3.3,0.02422,1,Hibiscus,L-Rhamnose,Negative
+15,64,15,578,12,0.013,10.4,0.88279,0.28188,Hibiscus,D-Xylose,Random
+15,65,15,288,2,0.006,5.2,0.06336,0.98552,Hibiscus,L-Arabinose,Random
+15,66,15,247,1,0.005,4.5,0.03578,0.99523,Hibiscus,D-Arabinose,Negative
+15,67,15,338,7,0.007,6.1,0.77263,0.41059,Hibiscus,D-Ribose,Random
+15,68,15,67,0,0.001,1.2,0.28023,1,Hibiscus,Methanol,Random
+15,69,15,700,12,0.015,12.6,0.42957,0.80005,Hibiscus,Ethanol,Random
+15,70,15,737,15,0.016,13.3,1,0.16252,Hibiscus,Glycerol,Random
+15,71,15,220,0,0.005,4,0.00947,1,Hibiscus,Erythritol,Negative
+15,72,15,501,11,0.011,9,0.9078,0.22181,Hibiscus,Ribitol,Random
+15,73,15,100,2,0.002,1.8,0.73396,0.55599,Hibiscus,Galactitol,Random
+15,74,15,672,13,0.015,12.1,0.81446,0.42961,Hibiscus,D-Mannitol,Random
+15,75,15,659,14,0.014,11.9,0.97016,0.14918,Hibiscus,D-Glucitol,Random
+15,76,15,75,0,0.002,1.4,0.23895,1,Hibiscus,myo-Inositol,Random
+15,77,15,381,4,0.008,6.9,0.10558,0.9644,Hibiscus,DL-Lactate,Random
+15,78,15,692,12,0.015,12.5,0.47121,0.7678,Hibiscus,Succinate,Random
+15,79,15,513,9,0.011,9.3,0.54276,0.66376,Hibiscus,Citrate,Random
+15,80,15,459,9,0.01,8.3,0.73521,0.45901,Hibiscus,D-Gluconate,Random
+15,81,15,314,6,0.007,5.7,0.67813,0.52713,Hibiscus,D-Glucosamine,Random
+15,82,15,144,2,0.003,2.6,0.50324,0.764,Hibiscus,Nitrate,Random
+15,83,15,161,3,0.003,2.9,0.67219,0.57981,Hibiscus,Vitamin-free,Random
+15,84,15,367,13,0.008,6.6,0.99992,0.00081,Hibiscus,2-Keto-D-gluconate,Positive
+15,85,15,107,0,0.002,1.9,0.12412,1,Hibiscus,Starch formation,Random
+15,86,15,820,15,0.018,14.8,1,0.81742,Hibiscus,Growth at 19°C,Random
+15,87,15,822,15,0.018,14.8,1,0.84811,Hibiscus,Growth at 25°C,Random
+15,88,15,732,15,0.016,13.2,1,0.1466,Hibiscus,Growth at 30°C,Random
+15,89,15,345,6,0.007,6.2,0.5627,0.64426,Hibiscus,Growth at 37°C,Random
+16,41,147,607,122,0.129,107.4,0.99934,0.0014,Beetle,Glucose_F,Positive
+16,42,147,259,63,0.055,45.8,0.99967,0.00065,Beetle,Galactose_F,Positive
+16,43,147,209,37,0.044,37,0.5485,0.53486,Beetle,Sucrose_F,Random
+16,44,147,165,38,0.035,29.2,0.98116,0.03133,Beetle,Maltose_F,Positive
+16,45,147,29,6,0.006,5.1,0.75975,0.40844,Beetle,Lactose_F,Random
+16,46,147,132,15,0.028,23.4,0.02192,0.98898,Beetle,Raffinose_F,Negative
+16,47,147,261,86,0.056,46.2,1,0,Beetle,Trehalose_F,Positive
+16,48,147,831,147,0.177,147,1,1,Beetle,Glucose,Random
+16,49,147,108,7,0.023,19.1,0.00031,0.99992,Beetle,Inulin,Negative
+16,50,147,503,112,0.107,89,1,1.00E-05,Beetle,Sucrose,Positive
+16,51,147,237,24,0.05,41.9,0.00013,0.99995,Beetle,Raffinose,Negative
+16,52,147,103,14,0.022,18.2,0.15189,0.90675,Beetle,Melibiose,Random
+16,53,147,541,120,0.115,95.7,1,0,Beetle,Galactose,Positive
+16,54,147,100,15,0.021,17.7,0.2753,0.81236,Beetle,Lactose,Random
+16,55,147,578,124,0.123,102.2,1,1.00E-05,Beetle,Trehalose,Positive
+16,56,147,468,113,0.1,82.8,1,0,Beetle,Maltose,Positive
+16,57,147,383,98,0.082,67.8,1,0,Beetle,Melezitose,Positive
+16,58,147,388,95,0.083,68.6,1,0,Beetle,Methyl-?-D-glucoside,Positive
+16,59,147,196,29,0.042,34.7,0.13336,0.90856,Beetle,Soluble Starch,Random
+16,60,147,524,115,0.112,92.7,1,1.00E-05,Beetle,Cellobiose,Positive
+16,61,147,517,117,0.11,91.5,1,0,Beetle,Salicin,Positive
+16,62,147,437,81,0.093,77.3,0.77743,0.28056,Beetle,L-Sorbose,Random
+16,63,147,181,38,0.039,32,0.92154,0.11466,Beetle,L-Rhamnose,Random
+16,64,147,578,126,0.123,102.2,1,0,Beetle,D-Xylose,Positive
+16,65,147,288,49,0.061,50.9,0.39349,0.678,Beetle,L-Arabinose,Random
+16,66,147,247,53,0.053,43.7,0.97318,0.04127,Beetle,D-Arabinose,Positive
+16,67,147,338,83,0.072,59.8,0.99999,2.00E-05,Beetle,D-Ribose,Positive
+16,68,147,67,7,0.014,11.9,0.06731,0.96963,Beetle,Methanol,Random
+16,69,147,700,133,0.149,123.8,0.99426,0.01226,Beetle,Ethanol,Positive
+16,70,147,737,141,0.157,130.4,0.9998,0.00076,Beetle,Glycerol,Positive
+16,71,147,220,51,0.047,38.9,0.99451,0.0095,Beetle,Erythritol,Positive
+16,72,147,501,125,0.107,88.6,1,0,Beetle,Ribitol,Positive
+16,73,147,100,11,0.021,17.7,0.03704,0.98205,Beetle,Galactitol,Negative
+16,74,147,672,144,0.143,118.9,1,0,Beetle,D-Mannitol,Positive
+16,75,147,659,146,0.14,116.6,1,0,Beetle,D-Glucitol,Positive
+16,76,147,75,7,0.016,13.3,0.02767,0.98888,Beetle,myo-Inositol,Negative
+16,77,147,381,51,0.081,67.4,0.00174,0.99906,Beetle,DL-Lactate,Negative
+16,78,147,692,141,0.147,122.4,1,0,Beetle,Succinate,Positive
+16,79,147,513,117,0.109,90.7,1,0,Beetle,Citrate,Positive
+16,80,147,459,103,0.098,81.2,0.99998,4.00E-05,Beetle,D-Gluconate,Positive
+16,81,147,314,84,0.067,55.5,1,0,Beetle,D-Glucosamine,Positive
+16,82,147,144,11,0.031,25.5,0.00016,0.99995,Beetle,Nitrate,Negative
+16,83,147,161,20,0.034,28.5,0.03016,0.98324,Beetle,Vitamin-free,Negative
+16,84,147,367,101,0.078,64.9,1,0,Beetle,2-Keto-D-gluconate,Positive
+16,85,147,107,8,0.023,18.9,0.00116,0.99964,Beetle,Starch formation,Negative
+16,86,147,820,147,0.175,145.1,1,0.11582,Beetle,Growth at 19°C,Random
+16,87,147,822,147,0.175,145.4,1,0.1718,Beetle,Growth at 25°C,Random
+16,88,147,732,138,0.156,129.5,0.99654,0.00884,Beetle,Growth at 30°C,Positive
+16,89,147,345,45,0.073,61,0.00187,0.999,Beetle,Growth at 37°C,Negative
+17,41,54,607,42,0.047,39.4,0.83354,0.2614,Fruit.fly,Glucose_F,Random
+17,42,54,259,19,0.02,16.8,0.79295,0.30181,Fruit.fly,Galactose_F,Random
+17,43,54,209,20,0.016,13.6,0.98506,0.03072,Fruit.fly,Sucrose_F,Positive
+17,44,54,165,13,0.013,10.7,0.83709,0.25924,Fruit.fly,Maltose_F,Random
+17,45,54,29,4,0.002,1.9,0.9656,0.1126,Fruit.fly,Lactose_F,Random
+17,46,54,132,17,0.01,8.6,0.9992,0.00233,Fruit.fly,Raffinose_F,Positive
+17,47,54,261,20,0.02,17,0.85803,0.21873,Fruit.fly,Trehalose_F,Random
+17,48,54,831,54,0.065,54,1,1,Fruit.fly,Glucose,Random
+17,49,54,108,9,0.008,7,0.85053,0.25856,Fruit.fly,Inulin,Random
+17,50,54,503,36,0.039,32.7,0.86442,0.2099,Fruit.fly,Sucrose,Random
+17,51,54,237,18,0.019,15.4,0.83342,0.253,Fruit.fly,Raffinose,Random
+17,52,54,103,6,0.008,6.7,0.48607,0.68179,Fruit.fly,Melibiose,Random
+17,53,54,541,37,0.042,35.2,0.7533,0.34994,Fruit.fly,Galactose,Random
+17,54,54,100,4,0.008,6.5,0.19699,0.91035,Fruit.fly,Lactose,Random
+17,55,54,578,33,0.045,37.6,0.10861,0.93672,Fruit.fly,Trehalose,Random
+17,56,54,468,32,0.037,30.4,0.72194,0.38068,Fruit.fly,Maltose,Random
+17,57,54,383,29,0.03,24.9,0.90338,0.15394,Fruit.fly,Melezitose,Random
+17,58,54,388,25,0.03,25.2,0.5333,0.57857,Fruit.fly,Methyl-?-D-glucoside,Random
+17,59,54,196,4,0.015,12.7,0.00141,0.99969,Fruit.fly,Soluble Starch,Negative
+17,60,54,524,33,0.041,34.1,0.43205,0.67741,Fruit.fly,Cellobiose,Random
+17,61,54,517,32,0.04,33.6,0.37186,0.73049,Fruit.fly,Salicin,Random
+17,62,54,437,37,0.034,28.4,0.99532,0.01054,Fruit.fly,L-Sorbose,Positive
+17,63,54,181,5,0.014,11.8,0.01143,0.99646,Fruit.fly,L-Rhamnose,Negative
+17,64,54,578,34,0.045,37.6,0.1741,0.89139,Fruit.fly,D-Xylose,Random
+17,65,54,288,10,0.023,18.7,0.00583,0.99784,Fruit.fly,L-Arabinose,Negative
+17,66,54,247,7,0.019,16.1,0.00262,0.9992,Fruit.fly,D-Arabinose,Negative
+17,67,54,338,8,0.026,22,2.00E-05,0.99999,Fruit.fly,D-Ribose,Negative
+17,68,54,67,1,0.005,4.4,0.05552,0.99088,Fruit.fly,Methanol,Random
+17,69,54,700,47,0.055,45.5,0.77678,0.36059,Fruit.fly,Ethanol,Random
+17,70,54,737,45,0.058,47.9,0.14437,0.92789,Fruit.fly,Glycerol,Random
+17,71,54,220,0,0.017,14.3,0,1,Fruit.fly,Erythritol,Negative
+17,72,54,501,31,0.039,32.6,0.37783,0.72456,Fruit.fly,Ribitol,Random
+17,73,54,100,3,0.008,6.5,0.08965,0.96945,Fruit.fly,Galactitol,Random
+17,74,54,672,46,0.053,43.7,0.84507,0.26237,Fruit.fly,D-Mannitol,Random
+17,75,54,659,44,0.052,42.8,0.71287,0.41829,Fruit.fly,D-Glucitol,Random
+17,76,54,75,3,0.006,4.9,0.26106,0.88463,Fruit.fly,myo-Inositol,Random
+17,77,54,381,27,0.03,24.8,0.78094,0.31063,Fruit.fly,DL-Lactate,Random
+17,78,54,692,41,0.054,45,0.0989,0.94873,Fruit.fly,Succinate,Random
+17,79,54,513,21,0.04,33.3,0.00037,0.99987,Fruit.fly,Citrate,Negative
+17,80,54,459,29,0.036,29.8,0.46151,0.64757,Fruit.fly,D-Gluconate,Random
+17,81,54,314,15,0.025,20.4,0.07537,0.95908,Fruit.fly,D-Glucosamine,Random
+17,82,54,144,3,0.011,9.4,0.00872,0.99796,Fruit.fly,Nitrate,Negative
+17,83,54,161,4,0.013,10.5,0.01119,0.99687,Fruit.fly,Vitamin-free,Negative
+17,84,54,367,27,0.029,23.8,0.84959,0.22568,Fruit.fly,2-Keto-D-gluconate,Random
+17,85,54,107,2,0.008,7,0.02044,0.99569,Fruit.fly,Starch formation,Negative
+17,86,54,820,54,0.064,53.3,1,0.47534,Fruit.fly,Growth at 19°C,Random
+17,87,54,822,54,0.064,53.4,1,0.54458,Fruit.fly,Growth at 25°C,Random
+17,88,54,732,52,0.057,47.6,0.99263,0.03232,Fruit.fly,Growth at 30°C,Positive
+17,89,54,345,29,0.027,22.4,0.97775,0.04203,Fruit.fly,Growth at 37°C,Positive
+18,41,27,607,24,0.024,19.7,0.98882,0.04027,Bee,Glucose_F,Positive
+18,42,27,259,7,0.01,8.4,0.35803,0.78792,Bee,Galactose_F,Random
+18,43,27,209,12,0.008,6.8,0.99273,0.0208,Bee,Sucrose_F,Positive
+18,44,27,165,11,0.006,5.4,0.99724,0.00926,Bee,Maltose_F,Positive
+18,46,27,132,10,0.005,4.3,0.99855,0.00549,Bee,Raffinose_F,Positive
+18,47,27,261,8,0.01,8.5,0.51326,0.65215,Bee,Trehalose_F,Random
+18,48,27,831,27,0.032,27,1,1,Bee,Glucose,Random
+18,49,27,108,1,0.004,3.5,0.11327,0.97815,Bee,Inulin,Random
+18,50,27,503,15,0.02,16.3,0.36379,0.77122,Bee,Sucrose,Random
+18,51,27,237,11,0.009,7.7,0.94631,0.11442,Bee,Raffinose,Random
+18,52,27,103,2,0.004,3.3,0.32837,0.86897,Bee,Melibiose,Random
+18,53,27,541,23,0.021,17.6,0.99529,0.01726,Bee,Galactose,Positive
+18,54,27,100,1,0.004,3.2,0.14282,0.97043,Bee,Lactose,Random
+18,55,27,578,9,0.023,18.8,9.00E-05,0.99998,Bee,Trehalose,Negative
+18,56,27,468,13,0.018,15.2,0.24949,0.85695,Bee,Maltose,Random
+18,57,27,383,9,0.015,12.4,0.12339,0.9408,Bee,Melezitose,Random
+18,58,27,388,10,0.015,12.6,0.20501,0.88912,Bee,Methyl-?-D-glucoside,Random
+18,59,27,196,4,0.008,6.4,0.19755,0.91332,Bee,Soluble Starch,Random
+18,60,27,524,11,0.02,17,0.01385,0.99526,Bee,Cellobiose,Negative
+18,61,27,517,13,0.02,16.8,0.093,0.95679,Bee,Salicin,Random
+18,62,27,437,21,0.017,14.2,0.99844,0.00575,Bee,L-Sorbose,Positive
+18,63,27,181,2,0.007,5.9,0.04453,0.98969,Bee,L-Rhamnose,Negative
+18,64,27,578,8,0.023,18.8,2.00E-05,1,Bee,D-Xylose,Negative
+18,65,27,288,3,0.011,9.4,0.00506,0.99899,Bee,L-Arabinose,Negative
+18,66,27,247,2,0.01,8,0.00495,0.99921,Bee,D-Arabinose,Negative
+18,67,27,338,13,0.013,11,0.84208,0.27061,Bee,D-Ribose,Random
+18,68,27,67,0,0.003,2.2,0.0995,1,Bee,Methanol,Random
+18,69,27,700,17,0.027,22.7,0.00519,0.99865,Bee,Ethanol,Negative
+18,70,27,737,25,0.029,23.9,0.83083,0.39357,Bee,Glycerol,Random
+18,71,27,220,4,0.009,7.1,0.1168,0.95483,Bee,Erythritol,Random
+18,72,27,501,11,0.02,16.3,0.02926,0.98883,Bee,Ribitol,Negative
+18,73,27,100,1,0.004,3.2,0.14282,0.97043,Bee,Galactitol,Random
+18,74,27,672,26,0.026,21.8,0.99708,0.02232,Bee,D-Mannitol,Positive
+18,75,27,659,25,0.026,21.4,0.98579,0.05806,Bee,D-Glucitol,Random
+18,76,27,75,1,0.003,2.4,0.28122,0.92548,Bee,myo-Inositol,Random
+18,77,27,381,4,0.015,12.4,6.00E-04,0.99989,Bee,DL-Lactate,Negative
+18,78,27,692,20,0.027,22.5,0.14903,0.9343,Bee,Succinate,Random
+18,79,27,513,17,0.02,16.7,0.62576,0.53278,Bee,Citrate,Random
+18,80,27,459,19,0.018,14.9,0.96659,0.07751,Bee,D-Gluconate,Random
+18,81,27,314,6,0.012,10.2,0.06415,0.975,Bee,D-Glucosamine,Random
+18,82,27,144,8,0.006,4.7,0.96918,0.07831,Bee,Nitrate,Random
+18,83,27,161,3,0.006,5.2,0.19945,0.92062,Bee,Vitamin-free,Random
+18,84,27,367,15,0.014,11.9,0.9201,0.15512,Bee,2-Keto-D-gluconate,Random
+18,85,27,107,1,0.004,3.5,0.11664,0.9773,Bee,Starch formation,Random
+18,86,27,820,27,0.032,26.6,1,0.6938,Bee,Growth at 19°C,Random
+18,87,27,822,27,0.032,26.7,1,0.74175,Bee,Growth at 25°C,Random
+18,88,27,732,26,0.029,23.8,0.9693,0.14695,Bee,Growth at 30°C,Random
+18,89,27,345,15,0.013,11.2,0.95479,0.09646,Bee,Growth at 37°C,Random
+19,41,51,607,43,0.045,37.3,0.98338,0.03886,Tree.exudate,Glucose_F,Positive
+19,42,51,259,16,0.019,15.9,0.58126,0.54222,Tree.exudate,Galactose_F,Random
+19,43,51,209,19,0.015,12.8,0.98423,0.03281,Tree.exudate,Sucrose_F,Positive
+19,44,51,165,10,0.012,10.1,0.56624,0.57752,Tree.exudate,Maltose_F,Random
+19,45,51,29,1,0.002,1.8,0.45749,0.84579,Tree.exudate,Lactose_F,Random
+19,46,51,132,10,0.01,8.1,0.83003,0.28089,Tree.exudate,Raffinose_F,Random
+19,47,51,261,13,0.019,16,0.21857,0.86428,Tree.exudate,Trehalose_F,Random
+19,48,51,831,51,0.061,51,1,1,Tree.exudate,Glucose,Random
+19,49,51,108,6,0.008,6.6,0.497,0.67252,Tree.exudate,Inulin,Random
+19,50,51,503,32,0.037,30.9,0.68236,0.42971,Tree.exudate,Sucrose,Random
+19,51,51,237,14,0.018,14.5,0.50236,0.62395,Tree.exudate,Raffinose,Random
+19,52,51,103,5,0.008,6.3,0.37609,0.78248,Tree.exudate,Melibiose,Random
+19,53,51,541,24,0.04,33.2,0.00487,0.99799,Tree.exudate,Galactose,Negative
+19,54,51,100,3,0.007,6.1,0.11536,0.95859,Tree.exudate,Lactose,Random
+19,55,51,578,34,0.043,35.5,0.3739,0.73575,Tree.exudate,Trehalose,Random
+19,56,51,468,26,0.035,28.7,0.25781,0.82624,Tree.exudate,Maltose,Random
+19,57,51,383,24,0.028,23.5,0.6145,0.49929,Tree.exudate,Melezitose,Random
+19,58,51,388,26,0.029,23.8,0.7821,0.31188,Tree.exudate,Methyl-?-D-glucoside,Random
+19,59,51,196,7,0.014,12,0.05607,0.97575,Tree.exudate,Soluble Starch,Random
+19,60,51,524,32,0.039,32.2,0.53608,0.58242,Tree.exudate,Cellobiose,Random
+19,61,51,517,32,0.038,31.7,0.58676,0.53145,Tree.exudate,Salicin,Random
+19,62,51,437,29,0.032,26.8,0.78069,0.31413,Tree.exudate,L-Sorbose,Random
+19,63,51,181,16,0.013,11.1,0.96638,0.06597,Tree.exudate,L-Rhamnose,Random
+19,64,51,578,35,0.043,35.5,0.49614,0.6261,Tree.exudate,D-Xylose,Random
+19,65,51,288,15,0.021,17.7,0.25713,0.83232,Tree.exudate,L-Arabinose,Random
+19,66,51,247,14,0.018,15.2,0.42473,0.69501,Tree.exudate,D-Arabinose,Random
+19,67,51,338,21,0.025,20.7,0.59092,0.52533,Tree.exudate,D-Ribose,Random
+19,68,51,67,10,0.005,4.1,0.99854,0.00521,Tree.exudate,Methanol,Positive
+19,69,51,700,48,0.052,43,0.99265,0.02683,Tree.exudate,Ethanol,Positive
+19,70,51,737,44,0.054,45.2,0.35224,0.79118,Tree.exudate,Glycerol,Random
+19,71,51,220,15,0.016,13.5,0.74766,0.36437,Tree.exudate,Erythritol,Random
+19,72,51,501,30,0.037,30.7,0.46738,0.64643,Tree.exudate,Ribitol,Random
+19,73,51,100,4,0.007,6.1,0.2412,0.88464,Tree.exudate,Galactitol,Random
+19,74,51,672,43,0.05,41.2,0.79361,0.33189,Tree.exudate,D-Mannitol,Random
+19,75,51,659,44,0.049,40.4,0.93196,0.13605,Tree.exudate,D-Glucitol,Random
+19,76,51,75,1,0.006,4.6,0.04398,0.99315,Tree.exudate,myo-Inositol,Negative
+19,77,51,381,34,0.028,23.4,0.99939,0.00164,Tree.exudate,DL-Lactate,Positive
+19,78,51,692,44,0.051,42.5,0.77974,0.35728,Tree.exudate,Succinate,Random
+19,79,51,513,27,0.038,31.5,0.11871,0.9296,Tree.exudate,Citrate,Random
+19,80,51,459,23,0.034,28.2,0.08767,0.94995,Tree.exudate,D-Gluconate,Random
+19,81,51,314,19,0.023,19.3,0.53145,0.58676,Tree.exudate,D-Glucosamine,Random
+19,82,51,144,7,0.011,8.8,0.31486,0.81205,Tree.exudate,Nitrate,Random
+19,83,51,161,6,0.012,9.9,0.10401,0.95263,Tree.exudate,Vitamin-free,Random
+19,84,51,367,20,0.027,22.5,0.27925,0.81017,Tree.exudate,2-Keto-D-gluconate,Random
+19,85,51,107,2,0.008,6.6,0.02855,0.99365,Tree.exudate,Starch formation,Negative
+19,86,51,820,51,0.061,50.3,1,0.49606,Tree.exudate,Growth at 19°C,Random
+19,87,51,822,51,0.061,50.4,1,0.5639,Tree.exudate,Growth at 25°C,Random
+19,88,51,732,48,0.054,44.9,0.95637,0.12039,Tree.exudate,Growth at 30°C,Random
+19,89,51,345,27,0.025,21.2,0.96746,0.05993,Tree.exudate,Growth at 37°C,Random
+20,41,53,607,41,0.047,38.7,0.81244,0.28906,Tree.flux,Glucose_F,Random
+20,42,53,259,16,0.02,16.5,0.50449,0.61653,Tree.flux,Galactose_F,Random
+20,43,53,209,14,0.016,13.3,0.65642,0.46834,Tree.flux,Sucrose_F,Random
+20,44,53,165,8,0.013,10.5,0.24067,0.8606,Tree.flux,Maltose_F,Random
+20,45,53,29,1,0.002,1.8,0.43589,0.85705,Tree.flux,Lactose_F,Random
+20,46,53,132,10,0.01,8.4,0.79454,0.32589,Tree.flux,Raffinose_F,Random
+20,47,53,261,12,0.02,16.6,0.10019,0.94574,Tree.flux,Trehalose_F,Random
+20,48,53,831,53,0.064,53,1,1,Tree.flux,Glucose,Random
+20,49,53,108,9,0.008,6.9,0.86378,0.24038,Tree.flux,Inulin,Random
+20,50,53,503,32,0.039,32.1,0.5449,0.57029,Tree.flux,Sucrose,Random
+20,51,53,237,13,0.018,15.1,0.31119,0.79263,Tree.flux,Raffinose,Random
+20,52,53,103,7,0.008,6.6,0.67011,0.49267,Tree.flux,Melibiose,Random
+20,53,53,541,28,0.042,34.5,0.03867,0.98001,Tree.flux,Galactose,Negative
+20,54,53,100,4,0.008,6.4,0.21098,0.9024,Tree.flux,Lactose,Random
+20,55,53,578,33,0.044,36.9,0.14985,0.90902,Tree.flux,Trehalose,Random
+20,56,53,468,30,0.036,29.8,0.57186,0.54174,Tree.flux,Maltose,Random
+20,57,53,383,26,0.029,24.4,0.72305,0.379,Tree.flux,Melezitose,Random
+20,58,53,388,24,0.03,24.7,0.47322,0.63747,Tree.flux,Methyl-?-D-glucoside,Random
+20,59,53,196,8,0.015,12.5,0.08638,0.9584,Tree.flux,Soluble Starch,Random
+20,60,53,524,29,0.04,33.4,0.12505,0.92473,Tree.flux,Cellobiose,Random
+20,61,53,517,29,0.04,33,0.1546,0.90389,Tree.flux,Salicin,Random
+20,62,53,437,35,0.034,27.9,0.98569,0.02891,Tree.flux,L-Sorbose,Positive
+20,63,53,181,18,0.014,11.5,0.98904,0.02393,Tree.flux,L-Rhamnose,Positive
+20,64,53,578,37,0.044,36.9,0.57095,0.55156,Tree.flux,D-Xylose,Random
+20,65,53,288,12,0.022,18.4,0.03701,0.98244,Tree.flux,L-Arabinose,Negative
+20,66,53,247,15,0.019,15.8,0.47602,0.64541,Tree.flux,D-Arabinose,Random
+20,67,53,338,22,0.026,21.6,0.61004,0.50343,Tree.flux,D-Ribose,Random
+20,68,53,67,7,0.005,4.3,0.94531,0.12526,Tree.flux,Methanol,Random
+20,69,53,700,51,0.054,44.6,0.99905,0.00549,Tree.flux,Ethanol,Positive
+20,70,53,737,49,0.057,47,0.87242,0.261,Tree.flux,Glycerol,Random
+20,71,53,220,8,0.017,14,0.03272,0.98627,Tree.flux,Erythritol,Negative
+20,72,53,501,30,0.038,32,0.33422,0.76287,Tree.flux,Ribitol,Random
+20,73,53,100,5,0.008,6.4,0.36714,0.78902,Tree.flux,Galactitol,Random
+20,74,53,672,43,0.052,42.9,0.57907,0.56419,Tree.flux,D-Mannitol,Random
+20,75,53,659,45,0.051,42,0.89146,0.19549,Tree.flux,D-Glucitol,Random
+20,76,53,75,3,0.006,4.8,0.27509,0.87653,Tree.flux,myo-Inositol,Random
+20,77,53,381,37,0.029,24.3,0.99992,0.00024,Tree.flux,DL-Lactate,Positive
+20,78,53,692,50,0.053,44.1,0.99668,0.01341,Tree.flux,Succinate,Positive
+20,79,53,513,28,0.039,32.7,0.10971,0.93502,Tree.flux,Citrate,Random
+20,80,53,459,25,0.035,29.3,0.14072,0.91323,Tree.flux,D-Gluconate,Random
+20,81,53,314,16,0.024,20,0.1507,0.90909,Tree.flux,D-Glucosamine,Random
+20,82,53,144,7,0.011,9.2,0.27131,0.84348,Tree.flux,Nitrate,Random
+20,83,53,161,10,0.012,10.3,0.54586,0.59687,Tree.flux,Vitamin-free,Random
+20,84,53,367,25,0.028,23.4,0.72609,0.37579,Tree.flux,2-Keto-D-gluconate,Random
+20,85,53,107,4,0.008,6.8,0.16205,0.92956,Tree.flux,Starch formation,Random
+20,86,53,820,53,0.063,52.3,1,0.48216,Tree.flux,Growth at 19°C,Random
+20,87,53,822,53,0.063,52.4,1,0.55096,Tree.flux,Growth at 25°C,Random
+20,88,53,732,49,0.056,46.7,0.89786,0.21879,Tree.flux,Growth at 30°C,Random
+20,89,53,345,19,0.026,22,0.23659,0.84365,Tree.flux,Growth at 37°C,Random
+21,41,55,607,49,0.048,40.2,0.99927,0.00255,Mushroom.Fungus,Glucose_F,Positive
+21,42,55,259,31,0.021,17.1,0.99998,5.00E-05,Mushroom.Fungus,Galactose_F,Positive
+21,43,55,209,7,0.017,13.8,0.01636,0.99395,Mushroom.Fungus,Sucrose_F,Negative
+21,44,55,165,12,0.013,10.9,0.71678,0.40833,Mushroom.Fungus,Maltose_F,Random
+21,45,55,29,1,0.002,1.9,0.41498,0.86752,Mushroom.Fungus,Lactose_F,Random
+21,46,55,132,6,0.011,8.7,0.19949,0.89654,Mushroom.Fungus,Raffinose_F,Random
+21,47,55,261,34,0.021,17.3,1,0,Mushroom.Fungus,Trehalose_F,Positive
+21,48,55,831,55,0.066,55,1,1,Mushroom.Fungus,Glucose,Random
+21,49,55,108,5,0.009,7.1,0.25507,0.86712,Mushroom.Fungus,Inulin,Random
+21,50,55,503,37,0.04,33.3,0.88615,0.18025,Mushroom.Fungus,Sucrose,Random
+21,51,55,237,9,0.019,15.7,0.02391,0.98996,Mushroom.Fungus,Raffinose,Negative
+21,52,55,103,6,0.008,6.8,0.46512,0.69977,Mushroom.Fungus,Melibiose,Random
+21,53,55,541,42,0.043,35.8,0.97769,0.04494,Mushroom.Fungus,Galactose,Positive
+21,54,55,100,9,0.008,6.6,0.88849,0.20485,Mushroom.Fungus,Lactose,Random
+21,55,55,578,48,0.046,38.3,0.99959,0.00143,Mushroom.Fungus,Trehalose,Positive
+21,56,55,468,39,0.037,31,0.99267,0.01592,Mushroom.Fungus,Maltose,Positive
+21,57,55,383,30,0.031,25.3,0.92514,0.12274,Mushroom.Fungus,Melezitose,Random
+21,58,55,388,38,0.031,25.7,0.99985,0.00044,Mushroom.Fungus,Methyl-?-D-glucoside,Positive
+21,59,55,196,15,0.016,13,0.79919,0.30136,Mushroom.Fungus,Soluble Starch,Random
+21,60,55,524,45,0.042,34.7,0.99949,0.00154,Mushroom.Fungus,Cellobiose,Positive
+21,61,55,517,41,0.041,34.2,0.98399,0.03297,Mushroom.Fungus,Salicin,Positive
+21,62,55,437,23,0.035,28.9,0.06485,0.96371,Mushroom.Fungus,L-Sorbose,Random
+21,63,55,181,10,0.014,12,0.31621,0.79665,Mushroom.Fungus,L-Rhamnose,Random
+21,64,55,578,45,0.046,38.3,0.9889,0.02548,Mushroom.Fungus,D-Xylose,Positive
+21,65,55,288,14,0.023,19.1,0.08849,0.95137,Mushroom.Fungus,L-Arabinose,Random
+21,66,55,247,22,0.02,16.3,0.96731,0.06037,Mushroom.Fungus,D-Arabinose,Random
+21,67,55,338,28,0.027,22.4,0.95823,0.07342,Mushroom.Fungus,D-Ribose,Random
+21,68,55,67,4,0.005,4.4,0.53874,0.66524,Mushroom.Fungus,Methanol,Random
+21,69,55,700,47,0.056,46.3,0.66133,0.48938,Mushroom.Fungus,Ethanol,Random
+21,70,55,737,55,0.059,48.8,1,0.00107,Mushroom.Fungus,Glycerol,Positive
+21,71,55,220,18,0.018,14.6,0.89184,0.17543,Mushroom.Fungus,Erythritol,Random
+21,72,55,501,46,0.04,33.2,0.99997,0.00011,Mushroom.Fungus,Ribitol,Positive
+21,73,55,100,7,0.008,6.6,0.66207,0.50107,Mushroom.Fungus,Galactitol,Random
+21,74,55,672,52,0.054,44.5,0.99939,0.00298,Mushroom.Fungus,D-Mannitol,Positive
+21,75,55,659,52,0.052,43.6,0.99976,0.00128,Mushroom.Fungus,D-Glucitol,Positive
+21,76,55,75,4,0.006,5,0.43319,0.75244,Mushroom.Fungus,myo-Inositol,Random
+21,77,55,381,18,0.03,25.2,0.02896,0.98555,Mushroom.Fungus,DL-Lactate,Negative
+21,78,55,692,52,0.055,45.8,0.99759,0.0101,Mushroom.Fungus,Succinate,Positive
+21,79,55,513,49,0.041,34,1,0,Mushroom.Fungus,Citrate,Positive
+21,80,55,459,38,0.037,30.4,0.98959,0.0217,Mushroom.Fungus,D-Gluconate,Positive
+21,81,55,314,34,0.025,20.8,0.99995,0.00016,Mushroom.Fungus,D-Glucosamine,Positive
+21,82,55,144,4,0.011,9.5,0.02417,0.99249,Mushroom.Fungus,Nitrate,Negative
+21,83,55,161,7,0.013,10.7,0.13041,0.93502,Mushroom.Fungus,Vitamin-free,Random
+21,84,55,367,41,0.029,24.3,1,0,Mushroom.Fungus,2-Keto-D-gluconate,Positive
+21,85,55,107,2,0.009,7.1,0.01826,0.99622,Mushroom.Fungus,Starch formation,Negative
+21,86,55,820,55,0.065,54.3,1,0.46861,Mushroom.Fungus,Growth at 19°C,Random
+21,87,55,822,55,0.065,54.4,1,0.53827,Mushroom.Fungus,Growth at 25°C,Random
+21,88,55,732,52,0.058,48.4,0.97079,0.08633,Mushroom.Fungus,Growth at 30°C,Random
+21,89,55,345,7,0.027,22.8,0,1,Mushroom.Fungus,Growth at 37°C,Negative
+22,41,167,607,119,0.147,122,0.31157,0.75316,Soil,Glucose_F,Random
+22,42,167,259,62,0.063,52,0.97358,0.03977,Soil,Galactose_F,Positive
+22,43,167,209,51,0.051,42,0.96946,0.04654,Soil,Sucrose_F,Positive
+22,44,167,165,34,0.04,33.2,0.619,0.46533,Soil,Maltose_F,Random
+22,45,167,29,2,0.007,5.8,0.04794,0.98865,Soil,Lactose_F,Negative
+22,46,167,132,36,0.032,26.5,0.9893,0.01888,Soil,Raffinose_F,Positive
+22,47,167,261,42,0.063,52.5,0.03036,0.98069,Soil,Trehalose_F,Negative
+22,48,167,831,167,0.201,167,1,1,Soil,Glucose,Random
+22,49,167,108,44,0.026,21.7,1,0,Soil,Inulin,Positive
+22,50,167,503,105,0.122,101.1,0.78245,0.27344,Soil,Sucrose,Random
+22,51,167,237,67,0.057,47.6,0.9999,2.00E-04,Soil,Raffinose,Positive
+22,52,167,103,43,0.025,20.7,1,0,Soil,Melibiose,Positive
+22,53,167,541,122,0.131,108.7,0.99442,0.00939,Soil,Galactose,Positive
+22,54,167,100,38,0.024,20.1,1,1.00E-05,Soil,Lactose,Positive
+22,55,167,578,120,0.14,116.2,0.79234,0.26619,Soil,Trehalose,Random
+22,56,167,468,93,0.113,94.1,0.46087,0.60741,Soil,Maltose,Random
+22,57,167,383,82,0.093,77,0.83165,0.21554,Soil,Melezitose,Random
+22,58,167,388,90,0.094,78,0.98507,0.02283,Soil,Methyl-?-D-glucoside,Positive
+22,59,167,196,48,0.047,39.4,0.96675,0.05075,Soil,Soluble Starch,Random
+22,60,167,524,103,0.127,105.3,0.37156,0.6937,Soil,Cellobiose,Random
+22,61,167,517,104,0.125,103.9,0.54109,0.53002,Soil,Salicin,Random
+22,62,167,437,100,0.106,87.8,0.98625,0.02119,Soil,L-Sorbose,Positive
+22,63,167,181,43,0.044,36.4,0.93079,0.10062,Soil,L-Rhamnose,Random
+22,64,167,578,109,0.14,116.2,0.10592,0.92412,Soil,D-Xylose,Random
+22,65,167,288,67,0.07,57.9,0.95912,0.0592,Soil,L-Arabinose,Random
+22,66,167,247,46,0.06,49.6,0.27787,0.7825,Soil,D-Arabinose,Random
+22,67,167,338,65,0.082,67.9,0.33556,0.72622,Soil,D-Ribose,Random
+22,68,167,67,17,0.016,13.5,0.89785,0.16655,Soil,Methanol,Random
+22,69,167,700,140,0.169,140.7,0.47705,0.6155,Soil,Ethanol,Random
+22,70,167,737,138,0.178,148.1,0.00573,0.99727,Soil,Glycerol,Negative
+22,71,167,220,50,0.053,44.2,0.89057,0.14984,Soil,Erythritol,Random
+22,72,167,501,86,0.121,100.7,0.0063,0.9962,Soil,Ribitol,Negative
+22,73,167,100,40,0.024,20.1,1,0,Soil,Galactitol,Positive
+22,74,167,672,122,0.163,135,0.0036,0.9981,Soil,D-Mannitol,Negative
+22,75,167,659,120,0.159,132.4,0.00634,0.99649,Soil,D-Glucitol,Negative
+22,76,167,75,21,0.018,15.1,0.9704,0.05418,Soil,myo-Inositol,Random
+22,77,167,381,81,0.092,76.6,0.80438,0.24699,Soil,DL-Lactate,Random
+22,78,167,692,123,0.167,139.1,0.00026,0.99988,Soil,Succinate,Negative
+22,79,167,513,97,0.124,103.1,0.15953,0.87961,Soil,Citrate,Random
+22,80,167,459,100,0.111,92.2,0.92509,0.10295,Soil,D-Gluconate,Random
+22,81,167,314,49,0.076,63.1,0.00704,0.99584,Soil,D-Glucosamine,Negative
+22,82,167,144,27,0.035,28.9,0.37622,0.70785,Soil,Nitrate,Random
+22,83,167,161,51,0.039,32.4,0.99997,7.00E-05,Soil,Vitamin-free,Positive
+22,84,167,367,73,0.089,73.8,0.4832,0.58569,Soil,2-Keto-D-gluconate,Random
+22,85,167,107,26,0.026,21.5,0.89986,0.15092,Soil,Starch formation,Random
+22,86,167,820,164,0.198,164.8,0.38581,0.83806,Soil,Growth at 19°C,Random
+22,87,167,822,165,0.199,165.2,0.5678,0.73628,Soil,Growth at 25°C,Random
+22,88,167,732,158,0.177,147.1,0.9995,0.0015,Soil,Growth at 30°C,Positive
+22,89,167,345,78,0.083,69.3,0.94595,0.07602,Soil,Growth at 37°C,Random
+23,41,79,607,62,0.069,57.7,0.90156,0.15572,Insect.Frass,Glucose_F,Random
+23,42,79,259,29,0.03,24.6,0.89243,0.16092,Insect.Frass,Galactose_F,Random
+23,43,79,209,22,0.024,19.9,0.76606,0.32311,Insect.Frass,Sucrose_F,Random
+23,44,79,165,18,0.019,15.7,0.80007,0.28955,Insect.Frass,Maltose_F,Random
+23,45,79,29,1,0.003,2.8,0.21807,0.94763,Insect.Frass,Lactose_F,Random
+23,46,79,132,11,0.015,12.5,0.37753,0.74065,Insect.Frass,Raffinose_F,Random
+23,47,79,261,35,0.03,24.8,0.99611,0.0078,Insect.Frass,Trehalose_F,Positive
+23,48,79,831,79,0.095,79,1,1,Insect.Frass,Glucose,Random
+23,49,79,108,8,0.012,10.3,0.27465,0.83464,Insect.Frass,Inulin,Random
+23,50,79,503,51,0.058,47.8,0.81307,0.25962,Insect.Frass,Sucrose,Random
+23,51,79,237,26,0.027,22.5,0.8506,0.21661,Insect.Frass,Raffinose,Random
+23,52,79,103,14,0.012,9.8,0.94915,0.09523,Insect.Frass,Melibiose,Random
+23,53,79,541,48,0.062,51.4,0.23216,0.83546,Insect.Frass,Galactose,Random
+23,54,79,100,17,0.011,9.5,0.99659,0.0084,Insect.Frass,Lactose,Positive
+23,55,79,578,68,0.066,54.9,0.9999,0.00032,Insect.Frass,Trehalose,Positive
+23,56,79,468,54,0.054,44.5,0.99218,0.01498,Insect.Frass,Maltose,Positive
+23,57,79,383,49,0.044,36.4,0.99906,0.00206,Insect.Frass,Melezitose,Positive
+23,58,79,388,53,0.044,36.9,0.99996,1.00E-04,Insect.Frass,Methyl-?-D-glucoside,Positive
+23,59,79,196,24,0.022,18.6,0.94596,0.0898,Insect.Frass,Soluble Starch,Random
+23,60,79,524,65,0.06,49.8,0.99997,8.00E-05,Insect.Frass,Cellobiose,Positive
+23,61,79,517,66,0.059,49.1,1,1.00E-05,Insect.Frass,Salicin,Positive
+23,62,79,437,42,0.05,41.5,0.58889,0.50481,Insect.Frass,L-Sorbose,Random
+23,63,79,181,41,0.021,17.2,1,0,Insect.Frass,L-Rhamnose,Positive
+23,64,79,578,75,0.066,54.9,1,0,Insect.Frass,D-Xylose,Positive
+23,65,79,288,51,0.033,27.4,1,0,Insect.Frass,L-Arabinose,Positive
+23,66,79,247,42,0.028,23.5,1,0,Insect.Frass,D-Arabinose,Positive
+23,67,79,338,48,0.039,32.1,0.99995,0.00012,Insect.Frass,D-Ribose,Positive
+23,68,79,67,10,0.008,6.4,0.95668,0.09183,Insect.Frass,Methanol,Random
+23,69,79,700,78,0.08,66.5,1,1.00E-05,Insect.Frass,Ethanol,Positive
+23,70,79,737,75,0.084,70.1,0.98646,0.04002,Insect.Frass,Glycerol,Positive
+23,71,79,220,37,0.025,20.9,0.99999,3.00E-05,Insect.Frass,Erythritol,Positive
+23,72,79,501,57,0.057,47.6,0.99246,0.01472,Insect.Frass,Ribitol,Positive
+23,73,79,100,14,0.011,9.5,0.95981,0.07789,Insect.Frass,Galactitol,Random
+23,74,79,672,72,0.077,63.9,0.99742,0.00743,Insect.Frass,D-Mannitol,Positive
+23,75,79,659,74,0.075,62.6,0.99995,0.00024,Insect.Frass,D-Glucitol,Positive
+23,76,79,75,9,0.009,7.1,0.83719,0.27547,Insect.Frass,myo-Inositol,Random
+23,77,79,381,36,0.044,36.2,0.52751,0.56679,Insect.Frass,DL-Lactate,Random
+23,78,79,692,76,0.079,65.8,0.99996,0.00025,Insect.Frass,Succinate,Positive
+23,79,79,513,57,0.059,48.8,0.98464,0.02829,Insect.Frass,Citrate,Positive
+23,80,79,459,65,0.053,43.6,1,0,Insect.Frass,D-Gluconate,Positive
+23,81,79,314,41,0.036,29.9,0.99747,0.00515,Insect.Frass,D-Glucosamine,Positive
+23,82,79,144,21,0.016,13.7,0.99022,0.02014,Insect.Frass,Nitrate,Positive
+23,83,79,161,16,0.018,15.3,0.64755,0.46694,Insect.Frass,Vitamin-free,Random
+23,84,79,367,43,0.042,34.9,0.97955,0.03533,Insect.Frass,2-Keto-D-gluconate,Positive
+23,85,79,107,5,0.012,10.2,0.04166,0.98441,Insect.Frass,Starch formation,Negative
+23,86,79,820,79,0.094,78,1,0.33093,Insect.Frass,Growth at 19°C,Random
+23,87,79,822,79,0.094,78.1,1,0.4051,Insect.Frass,Growth at 25°C,Random
+23,88,79,732,79,0.084,69.6,1,3.00E-05,Insect.Frass,Growth at 30°C,Positive
+23,89,79,345,48,0.039,32.8,0.99991,0.00023,Insect.Frass,Growth at 37°C,Positive
+24,41,18,607,16,0.016,13.1,0.97438,0.09729,Leather.Tanning,Glucose_F,Random
+24,42,18,259,6,0.007,5.6,0.68478,0.50982,Leather.Tanning,Galactose_F,Random
+24,43,18,209,5,0.005,4.5,0.71379,0.48797,Leather.Tanning,Sucrose_F,Random
+24,44,18,165,2,0.004,3.6,0.27343,0.90093,Leather.Tanning,Maltose_F,Random
+24,46,18,132,3,0.003,2.9,0.68297,0.564,Leather.Tanning,Raffinose_F,Random
+24,47,18,261,5,0.007,5.7,0.48118,0.71541,Leather.Tanning,Trehalose_F,Random
+24,48,18,831,18,0.022,18,1,1,Leather.Tanning,Glucose,Random
+24,49,18,108,1,0.003,2.3,0.29784,0.92065,Leather.Tanning,Inulin,Random
+24,50,18,503,8,0.013,10.9,0.12221,0.9495,Leather.Tanning,Sucrose,Random
+24,51,18,237,5,0.006,5.1,0.59021,0.6176,Leather.Tanning,Raffinose,Random
+24,52,18,103,4,0.003,2.2,0.93936,0.17399,Leather.Tanning,Melibiose,Random
+24,53,18,541,10,0.014,11.7,0.26666,0.86556,Leather.Tanning,Galactose,Random
+24,54,18,100,4,0.003,2.2,0.94562,0.16092,Leather.Tanning,Lactose,Random
+24,55,18,578,10,0.015,12.5,0.14801,0.9372,Leather.Tanning,Trehalose,Random
+24,56,18,468,9,0.012,10.1,0.37684,0.78492,Leather.Tanning,Maltose,Random
+24,57,18,383,9,0.01,8.3,0.7183,0.45894,Leather.Tanning,Melezitose,Random
+24,58,18,388,9,0.01,8.4,0.7003,0.47981,Leather.Tanning,Methyl-?-D-glucoside,Random
+24,59,18,196,5,0.005,4.2,0.76661,0.42477,Leather.Tanning,Soluble Starch,Random
+24,60,18,524,11,0.014,11.4,0.52097,0.66838,Leather.Tanning,Cellobiose,Random
+24,61,18,517,12,0.013,11.2,0.73427,0.44901,Leather.Tanning,Salicin,Random
+24,62,18,437,6,0.011,9.5,0.07819,0.97156,Leather.Tanning,L-Sorbose,Random
+24,63,18,181,8,0.005,3.9,0.99291,0.02533,Leather.Tanning,L-Rhamnose,Positive
+24,64,18,578,15,0.015,12.5,0.94643,0.15196,Leather.Tanning,D-Xylose,Random
+24,65,18,288,11,0.008,6.2,0.99482,0.01856,Leather.Tanning,L-Arabinose,Positive
+24,66,18,247,5,0.006,5.4,0.54464,0.66016,Leather.Tanning,D-Arabinose,Random
+24,67,18,338,9,0.009,7.3,0.8545,0.28098,Leather.Tanning,D-Ribose,Random
+24,68,18,67,3,0.002,1.5,0.95014,0.17127,Leather.Tanning,Methanol,Random
+24,69,18,700,17,0.018,15.2,0.95597,0.19604,Leather.Tanning,Ethanol,Random
+24,70,18,737,17,0.019,16,0.88748,0.37695,Leather.Tanning,Glycerol,Random
+24,71,18,220,6,0.006,4.8,0.82725,0.33357,Leather.Tanning,Erythritol,Random
+24,72,18,501,11,0.013,10.9,0.61765,0.57397,Leather.Tanning,Ribitol,Random
+24,73,18,100,4,0.003,2.2,0.94562,0.16092,Leather.Tanning,Galactitol,Random
+24,74,18,672,12,0.018,14.6,0.11025,0.96036,Leather.Tanning,D-Mannitol,Random
+24,75,18,659,13,0.017,14.3,0.30913,0.85176,Leather.Tanning,D-Glucitol,Random
+24,76,18,75,1,0.002,1.6,0.50561,0.82114,Leather.Tanning,myo-Inositol,Random
+24,77,18,381,13,0.01,8.3,0.99441,0.02069,Leather.Tanning,DL-Lactate,Positive
+24,78,18,692,16,0.018,15,0.83193,0.39774,Leather.Tanning,Succinate,Random
+24,79,18,513,11,0.013,11.1,0.56795,0.62391,Leather.Tanning,Citrate,Random
+24,80,18,459,11,0.012,9.9,0.77066,0.39803,Leather.Tanning,D-Gluconate,Random
+24,81,18,314,7,0.008,6.8,0.64026,0.55099,Leather.Tanning,D-Glucosamine,Random
+24,82,18,144,4,0.004,3.1,0.81285,0.38129,Leather.Tanning,Nitrate,Random
+24,83,18,161,1,0.004,3.5,0.10776,0.98018,Leather.Tanning,Vitamin-free,Random
+24,84,18,367,6,0.01,7.9,0.24546,0.88115,Leather.Tanning,2-Keto-D-gluconate,Random
+24,85,18,107,1,0.003,2.3,0.30305,0.91863,Leather.Tanning,Starch formation,Random
+24,86,18,820,18,0.021,17.8,1,0.78477,Leather.Tanning,Growth at 19°C,Random
+24,87,18,822,18,0.021,17.8,1,0.82033,Leather.Tanning,Growth at 25°C,Random
+24,88,18,732,17,0.019,15.9,0.9006,0.34715,Leather.Tanning,Growth at 30°C,Random
+24,89,18,345,9,0.009,7.5,0.83664,0.30677,Leather.Tanning,Growth at 37°C,Random
+25,41,45,607,34,0.04,32.9,0.70737,0.42299,Industrial,Glucose_F,Random
+25,42,45,259,18,0.017,14,0.92831,0.12603,Industrial,Galactose_F,Random
+25,43,45,209,15,0.014,11.3,0.9269,0.13149,Industrial,Sucrose_F,Random
+25,44,45,165,10,0.011,8.9,0.73335,0.40137,Industrial,Maltose_F,Random
+25,45,45,29,1,0.002,1.6,0.52628,0.80663,Industrial,Lactose_F,Random
+25,46,45,132,9,0.009,7.1,0.8389,0.27576,Industrial,Raffinose_F,Random
+25,47,45,261,16,0.017,14.1,0.78475,0.32087,Industrial,Trehalose_F,Random
+25,48,45,831,45,0.054,45,1,1,Industrial,Glucose,Random
+25,49,45,108,4,0.007,5.8,0.28066,0.86058,Industrial,Inulin,Random
+25,50,45,503,24,0.033,27.2,0.19462,0.87891,Industrial,Sucrose,Random
+25,51,45,237,14,0.015,12.8,0.71899,0.40266,Industrial,Raffinose,Random
+25,52,45,103,5,0.007,5.6,0.50689,0.67698,Industrial,Melibiose,Random
+25,53,45,541,31,0.035,29.3,0.75828,0.35417,Industrial,Galactose,Random
+25,54,45,100,5,0.007,5.4,0.53749,0.64976,Industrial,Lactose,Random
+25,55,45,578,27,0.038,31.3,0.10448,0.94238,Industrial,Trehalose,Random
+25,56,45,468,24,0.03,25.3,0.39529,0.71663,Industrial,Maltose,Random
+25,57,45,383,23,0.025,20.7,0.80214,0.29354,Industrial,Melezitose,Random
+25,58,45,388,22,0.025,21,0.677,0.43919,Industrial,Methyl-?-D-glucoside,Random
+25,59,45,196,15,0.013,10.6,0.95706,0.08356,Industrial,Soluble Starch,Random
+25,60,45,524,24,0.034,28.4,0.11013,0.93766,Industrial,Cellobiose,Random
+25,61,45,517,25,0.034,28,0.21385,0.86508,Industrial,Salicin,Random
+25,62,45,437,29,0.028,23.7,0.96435,0.06807,Industrial,L-Sorbose,Random
+25,63,45,181,10,0.012,9.8,0.61342,0.53203,Industrial,L-Rhamnose,Random
+25,64,45,578,33,0.038,31.3,0.7652,0.35101,Industrial,D-Xylose,Random
+25,65,45,288,17,0.019,15.6,0.73303,0.38042,Industrial,L-Arabinose,Random
+25,66,45,247,11,0.016,13.4,0.26903,0.83225,Industrial,D-Arabinose,Random
+25,67,45,338,17,0.022,18.3,0.40438,0.71089,Industrial,D-Ribose,Random
+25,68,45,67,3,0.004,3.6,0.5003,0.72189,Industrial,Methanol,Random
+25,69,45,700,43,0.046,37.9,0.99648,0.01729,Industrial,Ethanol,Positive
+25,70,45,737,40,0.048,39.9,0.59153,0.59951,Industrial,Glycerol,Random
+25,71,45,220,8,0.014,11.9,0.11537,0.94247,Industrial,Erythritol,Random
+25,72,45,501,24,0.033,27.1,0.20423,0.87182,Industrial,Ribitol,Random
+25,73,45,100,9,0.007,5.4,0.96569,0.07917,Industrial,Galactitol,Random
+25,74,45,672,32,0.044,36.4,0.06945,0.96666,Industrial,D-Mannitol,Random
+25,75,45,659,35,0.043,35.7,0.45881,0.68244,Industrial,D-Glucitol,Random
+25,76,45,75,6,0.005,4.1,0.89879,0.21245,Industrial,myo-Inositol,Random
+25,77,45,381,36,0.025,20.6,1,0,Industrial,DL-Lactate,Positive
+25,78,45,692,40,0.045,37.5,0.89861,0.20621,Industrial,Succinate,Random
+25,79,45,513,26,0.033,27.8,0.34006,0.7654,Industrial,Citrate,Random
+25,80,45,459,25,0.03,24.9,0.57677,0.54547,Industrial,D-Gluconate,Random
+25,81,45,314,15,0.02,17,0.32074,0.78423,Industrial,D-Glucosamine,Random
+25,82,45,144,5,0.009,7.8,0.17721,0.91581,Industrial,Nitrate,Random
+25,83,45,161,10,0.01,8.7,0.76093,0.36885,Industrial,Vitamin-free,Random
+25,84,45,367,21,0.024,19.9,0.69336,0.42144,Industrial,2-Keto-D-gluconate,Random
+25,85,45,107,5,0.007,5.8,0.46685,0.71117,Industrial,Starch formation,Random
+25,86,45,820,44,0.053,44.4,0.46002,0.88442,Industrial,Growth at 19°C,Random
+25,87,45,822,45,0.054,44.5,1,0.60438,Industrial,Growth at 25°C,Random
+25,88,45,732,44,0.048,39.6,0.99719,0.02098,Industrial,Growth at 30°C,Positive
+25,89,45,345,27,0.022,18.7,0.99675,0.0079,Industrial,Growth at 37°C,Positive
+26,41,12,607,10,0.011,8.8,0.87659,0.33093,Freshwater,Glucose_F,Random
+26,42,12,259,0,0.005,3.7,0.01091,1,Freshwater,Galactose_F,Negative
+26,43,12,209,1,0.004,3,0.15365,0.9699,Freshwater,Sucrose_F,Random
+26,44,12,165,1,0.003,2.4,0.27694,0.93116,Freshwater,Maltose_F,Random
+26,46,12,132,2,0.002,1.9,0.70561,0.59191,Freshwater,Raffinose_F,Random
+26,47,12,261,1,0.005,3.8,0.06903,0.98955,Freshwater,Trehalose_F,Random
+26,48,12,831,12,0.014,12,1,1,Freshwater,Glucose,Random
+26,49,12,108,2,0.002,1.6,0.80351,0.47576,Freshwater,Inulin,Random
+26,50,12,503,6,0.009,7.3,0.31982,0.85268,Freshwater,Sucrose,Random
+26,51,12,237,2,0.004,3.4,0.28811,0.89871,Freshwater,Raffinose,Random
+26,52,12,103,0,0.002,1.5,0.20204,1,Freshwater,Melibiose,Random
+26,53,12,541,3,0.009,7.8,0.00519,0.99924,Freshwater,Galactose,Negative
+26,54,12,100,1,0.002,1.4,0.56624,0.78766,Freshwater,Lactose,Random
+26,55,12,578,9,0.01,8.3,0.75962,0.47819,Freshwater,Trehalose,Random
+26,56,12,468,7,0.008,6.8,0.66346,0.56448,Freshwater,Maltose,Random
+26,57,12,383,6,0.007,5.5,0.71488,0.50404,Freshwater,Melezitose,Random
+26,58,12,388,6,0.007,5.6,0.70009,0.52116,Freshwater,Methyl-?-D-glucoside,Random
+26,59,12,196,1,0.003,2.8,0.1844,0.96134,Freshwater,Soluble Starch,Random
+26,60,12,524,11,0.009,7.6,0.99623,0.03084,Freshwater,Cellobiose,Positive
+26,61,12,517,11,0.009,7.5,0.9968,0.02705,Freshwater,Salicin,Positive
+26,62,12,437,4,0.008,6.3,0.14597,0.95017,Freshwater,L-Sorbose,Random
+26,63,12,181,6,0.003,2.6,0.99391,0.02808,Freshwater,L-Rhamnose,Positive
+26,64,12,578,10,0.01,8.3,0.92134,0.24038,Freshwater,D-Xylose,Random
+26,65,12,288,0,0.005,4.2,0.00581,1,Freshwater,L-Arabinose,Negative
+26,66,12,247,1,0.004,3.6,0.08659,0.98597,Freshwater,D-Arabinose,Random
+26,67,12,338,2,0.006,4.9,0.07503,0.98306,Freshwater,D-Ribose,Random
+26,69,12,700,11,0.012,10.1,0.87427,0.4126,Freshwater,Ethanol,Random
+26,70,12,737,11,0.013,10.6,0.7656,0.59859,Freshwater,Glycerol,Random
+26,71,12,220,0,0.004,3.2,0.02425,1,Freshwater,Erythritol,Negative
+26,72,12,501,3,0.009,7.2,0.01389,0.99753,Freshwater,Ribitol,Negative
+26,73,12,100,0,0.002,1.4,0.21234,1,Freshwater,Galactitol,Random
+26,74,12,672,10,0.012,9.7,0.70178,0.58896,Freshwater,D-Mannitol,Random
+26,75,12,659,11,0.011,9.5,0.93942,0.25353,Freshwater,D-Glucitol,Random
+26,76,12,75,0,0.001,1.1,0.31886,1,Freshwater,myo-Inositol,Random
+26,77,12,381,7,0.007,5.5,0.87808,0.27929,Freshwater,DL-Lactate,Random
+26,78,12,692,11,0.012,10,0.89059,0.3774,Freshwater,Succinate,Random
+26,79,12,513,6,0.009,7.4,0.28877,0.87231,Freshwater,Citrate,Random
+26,80,12,459,7,0.008,6.6,0.69114,0.5337,Freshwater,D-Gluconate,Random
+26,81,12,314,5,0.005,4.5,0.72331,0.49832,Freshwater,D-Glucosamine,Random
+26,82,12,144,5,0.003,2.1,0.99088,0.0411,Freshwater,Nitrate,Positive
+26,83,12,161,2,0.003,2.3,0.58031,0.709,Freshwater,Vitamin-free,Random
+26,84,12,367,5,0.006,5.3,0.55083,0.6759,Freshwater,2-Keto-D-gluconate,Random
+26,85,12,107,0,0.002,1.5,0.18902,1,Freshwater,Starch formation,Random
+26,86,12,820,12,0.014,11.8,1,0.85131,Freshwater,Growth at 19°C,Random
+26,87,12,822,12,0.014,11.9,1,0.87673,Freshwater,Growth at 25°C,Random
+26,88,12,732,12,0.013,10.6,1,0.21588,Freshwater,Growth at 30°C,Random
+26,89,12,345,5,0.006,5,0.62507,0.60519,Freshwater,Growth at 37°C,Random
+27,41,36,607,27,0.032,26.3,0.66989,0.47972,Seawater.Marine,Glucose_F,Random
+27,42,36,259,7,0.014,11.2,0.08188,0.96368,Seawater.Marine,Galactose_F,Random
+27,43,36,209,11,0.011,9.1,0.83245,0.27846,Seawater.Marine,Sucrose_F,Random
+27,44,36,165,8,0.009,7.1,0.72682,0.42511,Seawater.Marine,Maltose_F,Random
+27,45,36,29,1,0.002,1.3,0.639,0.72937,Seawater.Marine,Lactose_F,Random
+27,46,36,132,5,0.007,5.7,0.47919,0.70274,Seawater.Marine,Raffinose_F,Random
+27,47,36,261,8,0.014,11.3,0.15095,0.92269,Seawater.Marine,Trehalose_F,Random
+27,48,36,831,36,0.043,36,1,1,Seawater.Marine,Glucose,Random
+27,49,36,108,2,0.006,4.7,0.13038,0.9606,Seawater.Marine,Inulin,Random
+27,50,36,503,24,0.026,21.8,0.82717,0.27838,Seawater.Marine,Sucrose,Random
+27,51,36,237,6,0.012,10.3,0.07286,0.96969,Seawater.Marine,Raffinose,Random
+27,52,36,103,1,0.005,4.5,0.04851,0.99236,Seawater.Marine,Melibiose,Negative
+27,53,36,541,18,0.028,23.4,0.04095,0.98138,Seawater.Marine,Galactose,Negative
+27,54,36,100,2,0.005,4.3,0.16918,0.94512,Seawater.Marine,Lactose,Random
+27,55,36,578,25,0.03,25,0.55892,0.58738,Seawater.Marine,Trehalose,Random
+27,56,36,468,24,0.024,20.3,0.92825,0.13345,Seawater.Marine,Maltose,Random
+27,57,36,383,20,0.02,16.6,0.90904,0.1601,Seawater.Marine,Melezitose,Random
+27,58,36,388,21,0.02,16.8,0.94544,0.10379,Seawater.Marine,Methyl-?-D-glucoside,Random
+27,59,36,196,3,0.01,8.5,0.01581,0.99611,Seawater.Marine,Soluble Starch,Negative
+27,60,36,524,23,0.027,22.7,0.60587,0.53376,Seawater.Marine,Cellobiose,Random
+27,61,36,517,21,0.027,22.4,0.372,0.74963,Seawater.Marine,Salicin,Random
+27,62,36,437,18,0.023,18.9,0.44055,0.68784,Seawater.Marine,L-Sorbose,Random
+27,63,36,181,9,0.009,7.8,0.75911,0.38034,Seawater.Marine,L-Rhamnose,Random
+27,64,36,578,26,0.03,25,0.69978,0.44108,Seawater.Marine,D-Xylose,Random
+27,65,36,288,12,0.015,12.5,0.51011,0.6308,Seawater.Marine,L-Arabinose,Random
+27,66,36,247,9,0.013,10.7,0.33441,0.79163,Seawater.Marine,D-Arabinose,Random
+27,67,36,338,11,0.018,14.6,0.13731,0.9267,Seawater.Marine,D-Ribose,Random
+27,68,36,67,2,0.003,2.9,0.43219,0.80488,Seawater.Marine,Methanol,Random
+27,69,36,700,33,0.036,30.3,0.94196,0.1534,Seawater.Marine,Ethanol,Random
+27,70,36,737,33,0.038,31.9,0.79591,0.40275,Seawater.Marine,Glycerol,Random
+27,71,36,220,8,0.011,9.5,0.35447,0.78015,Seawater.Marine,Erythritol,Random
+27,72,36,501,22,0.026,21.7,0.60503,0.53262,Seawater.Marine,Ribitol,Random
+27,73,36,100,1,0.005,4.3,0.05488,0.99111,Seawater.Marine,Galactitol,Random
+27,74,36,672,32,0.035,29.1,0.93747,0.14918,Seawater.Marine,D-Mannitol,Random
+27,75,36,659,32,0.034,28.5,0.96051,0.10223,Seawater.Marine,D-Glucitol,Random
+27,76,36,75,2,0.004,3.2,0.35214,0.85422,Seawater.Marine,myo-Inositol,Random
+27,77,36,381,15,0.02,16.5,0.3672,0.75258,Seawater.Marine,DL-Lactate,Random
+27,78,36,692,29,0.036,30,0.39647,0.7581,Seawater.Marine,Succinate,Random
+27,79,36,513,20,0.027,22.2,0.27041,0.83048,Seawater.Marine,Citrate,Random
+27,80,36,459,19,0.024,19.9,0.44556,0.68364,Seawater.Marine,D-Gluconate,Random
+27,81,36,314,16,0.016,13.6,0.84567,0.25037,Seawater.Marine,D-Glucosamine,Random
+27,82,36,144,2,0.008,6.2,0.03542,0.99196,Seawater.Marine,Nitrate,Negative
+27,83,36,161,4,0.008,7,0.14102,0.94164,Seawater.Marine,Vitamin-free,Random
+27,84,36,367,18,0.019,15.9,0.81418,0.29018,Seawater.Marine,2-Keto-D-gluconate,Random
+27,85,36,107,0,0.006,4.6,0.00623,1,Seawater.Marine,Starch formation,Negative
+27,86,36,820,36,0.043,35.5,1,0.61251,Seawater.Marine,Growth at 19°C,Random
+27,87,36,822,36,0.043,35.6,1,0.66994,Seawater.Marine,Growth at 25°C,Random
+27,88,36,732,30,0.038,31.7,0.25027,0.87517,Seawater.Marine,Growth at 30°C,Random
+27,89,36,345,11,0.018,14.9,0.11573,0.94004,Seawater.Marine,Growth at 37°C,Random
+28,41,76,607,55,0.067,55.5,0.49166,0.61428,Plant,Glucose_F,Random
+28,42,76,259,21,0.029,23.7,0.28818,0.79492,Plant,Galactose_F,Random
+28,43,76,209,23,0.023,19.1,0.88668,0.17319,Plant,Sucrose_F,Random
+28,44,76,165,19,0.018,15.1,0.9057,0.1519,Plant,Maltose_F,Random
+28,45,76,29,5,0.003,2.7,0.95861,0.11671,Plant,Lactose_F,Random
+28,46,76,132,15,0.015,12.1,0.86921,0.20878,Plant,Raffinose_F,Random
+28,47,76,261,30,0.029,23.9,0.95524,0.07391,Plant,Trehalose_F,Random
+28,48,76,831,76,0.091,76,1,1,Plant,Glucose,Random
+28,49,76,108,14,0.012,9.9,0.94576,0.10068,Plant,Inulin,Random
+28,50,76,503,60,0.055,46,0.9999,0.00029,Plant,Sucrose,Positive
+28,51,76,237,28,0.026,21.7,0.96323,0.0625,Plant,Raffinose,Random
+28,52,76,103,9,0.011,9.4,0.52673,0.61843,Plant,Melibiose,Random
+28,53,76,541,53,0.06,49.5,0.84519,0.22412,Plant,Galactose,Random
+28,54,76,100,4,0.011,9.1,0.03423,0.9887,Plant,Lactose,Negative
+28,55,76,578,58,0.064,52.9,0.93244,0.11108,Plant,Trehalose,Random
+28,56,76,468,56,0.052,42.8,0.99967,0.00083,Plant,Maltose,Positive
+28,57,76,383,47,0.042,35,0.9987,0.00281,Plant,Melezitose,Positive
+28,58,76,388,40,0.043,35.5,0.88671,0.16638,Plant,Methyl-?-D-glucoside,Random
+28,59,76,196,20,0.022,17.9,0.77012,0.3219,Plant,Soluble Starch,Random
+28,60,76,524,54,0.058,47.9,0.9514,0.08067,Plant,Cellobiose,Random
+28,61,76,517,49,0.057,47.3,0.70682,0.38427,Plant,Salicin,Random
+28,62,76,437,53,0.048,40,0.99953,0.00111,Plant,L-Sorbose,Positive
+28,63,76,181,8,0.02,16.6,0.00646,0.99768,Plant,L-Rhamnose,Negative
+28,64,76,578,52,0.064,52.9,0.45685,0.64356,Plant,D-Xylose,Random
+28,65,76,288,16,0.032,26.3,0.00519,0.99773,Plant,L-Arabinose,Negative
+28,66,76,247,18,0.027,22.6,0.14014,0.91212,Plant,D-Arabinose,Random
+28,67,76,338,27,0.037,30.9,0.2022,0.86041,Plant,D-Ribose,Random
+28,68,76,67,3,0.007,6.1,0.1175,0.95747,Plant,Methanol,Random
+28,69,76,700,59,0.077,64,0.07186,0.96127,Plant,Ethanol,Random
+28,70,76,737,70,0.081,67.4,0.88451,0.21722,Plant,Glycerol,Random
+28,71,76,220,8,0.024,20.1,0.00033,0.99991,Plant,Erythritol,Negative
+28,72,76,501,44,0.055,45.8,0.37053,0.71729,Plant,Ribitol,Random
+28,73,76,100,8,0.011,9.1,0.42018,0.72012,Plant,Galactitol,Random
+28,74,76,672,67,0.074,61.5,0.97314,0.05626,Plant,D-Mannitol,Random
+28,75,76,659,66,0.073,60.3,0.97286,0.05532,Plant,D-Glucitol,Random
+28,76,76,75,3,0.008,6.9,0.06993,0.9772,Plant,myo-Inositol,Random
+28,77,76,381,29,0.042,34.8,0.09792,0.93798,Plant,DL-Lactate,Random
+28,78,76,692,68,0.076,63.3,0.95994,0.08235,Plant,Succinate,Random
+28,79,76,513,52,0.056,46.9,0.91791,0.12767,Plant,Citrate,Random
+28,80,76,459,42,0.051,42,0.54883,0.5474,Plant,D-Gluconate,Random
+28,81,76,314,25,0.035,28.7,0.21324,0.85261,Plant,D-Glucosamine,Random
+28,82,76,144,18,0.016,13.2,0.95072,0.08749,Plant,Nitrate,Random
+28,83,76,161,10,0.018,14.7,0.09563,0.94947,Plant,Vitamin-free,Random
+28,84,76,367,37,0.04,33.6,0.82997,0.23792,Plant,2-Keto-D-gluconate,Random
+28,85,76,107,11,0.012,9.8,0.73836,0.38575,Plant,Starch formation,Random
+28,86,76,820,76,0.09,75,1,0.34585,Plant,Growth at 19°C,Random
+28,87,76,822,72,0.09,75.2,0.00572,0.99947,Plant,Growth at 25°C,Negative
+28,88,76,732,62,0.081,66.9,0.05483,0.97331,Plant,Growth at 30°C,Random
+28,89,76,345,33,0.038,31.6,0.68429,0.40648,Plant,Growth at 37°C,Random
+29,41,53,607,44,0.047,38.7,0.97257,0.05846,Food,Glucose_F,Random
+29,42,53,259,20,0.02,16.5,0.88757,0.17966,Food,Galactose_F,Random
+29,43,53,209,21,0.016,13.3,0.99486,0.01175,Food,Sucrose_F,Positive
+29,44,53,165,19,0.013,10.5,0.99862,0.00369,Food,Maltose_F,Positive
+29,45,53,29,2,0.002,1.8,0.71986,0.56411,Food,Lactose_F,Random
+29,46,53,132,14,0.01,8.4,0.98718,0.02947,Food,Raffinose_F,Positive
+29,47,53,261,18,0.02,16.6,0.71829,0.39116,Food,Trehalose_F,Random
+29,48,53,831,53,0.064,53,1,1,Food,Glucose,Random
+29,49,53,108,8,0.008,6.9,0.75962,0.38184,Food,Inulin,Random
+29,50,53,503,29,0.039,32.1,0.22572,0.85071,Food,Sucrose,Random
+29,51,53,237,17,0.018,15.1,0.77581,0.32606,Food,Raffinose,Random
+29,52,53,103,5,0.008,6.6,0.33686,0.8112,Food,Melibiose,Random
+29,53,53,541,36,0.042,34.5,0.7208,0.38818,Food,Galactose,Random
+29,54,53,100,6,0.008,6.4,0.54066,0.63286,Food,Lactose,Random
+29,55,53,578,34,0.044,36.9,0.2305,0.85015,Food,Trehalose,Random
+29,56,53,468,28,0.036,29.8,0.34828,0.75002,Food,Maltose,Random
+29,57,53,383,18,0.029,24.4,0.04469,0.97675,Food,Melezitose,Negative
+29,58,53,388,22,0.03,24.7,0.26209,0.822,Food,Methyl-?-D-glucoside,Random
+29,59,53,196,16,0.015,12.5,0.90678,0.15772,Food,Soluble Starch,Random
+29,60,53,524,29,0.04,33.4,0.12505,0.92473,Food,Cellobiose,Random
+29,61,53,517,28,0.04,33,0.09611,0.94412,Food,Salicin,Random
+29,62,53,437,27,0.034,27.9,0.45718,0.65218,Food,L-Sorbose,Random
+29,63,53,181,10,0.014,11.5,0.36944,0.75421,Food,L-Rhamnose,Random
+29,64,53,578,33,0.044,36.9,0.14985,0.90902,Food,D-Xylose,Random
+29,65,53,288,15,0.022,18.4,0.19719,0.87685,Food,L-Arabinose,Random
+29,66,53,247,12,0.019,15.8,0.15593,0.90955,Food,D-Arabinose,Random
+29,67,53,338,22,0.026,21.6,0.61004,0.50343,Food,D-Ribose,Random
+29,68,53,67,1,0.005,4.3,0.05974,0.99002,Food,Methanol,Random
+29,69,53,700,49,0.054,44.6,0.97921,0.0584,Food,Ethanol,Random
+29,70,53,737,47,0.057,47,0.5682,0.60804,Food,Glycerol,Random
+29,71,53,220,14,0.017,14,0.56839,0.55922,Food,Erythritol,Random
+29,72,53,501,28,0.038,32,0.15819,0.90105,Food,Ribitol,Random
+29,73,53,100,7,0.008,6.4,0.70054,0.45934,Food,Galactitol,Random
+29,74,53,672,38,0.052,42.9,0.06232,0.96893,Food,D-Mannitol,Random
+29,75,53,659,40,0.051,42,0.28875,0.81422,Food,D-Glucitol,Random
+29,76,53,75,4,0.006,4.8,0.46811,0.72491,Food,myo-Inositol,Random
+29,77,53,381,31,0.029,24.3,0.97979,0.03883,Food,DL-Lactate,Positive
+29,78,53,692,46,0.053,44.1,0.81408,0.3118,Food,Succinate,Random
+29,79,53,513,30,0.039,32.7,0.25679,0.82669,Food,Citrate,Random
+29,80,53,459,28,0.035,29.3,0.41101,0.69473,Food,D-Gluconate,Random
+29,81,53,314,16,0.024,20,0.1507,0.90909,Food,D-Glucosamine,Random
+29,82,53,144,9,0.011,9.2,0.56112,0.58784,Food,Nitrate,Random
+29,83,53,161,10,0.012,10.3,0.54586,0.59687,Food,Vitamin-free,Random
+29,84,53,367,22,0.028,23.4,0.39963,0.70577,Food,2-Keto-D-gluconate,Random
+29,85,53,107,1,0.008,6.8,0.00491,0.99948,Food,Starch formation,Negative
+29,86,53,820,53,0.063,52.3,1,0.48216,Food,Growth at 19°C,Random
+29,87,53,822,53,0.063,52.4,1,0.55096,Food,Growth at 25°C,Random
+29,88,53,732,51,0.056,46.7,0.99171,0.03575,Food,Growth at 30°C,Positive
+29,89,53,345,33,0.026,22,0.99949,0.00135,Food,Growth at 37°C,Positive
+30,41,22,607,18,0.019,16.1,0.88556,0.24962,Pickled.Salted.Brined,Glucose_F,Random
+30,42,22,259,6,0.008,6.9,0.44511,0.73038,Pickled.Salted.Brined,Galactose_F,Random
+30,43,22,209,11,0.007,5.5,0.99733,0.00955,Pickled.Salted.Brined,Sucrose_F,Positive
+30,44,22,165,8,0.005,4.4,0.98215,0.05168,Pickled.Salted.Brined,Maltose_F,Random
+30,46,22,132,9,0.004,3.5,0.99913,0.00389,Pickled.Salted.Brined,Raffinose_F,Positive
+30,47,22,261,7,0.008,6.9,0.61773,0.5647,Pickled.Salted.Brined,Trehalose_F,Random
+30,48,22,831,22,0.026,22,1,1,Pickled.Salted.Brined,Glucose,Random
+30,49,22,108,3,0.003,2.9,0.68227,0.56107,Pickled.Salted.Brined,Inulin,Random
+30,50,22,503,14,0.016,13.3,0.69519,0.47373,Pickled.Salted.Brined,Sucrose,Random
+30,51,22,237,10,0.008,6.3,0.97466,0.06533,Pickled.Salted.Brined,Raffinose,Random
+30,52,22,103,3,0.003,2.7,0.71392,0.52676,Pickled.Salted.Brined,Melibiose,Random
+30,53,22,541,16,0.017,14.3,0.83807,0.30287,Pickled.Salted.Brined,Galactose,Random
+30,54,22,100,1,0.003,2.6,0.23484,0.9427,Pickled.Salted.Brined,Lactose,Random
+30,55,22,578,14,0.018,15.3,0.34433,0.80354,Pickled.Salted.Brined,Trehalose,Random
+30,56,22,468,11,0.015,12.4,0.34681,0.79537,Pickled.Salted.Brined,Maltose,Random
+30,57,22,383,6,0.012,10.1,0.05537,0.97997,Pickled.Salted.Brined,Melezitose,Random
+30,58,22,388,8,0.012,10.3,0.22238,0.88577,Pickled.Salted.Brined,Methyl-?-D-glucoside,Random
+30,59,22,196,4,0.006,5.2,0.37817,0.8016,Pickled.Salted.Brined,Soluble Starch,Random
+30,60,22,524,12,0.017,13.9,0.26606,0.8556,Pickled.Salted.Brined,Cellobiose,Random
+30,61,22,517,11,0.016,13.7,0.16459,0.92056,Pickled.Salted.Brined,Salicin,Random
+30,62,22,437,10,0.014,11.6,0.32128,0.8147,Pickled.Salted.Brined,L-Sorbose,Random
+30,63,22,181,4,0.006,4.8,0.45827,0.74139,Pickled.Salted.Brined,L-Rhamnose,Random
+30,64,22,578,8,0.018,15.3,0.00114,0.99976,Pickled.Salted.Brined,D-Xylose,Negative
+30,65,22,288,6,0.009,7.6,0.3113,0.8322,Pickled.Salted.Brined,L-Arabinose,Random
+30,66,22,247,4,0.008,6.5,0.16803,0.93093,Pickled.Salted.Brined,D-Arabinose,Random
+30,67,22,338,10,0.011,8.9,0.75437,0.39965,Pickled.Salted.Brined,D-Ribose,Random
+30,68,22,67,0,0.002,1.8,0.15348,1,Pickled.Salted.Brined,Methanol,Random
+30,69,22,700,19,0.022,18.5,0.70031,0.53395,Pickled.Salted.Brined,Ethanol,Random
+30,70,22,737,19,0.023,19.5,0.46212,0.76895,Pickled.Salted.Brined,Glycerol,Random
+30,71,22,220,7,0.007,5.8,0.7975,0.3584,Pickled.Salted.Brined,Erythritol,Random
+30,72,22,501,13,0.016,13.3,0.53566,0.63645,Pickled.Salted.Brined,Ribitol,Random
+30,73,22,100,4,0.003,2.6,0.8865,0.26741,Pickled.Salted.Brined,Galactitol,Random
+30,74,22,672,18,0.021,17.8,0.63305,0.5841,Pickled.Salted.Brined,D-Mannitol,Random
+30,75,22,659,18,0.021,17.4,0.69989,0.50896,Pickled.Salted.Brined,D-Glucitol,Random
+30,76,22,75,1,0.002,2,0.39379,0.87864,Pickled.Salted.Brined,myo-Inositol,Random
+30,77,22,381,11,0.012,10.1,0.73074,0.42693,Pickled.Salted.Brined,DL-Lactate,Random
+30,78,22,692,16,0.022,18.3,0.14602,0.94103,Pickled.Salted.Brined,Succinate,Random
+30,79,22,513,12,0.016,13.6,0.31129,0.82315,Pickled.Salted.Brined,Citrate,Random
+30,80,22,459,13,0.015,12.2,0.71888,0.44289,Pickled.Salted.Brined,D-Gluconate,Random
+30,81,22,314,6,0.01,8.3,0.21172,0.89745,Pickled.Salted.Brined,D-Glucosamine,Random
+30,82,22,144,5,0.005,3.8,0.83445,0.32923,Pickled.Salted.Brined,Nitrate,Random
+30,83,22,161,1,0.005,4.3,0.05283,0.99182,Pickled.Salted.Brined,Vitamin-free,Random
+30,84,22,367,9,0.012,9.7,0.46593,0.69904,Pickled.Salted.Brined,2-Keto-D-gluconate,Random
+30,85,22,107,1,0.003,2.8,0.201,0.95378,Pickled.Salted.Brined,Starch formation,Random
+30,86,22,820,21,0.026,21.7,0.25692,0.96814,Pickled.Salted.Brined,Growth at 19°C,Random
+30,87,22,822,22,0.026,21.8,1,0.78453,Pickled.Salted.Brined,Growth at 25°C,Random
+30,88,22,732,22,0.023,19.4,1,0.05907,Pickled.Salted.Brined,Growth at 30°C,Random
+30,89,22,345,9,0.011,9.1,0.56818,0.60477,Pickled.Salted.Brined,Growth at 37°C,Random
+31,41,132,607,109,0.116,96.4,0.99811,0.00386,Fruit,Glucose_F,Positive
+31,42,132,259,41,0.05,41.1,0.53281,0.54877,Fruit,Galactose_F,Random
+31,43,132,209,42,0.04,33.2,0.97733,0.03662,Fruit,Sucrose_F,Positive
+31,44,132,165,26,0.032,26.2,0.53403,0.56067,Fruit,Maltose_F,Random
+31,45,132,29,3,0.006,4.6,0.29753,0.86569,Fruit,Lactose_F,Random
+31,46,132,132,30,0.025,21,0.99161,0.01576,Fruit,Raffinose_F,Positive
+31,47,132,261,34,0.05,41.5,0.07595,0.94988,Fruit,Trehalose_F,Random
+31,48,132,831,132,0.159,132,1,1,Fruit,Glucose,Random
+31,49,132,108,19,0.021,17.2,0.75015,0.34472,Fruit,Inulin,Random
+31,50,132,503,79,0.096,79.9,0.4673,0.60865,Fruit,Sucrose,Random
+31,51,132,237,43,0.045,37.6,0.88986,0.15386,Fruit,Raffinose,Random
+31,52,132,103,11,0.02,16.4,0.07651,0.95951,Fruit,Melibiose,Random
+31,53,132,541,77,0.103,85.9,0.04758,0.96884,Fruit,Galactose,Negative
+31,54,132,100,6,0.019,15.9,0.00146,0.99959,Fruit,Lactose,Negative
+31,55,132,578,75,0.11,91.8,5.00E-04,0.99976,Fruit,Trehalose,Negative
+31,56,132,468,58,0.089,74.3,0.00127,0.99934,Fruit,Maltose,Negative
+31,57,132,383,42,0.073,60.8,0.00021,0.9999,Fruit,Melezitose,Negative
+31,58,132,388,39,0.074,61.6,1.00E-05,1,Fruit,Methyl-?-D-glucoside,Negative
+31,59,132,196,23,0.037,31.1,0.04123,0.97579,Fruit,Soluble Starch,Negative
+31,60,132,524,66,0.1,83.2,0.00058,0.99971,Fruit,Cellobiose,Negative
+31,61,132,517,67,0.099,82.1,0.0023,0.99876,Fruit,Salicin,Negative
+31,62,132,437,76,0.084,69.4,0.91116,0.12363,Fruit,L-Sorbose,Random
+31,63,132,181,14,0.035,28.8,0.00026,0.99991,Fruit,L-Rhamnose,Negative
+31,64,132,578,78,0.11,91.8,0.0035,0.99811,Fruit,D-Xylose,Negative
+31,65,132,288,26,0.055,45.7,4.00E-05,0.99999,Fruit,L-Arabinose,Negative
+31,66,132,247,24,0.047,39.2,0.00078,0.99965,Fruit,D-Arabinose,Negative
+31,67,132,338,39,0.065,53.7,0.00273,0.99855,Fruit,D-Ribose,Negative
+31,68,132,67,4,0.013,10.6,0.01034,0.99711,Fruit,Methanol,Negative
+31,69,132,700,108,0.134,111.2,0.2385,0.83232,Fruit,Ethanol,Random
+31,70,132,737,112,0.141,117.1,0.08851,0.94843,Fruit,Glycerol,Random
+31,71,132,220,14,0.042,34.9,0,1,Fruit,Erythritol,Negative
+31,72,132,501,62,0.096,79.6,0.00051,0.99974,Fruit,Ribitol,Negative
+31,73,132,100,15,0.019,15.9,0.4654,0.64876,Fruit,Galactitol,Random
+31,74,132,672,90,0.128,106.7,9.00E-05,0.99996,Fruit,D-Mannitol,Negative
+31,75,132,659,90,0.126,104.7,0.00069,0.99968,Fruit,D-Glucitol,Negative
+31,76,132,75,6,0.014,11.9,0.02978,0.98859,Fruit,myo-Inositol,Negative
+31,77,132,381,55,0.073,60.5,0.16956,0.87437,Fruit,DL-Lactate,Random
+31,78,132,692,101,0.132,109.9,0.01858,0.98986,Fruit,Succinate,Negative
+31,79,132,513,72,0.098,81.5,0.04041,0.97371,Fruit,Citrate,Negative
+31,80,132,459,62,0.088,72.9,0.0237,0.9851,Fruit,D-Gluconate,Negative
+31,81,132,314,40,0.06,49.9,0.03209,0.97992,Fruit,D-Glucosamine,Negative
+31,82,132,144,23,0.028,22.9,0.56953,0.52989,Fruit,Nitrate,Random
+31,83,132,161,29,0.031,25.6,0.82763,0.23856,Fruit,Vitamin-free,Random
+31,84,132,367,54,0.07,58.3,0.23451,0.82019,Fruit,2-Keto-D-gluconate,Random
+31,85,132,107,22,0.02,17,0.9371,0.10316,Fruit,Starch formation,Random
+31,86,132,820,132,0.157,130.3,1,0.14729,Fruit,Growth at 19°C,Random
+31,87,132,822,132,0.157,130.6,1,0.20908,Fruit,Growth at 25°C,Random
+31,88,132,732,115,0.14,116.3,0.40098,0.70473,Fruit,Growth at 30°C,Random
+31,89,132,345,55,0.066,54.8,0.55493,0.52166,Fruit,Growth at 37°C,Random
+32,41,39,607,39,0.034,28.5,1,0,Drink.Juice,Glucose_F,Positive
+32,42,39,259,14,0.015,12.2,0.79855,0.31164,Drink.Juice,Galactose_F,Random
+32,43,39,209,21,0.012,9.8,0.99998,8.00E-05,Drink.Juice,Sucrose_F,Positive
+32,44,39,165,12,0.009,7.7,0.96972,0.06617,Drink.Juice,Maltose_F,Random
+32,45,39,29,1,0.002,1.4,0.60037,0.75795,Drink.Juice,Lactose_F,Random
+32,46,39,132,11,0.007,6.2,0.98707,0.03293,Drink.Juice,Raffinose_F,Positive
+32,47,39,261,17,0.015,12.2,0.96557,0.06905,Drink.Juice,Trehalose_F,Random
+32,48,39,831,39,0.047,39,1,1,Drink.Juice,Glucose,Random
+32,49,39,108,6,0.006,5.1,0.76628,0.39635,Drink.Juice,Inulin,Random
+32,50,39,503,26,0.028,23.6,0.83404,0.26497,Drink.Juice,Sucrose,Random
+32,51,39,237,16,0.013,11.1,0.97152,0.05912,Drink.Juice,Raffinose,Random
+32,52,39,103,3,0.006,4.8,0.26455,0.88344,Drink.Juice,Melibiose,Random
+32,53,39,541,25,0.031,25.4,0.50875,0.62553,Drink.Juice,Galactose,Random
+32,54,39,100,3,0.006,4.7,0.28738,0.8701,Drink.Juice,Lactose,Random
+32,55,39,578,24,0.033,27.1,0.17385,0.90001,Drink.Juice,Trehalose,Random
+32,56,39,468,21,0.026,22,0.4367,0.68731,Drink.Juice,Maltose,Random
+32,57,39,383,16,0.022,18,0.31509,0.79171,Drink.Juice,Melezitose,Random
+32,58,39,388,15,0.022,18.2,0.18683,0.8892,Drink.Juice,Methyl-?-D-glucoside,Random
+32,59,39,196,8,0.011,9.2,0.40517,0.73802,Drink.Juice,Soluble Starch,Random
+32,60,39,524,21,0.03,24.6,0.14688,0.9164,Drink.Juice,Cellobiose,Random
+32,61,39,517,22,0.029,24.3,0.27293,0.82548,Drink.Juice,Salicin,Random
+32,62,39,437,19,0.025,20.5,0.3695,0.74558,Drink.Juice,L-Sorbose,Random
+32,63,39,181,5,0.01,8.5,0.11334,0.95137,Drink.Juice,L-Rhamnose,Random
+32,64,39,578,15,0.033,27.1,4.00E-05,0.99999,Drink.Juice,D-Xylose,Negative
+32,65,39,288,5,0.016,13.5,0.00164,0.99961,Drink.Juice,L-Arabinose,Negative
+32,66,39,247,7,0.014,11.6,0.06659,0.97118,Drink.Juice,D-Arabinose,Random
+32,67,39,338,11,0.019,15.9,0.0706,0.96573,Drink.Juice,D-Ribose,Random
+32,68,39,67,2,0.004,3.1,0.37569,0.84012,Drink.Juice,Methanol,Random
+32,69,39,700,30,0.04,32.9,0.14522,0.92852,Drink.Juice,Ethanol,Random
+32,70,39,737,30,0.042,34.6,0.0243,0.99177,Drink.Juice,Glycerol,Negative
+32,71,39,220,7,0.012,10.3,0.14589,0.92748,Drink.Juice,Erythritol,Random
+32,72,39,501,18,0.028,23.5,0.04768,0.97705,Drink.Juice,Ribitol,Negative
+32,73,39,100,4,0.006,4.7,0.48491,0.71262,Drink.Juice,Galactitol,Random
+32,74,39,672,24,0.038,31.5,0.00314,0.999,Drink.Juice,D-Mannitol,Negative
+32,75,39,659,25,0.037,30.9,0.01801,0.99298,Drink.Juice,D-Glucitol,Negative
+32,76,39,75,4,0.004,3.5,0.72901,0.47524,Drink.Juice,myo-Inositol,Random
+32,77,39,381,18,0.022,17.9,0.58216,0.54816,Drink.Juice,DL-Lactate,Random
+32,78,39,692,26,0.039,32.5,0.00723,0.99759,Drink.Juice,Succinate,Negative
+32,79,39,513,17,0.029,24.1,0.01425,0.99412,Drink.Juice,Citrate,Negative
+32,80,39,459,24,0.026,21.5,0.83534,0.26039,Drink.Juice,D-Gluconate,Random
+32,81,39,314,12,0.018,14.7,0.2265,0.8639,Drink.Juice,D-Glucosamine,Random
+32,82,39,144,8,0.008,6.8,0.78043,0.35959,Drink.Juice,Nitrate,Random
+32,83,39,161,4,0.009,7.6,0.09679,0.96281,Drink.Juice,Vitamin-free,Random
+32,84,39,367,20,0.021,17.2,0.86027,0.2255,Drink.Juice,2-Keto-D-gluconate,Random
+32,85,39,107,2,0.006,5,0.10061,0.9714,Drink.Juice,Starch formation,Random
+32,86,39,820,38,0.046,38.5,0.41259,0.90965,Drink.Juice,Growth at 19°C,Random
+32,87,39,822,39,0.046,38.6,1,0.64742,Drink.Juice,Growth at 25°C,Random
+32,88,39,732,36,0.041,34.4,0.86538,0.29528,Drink.Juice,Growth at 30°C,Random
+32,89,39,345,23,0.019,16.2,0.99212,0.01853,Drink.Juice,Growth at 37°C,Positive
+33,41,74,607,69,0.065,54.1,1,1.00E-05,Fermented,Glucose_F,Positive
+33,42,74,259,32,0.028,23.1,0.9924,0.01476,Fermented,Galactose_F,Positive
+33,43,74,209,42,0.022,18.6,1,0,Fermented,Sucrose_F,Positive
+33,44,74,165,29,0.018,14.7,0.99999,4.00E-05,Fermented,Maltose_F,Positive
+33,45,74,29,3,0.003,2.6,0.74639,0.48631,Fermented,Lactose_F,Random
+33,46,74,132,29,0.014,11.8,1,0,Fermented,Raffinose_F,Positive
+33,47,74,261,31,0.028,23.2,0.98333,0.03031,Fermented,Trehalose_F,Positive
+33,48,74,831,74,0.089,74,1,1,Fermented,Glucose,Random
+33,49,74,108,13,0.012,9.6,0.91595,0.14841,Fermented,Inulin,Random
+33,50,74,503,47,0.054,44.8,0.74873,0.33748,Fermented,Sucrose,Random
+33,51,74,237,34,0.025,21.1,0.99975,0.00062,Fermented,Raffinose,Positive
+33,52,74,103,9,0.011,9.2,0.56314,0.5837,Fermented,Melibiose,Random
+33,53,74,541,47,0.058,48.2,0.42747,0.66877,Fermented,Galactose,Random
+33,54,74,100,8,0.011,8.9,0.45523,0.69011,Fermented,Lactose,Random
+33,55,74,578,51,0.062,51.5,0.49741,0.60639,Fermented,Trehalose,Random
+33,56,74,468,40,0.05,41.7,0.38506,0.7043,Fermented,Maltose,Random
+33,57,74,383,30,0.041,34.1,0.18935,0.87,Fermented,Melezitose,Random
+33,58,74,388,28,0.042,34.6,0.06923,0.9581,Fermented,Methyl-?-D-glucoside,Random
+33,59,74,196,15,0.021,17.5,0.29269,0.79993,Fermented,Soluble Starch,Random
+33,60,74,524,34,0.056,46.7,0.00127,0.99945,Fermented,Cellobiose,Negative
+33,61,74,517,34,0.055,46,0.00213,0.99904,Fermented,Salicin,Negative
+33,62,74,437,35,0.047,38.9,0.20237,0.85919,Fermented,L-Sorbose,Random
+33,63,74,181,6,0.019,16.1,0.00104,0.99972,Fermented,L-Rhamnose,Negative
+33,64,74,578,38,0.062,51.5,0.00044,0.99982,Fermented,D-Xylose,Negative
+33,65,74,288,18,0.031,25.6,0.03138,0.98349,Fermented,L-Arabinose,Negative
+33,66,74,247,14,0.026,22,0.02,0.99047,Fermented,D-Arabinose,Negative
+33,67,74,338,28,0.036,30.1,0.34802,0.73898,Fermented,D-Ribose,Random
+33,68,74,67,2,0.007,6,0.04864,0.98801,Fermented,Methanol,Negative
+33,69,74,700,64,0.075,62.3,0.76057,0.35875,Fermented,Ethanol,Random
+33,70,74,737,64,0.079,65.6,0.32024,0.79761,Fermented,Glycerol,Random
+33,71,74,220,14,0.024,19.6,0.07689,0.95743,Fermented,Erythritol,Random
+33,72,74,501,38,0.054,44.6,0.06492,0.96077,Fermented,Ribitol,Random
+33,73,74,100,9,0.011,8.9,0.60246,0.54477,Fermented,Galactitol,Random
+33,74,74,672,49,0.072,59.8,0.00125,0.99951,Fermented,D-Mannitol,Negative
+33,75,74,659,47,0.071,58.7,0.00073,0.99972,Fermented,D-Glucitol,Negative
+33,76,74,75,2,0.008,6.7,0.02666,0.9941,Fermented,myo-Inositol,Negative
+33,77,74,381,43,0.041,33.9,0.99028,0.01819,Fermented,DL-Lactate,Positive
+33,78,74,692,50,0.074,61.6,0.00037,0.99987,Fermented,Succinate,Negative
+33,79,74,513,38,0.055,45.7,0.03704,0.9789,Fermented,Citrate,Negative
+33,80,74,459,40,0.049,40.9,0.46218,0.63281,Fermented,D-Gluconate,Random
+33,81,74,314,26,0.034,28,0.35962,0.72996,Fermented,D-Glucosamine,Random
+33,82,74,144,10,0.015,12.8,0.23139,0.85887,Fermented,Nitrate,Random
+33,83,74,161,17,0.017,14.3,0.8357,0.248,Fermented,Vitamin-free,Random
+33,84,74,367,34,0.039,32.7,0.67326,0.419,Fermented,2-Keto-D-gluconate,Random
+33,85,74,107,5,0.011,9.5,0.0641,0.97441,Fermented,Starch formation,Random
+33,86,74,820,74,0.088,73,1,0.35613,Fermented,Growth at 19°C,Random
+33,87,74,822,74,0.088,73.2,1,0.43013,Fermented,Growth at 25°C,Random
+33,88,74,732,70,0.078,65.2,0.98508,0.04355,Fermented,Growth at 30°C,Positive
+33,89,74,345,43,0.037,30.7,0.99914,0.00193,Fermented,Growth at 37°C,Positive
+34,41,29,607,22,0.025,21.2,0.70477,0.45857,Wine,Glucose_F,Random
+34,42,29,259,6,0.011,9,0.14951,0.93045,Wine,Galactose_F,Random
+34,43,29,209,13,0.009,7.3,0.99481,0.01497,Wine,Sucrose_F,Positive
+34,44,29,165,7,0.007,5.8,0.79965,0.34829,Wine,Maltose_F,Random
+34,45,29,29,1,0.001,1,0.73148,0.64943,Wine,Lactose_F,Random
+34,46,29,132,10,0.006,4.6,0.99713,0.00979,Wine,Raffinose_F,Positive
+34,47,29,261,8,0.011,9.1,0.41121,0.7389,Wine,Trehalose_F,Random
+34,48,29,831,29,0.035,29,1,1,Wine,Glucose,Random
+34,49,29,108,3,0.005,3.8,0.46628,0.75106,Wine,Inulin,Random
+34,50,29,503,17,0.021,17.6,0.48665,0.66172,Wine,Sucrose,Random
+34,51,29,237,12,0.01,8.3,0.95791,0.091,Wine,Raffinose,Random
+34,52,29,103,5,0.004,3.6,0.86192,0.28496,Wine,Melibiose,Random
+34,53,29,541,16,0.023,18.9,0.1721,0.90814,Wine,Galactose,Random
+34,54,29,100,3,0.004,3.5,0.5306,0.69972,Wine,Lactose,Random
+34,55,29,578,12,0.024,20.2,0.00127,0.99966,Wine,Trehalose,Negative
+34,56,29,468,11,0.02,16.3,0.03322,0.98668,Wine,Maltose,Negative
+34,57,29,383,8,0.016,13.4,0.03078,0.98839,Wine,Melezitose,Negative
+34,58,29,388,7,0.016,13.5,0.00978,0.99696,Wine,Methyl-?-D-glucoside,Negative
+34,59,29,196,3,0.008,6.8,0.06063,0.98163,Wine,Soluble Starch,Random
+34,60,29,524,11,0.022,18.3,0.00456,0.9986,Wine,Cellobiose,Negative
+34,61,29,517,11,0.022,18,0.00606,0.99807,Wine,Salicin,Negative
+34,62,29,437,14,0.018,15.3,0.38739,0.74641,Wine,L-Sorbose,Random
+34,63,29,181,1,0.008,6.3,0.00661,0.9993,Wine,L-Rhamnose,Negative
+34,64,29,578,11,0.024,20.2,0.00034,0.99992,Wine,D-Xylose,Negative
+34,65,29,288,5,0.012,10.1,0.03072,0.98988,Wine,L-Arabinose,Negative
+34,66,29,247,4,0.01,8.6,0.03799,0.98808,Wine,D-Arabinose,Negative
+34,67,29,338,9,0.014,11.8,0.1894,0.89927,Wine,D-Ribose,Random
+34,68,29,67,0,0.003,2.3,0.0836,1,Wine,Methanol,Random
+34,69,29,700,23,0.029,24.4,0.30033,0.84246,Wine,Ethanol,Random
+34,70,29,737,23,0.031,25.7,0.09843,0.96354,Wine,Glycerol,Random
+34,71,29,220,4,0.009,7.7,0.08112,0.97071,Wine,Erythritol,Random
+34,72,29,501,12,0.021,17.5,0.02829,0.98886,Wine,Ribitol,Negative
+34,73,29,100,5,0.004,3.5,0.87594,0.26371,Wine,Galactitol,Random
+34,74,29,672,14,0.028,23.5,6.00E-05,0.99999,Wine,D-Mannitol,Negative
+34,75,29,659,15,0.028,23,0.00067,0.99984,Wine,D-Glucitol,Negative
+34,76,29,75,1,0.003,2.6,0.24426,0.93875,Wine,myo-Inositol,Random
+34,77,29,381,16,0.016,13.3,0.88774,0.20134,Wine,DL-Lactate,Random
+34,78,29,692,18,0.029,24.1,0.00441,0.9988,Wine,Succinate,Negative
+34,79,29,513,13,0.022,17.9,0.04508,0.98092,Wine,Citrate,Negative
+34,80,29,459,9,0.019,16,0.00656,0.99794,Wine,D-Gluconate,Negative
+34,81,29,314,10,0.013,11,0.43509,0.71121,Wine,D-Glucosamine,Random
+34,82,29,144,3,0.006,5,0.23013,0.90408,Wine,Nitrate,Random
+34,83,29,161,9,0.007,5.6,0.96216,0.08872,Wine,Vitamin-free,Random
+34,84,29,367,11,0.015,12.8,0.31161,0.80949,Wine,2-Keto-D-gluconate,Random
+34,85,29,107,2,0.004,3.7,0.25498,0.90691,Wine,Starch formation,Random
+34,86,29,820,29,0.034,28.6,1,0.67493,Wine,Growth at 19°C,Random
+34,87,29,822,29,0.035,28.7,1,0.72523,Wine,Growth at 25°C,Random
+34,88,29,732,28,0.031,25.5,0.9764,0.11986,Wine,Growth at 30°C,Random
+34,89,29,345,19,0.014,12,0.99778,0.00693,Wine,Growth at 37°C,Positive
+35,41,26,607,23,0.023,19,0.98559,0.05005,Beer,Glucose_F,Random
+35,42,26,259,13,0.01,8.1,0.98774,0.03246,Beer,Galactose_F,Positive
+35,43,26,209,14,0.008,6.5,0.99967,0.00137,Beer,Sucrose_F,Positive
+35,44,26,165,9,0.006,5.2,0.97965,0.05403,Beer,Maltose_F,Random
+35,46,26,132,11,0.005,4.1,0.99979,0.00099,Beer,Raffinose_F,Positive
+35,47,26,261,7,0.01,8.2,0.39686,0.75846,Beer,Trehalose_F,Random
+35,48,26,831,26,0.031,26,1,1,Beer,Glucose,Random
+35,49,26,108,5,0.004,3.4,0.89116,0.24096,Beer,Inulin,Random
+35,50,26,503,15,0.019,15.7,0.45617,0.69621,Beer,Sucrose,Random
+35,51,26,237,12,0.009,7.4,0.98472,0.03965,Beer,Raffinose,Positive
+35,52,26,103,2,0.004,3.2,0.35458,0.85435,Beer,Melibiose,Random
+35,53,26,541,18,0.02,16.9,0.74049,0.41298,Beer,Galactose,Random
+35,54,26,100,4,0.004,3.1,0.80638,0.38322,Beer,Lactose,Random
+35,55,26,578,15,0.022,18.1,0.13251,0.93633,Beer,Trehalose,Random
+35,56,26,468,11,0.018,14.6,0.10383,0.95144,Beer,Maltose,Random
+35,57,26,383,10,0.014,12,0.27815,0.83948,Beer,Melezitose,Random
+35,58,26,388,8,0.015,12.1,0.07169,0.96982,Beer,Methyl-?-D-glucoside,Random
+35,59,26,196,2,0.007,6.1,0.0346,0.99242,Beer,Soluble Starch,Negative
+35,60,26,524,11,0.02,16.4,0.02334,0.99155,Beer,Cellobiose,Negative
+35,61,26,517,11,0.019,16.2,0.02897,0.98915,Beer,Salicin,Negative
+35,62,26,437,13,0.016,13.7,0.47132,0.68059,Beer,L-Sorbose,Random
+35,63,26,181,3,0.007,5.7,0.14664,0.94641,Beer,L-Rhamnose,Random
+35,64,26,578,10,0.022,18.1,0.00085,0.9998,Beer,D-Xylose,Negative
+35,65,26,288,5,0.011,9,0.06648,0.97545,Beer,L-Arabinose,Random
+35,66,26,247,2,0.009,7.7,0.00663,0.9989,Beer,D-Arabinose,Negative
+35,67,26,338,9,0.013,10.6,0.33536,0.79879,Beer,D-Ribose,Random
+35,68,26,67,0,0.003,2.1,0.10854,1,Beer,Methanol,Random
+35,69,26,700,24,0.026,21.9,0.93516,0.19494,Beer,Ethanol,Random
+35,70,26,737,23,0.028,23.1,0.57962,0.6622,Beer,Glycerol,Random
+35,71,26,220,2,0.008,6.9,0.01641,0.99686,Beer,Erythritol,Negative
+35,72,26,501,11,0.019,15.7,0.04593,0.98146,Beer,Ribitol,Negative
+35,73,26,100,2,0.004,3.1,0.37577,0.84189,Beer,Galactitol,Random
+35,74,26,672,16,0.025,21,0.01574,0.99511,Beer,D-Mannitol,Negative
+35,75,26,659,14,0.025,20.6,0.00272,0.99931,Beer,D-Glucitol,Negative
+35,76,26,75,1,0.003,2.3,0.30137,0.91783,Beer,myo-Inositol,Random
+35,77,26,381,18,0.014,11.9,0.99595,0.01263,Beer,DL-Lactate,Positive
+35,78,26,692,17,0.026,21.7,0.01925,0.99408,Beer,Succinate,Negative
+35,79,26,513,12,0.019,16.1,0.07433,0.96735,Beer,Citrate,Random
+35,80,26,459,9,0.017,14.4,0.02584,0.99064,Beer,D-Gluconate,Negative
+35,81,26,314,8,0.012,9.8,0.29751,0.82983,Beer,D-Glucosamine,Random
+35,82,26,144,2,0.005,4.5,0.143,0.95655,Beer,Nitrate,Random
+35,83,26,161,6,0.006,5,0.7763,0.39016,Beer,Vitamin-free,Random
+35,84,26,367,7,0.014,11.5,0.05283,0.97949,Beer,2-Keto-D-gluconate,Random
+35,85,26,107,2,0.004,3.3,0.32756,0.86964,Beer,Starch formation,Random
+35,86,26,820,26,0.031,25.7,1,0.70341,Beer,Growth at 19°C,Random
+35,87,26,822,26,0.031,25.7,1,0.75014,Beer,Growth at 25°C,Random
+35,88,26,732,24,0.028,22.9,0.83753,0.383,Beer,Growth at 30°C,Random
+35,89,26,345,11,0.013,10.8,0.61584,0.54293,Beer,Growth at 37°C,Random
+36,41,11,607,10,0.01,8,0.96919,0.15799,Tequilla,Glucose_F,Random
+36,42,11,259,7,0.004,3.4,0.9947,0.02592,Tequilla,Galactose_F,Positive
+36,43,11,209,6,0.003,2.8,0.99255,0.03432,Tequilla,Sucrose_F,Positive
+36,44,11,165,6,0.003,2.2,0.99826,0.01073,Tequilla,Maltose_F,Positive
+36,46,11,132,3,0.002,1.7,0.91862,0.24768,Tequilla,Raffinose_F,Random
+36,47,11,261,8,0.004,3.5,0.99922,0.00559,Tequilla,Trehalose_F,Positive
+36,48,11,831,11,0.013,11,1,1,Tequilla,Glucose,Random
+36,49,11,108,3,0.002,1.4,0.95693,0.16194,Tequilla,Inulin,Random
+36,50,11,503,8,0.008,6.7,0.87552,0.30755,Tequilla,Sucrose,Random
+36,51,11,237,3,0.004,3.1,0.61319,0.64935,Tequilla,Raffinose,Random
+36,52,11,103,0,0.002,1.4,0.23106,1,Tequilla,Melibiose,Random
+36,53,11,541,9,0.009,7.2,0.93981,0.20036,Tequilla,Galactose,Random
+36,54,11,100,1,0.002,1.3,0.61078,0.75817,Tequilla,Lactose,Random
+36,55,11,578,9,0.009,7.7,0.89439,0.29984,Tequilla,Trehalose,Random
+36,56,11,468,8,0.007,6.2,0.92433,0.21458,Tequilla,Maltose,Random
+36,57,11,383,8,0.006,5.1,0.98283,0.06908,Tequilla,Melezitose,Random
+36,58,11,388,7,0.006,5.1,0.9253,0.20343,Tequilla,Methyl-?-D-glucoside,Random
+36,59,11,196,2,0.003,2.6,0.49906,0.77392,Tequilla,Soluble Starch,Random
+36,60,11,524,7,0.008,6.9,0.62821,0.61706,Tequilla,Cellobiose,Random
+36,61,11,517,7,0.008,6.8,0.65025,0.59402,Tequilla,Salicin,Random
+36,62,11,437,9,0.007,5.8,0.99107,0.04624,Tequilla,L-Sorbose,Positive
+36,63,11,181,2,0.003,2.4,0.55807,0.72942,Tequilla,L-Rhamnose,Random
+36,64,11,578,8,0.009,7.7,0.70016,0.55642,Tequilla,D-Xylose,Random
+36,65,11,288,4,0.005,3.8,0.67809,0.56569,Tequilla,L-Arabinose,Random
+36,66,11,247,6,0.004,3.3,0.98018,0.07378,Tequilla,D-Arabinose,Random
+36,67,11,338,5,0.005,4.5,0.7397,0.48593,Tequilla,D-Ribose,Random
+36,69,11,700,10,0.011,9.3,0.85036,0.46214,Tequilla,Ethanol,Random
+36,70,11,737,9,0.012,9.8,0.35871,0.88181,Tequilla,Glycerol,Random
+36,71,11,220,2,0.004,2.9,0.40934,0.8334,Tequilla,Erythritol,Random
+36,72,11,501,8,0.008,6.6,0.87882,0.30175,Tequilla,Ribitol,Random
+36,73,11,100,1,0.002,1.3,0.61078,0.75817,Tequilla,Galactitol,Random
+36,74,11,672,9,0.011,8.9,0.65332,0.64634,Tequilla,D-Mannitol,Random
+36,75,11,659,9,0.01,8.7,0.69987,0.59409,Tequilla,D-Glucitol,Random
+36,77,11,381,6,0.006,5,0.81251,0.38824,Tequilla,DL-Lactate,Random
+36,78,11,692,9,0.011,9.2,0.5729,0.72549,Tequilla,Succinate,Random
+36,79,11,513,6,0.008,6.8,0.41923,0.79177,Tequilla,Citrate,Random
+36,80,11,459,7,0.007,6.1,0.80621,0.40254,Tequilla,D-Gluconate,Random
+36,81,11,314,5,0.005,4.2,0.80149,0.40598,Tequilla,D-Glucosamine,Random
+36,82,11,144,1,0.002,1.9,0.40602,0.87843,Tequilla,Nitrate,Random
+36,83,11,161,1,0.003,2.1,0.33922,0.9079,Tequilla,Vitamin-free,Random
+36,84,11,367,8,0.006,4.9,0.98766,0.05321,Tequilla,2-Keto-D-gluconate,Random
+36,85,11,107,0,0.002,1.4,0.21738,1,Tequilla,Starch formation,Random
+36,86,11,820,11,0.013,10.9,1,0.86288,Tequilla,Growth at 19°C,Random
+36,87,11,822,11,0.013,10.9,1,0.88646,Tequilla,Growth at 25°C,Random
+36,88,11,732,11,0.012,9.7,1,0.24552,Tequilla,Growth at 30°C,Random
+36,89,11,345,8,0.005,4.6,0.99241,0.0361,Tequilla,Growth at 37°C,Positive
+37,41,17,607,16,0.015,12.4,0.99549,0.03358,Cider,Glucose_F,Positive
+37,42,17,259,5,0.006,5.3,0.55504,0.65284,Cider,Galactose_F,Random
+37,43,17,209,5,0.005,4.3,0.76252,0.43192,Cider,Sucrose_F,Random
+37,44,17,165,4,0.004,3.4,0.76482,0.44552,Cider,Maltose_F,Random
+37,46,17,132,3,0.003,2.7,0.72173,0.52284,Cider,Raffinose_F,Random
+37,47,17,261,8,0.006,5.3,0.9486,0.12823,Cider,Trehalose_F,Random
+37,48,17,831,17,0.02,17,1,1,Cider,Glucose,Random
+37,49,17,108,1,0.003,2.2,0.32907,0.90851,Cider,Inulin,Random
+37,50,17,503,10,0.012,10.3,0.53489,0.65872,Cider,Sucrose,Random
+37,51,17,237,4,0.006,4.8,0.44012,0.76155,Cider,Raffinose,Random
+37,52,17,103,2,0.003,2.1,0.64617,0.64371,Cider,Melibiose,Random
+37,53,17,541,10,0.013,11.1,0.37692,0.7921,Cider,Galactose,Random
+37,54,17,100,2,0.002,2,0.66408,0.62664,Cider,Lactose,Random
+37,55,17,578,11,0.014,11.8,0.41881,0.76456,Cider,Trehalose,Random
+37,56,17,468,10,0.012,9.6,0.67271,0.51858,Cider,Maltose,Random
+37,57,17,383,9,0.009,7.8,0.79363,0.37032,Cider,Melezitose,Random
+37,58,17,388,9,0.01,7.9,0.77876,0.38976,Cider,Methyl-?-D-glucoside,Random
+37,59,17,196,5,0.005,4,0.80899,0.37161,Cider,Soluble Starch,Random
+37,60,17,524,12,0.013,10.7,0.8156,0.35353,Cider,Cellobiose,Random
+37,61,17,517,12,0.013,10.6,0.83412,0.32682,Cider,Salicin,Random
+37,62,17,437,10,0.011,8.9,0.777,0.39368,Cider,L-Sorbose,Random
+37,63,17,181,3,0.004,3.7,0.4743,0.7528,Cider,L-Rhamnose,Random
+37,64,17,578,11,0.014,11.8,0.41881,0.76456,Cider,D-Xylose,Random
+37,65,17,288,3,0.007,5.9,0.10565,0.96651,Cider,L-Arabinose,Random
+37,66,17,247,4,0.006,5.1,0.39673,0.79384,Cider,D-Arabinose,Random
+37,67,17,338,6,0.008,6.9,0.42423,0.75672,Cider,D-Ribose,Random
+37,68,17,67,1,0.002,1.4,0.59555,0.76393,Cider,Methanol,Random
+37,69,17,700,15,0.017,14.3,0.77667,0.48272,Cider,Ethanol,Random
+37,70,17,737,15,0.018,15.1,0.59083,0.69971,Cider,Glycerol,Random
+37,71,17,220,4,0.005,4.5,0.51708,0.6994,Cider,Erythritol,Random
+37,72,17,501,10,0.012,10.2,0.54313,0.65101,Cider,Ribitol,Random
+37,73,17,100,1,0.002,2,0.37336,0.88946,Cider,Galactitol,Random
+37,74,17,672,12,0.017,13.7,0.21111,0.91329,Cider,D-Mannitol,Random
+37,75,17,659,13,0.016,13.5,0.48098,0.73556,Cider,D-Glucitol,Random
+37,76,17,75,1,0.002,1.5,0.53647,0.80298,Cider,myo-Inositol,Random
+37,77,17,381,12,0.009,7.8,0.99021,0.03385,Cider,DL-Lactate,Positive
+37,78,17,692,14,0.017,14.2,0.56094,0.68706,Cider,Succinate,Random
+37,79,17,513,11,0.013,10.5,0.68799,0.50667,Cider,Citrate,Random
+37,80,17,459,10,0.011,9.4,0.70506,0.48184,Cider,D-Gluconate,Random
+37,81,17,314,9,0.008,6.4,0.938,0.14722,Cider,D-Glucosamine,Random
+37,82,17,144,7,0.004,2.9,0.99595,0.017,Cider,Nitrate,Positive
+37,83,17,161,3,0.004,3.3,0.57491,0.66991,Cider,Vitamin-free,Random
+37,84,17,367,9,0.009,7.5,0.83723,0.31033,Cider,2-Keto-D-gluconate,Random
+37,85,17,107,0,0.003,2.2,0.09369,1,Cider,Starch formation,Random
+37,86,17,820,17,0.02,16.8,1,0.79552,Cider,Growth at 19°C,Random
+37,87,17,822,17,0.02,16.8,1,0.8295,Cider,Growth at 25°C,Random
+37,88,17,732,15,0.018,15,0.62083,0.67004,Cider,Growth at 30°C,Random
+37,89,17,345,3,0.008,7.1,0.03419,0.99159,Cider,Growth at 37°C,Negative
+38,41,11,607,7,0.01,8,0.34122,0.85301,Wood,Glucose_F,Random
+38,42,11,259,4,0.004,3.4,0.76455,0.46487,Wood,Galactose_F,Random
+38,43,11,209,3,0.003,2.8,0.70997,0.55041,Wood,Sucrose_F,Random
+38,44,11,165,3,0.003,2.2,0.8434,0.37777,Wood,Maltose_F,Random
+38,46,11,132,1,0.002,1.7,0.45767,0.85271,Wood,Raffinose_F,Random
+38,47,11,261,4,0.004,3.5,0.75892,0.47195,Wood,Trehalose_F,Random
+38,48,11,831,11,0.013,11,1,1,Wood,Glucose,Random
+38,49,11,108,2,0.002,1.4,0.83806,0.42922,Wood,Inulin,Random
+38,50,11,503,7,0.008,6.7,0.69245,0.54747,Wood,Sucrose,Random
+38,51,11,237,5,0.004,3.1,0.93863,0.17749,Wood,Raffinose,Random
+38,52,11,103,3,0.002,1.4,0.96315,0.14569,Wood,Melibiose,Random
+38,53,11,541,7,0.009,7.2,0.57243,0.67179,Wood,Galactose,Random
+38,54,11,100,2,0.002,1.3,0.86373,0.38922,Wood,Lactose,Random
+38,55,11,578,9,0.009,7.7,0.89439,0.29984,Wood,Trehalose,Random
+38,56,11,468,7,0.007,6.2,0.78542,0.43151,Wood,Maltose,Random
+38,57,11,383,5,0.006,5.1,0.60542,0.63203,Wood,Melezitose,Random
+38,58,11,388,7,0.006,5.1,0.9253,0.20343,Wood,Methyl-?-D-glucoside,Random
+38,59,11,196,4,0.003,2.6,0.90821,0.24754,Wood,Soluble Starch,Random
+38,60,11,524,10,0.008,6.9,0.99397,0.04561,Wood,Cellobiose,Positive
+38,61,11,517,10,0.008,6.8,0.99481,0.04054,Wood,Salicin,Positive
+38,62,11,437,7,0.007,5.8,0.85149,0.33452,Wood,L-Sorbose,Random
+38,63,11,181,7,0.003,2.4,0.9996,0.0031,Wood,L-Rhamnose,Positive
+38,64,11,578,10,0.009,7.7,0.9821,0.10561,Wood,D-Xylose,Random
+38,65,11,288,8,0.005,3.8,0.99824,0.011,Wood,L-Arabinose,Positive
+38,66,11,247,6,0.004,3.3,0.98018,0.07378,Wood,D-Arabinose,Random
+38,67,11,338,8,0.005,4.5,0.99355,0.03167,Wood,D-Ribose,Positive
+38,69,11,700,11,0.011,9.3,1,0.14964,Wood,Ethanol,Random
+38,70,11,737,11,0.012,9.8,1,0.26475,Wood,Glycerol,Random
+38,71,11,220,7,0.004,2.9,0.99834,0.01011,Wood,Erythritol,Positive
+38,72,11,501,9,0.008,6.6,0.96928,0.12118,Wood,Ribitol,Random
+38,73,11,100,5,0.002,1.3,0.99927,0.00584,Wood,Galactitol,Positive
+38,74,11,672,11,0.011,8.9,1,0.09519,Wood,D-Mannitol,Random
+38,75,11,659,11,0.01,8.7,1,0.07666,Wood,D-Glucitol,Random
+38,77,11,381,8,0.006,5,0.98351,0.06693,Wood,DL-Lactate,Random
+38,78,11,692,11,0.011,9.2,1,0.13174,Wood,Succinate,Random
+38,79,11,513,10,0.008,6.8,0.99524,0.03787,Wood,Citrate,Positive
+38,80,11,459,5,0.007,6.1,0.36004,0.83189,Wood,D-Gluconate,Random
+38,81,11,314,3,0.005,4.2,0.34975,0.85054,Wood,D-Glucosamine,Random
+38,82,11,144,1,0.002,1.9,0.40602,0.87843,Wood,Nitrate,Random
+38,83,11,161,3,0.003,2.1,0.85382,0.36169,Wood,Vitamin-free,Random
+38,84,11,367,4,0.006,4.9,0.41857,0.79482,Wood,2-Keto-D-gluconate,Random
+38,85,11,107,2,0.002,1.4,0.84136,0.42427,Wood,Starch formation,Random
+38,86,11,820,11,0.013,10.9,1,0.86288,Wood,Growth at 19°C,Random
+38,87,11,822,11,0.013,10.9,1,0.88646,Wood,Growth at 25°C,Random
+38,88,11,732,11,0.012,9.7,1,0.24552,Wood,Growth at 30°C,Random
+38,89,11,345,9,0.005,4.6,0.99903,0.00759,Wood,Growth at 37°C,Positive
+39,41,20,607,17,0.018,14.6,0.9382,0.16794,Dairy,Glucose_F,Random
+39,42,20,259,11,0.008,6.2,0.99339,0.02158,Dairy,Galactose_F,Positive
+39,43,20,209,9,0.006,5,0.98656,0.04047,Dairy,Sucrose_F,Positive
+39,44,20,165,5,0.005,4,0.81134,0.36344,Dairy,Maltose_F,Random
+39,46,20,132,9,0.004,3.2,0.99967,0.00175,Dairy,Raffinose_F,Positive
+39,47,20,261,6,0.008,6.3,0.55375,0.63835,Dairy,Trehalose_F,Random
+39,48,20,831,20,0.024,20,1,1,Dairy,Glucose,Random
+39,49,20,108,6,0.003,2.6,0.99057,0.03505,Dairy,Inulin,Positive
+39,50,20,503,12,0.015,12.1,0.56607,0.61563,Dairy,Sucrose,Random
+39,51,20,237,9,0.007,5.7,0.96728,0.08406,Dairy,Raffinose,Random
+39,52,20,103,2,0.003,2.5,0.53994,0.73209,Dairy,Melibiose,Random
+39,53,20,541,16,0.016,13,0.95663,0.11713,Dairy,Galactose,Random
+39,54,20,100,5,0.003,2.4,0.97525,0.08104,Dairy,Lactose,Random
+39,55,20,578,10,0.017,13.9,0.05056,0.98202,Dairy,Trehalose,Random
+39,56,20,468,6,0.014,11.3,0.01494,0.99584,Dairy,Maltose,Negative
+39,57,20,383,5,0.011,9.2,0.0434,0.98607,Dairy,Melezitose,Negative
+39,58,20,388,6,0.011,9.3,0.09782,0.96135,Dairy,Methyl-?-D-glucoside,Random
+39,59,20,196,2,0.006,4.7,0.1135,0.96843,Dairy,Soluble Starch,Random
+39,60,20,524,6,0.015,12.6,0.00247,0.99947,Dairy,Cellobiose,Negative
+39,61,20,517,6,0.015,12.4,0.00318,0.9993,Dairy,Salicin,Negative
+39,62,20,437,13,0.013,10.5,0.91301,0.18487,Dairy,L-Sorbose,Random
+39,63,20,181,2,0.005,4.4,0.15332,0.9536,Dairy,L-Rhamnose,Random
+39,64,20,578,12,0.017,13.9,0.23916,0.8805,Dairy,D-Xylose,Random
+39,65,20,288,4,0.008,6.9,0.12159,0.95457,Dairy,L-Arabinose,Random
+39,66,20,247,4,0.007,5.9,0.24279,0.8909,Dairy,D-Arabinose,Random
+39,67,20,338,8,0.01,8.1,0.57186,0.60968,Dairy,D-Ribose,Random
+39,68,20,67,2,0.002,1.6,0.78616,0.48956,Dairy,Methanol,Random
+39,69,20,700,17,0.02,16.8,0.63404,0.61052,Dairy,Ethanol,Random
+39,70,20,737,18,0.021,17.7,0.68161,0.60151,Dairy,Glycerol,Random
+39,71,20,220,5,0.006,5.3,0.55708,0.64528,Dairy,Erythritol,Random
+39,72,20,501,11,0.015,12.1,0.39305,0.76628,Dairy,Ribitol,Random
+39,73,20,100,2,0.003,2.4,0.56027,0.716,Dairy,Galactitol,Random
+39,74,20,672,13,0.019,16.2,0.06871,0.97639,Dairy,D-Mannitol,Random
+39,75,20,659,14,0.019,15.9,0.21697,0.90198,Dairy,D-Glucitol,Random
+39,76,20,75,1,0.002,1.8,0.4473,0.85263,Dairy,myo-Inositol,Random
+39,77,20,381,14,0.011,9.2,0.99266,0.02429,Dairy,DL-Lactate,Positive
+39,78,20,692,17,0.02,16.7,0.67697,0.56311,Dairy,Succinate,Random
+39,79,20,513,13,0.015,12.3,0.69937,0.47868,Dairy,Citrate,Random
+39,80,20,459,9,0.013,11,0.23993,0.87661,Dairy,D-Gluconate,Random
+39,81,20,314,4,0.009,7.6,0.07286,0.97576,Dairy,D-Glucosamine,Random
+39,82,20,144,2,0.004,3.5,0.29793,0.8875,Dairy,Nitrate,Random
+39,83,20,161,3,0.005,3.9,0.4373,0.77733,Dairy,Vitamin-free,Random
+39,84,20,367,4,0.011,8.8,0.02129,0.9944,Dairy,2-Keto-D-gluconate,Negative
+39,85,20,107,3,0.003,2.6,0.74991,0.48679,Dairy,Starch formation,Random
+39,86,20,820,20,0.024,19.7,1,0.76367,Dairy,Growth at 19°C,Random
+39,87,20,822,20,0.024,19.8,1,0.80225,Dairy,Growth at 25°C,Random
+39,88,20,732,19,0.021,17.6,0.92334,0.28953,Dairy,Growth at 30°C,Random
+39,89,20,345,12,0.01,8.3,0.97225,0.07201,Dairy,Growth at 37°C,Random
+40,41,13,607,12,0.011,9.5,0.98373,0.0959,Olives,Glucose_F,Random
+40,42,13,259,7,0.005,4.1,0.97781,0.07362,Olives,Galactose_F,Random
+40,43,13,209,5,0.004,3.3,0.91939,0.20832,Olives,Sucrose_F,Random
+40,44,13,165,6,0.003,2.6,0.9937,0.02799,Olives,Maltose_F,Positive
+40,46,13,132,3,0.002,2.1,0.86302,0.34162,Olives,Raffinose_F,Random
+40,47,13,261,9,0.005,4.1,0.99911,0.00535,Olives,Trehalose_F,Positive
+40,48,13,831,13,0.016,13,1,1,Olives,Glucose,Random
+40,49,13,108,3,0.002,1.7,0.92399,0.23264,Olives,Inulin,Random
+40,50,13,503,9,0.009,7.9,0.82348,0.36656,Olives,Sucrose,Random
+40,51,13,237,6,0.004,3.7,0.95296,0.13466,Olives,Raffinose,Random
+40,52,13,103,3,0.002,1.6,0.93432,0.21111,Olives,Melibiose,Random
+40,53,13,541,10,0.01,8.5,0.88724,0.27904,Olives,Galactose,Random
+40,54,13,100,3,0.002,1.6,0.9401,0.19848,Olives,Lactose,Random
+40,55,13,578,12,0.011,9,0.99145,0.05826,Olives,Trehalose,Random
+40,56,13,468,9,0.009,7.3,0.89207,0.25635,Olives,Maltose,Random
+40,57,13,383,8,0.007,6,0.92039,0.19874,Olives,Melezitose,Random
+40,58,13,388,8,0.007,6.1,0.91358,0.21145,Olives,Methyl-?-D-glucoside,Random
+40,59,13,196,3,0.004,3.1,0.63194,0.62476,Olives,Soluble Starch,Random
+40,60,13,524,9,0.01,8.2,0.77048,0.44061,Olives,Cellobiose,Random
+40,61,13,517,9,0.01,8.1,0.78916,0.41542,Olives,Salicin,Random
+40,62,13,437,7,0.008,6.8,0.64248,0.57601,Olives,L-Sorbose,Random
+40,63,13,181,4,0.003,2.8,0.86911,0.30821,Olives,L-Rhamnose,Random
+40,64,13,578,11,0.011,9,0.94174,0.19082,Olives,D-Xylose,Random
+40,65,13,288,7,0.005,4.5,0.95764,0.12203,Olives,L-Arabinose,Random
+40,66,13,247,7,0.005,3.9,0.98355,0.0581,Olives,D-Arabinose,Random
+40,67,13,338,8,0.006,5.3,0.96518,0.105,Olives,D-Ribose,Random
+40,68,13,67,1,0.001,1,0.71761,0.6675,Olives,Methanol,Random
+40,69,13,700,12,0.013,11,0.89438,0.36706,Olives,Ethanol,Random
+40,70,13,737,12,0.014,11.5,0.7925,0.55723,Olives,Glycerol,Random
+40,71,13,220,3,0.004,3.4,0.53455,0.71212,Olives,Erythritol,Random
+40,72,13,501,10,0.009,7.8,0.94109,0.17195,Olives,Ribitol,Random
+40,73,13,100,4,0.002,1.6,0.98665,0.0599,Olives,Galactitol,Random
+40,74,13,672,11,0.013,10.5,0.74451,0.53323,Olives,D-Mannitol,Random
+40,75,13,659,11,0.012,10.3,0.78676,0.47511,Olives,D-Glucitol,Random
+40,76,13,75,1,0.001,1.2,0.66925,0.71034,Olives,myo-Inositol,Random
+40,77,13,381,6,0.007,6,0.62094,0.59842,Olives,DL-Lactate,Random
+40,78,13,692,12,0.013,10.8,0.90916,0.33224,Olives,Succinate,Random
+40,79,13,513,9,0.01,8,0.79938,0.40123,Olives,Citrate,Random
+40,80,13,459,9,0.009,7.2,0.90599,0.2313,Olives,D-Gluconate,Random
+40,81,13,314,8,0.006,4.9,0.97918,0.06993,Olives,D-Glucosamine,Random
+40,82,13,144,2,0.003,2.3,0.60243,0.68832,Olives,Nitrate,Random
+40,83,13,161,0,0.003,2.5,0.05946,1,Olives,Vitamin-free,Random
+40,84,13,367,10,0.007,5.7,0.99675,0.0168,Olives,2-Keto-D-gluconate,Positive
+40,85,13,107,0,0.002,1.7,0.16432,1,Olives,Starch formation,Random
+40,86,13,820,13,0.015,12.8,1,0.83987,Olives,Growth at 19°C,Random
+40,87,13,822,13,0.015,12.9,1,0.8671,Olives,Growth at 25°C,Random
+40,88,13,732,13,0.014,11.5,1,0.18978,Olives,Growth at 30°C,Random
+40,89,13,345,7,0.006,5.4,0.88287,0.2634,Olives,Growth at 37°C,Random
