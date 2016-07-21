@@ -264,7 +264,7 @@ IsoAnalysis_NN_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_P
+  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_N
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -305,7 +305,7 @@ IsoAnalysis_PN_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_P
+  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Diff_PN
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -346,7 +346,7 @@ IsoAnalysis_NP_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_P
+  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Diff_NP
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
