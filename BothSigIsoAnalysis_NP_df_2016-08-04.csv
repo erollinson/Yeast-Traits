@@ -1,18 +1,18 @@
 "Isolation","Trait_A","Trait_B","Observed_NP","Percent_NP"
 "0","0","0",0,0
-"Pathogenic","Lactose_F","Glucose",89,1
+"Pathogenic","Lactose_F","Glucose",89,0.968
 "Clinical","Lactose_F","Glucose",89,1
 "Clinical","Lactose_F","Methanol",5,1
 "Clinical","Lactose_F","myo-Inositol",9,1
 "Clinical","Lactose_F","Starch formation",6,1
-"Clinical","Glucose","Methanol",0,0.629
-"Clinical","Glucose","myo-Inositol",0,0.7
-"Clinical","Glucose","Starch formation",0,0.402
+"Clinical","Glucose","Methanol",0,1
+"Clinical","Glucose","myo-Inositol",0,1
+"Clinical","Glucose","Starch formation",0,1
 "Clinical","Methanol","myo-Inositol",9,1
 "Clinical","Methanol","Starch formation",5,1
 "Clinical","myo-Inositol","Starch formation",6,1
-"Rotting.Decaying","Lactose_F","Glucose",89,1
-"Spoiled","Glucose","Starch formation",0,0.399
+"Rotting.Decaying","Lactose_F","Glucose",89,0
+"Spoiled","Glucose","Starch formation",0,1
 "Contaminated","Lactose_F","Raffinose_F",19,1
 "Contaminated","Lactose_F","Glucose",89,1
 "Contaminated","Lactose_F","Inulin",11,1
@@ -26,7 +26,7 @@
 "Contaminated","Lactose_F","Starch formation",6,1
 "Contaminated","Lactose_F","Growth at 37°C",66,1
 "Contaminated","Raffinose_F","Glucose",70,1
-"Contaminated","Raffinose_F","Inulin",1,1
+"Contaminated","Raffinose_F","Inulin",1,0.996
 "Contaminated","Raffinose_F","Melibiose",6,1
 "Contaminated","Raffinose_F","Lactose",6,1
 "Contaminated","Raffinose_F","Methyl-?-D-glucoside",25,1
@@ -36,16 +36,16 @@
 "Contaminated","Raffinose_F","Vitamin-free",12,1
 "Contaminated","Raffinose_F","Starch formation",6,1
 "Contaminated","Raffinose_F","Growth at 37°C",49,1
-"Contaminated","Glucose","Inulin",0,0.895
-"Contaminated","Glucose","Melibiose",0,0.914
-"Contaminated","Glucose","Lactose",0,0.909
-"Contaminated","Glucose","Methyl-?-D-glucoside",0,0.668
-"Contaminated","Glucose","Methanol",0,0.888
-"Contaminated","Glucose","Erythritol",0,0.834
-"Contaminated","Glucose","Nitrate",0,0.81
-"Contaminated","Glucose","Vitamin-free",0,0.809
-"Contaminated","Glucose","Starch formation",0,0.849
-"Contaminated","Glucose","Growth at 37°C",0,0.603
+"Contaminated","Glucose","Inulin",0,1
+"Contaminated","Glucose","Melibiose",0,1
+"Contaminated","Glucose","Lactose",0,1
+"Contaminated","Glucose","Methyl-?-D-glucoside",0,1
+"Contaminated","Glucose","Methanol",0,1
+"Contaminated","Glucose","Erythritol",0,1
+"Contaminated","Glucose","Nitrate",0,1
+"Contaminated","Glucose","Vitamin-free",0,1
+"Contaminated","Glucose","Starch formation",0,1
+"Contaminated","Glucose","Growth at 37°C",0,1
 "Contaminated","Inulin","Melibiose",8,1
 "Contaminated","Inulin","Lactose",9,1
 "Contaminated","Inulin","Methyl-?-D-glucoside",33,1
@@ -91,15 +91,15 @@
 "Contaminated","Vitamin-free","Starch formation",5,1
 "Contaminated","Vitamin-free","Growth at 37°C",54,1
 "Contaminated","Starch formation","Growth at 37°C",61,1
-"Plant.Pathogen","Glucose","Methanol",0,0.464
-"Plant.Pathogen","Glucose","myo-Inositol",0,0.535
+"Plant.Pathogen","Glucose","Methanol",0,1
+"Plant.Pathogen","Glucose","myo-Inositol",0,1
 "Plant.Pathogen","Methanol","myo-Inositol",9,1
-"Animal","Lactose_F","Glucose",89,1
-"Insect","Glucose","Starch formation",0,0
-"Tree","Glucose","Galactose",0,0
+"Animal","Lactose_F","Glucose",89,0
+"Insect","Glucose","Starch formation",0,1
+"Tree","Glucose","Galactose",0,1
 "Stone.Chamber","Sucrose_F","Maltose_F",2,1
-"Stone.Chamber","Sucrose_F","Lactose_F",0,0.995
-"Stone.Chamber","Sucrose_F","Raffinose_F",0,0.978
+"Stone.Chamber","Sucrose_F","Lactose_F",0,0.976
+"Stone.Chamber","Sucrose_F","Raffinose_F",0,0.866
 "Stone.Chamber","Sucrose_F","Glucose",60,1
 "Stone.Chamber","Sucrose_F","Raffinose",8,1
 "Stone.Chamber","Sucrose_F","Melibiose",5,1
@@ -111,7 +111,7 @@
 "Stone.Chamber","Sucrose_F","Vitamin-free",8,1
 "Stone.Chamber","Sucrose_F","Starch formation",6,1
 "Stone.Chamber","Sucrose_F","Growth at 19°C",55,1
-"Stone.Chamber","Maltose_F","Lactose_F",0,0.997
+"Stone.Chamber","Maltose_F","Lactose_F",0,0.974
 "Stone.Chamber","Maltose_F","Raffinose_F",8,1
 "Stone.Chamber","Maltose_F","Glucose",68,1
 "Stone.Chamber","Maltose_F","Raffinose",18,1
@@ -147,17 +147,17 @@
 "Stone.Chamber","Raffinose_F","Vitamin-free",12,1
 "Stone.Chamber","Raffinose_F","Starch formation",6,1
 "Stone.Chamber","Raffinose_F","Growth at 19°C",65,1
-"Stone.Chamber","Glucose","Raffinose",0,0.742
-"Stone.Chamber","Glucose","Melibiose",0,0.916
-"Stone.Chamber","Glucose","Soluble Starch",0,0.83
-"Stone.Chamber","Glucose","Methanol",0,0.886
-"Stone.Chamber","Glucose","Galactitol",0,0.905
-"Stone.Chamber","Glucose","myo-Inositol",0,0.928
-"Stone.Chamber","Glucose","Nitrate",0,0.803
-"Stone.Chamber","Glucose","Vitamin-free",0,0.785
-"Stone.Chamber","Glucose","Starch formation",0,0.811
-"Stone.Chamber","Glucose","Growth at 19°C",0,0
-"Stone.Chamber","Raffinose","Melibiose",0,0.985
+"Stone.Chamber","Glucose","Raffinose",0,1
+"Stone.Chamber","Glucose","Melibiose",0,1
+"Stone.Chamber","Glucose","Soluble Starch",0,1
+"Stone.Chamber","Glucose","Methanol",0,1
+"Stone.Chamber","Glucose","Galactitol",0,1
+"Stone.Chamber","Glucose","myo-Inositol",0,1
+"Stone.Chamber","Glucose","Nitrate",0,1
+"Stone.Chamber","Glucose","Vitamin-free",0,1
+"Stone.Chamber","Glucose","Starch formation",0,1
+"Stone.Chamber","Glucose","Growth at 19°C",0,1
+"Stone.Chamber","Raffinose","Melibiose",0,0.931
 "Stone.Chamber","Raffinose","Soluble Starch",13,1
 "Stone.Chamber","Raffinose","Methanol",4,1
 "Stone.Chamber","Raffinose","Galactitol",4,1
@@ -202,16 +202,16 @@
 "Stone.Chamber","Vitamin-free","Starch formation",5,1
 "Stone.Chamber","Vitamin-free","Growth at 19°C",66,1
 "Stone.Chamber","Starch formation","Growth at 19°C",80,1
-"Lichen","Sucrose_F","Maltose_F",2,1
-"Lichen","Sucrose_F","Lactose_F",0,0.995
-"Lichen","Sucrose_F","Raffinose_F",0,0.971
+"Lichen","Sucrose_F","Maltose_F",2,0.999
+"Lichen","Sucrose_F","Lactose_F",0,0.951
+"Lichen","Sucrose_F","Raffinose_F",0,0.771
 "Lichen","Sucrose_F","Glucose",60,1
-"Lichen","Sucrose_F","Inulin",1,1
+"Lichen","Sucrose_F","Inulin",1,0.984
 "Lichen","Sucrose_F","Raffinose",8,1
 "Lichen","Sucrose_F","myo-Inositol",5,1
 "Lichen","Sucrose_F","DL-Lactate",30,1
 "Lichen","Sucrose_F","Vitamin-free",8,1
-"Lichen","Maltose_F","Lactose_F",0,0.996
+"Lichen","Maltose_F","Lactose_F",0,0.95
 "Lichen","Maltose_F","Raffinose_F",8,1
 "Lichen","Maltose_F","Glucose",68,1
 "Lichen","Maltose_F","Inulin",5,1
@@ -227,34 +227,34 @@
 "Lichen","Lactose_F","DL-Lactate",50,1
 "Lichen","Lactose_F","Vitamin-free",18,1
 "Lichen","Raffinose_F","Glucose",70,1
-"Lichen","Raffinose_F","Inulin",1,1
+"Lichen","Raffinose_F","Inulin",1,0.984
 "Lichen","Raffinose_F","Raffinose",12,1
 "Lichen","Raffinose_F","myo-Inositol",6,1
 "Lichen","Raffinose_F","DL-Lactate",37,1
 "Lichen","Raffinose_F","Vitamin-free",12,1
-"Lichen","Glucose","Inulin",0,0.803
-"Lichen","Glucose","Raffinose",0,0.608
-"Lichen","Glucose","myo-Inositol",0,0.89
-"Lichen","Glucose","DL-Lactate",0,0.35
-"Lichen","Glucose","Vitamin-free",0,0.669
+"Lichen","Glucose","Inulin",0,1
+"Lichen","Glucose","Raffinose",0,1
+"Lichen","Glucose","myo-Inositol",0,1
+"Lichen","Glucose","DL-Lactate",0,1
+"Lichen","Glucose","Vitamin-free",0,1
 "Lichen","Inulin","Raffinose",21,1
 "Lichen","Inulin","myo-Inositol",8,1
 "Lichen","Inulin","DL-Lactate",43,1
 "Lichen","Inulin","Vitamin-free",15,1
-"Lichen","Raffinose","myo-Inositol",1,1
+"Lichen","Raffinose","myo-Inositol",1,0.998
 "Lichen","Raffinose","DL-Lactate",31,1
 "Lichen","Raffinose","Vitamin-free",10,1
 "Lichen","myo-Inositol","DL-Lactate",43,1
 "Lichen","myo-Inositol","Vitamin-free",18,1
 "Lichen","DL-Lactate","Vitamin-free",7,1
-"Pollen","Glucose","Inulin",0,0.742
-"Pollen","Glucose","Melibiose",0,0.769
-"Pollen","Glucose","Lactose",0,0.766
-"Pollen","Glucose","Methanol",0,0.776
-"Pollen","Glucose","Galactitol",0,0.811
-"Pollen","Glucose","myo-Inositol",0,0.796
-"Pollen","Glucose","DL-Lactate",0,0.221
-"Pollen","Glucose","Starch formation",0,0.625
+"Pollen","Glucose","Inulin",0,1
+"Pollen","Glucose","Melibiose",0,1
+"Pollen","Glucose","Lactose",0,1
+"Pollen","Glucose","Methanol",0,1
+"Pollen","Glucose","Galactitol",0,1
+"Pollen","Glucose","myo-Inositol",0,1
+"Pollen","Glucose","DL-Lactate",0,1
+"Pollen","Glucose","Starch formation",0,1
 "Pollen","Inulin","Melibiose",8,1
 "Pollen","Inulin","Lactose",9,1
 "Pollen","Inulin","Methanol",5,1
@@ -277,7 +277,7 @@
 "Pollen","Methanol","myo-Inositol",9,1
 "Pollen","Methanol","DL-Lactate",49,1
 "Pollen","Methanol","Starch formation",5,1
-"Pollen","Galactitol","myo-Inositol",2,1
+"Pollen","Galactitol","myo-Inositol",2,0.999
 "Pollen","Galactitol","DL-Lactate",41,1
 "Pollen","Galactitol","Starch formation",6,1
 "Pollen","myo-Inositol","DL-Lactate",43,1
@@ -286,16 +286,16 @@
 "Feces.Dung","Lactose_F","Glucose",89,1
 "Feces.Dung","Lactose_F","Melibiose",13,1
 "Feces.Dung","Lactose_F","myo-Inositol",9,1
-"Feces.Dung","Lactose_F","Starch formation",6,1
-"Feces.Dung","Glucose","Melibiose",0,0.424
-"Feces.Dung","Glucose","myo-Inositol",0,0.517
-"Feces.Dung","Glucose","Starch formation",0,0.219
+"Feces.Dung","Lactose_F","Starch formation",6,0.998
+"Feces.Dung","Glucose","Melibiose",0,1
+"Feces.Dung","Glucose","myo-Inositol",0,1
+"Feces.Dung","Glucose","Starch formation",0,1
 "Feces.Dung","Melibiose","myo-Inositol",5,1
-"Feces.Dung","Melibiose","Starch formation",6,1
+"Feces.Dung","Melibiose","Starch formation",6,0.999
 "Feces.Dung","myo-Inositol","Starch formation",6,1
 "Pine","Lactose_F","Glucose",89,1
 "Pine","Lactose_F","Inulin",11,1
-"Pine","Glucose","Inulin",0,0.148
+"Pine","Glucose","Inulin",0,1
 "Bromeliad","Galactose_F","Sucrose_F",11,1
 "Bromeliad","Galactose_F","Trehalose_F",10,1
 "Bromeliad","Galactose_F","Glucose",59,1
@@ -315,7 +315,7 @@
 "Bromeliad","Galactose_F","Growth at 37°C",39,1
 "Bromeliad","Sucrose_F","Trehalose_F",10,1
 "Bromeliad","Sucrose_F","Glucose",60,1
-"Bromeliad","Sucrose_F","Inulin",1,1
+"Bromeliad","Sucrose_F","Inulin",1,0.998
 "Bromeliad","Sucrose_F","Raffinose",8,1
 "Bromeliad","Sucrose_F","Melibiose",5,1
 "Bromeliad","Sucrose_F","Lactose",5,1
@@ -344,20 +344,20 @@
 "Bromeliad","Trehalose_F","Succinate",51,1
 "Bromeliad","Trehalose_F","Nitrate",7,1
 "Bromeliad","Trehalose_F","Growth at 37°C",41,1
-"Bromeliad","Glucose","Inulin",0,0.9
-"Bromeliad","Glucose","Raffinose",0,0.81
-"Bromeliad","Glucose","Melibiose",0,0.933
-"Bromeliad","Glucose","Lactose",0,0.93
-"Bromeliad","Glucose","Soluble Starch",0,0.827
-"Bromeliad","Glucose","L-Arabinose",0,0.78
-"Bromeliad","Glucose","D-Arabinose",0,0.803
-"Bromeliad","Glucose","Methanol",0,0.923
-"Bromeliad","Glucose","Galactitol",0,0.936
-"Bromeliad","Glucose","myo-Inositol",0,0.923
-"Bromeliad","Glucose","DL-Lactate",0,0.648
-"Bromeliad","Glucose","Succinate",0,0.406
-"Bromeliad","Glucose","Nitrate",0,0.85
-"Bromeliad","Glucose","Growth at 37°C",0,0.653
+"Bromeliad","Glucose","Inulin",0,1
+"Bromeliad","Glucose","Raffinose",0,1
+"Bromeliad","Glucose","Melibiose",0,1
+"Bromeliad","Glucose","Lactose",0,1
+"Bromeliad","Glucose","Soluble Starch",0,1
+"Bromeliad","Glucose","L-Arabinose",0,1
+"Bromeliad","Glucose","D-Arabinose",0,1
+"Bromeliad","Glucose","Methanol",0,1
+"Bromeliad","Glucose","Galactitol",0,1
+"Bromeliad","Glucose","myo-Inositol",0,1
+"Bromeliad","Glucose","DL-Lactate",0,1
+"Bromeliad","Glucose","Succinate",0,1
+"Bromeliad","Glucose","Nitrate",0,1
+"Bromeliad","Glucose","Growth at 37°C",0,1
 "Bromeliad","Inulin","Raffinose",21,1
 "Bromeliad","Inulin","Melibiose",8,1
 "Bromeliad","Inulin","Lactose",9,1
@@ -371,14 +371,14 @@
 "Bromeliad","Inulin","Succinate",68,1
 "Bromeliad","Inulin","Nitrate",10,1
 "Bromeliad","Inulin","Growth at 37°C",57,1
-"Bromeliad","Raffinose","Melibiose",0,0.993
+"Bromeliad","Raffinose","Melibiose",0,0.939
 "Bromeliad","Raffinose","Lactose",3,1
 "Bromeliad","Raffinose","Soluble Starch",13,1
 "Bromeliad","Raffinose","L-Arabinose",19,1
 "Bromeliad","Raffinose","D-Arabinose",12,1
 "Bromeliad","Raffinose","Methanol",4,1
 "Bromeliad","Raffinose","Galactitol",4,1
-"Bromeliad","Raffinose","myo-Inositol",1,1
+"Bromeliad","Raffinose","myo-Inositol",1,0.998
 "Bromeliad","Raffinose","DL-Lactate",31,1
 "Bromeliad","Raffinose","Succinate",48,1
 "Bromeliad","Raffinose","Nitrate",5,1
@@ -415,15 +415,15 @@
 "Bromeliad","Soluble Starch","Growth at 37°C",42,1
 "Bromeliad","L-Arabinose","D-Arabinose",4,1
 "Bromeliad","L-Arabinose","Methanol",2,1
-"Bromeliad","L-Arabinose","Galactitol",0,0.996
-"Bromeliad","L-Arabinose","myo-Inositol",1,1
+"Bromeliad","L-Arabinose","Galactitol",0,0.94
+"Bromeliad","L-Arabinose","myo-Inositol",1,0.999
 "Bromeliad","L-Arabinose","DL-Lactate",31,1
 "Bromeliad","L-Arabinose","Succinate",40,1
 "Bromeliad","L-Arabinose","Nitrate",5,1
 "Bromeliad","L-Arabinose","Growth at 37°C",37,1
 "Bromeliad","D-Arabinose","Methanol",3,1
-"Bromeliad","D-Arabinose","Galactitol",1,1
-"Bromeliad","D-Arabinose","myo-Inositol",1,1
+"Bromeliad","D-Arabinose","Galactitol",1,0.999
+"Bromeliad","D-Arabinose","myo-Inositol",1,0.999
 "Bromeliad","D-Arabinose","DL-Lactate",34,1
 "Bromeliad","D-Arabinose","Succinate",51,1
 "Bromeliad","D-Arabinose","Nitrate",6,1
@@ -446,62 +446,62 @@
 "Bromeliad","DL-Lactate","Succinate",32,1
 "Bromeliad","DL-Lactate","Nitrate",4,1
 "Bromeliad","DL-Lactate","Growth at 37°C",27,1
-"Bromeliad","Succinate","Nitrate",0,0.949
+"Bromeliad","Succinate","Nitrate",0,0.895
 "Bromeliad","Succinate","Growth at 37°C",9,1
 "Bromeliad","Nitrate","Growth at 37°C",57,1
-"Flower","Glucose","myo-Inositol",0,0.14
-"Cactus","Glucose","Vitamin-free",0,0.002
-"Ipomoea","Glucose","Lactose",0,0.468
-"Ipomoea","Glucose","Soluble Starch",0,0.121
-"Ipomoea","Glucose","Methanol",0,0.382
-"Ipomoea","Glucose","Erythritol",0,0.119
-"Ipomoea","Glucose","myo-Inositol",0,0.479
-"Ipomoea","Glucose","Vitamin-free",0,0.088
-"Ipomoea","Glucose","Starch formation",0,0.178
+"Flower","Glucose","myo-Inositol",0,1
+"Cactus","Glucose","Vitamin-free",0,1
+"Ipomoea","Glucose","Lactose",0,1
+"Ipomoea","Glucose","Soluble Starch",0,1
+"Ipomoea","Glucose","Methanol",0,1
+"Ipomoea","Glucose","Erythritol",0,1
+"Ipomoea","Glucose","myo-Inositol",0,1
+"Ipomoea","Glucose","Vitamin-free",0,1
+"Ipomoea","Glucose","Starch formation",0,1
 "Ipomoea","Lactose","Soluble Starch",20,1
 "Ipomoea","Lactose","Methanol",5,1
 "Ipomoea","Lactose","Erythritol",18,1
 "Ipomoea","Lactose","myo-Inositol",5,1
 "Ipomoea","Lactose","Vitamin-free",15,1
-"Ipomoea","Lactose","Starch formation",5,1
+"Ipomoea","Lactose","Starch formation",5,0.997
 "Ipomoea","Soluble Starch","Methanol",5,1
 "Ipomoea","Soluble Starch","Erythritol",12,1
-"Ipomoea","Soluble Starch","myo-Inositol",3,1
+"Ipomoea","Soluble Starch","myo-Inositol",3,0.994
 "Ipomoea","Soluble Starch","Vitamin-free",10,1
 "Ipomoea","Soluble Starch","Starch formation",6,1
 "Ipomoea","Methanol","Erythritol",25,1
 "Ipomoea","Methanol","myo-Inositol",9,1
 "Ipomoea","Methanol","Vitamin-free",18,1
-"Ipomoea","Methanol","Starch formation",5,1
-"Ipomoea","Erythritol","myo-Inositol",2,1
+"Ipomoea","Methanol","Starch formation",5,0.996
+"Ipomoea","Erythritol","myo-Inositol",2,0.971
 "Ipomoea","Erythritol","Vitamin-free",13,1
 "Ipomoea","Erythritol","Starch formation",6,1
 "Ipomoea","myo-Inositol","Vitamin-free",18,1
-"Ipomoea","myo-Inositol","Starch formation",6,1
-"Ipomoea","Vitamin-free","Starch formation",5,1
-"Oak","Glucose","Galactitol",0,0
-"Hibiscus","Glucose","Lactose",0,0.68
-"Hibiscus","Glucose","L-Rhamnose",0,0.431
-"Hibiscus","Glucose","Methanol",0,0.641
-"Hibiscus","Glucose","Erythritol",0,0.35
-"Hibiscus","Glucose","myo-Inositol",0,0.684
-"Hibiscus","Glucose","Starch formation",0,0.422
+"Ipomoea","myo-Inositol","Starch formation",6,0.999
+"Ipomoea","Vitamin-free","Starch formation",5,0.997
+"Oak","Glucose","Galactitol",0,1
+"Hibiscus","Glucose","Lactose",0,1
+"Hibiscus","Glucose","L-Rhamnose",0,1
+"Hibiscus","Glucose","Methanol",0,1
+"Hibiscus","Glucose","Erythritol",0,1
+"Hibiscus","Glucose","myo-Inositol",0,1
+"Hibiscus","Glucose","Starch formation",0,1
 "Hibiscus","Lactose","L-Rhamnose",22,1
 "Hibiscus","Lactose","Methanol",5,1
 "Hibiscus","Lactose","Erythritol",18,1
 "Hibiscus","Lactose","myo-Inositol",5,1
 "Hibiscus","Lactose","Starch formation",5,1
-"Hibiscus","L-Rhamnose","Methanol",3,1
+"Hibiscus","L-Rhamnose","Methanol",3,0.999
 "Hibiscus","L-Rhamnose","Erythritol",13,1
-"Hibiscus","L-Rhamnose","myo-Inositol",1,1
+"Hibiscus","L-Rhamnose","myo-Inositol",1,0.953
 "Hibiscus","L-Rhamnose","Starch formation",6,1
 "Hibiscus","Methanol","Erythritol",25,1
 "Hibiscus","Methanol","myo-Inositol",9,1
 "Hibiscus","Methanol","Starch formation",5,1
-"Hibiscus","Erythritol","myo-Inositol",2,1
+"Hibiscus","Erythritol","myo-Inositol",2,0.998
 "Hibiscus","Erythritol","Starch formation",6,1
 "Hibiscus","myo-Inositol","Starch formation",6,1
-"Beetle","Glucose","Raffinose",0,0
+"Beetle","Glucose","Raffinose",0,1
 "Ant","Lactose_F","Trehalose_F",30,1
 "Ant","Lactose_F","Glucose",89,1
 "Ant","Lactose_F","Methanol",5,1
@@ -511,14 +511,14 @@
 "Ant","Trehalose_F","Methanol",3,1
 "Ant","Trehalose_F","Nitrate",7,1
 "Ant","Trehalose_F","Starch formation",6,1
-"Ant","Glucose","Methanol",0,0.813
-"Ant","Glucose","Nitrate",0,0.688
-"Ant","Glucose","Starch formation",0,0.737
+"Ant","Glucose","Methanol",0,1
+"Ant","Glucose","Nitrate",0,1
+"Ant","Glucose","Starch formation",0,1
 "Ant","Methanol","Nitrate",9,1
 "Ant","Methanol","Starch formation",5,1
 "Ant","Nitrate","Starch formation",6,1
-"Fruit.fly","Glucose","Erythritol",0,0.025
-"Bee","Glucose","Methanol",0,0.491
+"Fruit.fly","Glucose","Erythritol",0,1
+"Bee","Glucose","Methanol",0,1
 "Water","Lactose_F","Raffinose_F",19,1
 "Water","Lactose_F","Glucose",89,1
 "Water","Lactose_F","Inulin",11,1
@@ -528,26 +528,26 @@
 "Water","Lactose_F","myo-Inositol",9,1
 "Water","Lactose_F","Starch formation",6,1
 "Water","Raffinose_F","Glucose",70,1
-"Water","Raffinose_F","Inulin",1,1
+"Water","Raffinose_F","Inulin",1,0.987
 "Water","Raffinose_F","Raffinose",12,1
 "Water","Raffinose_F","Melibiose",6,1
 "Water","Raffinose_F","Galactitol",10,1
 "Water","Raffinose_F","myo-Inositol",6,1
 "Water","Raffinose_F","Starch formation",6,1
-"Water","Glucose","Inulin",0,0.805
-"Water","Glucose","Raffinose",0,0.628
-"Water","Glucose","Melibiose",0,0.851
-"Water","Glucose","Galactitol",0,0.851
-"Water","Glucose","myo-Inositol",0,0.888
-"Water","Glucose","Starch formation",0,0.747
+"Water","Glucose","Inulin",0,1
+"Water","Glucose","Raffinose",0,1
+"Water","Glucose","Melibiose",0,1
+"Water","Glucose","Galactitol",0,1
+"Water","Glucose","myo-Inositol",0,1
+"Water","Glucose","Starch formation",0,1
 "Water","Inulin","Raffinose",21,1
 "Water","Inulin","Melibiose",8,1
 "Water","Inulin","Galactitol",12,1
 "Water","Inulin","myo-Inositol",8,1
 "Water","Inulin","Starch formation",6,1
-"Water","Raffinose","Melibiose",0,0.979
+"Water","Raffinose","Melibiose",0,0.87
 "Water","Raffinose","Galactitol",4,1
-"Water","Raffinose","myo-Inositol",1,1
+"Water","Raffinose","myo-Inositol",1,0.995
 "Water","Raffinose","Starch formation",6,1
 "Water","Melibiose","Galactitol",9,1
 "Water","Melibiose","myo-Inositol",5,1
@@ -555,8 +555,8 @@
 "Water","Galactitol","myo-Inositol",2,1
 "Water","Galactitol","Starch formation",6,1
 "Water","myo-Inositol","Starch formation",6,1
-"Tree.exudate","Glucose","Starch formation",0,0.006
-"Tree.flux","Glucose","L-Arabinose",0,0
+"Tree.exudate","Glucose","Starch formation",0,1
+"Tree.flux","Glucose","L-Arabinose",0,1
 "Honey","Lactose_F","Trehalose_F",30,1
 "Honey","Lactose_F","Glucose",89,1
 "Honey","Lactose_F","Inulin",11,1
@@ -564,21 +564,21 @@
 "Honey","Trehalose_F","Glucose",59,1
 "Honey","Trehalose_F","Inulin",4,1
 "Honey","Trehalose_F","Methanol",3,1
-"Honey","Glucose","Inulin",0,0.853
-"Honey","Glucose","Methanol",0,0.863
+"Honey","Glucose","Inulin",0,1
+"Honey","Glucose","Methanol",0,1
 "Honey","Inulin","Methanol",5,1
-"Nematode","Glucose_F","Galactose_F",0,0.978
-"Nematode","Glucose_F","Sucrose_F",0,0.991
-"Nematode","Glucose_F","Maltose_F",0,0.99
-"Nematode","Glucose_F","Lactose_F",0,0.998
-"Nematode","Glucose_F","Raffinose_F",0,0.983
-"Nematode","Glucose_F","Trehalose_F",0,0.983
+"Nematode","Glucose_F","Galactose_F",0,0.866
+"Nematode","Glucose_F","Sucrose_F",0,0.873
+"Nematode","Glucose_F","Maltose_F",0,0.919
+"Nematode","Glucose_F","Lactose_F",0,0.98
+"Nematode","Glucose_F","Raffinose_F",0,0.93
+"Nematode","Glucose_F","Trehalose_F",0,0.843
 "Nematode","Glucose_F","Glucose",22,1
-"Nematode","Glucose_F","Inulin",0,0.995
+"Nematode","Glucose_F","Inulin",0,0.933
 "Nematode","Glucose_F","Raffinose",5,1
 "Nematode","Glucose_F","Melibiose",3,1
 "Nematode","Glucose_F","Galactose",18,1
-"Nematode","Glucose_F","Lactose",1,1
+"Nematode","Glucose_F","Lactose",1,0.999
 "Nematode","Glucose_F","Maltose",6,1
 "Nematode","Glucose_F","Melezitose",3,1
 "Nematode","Glucose_F","Methyl-?-D-glucoside",4,1
@@ -596,10 +596,10 @@
 "Nematode","Glucose_F","Citrate",17,1
 "Nematode","Glucose_F","D-Gluconate",13,1
 "Nematode","Glucose_F","D-Glucosamine",5,1
-"Nematode","Glucose_F","Nitrate",0,0.991
+"Nematode","Glucose_F","Nitrate",0,0.914
 "Nematode","Galactose_F","Sucrose_F",11,1
 "Nematode","Galactose_F","Maltose_F",3,1
-"Nematode","Galactose_F","Lactose_F",0,0.999
+"Nematode","Galactose_F","Lactose_F",0,0.979
 "Nematode","Galactose_F","Raffinose_F",7,1
 "Nematode","Galactose_F","Trehalose_F",10,1
 "Nematode","Galactose_F","Glucose",59,1
@@ -627,8 +627,8 @@
 "Nematode","Galactose_F","D-Glucosamine",15,1
 "Nematode","Galactose_F","Nitrate",7,1
 "Nematode","Sucrose_F","Maltose_F",2,1
-"Nematode","Sucrose_F","Lactose_F",0,1
-"Nematode","Sucrose_F","Raffinose_F",0,0.999
+"Nematode","Sucrose_F","Lactose_F",0,0.978
+"Nematode","Sucrose_F","Raffinose_F",0,0.918
 "Nematode","Sucrose_F","Trehalose_F",10,1
 "Nematode","Sucrose_F","Glucose",60,1
 "Nematode","Sucrose_F","Inulin",1,1
@@ -654,7 +654,7 @@
 "Nematode","Sucrose_F","D-Gluconate",37,1
 "Nematode","Sucrose_F","D-Glucosamine",18,1
 "Nematode","Sucrose_F","Nitrate",5,1
-"Nematode","Maltose_F","Lactose_F",0,1
+"Nematode","Maltose_F","Lactose_F",0,0.978
 "Nematode","Maltose_F","Raffinose_F",8,1
 "Nematode","Maltose_F","Trehalose_F",14,1
 "Nematode","Maltose_F","Glucose",68,1
@@ -756,29 +756,29 @@
 "Nematode","Trehalose_F","D-Gluconate",36,1
 "Nematode","Trehalose_F","D-Glucosamine",16,1
 "Nematode","Trehalose_F","Nitrate",7,1
-"Nematode","Glucose","Inulin",0,0.928
-"Nematode","Glucose","Raffinose",0,0.839
-"Nematode","Glucose","Melibiose",0,0.943
-"Nematode","Glucose","Galactose",0,0.622
-"Nematode","Glucose","Lactose",0,0.946
-"Nematode","Glucose","Maltose",0,0.698
-"Nematode","Glucose","Melezitose",0,0.789
-"Nematode","Glucose","Methyl-?-D-glucoside",0,0.773
-"Nematode","Glucose","Cellobiose",0,0.625
-"Nematode","Glucose","Salicin",0,0.628
-"Nematode","Glucose","L-Rhamnose",0,0.896
-"Nematode","Glucose","L-Arabinose",0,0.839
-"Nematode","Glucose","D-Arabinose",0,0.842
-"Nematode","Glucose","D-Ribose",0,0.787
-"Nematode","Glucose","Methanol",0,0.948
-"Nematode","Glucose","Erythritol",0,0.865
-"Nematode","Glucose","Ribitol",0,0.705
-"Nematode","Glucose","Galactitol",0,0.956
-"Nematode","Glucose","myo-Inositol",0,0.957
-"Nematode","Glucose","Citrate",0,0.66
-"Nematode","Glucose","D-Gluconate",0,0.688
-"Nematode","Glucose","D-Glucosamine",0,0.802
-"Nematode","Glucose","Nitrate",0,0.905
+"Nematode","Glucose","Inulin",0,1
+"Nematode","Glucose","Raffinose",0,1
+"Nematode","Glucose","Melibiose",0,1
+"Nematode","Glucose","Galactose",0,1
+"Nematode","Glucose","Lactose",0,1
+"Nematode","Glucose","Maltose",0,1
+"Nematode","Glucose","Melezitose",0,1
+"Nematode","Glucose","Methyl-?-D-glucoside",0,1
+"Nematode","Glucose","Cellobiose",0,1
+"Nematode","Glucose","Salicin",0,1
+"Nematode","Glucose","L-Rhamnose",0,1
+"Nematode","Glucose","L-Arabinose",0,1
+"Nematode","Glucose","D-Arabinose",0,1
+"Nematode","Glucose","D-Ribose",0,1
+"Nematode","Glucose","Methanol",0,1
+"Nematode","Glucose","Erythritol",0,1
+"Nematode","Glucose","Ribitol",0,1
+"Nematode","Glucose","Galactitol",0,1
+"Nematode","Glucose","myo-Inositol",0,1
+"Nematode","Glucose","Citrate",0,1
+"Nematode","Glucose","D-Gluconate",0,1
+"Nematode","Glucose","D-Glucosamine",0,1
+"Nematode","Glucose","Nitrate",0,1
 "Nematode","Inulin","Raffinose",21,1
 "Nematode","Inulin","Melibiose",8,1
 "Nematode","Inulin","Galactose",53,1
@@ -801,7 +801,7 @@
 "Nematode","Inulin","D-Gluconate",55,1
 "Nematode","Inulin","D-Glucosamine",30,1
 "Nematode","Inulin","Nitrate",10,1
-"Nematode","Raffinose","Melibiose",0,0.999
+"Nematode","Raffinose","Melibiose",0,0.944
 "Nematode","Raffinose","Galactose",36,1
 "Nematode","Raffinose","Lactose",3,1
 "Nematode","Raffinose","Maltose",20,1
@@ -817,7 +817,7 @@
 "Nematode","Raffinose","Erythritol",12,1
 "Nematode","Raffinose","Ribitol",30,1
 "Nematode","Raffinose","Galactitol",4,1
-"Nematode","Raffinose","myo-Inositol",1,1
+"Nematode","Raffinose","myo-Inositol",1,0.999
 "Nematode","Raffinose","Citrate",37,1
 "Nematode","Raffinose","D-Gluconate",35,1
 "Nematode","Raffinose","D-Glucosamine",17,1
@@ -842,7 +842,7 @@
 "Nematode","Melibiose","D-Gluconate",51,1
 "Nematode","Melibiose","D-Glucosamine",25,1
 "Nematode","Melibiose","Nitrate",10,1
-"Nematode","Galactose","Lactose",0,0.993
+"Nematode","Galactose","Lactose",0,0.953
 "Nematode","Galactose","Maltose",7,1
 "Nematode","Galactose","Melezitose",7,1
 "Nematode","Galactose","Methyl-?-D-glucoside",7,1
@@ -850,13 +850,13 @@
 "Nematode","Galactose","Salicin",15,1
 "Nematode","Galactose","L-Rhamnose",7,1
 "Nematode","Galactose","L-Arabinose",4,1
-"Nematode","Galactose","D-Arabinose",2,1
+"Nematode","Galactose","D-Arabinose",2,0.999
 "Nematode","Galactose","D-Ribose",2,1
-"Nematode","Galactose","Methanol",1,1
-"Nematode","Galactose","Erythritol",1,1
+"Nematode","Galactose","Methanol",1,0.999
+"Nematode","Galactose","Erythritol",1,0.996
 "Nematode","Galactose","Ribitol",4,1
-"Nematode","Galactose","Galactitol",0,0.997
-"Nematode","Galactose","myo-Inositol",1,1
+"Nematode","Galactose","Galactitol",0,0.959
+"Nematode","Galactose","myo-Inositol",1,0.999
 "Nematode","Galactose","Citrate",15,1
 "Nematode","Galactose","D-Gluconate",17,1
 "Nematode","Galactose","D-Glucosamine",5,1
@@ -879,8 +879,8 @@
 "Nematode","Lactose","D-Gluconate",51,1
 "Nematode","Lactose","D-Glucosamine",28,1
 "Nematode","Lactose","Nitrate",10,1
-"Nematode","Maltose","Melezitose",0,0.983
-"Nematode","Maltose","Methyl-?-D-glucoside",0,0.978
+"Nematode","Maltose","Melezitose",0,0.801
+"Nematode","Maltose","Methyl-?-D-glucoside",0,0.791
 "Nematode","Maltose","Cellobiose",15,1
 "Nematode","Maltose","Salicin",15,1
 "Nematode","Maltose","L-Rhamnose",4,1
@@ -890,13 +890,13 @@
 "Nematode","Maltose","Methanol",3,1
 "Nematode","Maltose","Erythritol",6,1
 "Nematode","Maltose","Ribitol",12,1
-"Nematode","Maltose","Galactitol",0,0.995
-"Nematode","Maltose","myo-Inositol",1,1
+"Nematode","Maltose","Galactitol",0,0.961
+"Nematode","Maltose","myo-Inositol",1,0.999
 "Nematode","Maltose","Citrate",22,1
 "Nematode","Maltose","D-Gluconate",20,1
 "Nematode","Maltose","D-Glucosamine",7,1
 "Nematode","Maltose","Nitrate",3,1
-"Nematode","Melezitose","Methyl-?-D-glucoside",2,1
+"Nematode","Melezitose","Methyl-?-D-glucoside",2,0.999
 "Nematode","Melezitose","Cellobiose",18,1
 "Nematode","Melezitose","Salicin",19,1
 "Nematode","Melezitose","L-Rhamnose",7,1
@@ -927,7 +927,7 @@
 "Nematode","Methyl-?-D-glucoside","D-Gluconate",25,1
 "Nematode","Methyl-?-D-glucoside","D-Glucosamine",12,1
 "Nematode","Methyl-?-D-glucoside","Nitrate",3,1
-"Nematode","Cellobiose","Salicin",2,1
+"Nematode","Cellobiose","Salicin",2,0.992
 "Nematode","Cellobiose","L-Rhamnose",3,1
 "Nematode","Cellobiose","L-Arabinose",8,1
 "Nematode","Cellobiose","D-Arabinose",5,1
@@ -935,12 +935,12 @@
 "Nematode","Cellobiose","Methanol",2,1
 "Nematode","Cellobiose","Erythritol",4,1
 "Nematode","Cellobiose","Ribitol",19,1
-"Nematode","Cellobiose","Galactitol",1,1
+"Nematode","Cellobiose","Galactitol",1,0.999
 "Nematode","Cellobiose","myo-Inositol",2,1
 "Nematode","Cellobiose","Citrate",20,1
 "Nematode","Cellobiose","D-Gluconate",18,1
 "Nematode","Cellobiose","D-Glucosamine",11,1
-"Nematode","Cellobiose","Nitrate",1,1
+"Nematode","Cellobiose","Nitrate",1,0.998
 "Nematode","Salicin","L-Rhamnose",4,1
 "Nematode","Salicin","L-Arabinose",9,1
 "Nematode","Salicin","D-Arabinose",5,1
@@ -953,15 +953,15 @@
 "Nematode","Salicin","Citrate",20,1
 "Nematode","Salicin","D-Gluconate",17,1
 "Nematode","Salicin","D-Glucosamine",10,1
-"Nematode","Salicin","Nitrate",1,1
+"Nematode","Salicin","Nitrate",1,0.997
 "Nematode","L-Rhamnose","L-Arabinose",19,1
 "Nematode","L-Rhamnose","D-Arabinose",10,1
 "Nematode","L-Rhamnose","D-Ribose",21,1
 "Nematode","L-Rhamnose","Methanol",3,1
 "Nematode","L-Rhamnose","Erythritol",13,1
 "Nematode","L-Rhamnose","Ribitol",32,1
-"Nematode","L-Rhamnose","Galactitol",1,1
-"Nematode","L-Rhamnose","myo-Inositol",1,1
+"Nematode","L-Rhamnose","Galactitol",1,0.999
+"Nematode","L-Rhamnose","myo-Inositol",1,0.999
 "Nematode","L-Rhamnose","Citrate",41,1
 "Nematode","L-Rhamnose","D-Gluconate",39,1
 "Nematode","L-Rhamnose","D-Glucosamine",20,1
@@ -971,8 +971,8 @@
 "Nematode","L-Arabinose","Methanol",2,1
 "Nematode","L-Arabinose","Erythritol",4,1
 "Nematode","L-Arabinose","Ribitol",17,1
-"Nematode","L-Arabinose","Galactitol",0,0.997
-"Nematode","L-Arabinose","myo-Inositol",1,1
+"Nematode","L-Arabinose","Galactitol",0,0.959
+"Nematode","L-Arabinose","myo-Inositol",1,0.999
 "Nematode","L-Arabinose","Citrate",30,1
 "Nematode","L-Arabinose","D-Gluconate",29,1
 "Nematode","L-Arabinose","D-Glucosamine",13,1
@@ -981,17 +981,17 @@
 "Nematode","D-Arabinose","Methanol",3,1
 "Nematode","D-Arabinose","Erythritol",11,1
 "Nematode","D-Arabinose","Ribitol",30,1
-"Nematode","D-Arabinose","Galactitol",1,1
-"Nematode","D-Arabinose","myo-Inositol",1,1
+"Nematode","D-Arabinose","Galactitol",1,0.999
+"Nematode","D-Arabinose","myo-Inositol",1,0.999
 "Nematode","D-Arabinose","Citrate",41,1
 "Nematode","D-Arabinose","D-Gluconate",39,1
 "Nematode","D-Arabinose","D-Glucosamine",18,1
 "Nematode","D-Arabinose","Nitrate",6,1
 "Nematode","D-Ribose","Methanol",3,1
-"Nematode","D-Ribose","Erythritol",1,1
+"Nematode","D-Ribose","Erythritol",1,0.996
 "Nematode","D-Ribose","Ribitol",17,1
-"Nematode","D-Ribose","Galactitol",0,0.996
-"Nematode","D-Ribose","myo-Inositol",1,1
+"Nematode","D-Ribose","Galactitol",0,0.959
+"Nematode","D-Ribose","myo-Inositol",1,0.999
 "Nematode","D-Ribose","Citrate",29,1
 "Nematode","D-Ribose","D-Gluconate",26,1
 "Nematode","D-Ribose","D-Glucosamine",10,1
@@ -1011,8 +1011,8 @@
 "Nematode","Erythritol","D-Gluconate",38,1
 "Nematode","Erythritol","D-Glucosamine",20,1
 "Nematode","Erythritol","Nitrate",6,1
-"Nematode","Ribitol","Galactitol",0,0.999
-"Nematode","Ribitol","myo-Inositol",0,0.999
+"Nematode","Ribitol","Galactitol",0,0.957
+"Nematode","Ribitol","myo-Inositol",0,0.958
 "Nematode","Ribitol","Citrate",18,1
 "Nematode","Ribitol","D-Gluconate",18,1
 "Nematode","Ribitol","D-Glucosamine",5,1
@@ -1028,22 +1028,22 @@
 "Nematode","myo-Inositol","Nitrate",10,1
 "Nematode","Citrate","D-Gluconate",12,1
 "Nematode","Citrate","D-Glucosamine",5,1
-"Nematode","Citrate","Nitrate",1,1
+"Nematode","Citrate","Nitrate",1,0.998
 "Nematode","D-Gluconate","D-Glucosamine",10,1
-"Nematode","D-Gluconate","Nitrate",1,1
+"Nematode","D-Gluconate","Nitrate",1,0.997
 "Nematode","D-Glucosamine","Nitrate",8,1
-"Mushroom.Fungus","Glucose","Growth at 37°C",0,0
-"Soil","Glucose","D-Glucosamine",0,0
+"Mushroom.Fungus","Glucose","Growth at 37°C",0,1
+"Soil","Glucose","D-Glucosamine",0,1
 "Insect.Frass","Lactose_F","Glucose",89,1
 "Unknown","Lactose_F","Glucose",89,1
 "Unknown","Lactose_F","Lactose",12,1
 "Unknown","Lactose_F","L-Rhamnose",28,1
 "Unknown","Lactose_F","Methanol",5,1
 "Unknown","Lactose_F","Vitamin-free",18,1
-"Unknown","Glucose","Lactose",0,0.882
-"Unknown","Glucose","L-Rhamnose",0,0.734
-"Unknown","Glucose","Methanol",0,0.859
-"Unknown","Glucose","Vitamin-free",0,0.718
+"Unknown","Glucose","Lactose",0,1
+"Unknown","Glucose","L-Rhamnose",0,1
+"Unknown","Glucose","Methanol",0,1
+"Unknown","Glucose","Vitamin-free",0,1
 "Unknown","Lactose","L-Rhamnose",22,1
 "Unknown","Lactose","Methanol",5,1
 "Unknown","Lactose","Vitamin-free",15,1
@@ -1052,9 +1052,9 @@
 "Unknown","Methanol","Vitamin-free",18,1
 "Air","Lactose_F","Glucose",89,1
 "Air","Lactose_F","Nitrate",11,1
-"Air","Glucose","Nitrate",0,0.407
+"Air","Glucose","Nitrate",0,1
 "Leather.Tanning","Lactose_F","Glucose",89,1
-"Industrial","Glucose","Growth at 19°C",0,0
+"Industrial","Glucose","Growth at 19°C",0,1
 "Fodder","Lactose_F","Glucose",89,1
 "Fodder","Lactose_F","Inulin",11,1
 "Fodder","Lactose_F","Melibiose",13,1
@@ -1066,16 +1066,16 @@
 "Fodder","Lactose_F","myo-Inositol",9,1
 "Fodder","Lactose_F","Nitrate",11,1
 "Fodder","Lactose_F","Starch formation",6,1
-"Fodder","Glucose","Inulin",0,0.801
-"Fodder","Glucose","Melibiose",0,0.84
-"Fodder","Glucose","Lactose",0,0.848
-"Fodder","Glucose","L-Rhamnose",0,0.69
-"Fodder","Glucose","D-Arabinose",0,0.621
-"Fodder","Glucose","Methanol",0,0.858
-"Fodder","Glucose","Galactitol",0,0.869
-"Fodder","Glucose","myo-Inositol",0,0.886
-"Fodder","Glucose","Nitrate",0,0.708
-"Fodder","Glucose","Starch formation",0,0.736
+"Fodder","Glucose","Inulin",0,1
+"Fodder","Glucose","Melibiose",0,1
+"Fodder","Glucose","Lactose",0,1
+"Fodder","Glucose","L-Rhamnose",0,1
+"Fodder","Glucose","D-Arabinose",0,1
+"Fodder","Glucose","Methanol",0,1
+"Fodder","Glucose","Galactitol",0,1
+"Fodder","Glucose","myo-Inositol",0,1
+"Fodder","Glucose","Nitrate",0,1
+"Fodder","Glucose","Starch formation",0,1
 "Fodder","Inulin","Melibiose",8,1
 "Fodder","Inulin","Lactose",9,1
 "Fodder","Inulin","L-Rhamnose",23,1
@@ -1102,13 +1102,13 @@
 "Fodder","Lactose","Starch formation",5,1
 "Fodder","L-Rhamnose","D-Arabinose",10,1
 "Fodder","L-Rhamnose","Methanol",3,1
-"Fodder","L-Rhamnose","Galactitol",1,1
-"Fodder","L-Rhamnose","myo-Inositol",1,1
+"Fodder","L-Rhamnose","Galactitol",1,0.995
+"Fodder","L-Rhamnose","myo-Inositol",1,0.994
 "Fodder","L-Rhamnose","Nitrate",4,1
 "Fodder","L-Rhamnose","Starch formation",6,1
 "Fodder","D-Arabinose","Methanol",3,1
-"Fodder","D-Arabinose","Galactitol",1,1
-"Fodder","D-Arabinose","myo-Inositol",1,1
+"Fodder","D-Arabinose","Galactitol",1,0.996
+"Fodder","D-Arabinose","myo-Inositol",1,0.994
 "Fodder","D-Arabinose","Nitrate",6,1
 "Fodder","D-Arabinose","Starch formation",5,1
 "Fodder","Methanol","Galactitol",16,1
@@ -1121,7 +1121,7 @@
 "Fodder","myo-Inositol","Nitrate",10,1
 "Fodder","myo-Inositol","Starch formation",6,1
 "Fodder","Nitrate","Starch formation",6,1
-"Freshwater","Galactose_F","Lactose_F",0,0.989
+"Freshwater","Galactose_F","Lactose_F",0,0.891
 "Freshwater","Galactose_F","Glucose",59,1
 "Freshwater","Galactose_F","Melibiose",7,1
 "Freshwater","Galactose_F","L-Arabinose",20,1
@@ -1136,20 +1136,20 @@
 "Freshwater","Lactose_F","Galactitol",17,1
 "Freshwater","Lactose_F","myo-Inositol",9,1
 "Freshwater","Lactose_F","Starch formation",6,1
-"Freshwater","Glucose","Melibiose",0,0.729
-"Freshwater","Glucose","L-Arabinose",0,0.383
-"Freshwater","Glucose","Erythritol",0,0.489
-"Freshwater","Glucose","Galactitol",0,0.726
-"Freshwater","Glucose","myo-Inositol",0,0.794
-"Freshwater","Glucose","Starch formation",0,0.574
+"Freshwater","Glucose","Melibiose",0,1
+"Freshwater","Glucose","L-Arabinose",0,1
+"Freshwater","Glucose","Erythritol",0,1
+"Freshwater","Glucose","Galactitol",0,1
+"Freshwater","Glucose","myo-Inositol",0,1
+"Freshwater","Glucose","Starch formation",0,1
 "Freshwater","Melibiose","L-Arabinose",28,1
 "Freshwater","Melibiose","Erythritol",17,1
 "Freshwater","Melibiose","Galactitol",9,1
 "Freshwater","Melibiose","myo-Inositol",5,1
 "Freshwater","Melibiose","Starch formation",6,1
 "Freshwater","L-Arabinose","Erythritol",4,1
-"Freshwater","L-Arabinose","Galactitol",0,0.964
-"Freshwater","L-Arabinose","myo-Inositol",1,1
+"Freshwater","L-Arabinose","Galactitol",0,0.753
+"Freshwater","L-Arabinose","myo-Inositol",1,0.99
 "Freshwater","L-Arabinose","Starch formation",4,1
 "Freshwater","Erythritol","Galactitol",4,1
 "Freshwater","Erythritol","myo-Inositol",2,1
@@ -1157,9 +1157,9 @@
 "Freshwater","Galactitol","myo-Inositol",2,1
 "Freshwater","Galactitol","Starch formation",6,1
 "Freshwater","myo-Inositol","Starch formation",6,1
-"Seawater.Marine","Glucose","Starch formation",0,0.157
+"Seawater.Marine","Glucose","Starch formation",0,1
 "Brine","Galactose_F","Sucrose_F",11,1
-"Brine","Galactose_F","Lactose_F",0,1
+"Brine","Galactose_F","Lactose_F",0,0.994
 "Brine","Galactose_F","Raffinose_F",7,1
 "Brine","Galactose_F","Trehalose_F",10,1
 "Brine","Galactose_F","Glucose",59,1
@@ -1187,8 +1187,8 @@
 "Brine","Galactose_F","Vitamin-free",8,1
 "Brine","Galactose_F","Starch formation",5,1
 "Brine","Galactose_F","Growth at 37°C",39,1
-"Brine","Sucrose_F","Lactose_F",0,0.999
-"Brine","Sucrose_F","Raffinose_F",0,0.996
+"Brine","Sucrose_F","Lactose_F",0,0.995
+"Brine","Sucrose_F","Raffinose_F",0,0.972
 "Brine","Sucrose_F","Trehalose_F",10,1
 "Brine","Sucrose_F","Glucose",60,1
 "Brine","Sucrose_F","Inulin",1,1
@@ -1293,30 +1293,30 @@
 "Brine","Trehalose_F","Vitamin-free",10,1
 "Brine","Trehalose_F","Starch formation",6,1
 "Brine","Trehalose_F","Growth at 37°C",41,1
-"Brine","Glucose","Inulin",0,0.961
-"Brine","Glucose","Sucrose",0,0.864
-"Brine","Glucose","Raffinose",0,0.931
-"Brine","Glucose","Melibiose",0,0.967
-"Brine","Glucose","Lactose",0,0.983
-"Brine","Glucose","Trehalose",0,0.831
-"Brine","Glucose","Melezitose",0,0.897
-"Brine","Glucose","Methyl-?-D-glucoside",0,0.907
-"Brine","Glucose","Soluble Starch",0,0.948
-"Brine","Glucose","Cellobiose",0,0.851
-"Brine","Glucose","Salicin",0,0.853
-"Brine","Glucose","L-Rhamnose",0,0.966
-"Brine","Glucose","D-Xylose",0,0.831
-"Brine","Glucose","L-Arabinose",0,0.929
-"Brine","Glucose","D-Arabinose",0,0.927
-"Brine","Glucose","Methanol",0,0.989
-"Brine","Glucose","Erythritol",0,0.946
-"Brine","Glucose","Ribitol",0,0.865
-"Brine","Glucose","Galactitol",0,0.979
-"Brine","Glucose","myo-Inositol",0,0.988
-"Brine","Glucose","D-Glucosamine",0,0.912
-"Brine","Glucose","Vitamin-free",0,0.952
-"Brine","Glucose","Starch formation",0,0.959
-"Brine","Glucose","Growth at 37°C",0,0.871
+"Brine","Glucose","Inulin",0,1
+"Brine","Glucose","Sucrose",0,1
+"Brine","Glucose","Raffinose",0,1
+"Brine","Glucose","Melibiose",0,1
+"Brine","Glucose","Lactose",0,1
+"Brine","Glucose","Trehalose",0,1
+"Brine","Glucose","Melezitose",0,1
+"Brine","Glucose","Methyl-?-D-glucoside",0,1
+"Brine","Glucose","Soluble Starch",0,1
+"Brine","Glucose","Cellobiose",0,1
+"Brine","Glucose","Salicin",0,1
+"Brine","Glucose","L-Rhamnose",0,1
+"Brine","Glucose","D-Xylose",0,1
+"Brine","Glucose","L-Arabinose",0,1
+"Brine","Glucose","D-Arabinose",0,1
+"Brine","Glucose","Methanol",0,1
+"Brine","Glucose","Erythritol",0,1
+"Brine","Glucose","Ribitol",0,1
+"Brine","Glucose","Galactitol",0,1
+"Brine","Glucose","myo-Inositol",0,1
+"Brine","Glucose","D-Glucosamine",0,1
+"Brine","Glucose","Vitamin-free",0,1
+"Brine","Glucose","Starch formation",0,1
+"Brine","Glucose","Growth at 37°C",0,1
 "Brine","Inulin","Sucrose",38,1
 "Brine","Inulin","Raffinose",21,1
 "Brine","Inulin","Melibiose",8,1
@@ -1341,10 +1341,10 @@
 "Brine","Inulin","Starch formation",6,1
 "Brine","Inulin","Growth at 37°C",57,1
 "Brine","Sucrose","Raffinose",2,1
-"Brine","Sucrose","Melibiose",0,0.997
+"Brine","Sucrose","Melibiose",0,0.97
 "Brine","Sucrose","Lactose",2,1
 "Brine","Sucrose","Trehalose",12,1
-"Brine","Sucrose","Melezitose",0,0.991
+"Brine","Sucrose","Melezitose",0,0.906
 "Brine","Sucrose","Methyl-?-D-glucoside",1,1
 "Brine","Sucrose","Soluble Starch",4,1
 "Brine","Sucrose","Cellobiose",14,1
@@ -1362,7 +1362,7 @@
 "Brine","Sucrose","Vitamin-free",7,1
 "Brine","Sucrose","Starch formation",4,1
 "Brine","Sucrose","Growth at 37°C",27,1
-"Brine","Raffinose","Melibiose",0,0.998
+"Brine","Raffinose","Melibiose",0,0.969
 "Brine","Raffinose","Lactose",3,1
 "Brine","Raffinose","Trehalose",28,1
 "Brine","Raffinose","Melezitose",18,1
@@ -1434,7 +1434,7 @@
 "Brine","Trehalose","Methanol",2,1
 "Brine","Trehalose","Erythritol",3,1
 "Brine","Trehalose","Ribitol",8,1
-"Brine","Trehalose","Galactitol",0,0.996
+"Brine","Trehalose","Galactitol",0,0.983
 "Brine","Trehalose","myo-Inositol",1,1
 "Brine","Trehalose","D-Glucosamine",4,1
 "Brine","Trehalose","Vitamin-free",5,1
@@ -1527,13 +1527,13 @@
 "Brine","L-Rhamnose","Vitamin-free",15,1
 "Brine","L-Rhamnose","Starch formation",6,1
 "Brine","L-Rhamnose","Growth at 37°C",47,1
-"Brine","D-Xylose","L-Arabinose",0,0.991
+"Brine","D-Xylose","L-Arabinose",0,0.938
 "Brine","D-Xylose","D-Arabinose",1,1
 "Brine","D-Xylose","Methanol",2,1
 "Brine","D-Xylose","Erythritol",4,1
 "Brine","D-Xylose","Ribitol",6,1
-"Brine","D-Xylose","Galactitol",0,0.998
-"Brine","D-Xylose","myo-Inositol",0,1
+"Brine","D-Xylose","Galactitol",0,0.981
+"Brine","D-Xylose","myo-Inositol",0,0.988
 "Brine","D-Xylose","D-Glucosamine",5,1
 "Brine","D-Xylose","Vitamin-free",3,1
 "Brine","D-Xylose","Starch formation",4,1
@@ -1542,7 +1542,7 @@
 "Brine","L-Arabinose","Methanol",2,1
 "Brine","L-Arabinose","Erythritol",4,1
 "Brine","L-Arabinose","Ribitol",17,1
-"Brine","L-Arabinose","Galactitol",0,0.997
+"Brine","L-Arabinose","Galactitol",0,0.982
 "Brine","L-Arabinose","myo-Inositol",1,1
 "Brine","L-Arabinose","D-Glucosamine",13,1
 "Brine","L-Arabinose","Vitamin-free",9,1
@@ -1572,8 +1572,8 @@
 "Brine","Erythritol","Vitamin-free",13,1
 "Brine","Erythritol","Starch formation",6,1
 "Brine","Erythritol","Growth at 37°C",49,1
-"Brine","Ribitol","Galactitol",0,0.997
-"Brine","Ribitol","myo-Inositol",0,0.999
+"Brine","Ribitol","Galactitol",0,0.982
+"Brine","Ribitol","myo-Inositol",0,0.989
 "Brine","Ribitol","D-Glucosamine",5,1
 "Brine","Ribitol","Vitamin-free",4,1
 "Brine","Ribitol","Starch formation",4,1
@@ -1593,52 +1593,52 @@
 "Brine","Vitamin-free","Starch formation",5,1
 "Brine","Vitamin-free","Growth at 37°C",54,1
 "Brine","Starch formation","Growth at 37°C",61,1
-"Plant","Glucose","Erythritol",0,0
-"Food","Glucose","Starch formation",0,0.019
-"Pickled.Salted.Brined","Glucose","Methanol",0,0.555
-"Fruit","Glucose","Erythritol",0,0
-"Drink.Juice","Glucose","D-Xylose",0,0
+"Plant","Glucose","Erythritol",0,1
+"Food","Glucose","Starch formation",0,1
+"Pickled.Salted.Brined","Glucose","Methanol",0,1
+"Fruit","Glucose","Erythritol",0,1
+"Drink.Juice","Glucose","D-Xylose",0,1
 "Sugar.Cane","Lactose_F","Glucose",89,1
 "Sugar.Cane","Lactose_F","Lactose",12,1
 "Sugar.Cane","Lactose_F","Soluble Starch",29,1
 "Sugar.Cane","Lactose_F","myo-Inositol",9,1
 "Sugar.Cane","Lactose_F","Starch formation",6,1
-"Sugar.Cane","Glucose","Lactose",0,0.849
-"Sugar.Cane","Glucose","Soluble Starch",0,0.654
-"Sugar.Cane","Glucose","myo-Inositol",0,0.862
-"Sugar.Cane","Glucose","Starch formation",0,0.694
+"Sugar.Cane","Glucose","Lactose",0,1
+"Sugar.Cane","Glucose","Soluble Starch",0,1
+"Sugar.Cane","Glucose","myo-Inositol",0,1
+"Sugar.Cane","Glucose","Starch formation",0,1
 "Sugar.Cane","Lactose","Soluble Starch",20,1
 "Sugar.Cane","Lactose","myo-Inositol",5,1
 "Sugar.Cane","Lactose","Starch formation",5,1
 "Sugar.Cane","Soluble Starch","myo-Inositol",3,1
 "Sugar.Cane","Soluble Starch","Starch formation",6,1
 "Sugar.Cane","myo-Inositol","Starch formation",6,1
-"Fermented","Glucose","D-Xylose",0,0
-"Wine","Glucose","Methanol",0,0.49
-"Beer","Glucose","Methanol",0,0.478
+"Fermented","Glucose","D-Xylose",0,1
+"Wine","Glucose","Methanol",0,1
+"Beer","Glucose","Methanol",0,1
 "Tequila","Lactose_F","Glucose",89,1
 "Tequila","Lactose_F","Melibiose",13,1
 "Tequila","Lactose_F","myo-Inositol",9,1
 "Tequila","Lactose_F","Starch formation",6,1
-"Tequila","Glucose","Melibiose",0,0.649
-"Tequila","Glucose","myo-Inositol",0,0.709
-"Tequila","Glucose","Starch formation",0,0.445
+"Tequila","Glucose","Melibiose",0,1
+"Tequila","Glucose","myo-Inositol",0,1
+"Tequila","Glucose","Starch formation",0,1
 "Tequila","Melibiose","myo-Inositol",5,1
 "Tequila","Melibiose","Starch formation",6,1
 "Tequila","myo-Inositol","Starch formation",6,1
-"Cider","Glucose","Starch formation",0,0.348
+"Cider","Glucose","Starch formation",0,1
 "Wood","Lactose_F","Glucose",89,1
 "Silage","Lactose_F","Glucose",89,1
 "Silage","Lactose_F","Inulin",11,1
 "Silage","Lactose_F","Methanol",5,1
 "Silage","Lactose_F","Galactitol",17,1
-"Silage","Glucose","Inulin",0,0.71
-"Silage","Glucose","Methanol",0,0.781
-"Silage","Glucose","Galactitol",0,0.778
+"Silage","Glucose","Inulin",0,1
+"Silage","Glucose","Methanol",0,1
+"Silage","Glucose","Galactitol",0,1
 "Silage","Inulin","Methanol",5,1
 "Silage","Inulin","Galactitol",12,1
 "Silage","Methanol","Galactitol",16,1
-"Dairy","Glucose","Soluble Starch",0,0.001
-"Olives","Glucose","Vitamin-free",0,0.279
-"Olives","Glucose","Starch formation",0,0.353
+"Dairy","Glucose","Soluble Starch",0,1
+"Olives","Glucose","Vitamin-free",0,1
+"Olives","Glucose","Starch formation",0,1
 "Olives","Vitamin-free","Starch formation",5,1

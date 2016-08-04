@@ -21,6 +21,18 @@ envs2$Species = rownames(envs2)
 
 Isolations <- rownames(envt)
 
+
+############## Calculate the number of species isolated from an environment ##############
+
+IsolationCounts_df = data.frame(Isolations = character(), SpeciesCount = numeric())
+
+for(i in 1:length(Isolations)){
+	tempData = envs2[,which(colnames(envs2) == Isolations[[i]])]
+	IsolationCounts_df[i,1] = Isolations[i]
+	IsolationCounts_df[i,2] = length(which(tempData > 0))
+}
+write.csv(IsolationCounts_df, file = paste("IsolationCounts_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
 ############## This is to generate permuted data - Permuted Data gets loaded above ############## 
 # PermutedTraitxTrait_list= list()
 # for(iter in 1:1000){
@@ -710,9 +722,8 @@ for(i in 1:nrow(NegIsoCutOffs_NP_df)){
 }
 
 #############################################################################################################
-########### Calculates counts of each type of trait presence/absence [(+/+), (-/-), (+/-), (-/+)] ###########
-########### within an isolation environment                                                       ###########
-########### for all trait pairs where PP is (+/+), NN is (-/-), PN is (+/-) and NP is (-/+)       ###########  
+########### Calculates counts of each type of trait presence/absence [(+/+), (-/-), (+/-), (-/+)]  within an isolation environment  #########
+########### for all trait pairs where PP is (+/+), NN is (-/-), PN is (+/-) and NP is (-/+)                                                                                  ###########  
 #############################################################################################################
 
 # Calculates trait pair counts for permuted data in an isolation environment #
@@ -816,6 +827,7 @@ save(IsoAllAssoc_list, file = paste("IsoAllAssoc_list_", Sys.Date(), ".rda", sep
 
 Traits = unique(colnames(PermutedIsoAllAssoc_list[[1]][[1]]$Both_P))
 
+###### Isolation Trait pair analysis for Positively Associated traits (+,+) ######
 # Determine the number of observed (+/+)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
 IsoAnalysis_PP_df = data.frame(Isolation = character(),
                                   Trait_A = character(),
@@ -858,6 +870,43 @@ for(iso in 1:length(Isolations)){
 
 write.csv(IsoAnalysis_PP_df, file = paste("IsoAnalysis_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+
+# Summary of permuted data trait pairs within an isolation environment - Postive (+,+) #
+PermutedIsoSum_PP_df = data.frame(Isolation = character(),
+                                  Trait_A = character(),
+                                  Trait_B = character(),
+                                  Mean_PP = numeric(), 
+                                  SD_PP = numeric(), 
+                                  Var_PP = numeric())
+
+k = 1
+for(iso in 1:length(Isolations)){
+  for(i in 1:(length(Traits)-1)){
+    for(j in (i+1):length(Traits)){
+      temp_list = list()
+      for(perm in 1:1000){
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[j,i]
+        if(Val1 != Val2 & Val1 > Val2){
+          temp_list[perm] = Val1
+        }else{ 
+          temp_list[perm] = Val2
+        }
+      }
+      templist = unlist(temp_list)
+      PermutedIsoSum_PP_df[k,1] = Isolations[iso]
+      PermutedIsoSum_PP_df[k,2] = Traits[i]
+      PermutedIsoSum_PP_df[k,3] = Traits[j]
+      PermutedIsoSum_PP_df[k,5] = mean(templist)
+      PermutedIsoSum_PP_df[k,5] =sd(templist)
+      PermutedIsoSum_PP_df[k,5] =var(templist)
+      k = k+1
+    }
+  } 
+}
+
+write.csv(PermutedIsoSum_PP_df, file = paste("PermutedIsoSum_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
 # Limit Trait pairs in the isolation environment to trait pairs where one trait is significantly associated with the isolation environment - Positive (+/+) #
 AllSigIsoAnalysis_PP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_PP_df))
 colnames(AllSigIsoAnalysis_PP_df) = colnames(IsoAnalysis_PP_df)
@@ -892,6 +941,7 @@ for(i in 1:length(Pos_SigTraitsIso_PP_list)){
 
 write.csv(BothSigIsoAnalysis_PP_df, file = paste("BothSigIsoAnalysis_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+###### Isolation Trait pair analysis for Positively Associated traits (-,-) ######
 # Determine the number of observed (-/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
 IsoAnalysis_NN_df = data.frame(Isolation = character(),
                                Trait_A = character(),
@@ -906,8 +956,8 @@ for(iso in 1:length(Isolations)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
       for(perm in 1:1000){
-        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[i,j]
-        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[j,i]
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_N[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_N[j,i]
         if(Val1 != Val2 & Val1 > Val2){
           temp_list[perm] = Val1
         }else{ 
@@ -933,6 +983,42 @@ for(iso in 1:length(Isolations)){
 }
 
 write.csv(IsoAnalysis_NN_df, file = paste("IsoAnalysis_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+# Summary of permuted data trait pairs within an isolation environment - Postive (-,-) #
+PermutedIsoSum_NN_df = data.frame(Isolation = character(),
+                                  Trait_A = character(),
+                                  Trait_B = character(),
+                                  Mean_NN = numeric(), 
+                                  SD_NN = numeric(), 
+                                  Var_NN = numeric())
+
+k = 1
+for(iso in 1:length(Isolations)){
+  for(i in 1:(length(Traits)-1)){
+    for(j in (i+1):length(Traits)){
+      temp_list = list()
+      for(perm in 1:1000){
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_N[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_N[j,i]
+        if(Val1 != Val2 & Val1 > Val2){
+          temp_list[perm] = Val1
+        }else{ 
+          temp_list[perm] = Val2
+        }
+      }
+      templist = unlist(temp_list)
+      PermutedIsoSum_NN_df[k,1] = Isolations[iso]
+      PermutedIsoSum_NN_df[k,2] = Traits[i]
+      PermutedIsoSum_NN_df[k,3] = Traits[j]
+      PermutedIsoSum_NN_df[k,5] = mean(templist)
+      PermutedIsoSum_NN_df[k,5] =sd(templist)
+      PermutedIsoSum_NN_df[k,5] =var(templist)
+      k = k+1
+    }
+  } 
+}
+
+write.csv(PermutedIsoSum_NN_df, file = paste("PermutedIsoSum_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 # Limit Trait pairs in the isolation environment to trait pairs where one trait is significantly associated with the isolation environment - Positive (-/-) #
 AllSigIsoAnalysis_NN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NN_df))
@@ -967,6 +1053,8 @@ for(i in 1:length(Pos_SigTraitsIso_NN_list)){
 
 write.csv(BothSigIsoAnalysis_NN_df, file = paste("BothSigIsoAnalysis_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+
+###### Isolation Trait pair analysis for Negatively Associated traits (+,-) ######
 # Determine the number of observed (+/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
 IsoAnalysis_PN_df = data.frame(Isolation = character(),
                                Trait_A = character(),
@@ -981,8 +1069,8 @@ for(iso in 1:length(Isolations)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
       for(perm in 1:1000){
-        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[i,j]
-        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[j,i]
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_PN[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_PN[j,i]
         if(Val1 != Val2 & Val1 > Val2){
           temp_list[perm] = Val1
         }else{ 
@@ -1008,6 +1096,42 @@ for(iso in 1:length(Isolations)){
 }
 
 write.csv(IsoAnalysis_PN_df, file = paste("IsoAnalysis_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+# Summary of permuted data trait pairs within an isolation environment - Negative (+,-) #
+PermutedIsoSum_PN_df = data.frame(Isolation = character(),
+                                  Trait_A = character(),
+                                  Trait_B = character(),
+                                  Mean_PN = numeric(), 
+                                  SD_PN = numeric(), 
+                                  Var_PN = numeric())
+
+k = 1
+for(iso in 1:length(Isolations)){
+  for(i in 1:(length(Traits)-1)){
+    for(j in (i+1):length(Traits)){
+      temp_list = list()
+      for(perm in 1:1000){
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_PN[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_PN[j,i]
+        if(Val1 != Val2 & Val1 > Val2){
+          temp_list[perm] = Val1
+        }else{ 
+          temp_list[perm] = Val2
+        }
+      }
+      templist = unlist(temp_list)
+      PermutedIsoSum_PN_df[k,1] = Isolations[iso]
+      PermutedIsoSum_PN_df[k,2] = Traits[i]
+      PermutedIsoSum_PN_df[k,3] = Traits[j]
+      PermutedIsoSum_PN_df[k,5] = mean(templist)
+      PermutedIsoSum_PN_df[k,5] =sd(templist)
+      PermutedIsoSum_PN_df[k,5] =var(templist)
+      k = k+1
+    }
+  } 
+}
+
+write.csv(PermutedIsoSum_PN_df, file = paste("PermutedIsoSum_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 # Limit Trait pairs in the isolation environment to trait pairs where one trait is significantly associated with the isolation environment - Negative (+/-) #
 AllSigIsoAnalysis_PN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_PN_df))
@@ -1042,6 +1166,7 @@ for(i in 1:length(Neg_SigTraitsIso_PN_list)){
 
 write.csv(BothSigIsoAnalysis_PN_df, file = paste("BothSigIsoAnalysis_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+###### Isolation Trait pair analysis for Negatively Associated traits (-,+) ######
 # Determine the number of observed (-/+)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
 IsoAnalysis_NP_df = data.frame(Isolation = character(),
                                Trait_A = character(),
@@ -1056,8 +1181,8 @@ for(iso in 1:length(Isolations)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
       for(perm in 1:1000){
-        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[i,j]
-        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Both_P[j,i]
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_NP[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_NP[j,i]
         if(Val1 != Val2 & Val1 > Val2){
           temp_list[perm] = Val1
         }else{ 
@@ -1083,6 +1208,42 @@ for(iso in 1:length(Isolations)){
 }
 
 write.csv(IsoAnalysis_NP_df, file = paste("IsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+# Summary of permuted data trait pairs within an isolation environment - Postive (+,+) #
+PermutedIsoSum_NP_df = data.frame(Isolation = character(),
+                                  Trait_A = character(),
+                                  Trait_B = character(),
+                                  Mean_NP = numeric(), 
+                                  SD_NP = numeric(), 
+                                  Var_NP = numeric())
+
+k = 1
+for(iso in 1:length(Isolations)){
+  for(i in 1:(length(Traits)-1)){
+    for(j in (i+1):length(Traits)){
+      temp_list = list()
+      for(perm in 1:1000){
+        Val1 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_NP[i,j]
+        Val2 = PermutedIsoAllAssoc_list[[perm]][[iso]]$Diff_NP[j,i]
+        if(Val1 != Val2 & Val1 > Val2){
+          temp_list[perm] = Val1
+        }else{ 
+          temp_list[perm] = Val2
+        }
+      }
+      templist = unlist(temp_list)
+      PermutedIsoSum_NP_df[k,1] = Isolations[iso]
+      PermutedIsoSum_NP_df[k,2] = Traits[i]
+      PermutedIsoSum_NP_df[k,3] = Traits[j]
+      PermutedIsoSum_NP_df[k,5] = mean(templist)
+      PermutedIsoSum_NP_df[k,5] =sd(templist)
+      PermutedIsoSum_NP_df[k,5] =var(templist)
+      k = k+1
+    }
+  } 
+}
+
+write.csv(PermutedIsoSum_NP_df, file = paste("PermutedIsoSum_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 # Limit Trait pairs in the isolation environment to trait pairs where one trait is significantly associated with the isolation environment - Negative (-/+) #
 AllSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
