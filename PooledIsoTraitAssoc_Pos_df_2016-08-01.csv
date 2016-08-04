@@ -1,0 +1,2696 @@
+"Isolation","Trait_B","Observed_PP","Percent_PP"
+"Pathogenic","Glucose_F",270,0.634
+"Pathogenic","Galactose_F",544,0.449
+"Pathogenic","Sucrose_F",592,0.582
+"Pathogenic","Maltose_F",620,0.468
+"Pathogenic","Lactose_F",714,0.342
+"Pathogenic","Raffinose_F",649,0.511
+"Pathogenic","Trehalose_F",542,0.519
+"Pathogenic","Glucose",90,1
+"Pathogenic","Inulin",655,0.281
+"Pathogenic","Sucrose",336,0.283
+"Pathogenic","Raffinose",568,0.555
+"Pathogenic","Melibiose",666,0.465
+"Pathogenic","Galactose",324,0.636
+"Pathogenic","Lactose",667,0.499
+"Pathogenic","Trehalose",279,0.398
+"Pathogenic","Maltose",371,0.431
+"Pathogenic","Melezitose",446,0.552
+"Pathogenic","Methyl-?-D-glucoside",441,0.512
+"Pathogenic","Soluble Starch",605,0.66
+"Pathogenic","Cellobiose",323,0.344
+"Pathogenic","Salicin",330,0.368
+"Pathogenic","L-Sorbose",408,0.618
+"Pathogenic","L-Rhamnose",616,0.756
+"Pathogenic","D-Xylose",287,0.559
+"Pathogenic","L-Arabinose",535,0.757
+"Pathogenic","D-Arabinose",552,0.459
+"Pathogenic","D-Ribose",487,0.593
+"Pathogenic","Methanol",684,0.415
+"Pathogenic","Ethanol",199,0.696
+"Pathogenic","Glycerol",164,0.749
+"Pathogenic","Erythritol",577,0.565
+"Pathogenic","Ribitol",350,0.53
+"Pathogenic","Galactitol",675,0.697
+"Pathogenic","D-Mannitol",203,0.314
+"Pathogenic","D-Glucitol",222,0.541
+"Pathogenic","myo-Inositol",684,0.54
+"Pathogenic","DL-Lactate",460,0.759
+"Pathogenic","Succinate",207,0.832
+"Pathogenic","Citrate",360,0.888
+"Pathogenic","D-Gluconate",408,0.895
+"Pathogenic","D-Glucosamine",503,0.59
+"Pathogenic","Nitrate",619,0.136
+"Pathogenic","Vitamin-free",618,0.415
+"Pathogenic","2-Keto-D-gluconate",466,0.676
+"Pathogenic","Starch formation",646,0.21
+"Pathogenic","Growth at 19°C",91,0.724
+"Pathogenic","Growth at 25°C",99,1
+"Pathogenic","Growth at 30°C",183,0.94
+"Pathogenic","Growth at 37°C",528,1
+"Clinical","Glucose_F",233,0.908
+"Clinical","Galactose_F",573,0.775
+"Clinical","Sucrose_F",625,0.884
+"Clinical","Maltose_F",665,0.829
+"Clinical","Lactose_F",791,0.809
+"Clinical","Raffinose_F",694,0.731
+"Clinical","Trehalose_F",571,0.784
+"Clinical","Glucose",11,1
+"Clinical","Inulin",714,0.606
+"Clinical","Sucrose",335,0.896
+"Clinical","Raffinose",593,0.714
+"Clinical","Melibiose",721,0.749
+"Clinical","Galactose",297,0.758
+"Clinical","Lactose",722,0.715
+"Clinical","Trehalose",260,0.819
+"Clinical","Maltose",370,0.912
+"Clinical","Melezitose",455,0.941
+"Clinical","Methyl-?-D-glucoside",448,0.858
+"Clinical","Soluble Starch",632,0.68
+"Clinical","Cellobiose",310,0.551
+"Clinical","Salicin",317,0.546
+"Clinical","L-Sorbose",395,0.482
+"Clinical","L-Rhamnose",647,0.737
+"Clinical","D-Xylose",260,0.757
+"Clinical","L-Arabinose",542,0.64
+"Clinical","D-Arabinose",579,0.503
+"Clinical","D-Ribose",496,0.772
+"Clinical","Methanol",753,0.629
+"Clinical","Ethanol",140,0.742
+"Clinical","Glycerol",105,1
+"Clinical","Erythritol",604,0.483
+"Clinical","Ribitol",337,0.804
+"Clinical","Galactitol",724,0.765
+"Clinical","D-Mannitol",168,0.885
+"Clinical","D-Glucitol",181,0.909
+"Clinical","myo-Inositol",745,0.7
+"Clinical","DL-Lactate",453,0.664
+"Clinical","Succinate",150,1
+"Clinical","Citrate",329,1
+"Clinical","D-Gluconate",381,0.969
+"Clinical","D-Glucosamine",520,0.797
+"Clinical","Nitrate",680,0.569
+"Clinical","Vitamin-free",665,0.622
+"Clinical","2-Keto-D-gluconate",467,0.741
+"Clinical","Starch formation",713,0.402
+"Clinical","Growth at 19°C",22,1
+"Clinical","Growth at 25°C",20,1
+"Clinical","Growth at 30°C",110,1
+"Clinical","Growth at 37°C",495,0.949
+"Rotting.Decaying","Glucose_F",264,0.503
+"Rotting.Decaying","Galactose_F",532,0.385
+"Rotting.Decaying","Sucrose_F",560,0.274
+"Rotting.Decaying","Maltose_F",602,0.328
+"Rotting.Decaying","Lactose_F",706,0.377
+"Rotting.Decaying","Raffinose_F",623,0.287
+"Rotting.Decaying","Trehalose_F",542,0.685
+"Rotting.Decaying","Glucose",98,1
+"Rotting.Decaying","Inulin",637,0.246
+"Rotting.Decaying","Sucrose",334,0.24
+"Rotting.Decaying","Raffinose",538,0.215
+"Rotting.Decaying","Melibiose",650,0.554
+"Rotting.Decaying","Galactose",310,0.357
+"Rotting.Decaying","Lactose",663,0.72
+"Rotting.Decaying","Trehalose",289,0.478
+"Rotting.Decaying","Maltose",365,0.339
+"Rotting.Decaying","Melezitose",430,0.33
+"Rotting.Decaying","Methyl-?-D-glucoside",435,0.474
+"Rotting.Decaying","Soluble Starch",581,0.439
+"Rotting.Decaying","Cellobiose",343,0.743
+"Rotting.Decaying","Salicin",350,0.776
+"Rotting.Decaying","L-Sorbose",410,0.76
+"Rotting.Decaying","L-Rhamnose",606,0.822
+"Rotting.Decaying","D-Xylose",311,0.888
+"Rotting.Decaying","L-Arabinose",523,0.729
+"Rotting.Decaying","D-Arabinose",564,0.87
+"Rotting.Decaying","D-Ribose",475,0.542
+"Rotting.Decaying","Methanol",694,0.883
+"Rotting.Decaying","Ethanol",215,0.934
+"Rotting.Decaying","Glycerol",174,0.622
+"Rotting.Decaying","Erythritol",569,0.63
+"Rotting.Decaying","Ribitol",348,0.56
+"Rotting.Decaying","Galactitol",657,0.597
+"Rotting.Decaying","D-Mannitol",215,0.543
+"Rotting.Decaying","D-Glucitol",218,0.399
+"Rotting.Decaying","myo-Inositol",682,0.734
+"Rotting.Decaying","DL-Lactate",456,0.738
+"Rotting.Decaying","Succinate",221,0.917
+"Rotting.Decaying","Citrate",356,0.837
+"Rotting.Decaying","D-Gluconate",368,0.245
+"Rotting.Decaying","D-Glucosamine",511,0.862
+"Rotting.Decaying","Nitrate",617,0.283
+"Rotting.Decaying","Vitamin-free",608,0.436
+"Rotting.Decaying","2-Keto-D-gluconate",454,0.61
+"Rotting.Decaying","Starch formation",642,0.251
+"Rotting.Decaying","Growth at 19°C",107,0.602
+"Rotting.Decaying","Growth at 25°C",105,0.642
+"Rotting.Decaying","Growth at 30°C",181,0.813
+"Rotting.Decaying","Growth at 37°C",490,0.874
+"Spoiled","Glucose_F",231,0.666
+"Spoiled","Galactose_F",559,0.41
+"Spoiled","Sucrose_F",615,0.782
+"Spoiled","Maltose_F",651,0.545
+"Spoiled","Lactose_F",787,0.894
+"Spoiled","Raffinose_F",688,0.707
+"Spoiled","Trehalose_F",561,0.642
+"Spoiled","Glucose",17,1
+"Spoiled","Inulin",708,0.622
+"Spoiled","Sucrose",329,0.723
+"Spoiled","Raffinose",589,0.802
+"Spoiled","Melibiose",719,0.87
+"Spoiled","Galactose",295,0.871
+"Spoiled","Lactose",722,0.903
+"Spoiled","Trehalose",252,0.564
+"Spoiled","Maltose",360,0.65
+"Spoiled","Melezitose",443,0.596
+"Spoiled","Methyl-?-D-glucoside",440,0.755
+"Spoiled","Soluble Starch",626,0.713
+"Spoiled","Cellobiose",308,0.705
+"Spoiled","Salicin",315,0.703
+"Spoiled","L-Sorbose",397,0.853
+"Spoiled","L-Rhamnose",637,0.57
+"Spoiled","D-Xylose",254,0.55
+"Spoiled","L-Arabinose",540,0.817
+"Spoiled","D-Arabinose",579,0.793
+"Spoiled","D-Ribose",488,0.655
+"Spoiled","Methanol",749,0.693
+"Spoiled","Ethanol",144,0.933
+"Spoiled","Glycerol",107,0.897
+"Spoiled","Erythritol",604,0.763
+"Spoiled","Ribitol",333,0.763
+"Spoiled","Galactitol",724,0.919
+"Spoiled","D-Mannitol",164,0.535
+"Spoiled","D-Glucitol",177,0.567
+"Spoiled","myo-Inositol",741,0.778
+"Spoiled","DL-Lactate",453,0.888
+"Spoiled","Succinate",148,0.781
+"Spoiled","Citrate",317,0.52
+"Spoiled","D-Gluconate",369,0.577
+"Spoiled","D-Glucosamine",510,0.668
+"Spoiled","Nitrate",674,0.589
+"Spoiled","Vitamin-free",655,0.496
+"Spoiled","2-Keto-D-gluconate",457,0.555
+"Spoiled","Starch formation",707,0.399
+"Spoiled","Growth at 19°C",28,1
+"Spoiled","Growth at 25°C",26,1
+"Spoiled","Growth at 30°C",112,0.888
+"Spoiled","Growth at 37°C",493,0.957
+"Contaminated","Glucose_F",226,1
+"Contaminated","Galactose_F",574,1
+"Contaminated","Sucrose_F",622,0.925
+"Contaminated","Maltose_F",666,0.956
+"Contaminated","Lactose_F",800,0.97
+"Contaminated","Raffinose_F",697,0.86
+"Contaminated","Trehalose_F",572,1
+"Contaminated","Glucose",2,1
+"Contaminated","Inulin",721,0.895
+"Contaminated","Sucrose",328,0.794
+"Contaminated","Raffinose",594,0.905
+"Contaminated","Melibiose",726,0.914
+"Contaminated","Galactose",292,1
+"Contaminated","Lactose",729,0.909
+"Contaminated","Trehalose",255,1
+"Contaminated","Maltose",365,1
+"Contaminated","Melezitose",448,0.863
+"Contaminated","Methyl-?-D-glucoside",441,0.668
+"Contaminated","Soluble Starch",637,1
+"Contaminated","Cellobiose",309,1
+"Contaminated","Salicin",316,1
+"Contaminated","L-Sorbose",394,0.813
+"Contaminated","L-Rhamnose",650,0.91
+"Contaminated","D-Xylose",255,1
+"Contaminated","L-Arabinose",543,0.921
+"Contaminated","D-Arabinose",586,1
+"Contaminated","D-Ribose",493,0.895
+"Contaminated","Methanol",762,0.888
+"Contaminated","Ethanol",133,1
+"Contaminated","Glycerol",94,0.663
+"Contaminated","Erythritol",609,0.834
+"Contaminated","Ribitol",332,1
+"Contaminated","Galactitol",731,0.973
+"Contaminated","D-Mannitol",161,1
+"Contaminated","D-Glucitol",174,1
+"Contaminated","myo-Inositol",756,0.981
+"Contaminated","DL-Lactate",452,1
+"Contaminated","Succinate",141,1
+"Contaminated","Citrate",318,0.776
+"Contaminated","D-Gluconate",372,0.83
+"Contaminated","D-Glucosamine",519,1
+"Contaminated","Nitrate",685,0.81
+"Contaminated","Vitamin-free",668,0.809
+"Contaminated","2-Keto-D-gluconate",464,0.801
+"Contaminated","Starch formation",722,0.849
+"Contaminated","Growth at 19°C",13,1
+"Contaminated","Growth at 25°C",11,1
+"Contaminated","Growth at 30°C",101,1
+"Contaminated","Growth at 37°C",484,0.603
+"Plant.Pathogen","Glucose_F",233,0.479
+"Plant.Pathogen","Galactose_F",567,0.797
+"Plant.Pathogen","Sucrose_F",609,0.732
+"Plant.Pathogen","Maltose_F",649,0.734
+"Plant.Pathogen","Lactose_F",775,0.784
+"Plant.Pathogen","Raffinose_F",684,0.848
+"Plant.Pathogen","Trehalose_F",557,0.625
+"Plant.Pathogen","Glucose",29,1
+"Plant.Pathogen","Inulin",712,0.948
+"Plant.Pathogen","Sucrose",339,0.856
+"Plant.Pathogen","Raffinose",593,0.95
+"Plant.Pathogen","Melibiose",701,0.564
+"Plant.Pathogen","Galactose",291,0.441
+"Plant.Pathogen","Lactose",704,0.586
+"Plant.Pathogen","Trehalose",264,0.734
+"Plant.Pathogen","Maltose",368,0.796
+"Plant.Pathogen","Melezitose",445,0.721
+"Plant.Pathogen","Methyl-?-D-glucoside",442,0.777
+"Plant.Pathogen","Soluble Starch",622,0.866
+"Plant.Pathogen","Cellobiose",316,0.718
+"Plant.Pathogen","Salicin",319,0.577
+"Plant.Pathogen","L-Sorbose",401,0.828
+"Plant.Pathogen","L-Rhamnose",623,0.313
+"Plant.Pathogen","D-Xylose",262,0.643
+"Plant.Pathogen","L-Arabinose",528,0.516
+"Plant.Pathogen","D-Arabinose",569,0.672
+"Plant.Pathogen","D-Ribose",474,0.187
+"Plant.Pathogen","Methanol",735,0.464
+"Plant.Pathogen","Ethanol",142,0.321
+"Plant.Pathogen","Glycerol",113,0.738
+"Plant.Pathogen","Erythritol",586,0.255
+"Plant.Pathogen","Ribitol",331,0.561
+"Plant.Pathogen","Galactitol",708,0.766
+"Plant.Pathogen","D-Mannitol",172,0.57
+"Plant.Pathogen","D-Glucitol",183,0.521
+"Plant.Pathogen","myo-Inositol",727,0.535
+"Plant.Pathogen","DL-Lactate",453,0.84
+"Plant.Pathogen","Succinate",158,0.823
+"Plant.Pathogen","Citrate",319,0.48
+"Plant.Pathogen","D-Gluconate",367,0.418
+"Plant.Pathogen","D-Glucosamine",498,0.304
+"Plant.Pathogen","Nitrate",670,0.819
+"Plant.Pathogen","Vitamin-free",647,0.485
+"Plant.Pathogen","2-Keto-D-gluconate",457,0.59
+"Plant.Pathogen","Starch formation",707,0.866
+"Plant.Pathogen","Growth at 19°C",40,1
+"Plant.Pathogen","Growth at 25°C",32,0.321
+"Plant.Pathogen","Growth at 30°C",112,0.239
+"Plant.Pathogen","Growth at 37°C",479,0.602
+"Animal","Glucose_F",276,0.617
+"Animal","Galactose_F",534,0.352
+"Animal","Sucrose_F",588,0.638
+"Animal","Maltose_F",608,0.383
+"Animal","Lactose_F",700,0.266
+"Animal","Raffinose_F",645,0.651
+"Animal","Trehalose_F",530,0.357
+"Animal","Glucose",104,1
+"Animal","Inulin",645,0.323
+"Animal","Sucrose",342,0.332
+"Animal","Raffinose",564,0.594
+"Animal","Melibiose",654,0.429
+"Animal","Galactose",322,0.471
+"Animal","Lactose",659,0.562
+"Animal","Trehalose",289,0.491
+"Animal","Maltose",375,0.46
+"Animal","Melezitose",448,0.589
+"Animal","Methyl-?-D-glucoside",443,0.572
+"Animal","Soluble Starch",599,0.672
+"Animal","Cellobiose",327,0.349
+"Animal","Salicin",336,0.4
+"Animal","L-Sorbose",398,0.39
+"Animal","L-Rhamnose",612,0.808
+"Animal","D-Xylose",297,0.609
+"Animal","L-Arabinose",531,0.747
+"Animal","D-Arabinose",544,0.399
+"Animal","D-Ribose",483,0.566
+"Animal","Methanol",674,0.454
+"Animal","Ethanol",211,0.743
+"Animal","Glycerol",174,0.729
+"Animal","Erythritol",577,0.712
+"Animal","Ribitol",358,0.609
+"Animal","Galactitol",665,0.639
+"Animal","D-Mannitol",213,0.319
+"Animal","D-Glucitol",232,0.57
+"Animal","myo-Inositol",672,0.53
+"Animal","DL-Lactate",458,0.71
+"Animal","Succinate",219,0.864
+"Animal","Citrate",360,0.838
+"Animal","D-Gluconate",410,0.894
+"Animal","D-Glucosamine",501,0.618
+"Animal","Nitrate",615,0.263
+"Animal","Vitamin-free",608,0.402
+"Animal","2-Keto-D-gluconate",466,0.697
+"Animal","Starch formation",634,0.179
+"Animal","Growth at 19°C",101,0.489
+"Animal","Growth at 25°C",109,0.716
+"Animal","Growth at 30°C",191,0.88
+"Animal","Growth at 37°C",526,0.997
+"Insect","Glucose_F",357,0.836
+"Insect","Galactose_F",531,0.762
+"Insect","Sucrose_F",539,0.64
+"Insect","Maltose_F",573,0.858
+"Insect","Lactose_F",609,0.872
+"Insect","Raffinose_F",564,0.607
+"Insect","Trehalose_F",557,0.959
+"Insect","Glucose",217,1
+"Insect","Inulin",546,0.088
+"Insect","Sucrose",417,0.781
+"Insect","Raffinose",493,0.163
+"Insect","Melibiose",563,0.416
+"Insect","Galactose",403,0.86
+"Insect","Lactose",558,0.249
+"Insect","Trehalose",364,0.541
+"Insect","Maltose",450,0.91
+"Insect","Melezitose",491,0.925
+"Insect","Methyl-?-D-glucoside",488,0.927
+"Insect","Soluble Starch",508,0.115
+"Insect","Cellobiose",400,0.717
+"Insect","Salicin",413,0.815
+"Insect","L-Sorbose",419,0.351
+"Insect","L-Rhamnose",541,0.549
+"Insect","D-Xylose",350,0.443
+"Insect","L-Arabinose",482,0.362
+"Insect","D-Arabinose",511,0.491
+"Insect","D-Ribose",490,0.724
+"Insect","Methanol",567,0.095
+"Insect","Ethanol",280,0.366
+"Insect","Glycerol",277,0.775
+"Insect","Erythritol",522,0.446
+"Insect","Ribitol",431,0.911
+"Insect","Galactitol",558,0.314
+"Insect","D-Mannitol",348,0.979
+"Insect","D-Glucitol",357,0.981
+"Insect","myo-Inositol",563,0.271
+"Insect","DL-Lactate",401,0.024
+"Insect","Succinate",296,0.489
+"Insect","Citrate",405,0.715
+"Insect","D-Gluconate",457,0.933
+"Insect","D-Glucosamine",500,0.693
+"Insect","Nitrate",510,0.021
+"Insect","Vitamin-free",509,0.019
+"Insect","2-Keto-D-gluconate",505,0.945
+"Insect","Starch formation",529,0.006
+"Insect","Growth at 19°C",224,0.592
+"Insect","Growth at 25°C",224,0.771
+"Insect","Growth at 30°C",294,0.924
+"Insect","Growth at 37°C",431,0.061
+"Tree","Glucose_F",280,0.023
+"Tree","Galactose_F",476,0.1
+"Tree","Sucrose_F",498,0.079
+"Tree","Maltose_F",530,0.148
+"Tree","Lactose_F",608,0.201
+"Tree","Raffinose_F",547,0.155
+"Tree","Trehalose_F",484,0.256
+"Tree","Glucose",200,1
+"Tree","Inulin",585,0.791
+"Tree","Sucrose",376,0.396
+"Tree","Raffinose",520,0.588
+"Tree","Melibiose",578,0.53
+"Tree","Galactose",294,0.009
+"Tree","Lactose",585,0.575
+"Tree","Trehalose",357,0.72
+"Tree","Maltose",383,0.292
+"Tree","Melezitose",430,0.39
+"Tree","Methyl-?-D-glucoside",425,0.298
+"Tree","Soluble Starch",557,0.931
+"Tree","Cellobiose",403,0.915
+"Tree","Salicin",404,0.913
+"Tree","L-Sorbose",396,0.257
+"Tree","L-Rhamnose",570,0.911
+"Tree","D-Xylose",375,0.938
+"Tree","L-Arabinose",505,0.783
+"Tree","D-Arabinose",554,0.973
+"Tree","D-Ribose",485,0.801
+"Tree","Methanol",626,0.973
+"Tree","Ethanol",287,0.838
+"Tree","Glycerol",252,0.542
+"Tree","Erythritol",541,0.831
+"Tree","Ribitol",386,0.591
+"Tree","Galactitol",567,0.304
+"Tree","D-Mannitol",315,0.92
+"Tree","D-Glucitol",316,0.84
+"Tree","myo-Inositol",606,0.834
+"Tree","DL-Lactate",438,0.424
+"Tree","Succinate",297,0.869
+"Tree","Citrate",370,0.39
+"Tree","D-Gluconate",380,0.191
+"Tree","D-Glucosamine",477,0.565
+"Tree","Nitrate",615,0.998
+"Tree","Vitamin-free",584,0.956
+"Tree","2-Keto-D-gluconate",418,0.135
+"Tree","Starch formation",600,0.925
+"Tree","Growth at 19°C",207,0.602
+"Tree","Growth at 25°C",205,0.614
+"Tree","Growth at 30°C",213,0.019
+"Tree","Growth at 37°C",438,0.14
+"Stone.Chamber","Glucose_F",226,1
+"Stone.Chamber","Galactose_F",574,1
+"Stone.Chamber","Sucrose_F",620,0.76
+"Stone.Chamber","Maltose_F",664,0.855
+"Stone.Chamber","Lactose_F",800,0.971
+"Stone.Chamber","Raffinose_F",697,0.845
+"Stone.Chamber","Trehalose_F",570,0.899
+"Stone.Chamber","Glucose",2,1
+"Stone.Chamber","Inulin",723,0.931
+"Stone.Chamber","Sucrose",330,1
+"Stone.Chamber","Raffinose",592,0.742
+"Stone.Chamber","Melibiose",726,0.916
+"Stone.Chamber","Galactose",292,1
+"Stone.Chamber","Lactose",731,0.966
+"Stone.Chamber","Trehalose",255,1
+"Stone.Chamber","Maltose",365,1
+"Stone.Chamber","Melezitose",448,0.839
+"Stone.Chamber","Methyl-?-D-glucoside",443,0.814
+"Stone.Chamber","Soluble Starch",633,0.83
+"Stone.Chamber","Cellobiose",309,1
+"Stone.Chamber","Salicin",316,1
+"Stone.Chamber","L-Sorbose",396,1
+"Stone.Chamber","L-Rhamnose",650,0.922
+"Stone.Chamber","D-Xylose",255,1
+"Stone.Chamber","L-Arabinose",545,1
+"Stone.Chamber","D-Arabinose",586,1
+"Stone.Chamber","D-Ribose",495,1
+"Stone.Chamber","Methanol",762,0.886
+"Stone.Chamber","Ethanol",133,1
+"Stone.Chamber","Glycerol",96,1
+"Stone.Chamber","Erythritol",613,1
+"Stone.Chamber","Ribitol",332,1
+"Stone.Chamber","Galactitol",729,0.905
+"Stone.Chamber","D-Mannitol",161,1
+"Stone.Chamber","D-Glucitol",174,1
+"Stone.Chamber","myo-Inositol",754,0.928
+"Stone.Chamber","DL-Lactate",450,0.767
+"Stone.Chamber","Succinate",141,1
+"Stone.Chamber","Citrate",320,1
+"Stone.Chamber","D-Gluconate",374,1
+"Stone.Chamber","D-Glucosamine",519,1
+"Stone.Chamber","Nitrate",685,0.803
+"Stone.Chamber","Vitamin-free",668,0.785
+"Stone.Chamber","2-Keto-D-gluconate",466,1
+"Stone.Chamber","Starch formation",722,0.811
+"Stone.Chamber","Growth at 19°C",13,1
+"Stone.Chamber","Growth at 25°C",11,1
+"Stone.Chamber","Growth at 30°C",101,1
+"Stone.Chamber","Growth at 37°C",486,0.796
+"Lichen","Glucose_F",223,0.474
+"Lichen","Galactose_F",569,0.672
+"Lichen","Sucrose_F",617,0.655
+"Lichen","Maltose_F",661,0.724
+"Lichen","Lactose_F",797,0.947
+"Lichen","Raffinose_F",694,0.745
+"Lichen","Trehalose_F",567,0.724
+"Lichen","Glucose",5,1
+"Lichen","Inulin",718,0.803
+"Lichen","Sucrose",327,0.531
+"Lichen","Raffinose",589,0.608
+"Lichen","Melibiose",725,0.888
+"Lichen","Galactose",293,0.796
+"Lichen","Lactose",730,0.953
+"Lichen","Trehalose",256,0.871
+"Lichen","Maltose",364,0.794
+"Lichen","Melezitose",449,0.864
+"Lichen","Methyl-?-D-glucoside",444,0.854
+"Lichen","Soluble Starch",634,0.9
+"Lichen","Cellobiose",308,0.74
+"Lichen","Salicin",313,0.627
+"Lichen","L-Sorbose",397,0.857
+"Lichen","L-Rhamnose",651,0.958
+"Lichen","D-Xylose",256,0.886
+"Lichen","L-Arabinose",546,0.974
+"Lichen","D-Arabinose",585,0.922
+"Lichen","D-Ribose",494,0.852
+"Lichen","Methanol",761,0.921
+"Lichen","Ethanol",136,1
+"Lichen","Glycerol",99,1
+"Lichen","Erythritol",610,0.896
+"Lichen","Ribitol",335,1
+"Lichen","Galactitol",732,0.969
+"Lichen","D-Mannitol",162,0.763
+"Lichen","D-Glucitol",177,1
+"Lichen","myo-Inositol",751,0.89
+"Lichen","DL-Lactate",445,0.35
+"Lichen","Succinate",144,1
+"Lichen","Citrate",319,0.67
+"Lichen","D-Gluconate",375,0.903
+"Lichen","D-Glucosamine",516,0.816
+"Lichen","Nitrate",684,0.824
+"Lichen","Vitamin-free",665,0.669
+"Lichen","2-Keto-D-gluconate",467,0.957
+"Lichen","Starch formation",721,0.849
+"Lichen","Growth at 19°C",16,1
+"Lichen","Growth at 25°C",14,1
+"Lichen","Growth at 30°C",104,1
+"Lichen","Growth at 37°C",483,0.564
+"Pollen","Glucose_F",231,1
+"Pollen","Galactose_F",569,0.73
+"Pollen","Sucrose_F",623,0.939
+"Pollen","Maltose_F",669,0.981
+"Pollen","Lactose_F",799,0.98
+"Pollen","Raffinose_F",702,0.989
+"Pollen","Trehalose_F",571,0.923
+"Pollen","Glucose",7,1
+"Pollen","Inulin",716,0.742
+"Pollen","Sucrose",329,0.67
+"Pollen","Raffinose",595,0.904
+"Pollen","Melibiose",721,0.769
+"Pollen","Galactose",295,0.897
+"Pollen","Lactose",724,0.766
+"Pollen","Trehalose",252,0.471
+"Pollen","Maltose",364,0.757
+"Pollen","Melezitose",447,0.715
+"Pollen","Methyl-?-D-glucoside",448,0.967
+"Pollen","Soluble Starch",632,0.785
+"Pollen","Cellobiose",306,0.54
+"Pollen","Salicin",313,0.532
+"Pollen","L-Sorbose",397,0.871
+"Pollen","L-Rhamnose",645,0.694
+"Pollen","D-Xylose",252,0.425
+"Pollen","L-Arabinose",540,0.706
+"Pollen","D-Arabinose",579,0.612
+"Pollen","D-Ribose",498,0.976
+"Pollen","Methanol",757,0.776
+"Pollen","Ethanol",132,0.441
+"Pollen","Glycerol",101,1
+"Pollen","Erythritol",610,0.842
+"Pollen","Ribitol",329,0.545
+"Pollen","Galactitol",724,0.811
+"Pollen","D-Mannitol",166,1
+"Pollen","D-Glucitol",179,1
+"Pollen","myo-Inositol",749,0.796
+"Pollen","DL-Lactate",443,0.221
+"Pollen","Succinate",142,0.575
+"Pollen","Citrate",319,0.652
+"Pollen","D-Gluconate",373,0.706
+"Pollen","D-Glucosamine",512,0.518
+"Pollen","Nitrate",684,0.833
+"Pollen","Vitamin-free",669,0.894
+"Pollen","2-Keto-D-gluconate",465,0.823
+"Pollen","Starch formation",717,0.625
+"Pollen","Growth at 19°C",18,1
+"Pollen","Growth at 25°C",16,1
+"Pollen","Growth at 30°C",106,1
+"Pollen","Growth at 37°C",485,0.702
+"Feces.Dung","Glucose_F",241,0.835
+"Feces.Dung","Galactose_F",561,0.664
+"Feces.Dung","Sucrose_F",611,0.771
+"Feces.Dung","Maltose_F",649,0.632
+"Feces.Dung","Lactose_F",773,0.726
+"Feces.Dung","Raffinose_F",680,0.746
+"Feces.Dung","Trehalose_F",557,0.62
+"Feces.Dung","Glucose",29,1
+"Feces.Dung","Inulin",700,0.675
+"Feces.Dung","Sucrose",323,0.32
+"Feces.Dung","Raffinose",575,0.431
+"Feces.Dung","Melibiose",699,0.424
+"Feces.Dung","Galactose",289,0.371
+"Feces.Dung","Lactose",708,0.689
+"Feces.Dung","Trehalose",264,0.706
+"Feces.Dung","Maltose",360,0.488
+"Feces.Dung","Melezitose",439,0.494
+"Feces.Dung","Methyl-?-D-glucoside",436,0.576
+"Feces.Dung","Soluble Starch",620,0.656
+"Feces.Dung","Cellobiose",306,0.457
+"Feces.Dung","Salicin",315,0.532
+"Feces.Dung","L-Sorbose",391,0.516
+"Feces.Dung","L-Rhamnose",641,0.869
+"Feces.Dung","D-Xylose",260,0.61
+"Feces.Dung","L-Arabinose",532,0.642
+"Feces.Dung","D-Arabinose",567,0.505
+"Feces.Dung","D-Ribose",482,0.478
+"Feces.Dung","Methanol",739,0.662
+"Feces.Dung","Ethanol",158,0.961
+"Feces.Dung","Glycerol",113,0.734
+"Feces.Dung","Erythritol",594,0.631
+"Feces.Dung","Ribitol",331,0.574
+"Feces.Dung","Galactitol",706,0.596
+"Feces.Dung","D-Mannitol",168,0.492
+"Feces.Dung","D-Glucitol",181,0.517
+"Feces.Dung","myo-Inositol",727,0.517
+"Feces.Dung","DL-Lactate",455,0.869
+"Feces.Dung","Succinate",160,0.876
+"Feces.Dung","Citrate",321,0.611
+"Feces.Dung","D-Gluconate",377,0.782
+"Feces.Dung","D-Glucosamine",514,0.818
+"Feces.Dung","Nitrate",668,0.631
+"Feces.Dung","Vitamin-free",657,0.834
+"Feces.Dung","2-Keto-D-gluconate",463,0.802
+"Feces.Dung","Starch formation",695,0.219
+"Feces.Dung","Growth at 19°C",32,0.571
+"Feces.Dung","Growth at 25°C",34,0.649
+"Feces.Dung","Growth at 30°C",124,0.865
+"Feces.Dung","Growth at 37°C",497,0.971
+"Pine","Glucose_F",232,0.162
+"Pine","Galactose_F",560,0.441
+"Pine","Sucrose_F",588,0.053
+"Pine","Maltose_F",634,0.175
+"Pine","Lactose_F",764,0.578
+"Pine","Raffinose_F",663,0.122
+"Pine","Trehalose_F",564,0.684
+"Pine","Glucose",38,1
+"Pine","Inulin",685,0.148
+"Pine","Sucrose",326,0.125
+"Pine","Raffinose",576,0.319
+"Pine","Melibiose",708,0.825
+"Pine","Galactose",302,0.383
+"Pine","Lactose",719,0.942
+"Pine","Trehalose",279,0.81
+"Pine","Maltose",367,0.361
+"Pine","Melezitose",444,0.397
+"Pine","Methyl-?-D-glucoside",447,0.599
+"Pine","Soluble Starch",617,0.554
+"Pine","Cellobiose",327,0.74
+"Pine","Salicin",334,0.774
+"Pine","L-Sorbose",394,0.318
+"Pine","L-Rhamnose",646,0.889
+"Pine","D-Xylose",287,0.958
+"Pine","L-Arabinose",559,0.982
+"Pine","D-Arabinose",594,0.973
+"Pine","D-Ribose",501,0.842
+"Pine","Methanol",742,0.886
+"Pine","Ethanol",165,0.886
+"Pine","Glycerol",124,0.527
+"Pine","Erythritol",609,0.899
+"Pine","Ribitol",350,0.76
+"Pine","Galactitol",705,0.675
+"Pine","D-Mannitol",193,0.94
+"Pine","D-Glucitol",208,0.938
+"Pine","myo-Inositol",732,0.838
+"Pine","DL-Lactate",442,0.203
+"Pine","Succinate",169,0.714
+"Pine","Citrate",332,0.503
+"Pine","D-Gluconate",394,0.918
+"Pine","D-Glucosamine",519,0.757
+"Pine","Nitrate",675,0.805
+"Pine","Vitamin-free",646,0.387
+"Pine","2-Keto-D-gluconate",470,0.738
+"Pine","Starch formation",690,0.263
+"Pine","Growth at 19°C",47,0.498
+"Pine","Growth at 25°C",45,0.522
+"Pine","Growth at 30°C",131,0.741
+"Pine","Growth at 37°C",486,0.592
+"Bromeliad","Glucose_F",226,1
+"Bromeliad","Galactose_F",570,0.767
+"Bromeliad","Sucrose_F",620,0.823
+"Bromeliad","Maltose_F",668,1
+"Bromeliad","Lactose_F",802,0.991
+"Bromeliad","Raffinose_F",699,0.958
+"Bromeliad","Trehalose_F",568,0.795
+"Bromeliad","Glucose",2,1
+"Bromeliad","Inulin",721,0.9
+"Bromeliad","Sucrose",330,1
+"Bromeliad","Raffinose",592,0.81
+"Bromeliad","Melibiose",726,0.933
+"Bromeliad","Galactose",290,0.763
+"Bromeliad","Lactose",729,0.93
+"Bromeliad","Trehalose",255,1
+"Bromeliad","Maltose",365,1
+"Bromeliad","Melezitose",450,1
+"Bromeliad","Methyl-?-D-glucoside",445,1
+"Bromeliad","Soluble Starch",633,0.827
+"Bromeliad","Cellobiose",309,1
+"Bromeliad","Salicin",316,1
+"Bromeliad","L-Sorbose",396,1
+"Bromeliad","L-Rhamnose",650,0.96
+"Bromeliad","D-Xylose",255,1
+"Bromeliad","L-Arabinose",541,0.78
+"Bromeliad","D-Arabinose",582,0.803
+"Bromeliad","D-Ribose",493,0.884
+"Bromeliad","Methanol",762,0.923
+"Bromeliad","Ethanol",133,1
+"Bromeliad","Glycerol",96,1
+"Bromeliad","Erythritol",613,1
+"Bromeliad","Ribitol",332,1
+"Bromeliad","Galactitol",729,0.936
+"Bromeliad","D-Mannitol",161,1
+"Bromeliad","D-Glucitol",174,1
+"Bromeliad","myo-Inositol",754,0.923
+"Bromeliad","DL-Lactate",448,0.648
+"Bromeliad","Succinate",137,0.406
+"Bromeliad","Citrate",318,0.723
+"Bromeliad","D-Gluconate",374,1
+"Bromeliad","D-Glucosamine",517,0.856
+"Bromeliad","Nitrate",685,0.85
+"Bromeliad","Vitamin-free",672,1
+"Bromeliad","2-Keto-D-gluconate",464,0.842
+"Bromeliad","Starch formation",724,0.951
+"Bromeliad","Growth at 19°C",13,1
+"Bromeliad","Growth at 25°C",11,1
+"Bromeliad","Growth at 30°C",101,1
+"Bromeliad","Growth at 37°C",484,0.653
+"Flower","Glucose_F",291,0.994
+"Flower","Galactose_F",527,0.264
+"Flower","Sucrose_F",585,0.684
+"Flower","Maltose_F",629,0.893
+"Flower","Lactose_F",745,0.995
+"Flower","Raffinose_F",652,0.833
+"Flower","Trehalose_F",541,0.599
+"Flower","Glucose",81,1
+"Flower","Inulin",654,0.231
+"Flower","Sucrose",377,0.961
+"Flower","Raffinose",549,0.317
+"Flower","Melibiose",655,0.338
+"Flower","Galactose",353,0.996
+"Flower","Lactose",658,0.322
+"Flower","Trehalose",276,0.278
+"Flower","Maltose",406,0.955
+"Flower","Melezitose",475,0.967
+"Flower","Methyl-?-D-glucoside",440,0.611
+"Flower","Soluble Starch",568,0.082
+"Flower","Cellobiose",338,0.617
+"Flower","Salicin",347,0.725
+"Flower","L-Sorbose",459,1
+"Flower","L-Rhamnose",575,0.03
+"Flower","D-Xylose",288,0.539
+"Flower","L-Arabinose",482,0.046
+"Flower","D-Arabinose",533,0.208
+"Flower","D-Ribose",478,0.525
+"Flower","Methanol",685,0.133
+"Flower","Ethanol",180,0.436
+"Flower","Glycerol",151,0.348
+"Flower","Erythritol",536,0.017
+"Flower","Ribitol",357,0.709
+"Flower","Galactitol",660,0.37
+"Flower","D-Mannitol",220,0.771
+"Flower","D-Glucitol",237,0.921
+"Flower","myo-Inositol",675,0.14
+"Flower","DL-Lactate",413,0.033
+"Flower","Succinate",190,0.481
+"Flower","Citrate",343,0.634
+"Flower","D-Gluconate",401,0.884
+"Flower","D-Glucosamine",508,0.721
+"Flower","Nitrate",624,0.364
+"Flower","Vitamin-free",609,0.183
+"Flower","2-Keto-D-gluconate",497,0.991
+"Flower","Starch formation",649,0.078
+"Flower","Growth at 19°C",90,0.566
+"Flower","Growth at 25°C",88,0.616
+"Flower","Growth at 30°C",168,0.71
+"Flower","Growth at 37°C",465,0.342
+"Cactus","Glucose_F",235,0.61
+"Cactus","Galactose_F",547,0.486
+"Cactus","Sucrose_F",597,0.645
+"Cactus","Maltose_F",637,0.631
+"Cactus","Lactose_F",757,0.729
+"Cactus","Raffinose_F",664,0.644
+"Cactus","Trehalose_F",547,0.616
+"Cactus","Glucose",47,1
+"Cactus","Inulin",682,0.459
+"Cactus","Sucrose",317,0.316
+"Cactus","Raffinose",563,0.435
+"Cactus","Melibiose",685,0.492
+"Cactus","Galactose",297,0.694
+"Cactus","Lactose",688,0.529
+"Cactus","Trehalose",242,0.114
+"Cactus","Maltose",348,0.249
+"Cactus","Melezitose",431,0.414
+"Cactus","Methyl-?-D-glucoside",424,0.356
+"Cactus","Soluble Starch",600,0.358
+"Cactus","Cellobiose",306,0.447
+"Cactus","Salicin",317,0.548
+"Cactus","L-Sorbose",395,0.8
+"Cactus","L-Rhamnose",619,0.674
+"Cactus","D-Xylose",262,0.539
+"Cactus","L-Arabinose",516,0.394
+"Cactus","D-Arabinose",563,0.711
+"Cactus","D-Ribose",474,0.502
+"Cactus","Methanol",721,0.535
+"Cactus","Ethanol",174,0.963
+"Cactus","Glycerol",133,0.842
+"Cactus","Erythritol",572,0.24
+"Cactus","Ribitol",327,0.525
+"Cactus","Galactitol",690,0.532
+"Cactus","D-Mannitol",170,0.317
+"Cactus","D-Glucitol",177,0.299
+"Cactus","myo-Inositol",713,0.602
+"Cactus","DL-Lactate",467,0.986
+"Cactus","Succinate",178,0.909
+"Cactus","Citrate",331,0.84
+"Cactus","D-Gluconate",367,0.551
+"Cactus","D-Glucosamine",506,0.783
+"Cactus","Nitrate",646,0.297
+"Cactus","Vitamin-free",627,0.146
+"Cactus","2-Keto-D-gluconate",459,0.817
+"Cactus","Starch formation",685,0.517
+"Cactus","Growth at 19°C",58,1
+"Cactus","Growth at 25°C",56,1
+"Cactus","Growth at 30°C",146,1
+"Cactus","Growth at 37°C",519,1
+"Ipomoea","Glucose_F",248,0.896
+"Ipomoea","Galactose_F",548,0.283
+"Ipomoea","Sucrose_F",602,0.609
+"Ipomoea","Maltose_F",644,0.723
+"Ipomoea","Lactose_F",776,0.945
+"Ipomoea","Raffinose_F",673,0.676
+"Ipomoea","Trehalose_F",562,0.771
+"Ipomoea","Glucose",34,1
+"Ipomoea","Inulin",695,0.574
+"Ipomoea","Sucrose",346,0.857
+"Ipomoea","Raffinose",570,0.35
+"Ipomoea","Melibiose",696,0.527
+"Ipomoea","Galactose",322,0.999
+"Ipomoea","Lactose",697,0.468
+"Ipomoea","Trehalose",269,0.622
+"Ipomoea","Maltose",379,0.846
+"Ipomoea","Melezitose",460,0.882
+"Ipomoea","Methyl-?-D-glucoside",441,0.628
+"Ipomoea","Soluble Starch",601,0.121
+"Ipomoea","Cellobiose",321,0.654
+"Ipomoea","Salicin",328,0.739
+"Ipomoea","L-Sorbose",428,1
+"Ipomoea","L-Rhamnose",618,0.213
+"Ipomoea","D-Xylose",271,0.688
+"Ipomoea","L-Arabinose",511,0.086
+"Ipomoea","D-Arabinose",558,0.285
+"Ipomoea","D-Ribose",477,0.358
+"Ipomoea","Methanol",730,0.382
+"Ipomoea","Ethanol",153,0.551
+"Ipomoea","Glycerol",122,0.713
+"Ipomoea","Erythritol",577,0.119
+"Ipomoea","Ribitol",346,0.821
+"Ipomoea","Galactitol",699,0.533
+"Ipomoea","D-Mannitol",193,1
+"Ipomoea","D-Glucitol",206,1
+"Ipomoea","myo-Inositol",722,0.479
+"Ipomoea","DL-Lactate",428,0.076
+"Ipomoea","Succinate",169,0.823
+"Ipomoea","Citrate",334,0.816
+"Ipomoea","D-Gluconate",382,0.774
+"Ipomoea","D-Glucosamine",515,0.782
+"Ipomoea","Nitrate",659,0.474
+"Ipomoea","Vitamin-free",636,0.088
+"Ipomoea","2-Keto-D-gluconate",482,0.979
+"Ipomoea","Starch formation",690,0.178
+"Ipomoea","Growth at 19°C",45,1
+"Ipomoea","Growth at 25°C",43,1
+"Ipomoea","Growth at 30°C",131,0.893
+"Ipomoea","Growth at 37°C",478,0.525
+"Oak","Glucose_F",255,0.517
+"Oak","Galactose_F",547,0.492
+"Oak","Sucrose_F",593,0.662
+"Oak","Maltose_F",627,0.464
+"Oak","Lactose_F",741,0.547
+"Oak","Raffinose_F",662,0.775
+"Oak","Trehalose_F",537,0.334
+"Oak","Glucose",63,1
+"Oak","Inulin",672,0.35
+"Oak","Sucrose",339,0.489
+"Oak","Raffinose",573,0.704
+"Oak","Melibiose",681,0.586
+"Oak","Galactose",293,0.211
+"Oak","Lactose",686,0.696
+"Oak","Trehalose",280,0.599
+"Oak","Maltose",364,0.41
+"Oak","Melezitose",445,0.624
+"Oak","Methyl-?-D-glucoside",436,0.519
+"Oak","Soluble Starch",602,0.546
+"Oak","Cellobiose",322,0.496
+"Oak","Salicin",331,0.624
+"Oak","L-Sorbose",405,0.734
+"Oak","L-Rhamnose",617,0.666
+"Oak","D-Xylose",276,0.544
+"Oak","L-Arabinose",522,0.478
+"Oak","D-Arabinose",567,0.774
+"Oak","D-Ribose",476,0.422
+"Oak","Methanol",717,0.82
+"Oak","Ethanol",182,0.808
+"Oak","Glycerol",149,0.841
+"Oak","Erythritol",576,0.381
+"Oak","Ribitol",345,0.596
+"Oak","Galactitol",674,0.292
+"Oak","D-Mannitol",200,0.641
+"Oak","D-Glucitol",217,0.744
+"Oak","myo-Inositol",709,0.785
+"Oak","DL-Lactate",487,0.997
+"Oak","Succinate",190,0.824
+"Oak","Citrate",327,0.397
+"Oak","D-Gluconate",371,0.362
+"Oak","D-Glucosamine",500,0.491
+"Oak","Nitrate",652,0.663
+"Oak","Vitamin-free",637,0.719
+"Oak","2-Keto-D-gluconate",445,0.266
+"Oak","Starch formation",677,0.515
+"Oak","Growth at 19°C",74,1
+"Oak","Growth at 25°C",72,1
+"Oak","Growth at 30°C",148,0.609
+"Oak","Growth at 37°C",477,0.59
+"Hibiscus","Glucose_F",233,0.811
+"Hibiscus","Galactose_F",561,0.406
+"Hibiscus","Sucrose_F",615,0.751
+"Hibiscus","Maltose_F",657,0.743
+"Hibiscus","Lactose_F",793,0.955
+"Hibiscus","Raffinose_F",690,0.807
+"Hibiscus","Trehalose_F",563,0.647
+"Hibiscus","Glucose",15,1
+"Hibiscus","Inulin",712,0.744
+"Hibiscus","Sucrose",337,0.895
+"Hibiscus","Raffinose",589,0.759
+"Hibiscus","Melibiose",717,0.806
+"Hibiscus","Galactose",303,0.981
+"Hibiscus","Lactose",716,0.68
+"Hibiscus","Trehalose",260,0.718
+"Hibiscus","Maltose",372,0.934
+"Hibiscus","Melezitose",451,0.776
+"Hibiscus","Methyl-?-D-glucoside",446,0.787
+"Hibiscus","Soluble Starch",622,0.543
+"Hibiscus","Cellobiose",308,0.434
+"Hibiscus","Salicin",315,0.473
+"Hibiscus","L-Sorbose",407,0.99
+"Hibiscus","L-Rhamnose",635,0.431
+"Hibiscus","D-Xylose",262,0.761
+"Hibiscus","L-Arabinose",532,0.432
+"Hibiscus","D-Arabinose",571,0.384
+"Hibiscus","D-Ribose",492,0.729
+"Hibiscus","Methanol",749,0.641
+"Hibiscus","Ethanol",140,0.579
+"Hibiscus","Glycerol",109,1
+"Hibiscus","Erythritol",596,0.35
+"Hibiscus","Ribitol",337,0.781
+"Hibiscus","Galactitol",720,0.808
+"Hibiscus","D-Mannitol",170,0.84
+"Hibiscus","D-Glucitol",185,0.937
+"Hibiscus","myo-Inositol",741,0.684
+"Hibiscus","DL-Lactate",443,0.336
+"Hibiscus","Succinate",148,0.574
+"Hibiscus","Citrate",321,0.588
+"Hibiscus","D-Gluconate",375,0.679
+"Hibiscus","D-Glucosamine",514,0.704
+"Hibiscus","Nitrate",676,0.675
+"Hibiscus","Vitamin-free",661,0.656
+"Hibiscus","2-Keto-D-gluconate",475,0.991
+"Hibiscus","Starch formation",709,0.422
+"Hibiscus","Growth at 19°C",26,1
+"Hibiscus","Growth at 25°C",24,1
+"Hibiscus","Growth at 30°C",114,1
+"Hibiscus","Growth at 37°C",483,0.604
+"Beetle","Glucose_F",321,0.811
+"Beetle","Galactose_F",551,0.647
+"Beetle","Sucrose_F",549,0.213
+"Beetle","Maltose_F",595,0.611
+"Beetle","Lactose_F",667,0.544
+"Beetle","Raffinose_F",582,0.068
+"Beetle","Trehalose_F",595,0.991
+"Beetle","Glucose",147,1
+"Beetle","Inulin",590,0.03
+"Beetle","Sucrose",405,0.794
+"Beetle","Raffinose",495,0.006
+"Beetle","Melibiose",609,0.229
+"Beetle","Galactose",383,0.858
+"Beetle","Lactose",614,0.323
+"Beetle","Trehalose",354,0.855
+"Beetle","Maltose",442,0.917
+"Beetle","Melezitose",497,0.926
+"Beetle","Methyl-?-D-glucoside",486,0.895
+"Beetle","Soluble Starch",546,0.114
+"Beetle","Cellobiose",390,0.833
+"Beetle","Salicin",401,0.904
+"Beetle","L-Sorbose",409,0.219
+"Beetle","L-Rhamnose",579,0.54
+"Beetle","D-Xylose",358,0.924
+"Beetle","L-Arabinose",494,0.192
+"Beetle","D-Arabinose",543,0.571
+"Beetle","D-Ribose",512,0.844
+"Beetle","Methanol",631,0.148
+"Beetle","Ethanol",250,0.673
+"Beetle","Glycerol",229,0.863
+"Beetle","Erythritol",566,0.68
+"Beetle","Ribitol",433,0.991
+"Beetle","Galactitol",606,0.308
+"Beetle","D-Mannitol",300,0.993
+"Beetle","D-Glucitol",317,0.999
+"Beetle","myo-Inositol",623,0.327
+"Beetle","DL-Lactate",405,0.005
+"Beetle","Succinate",274,0.939
+"Beetle","Citrate",405,0.894
+"Beetle","D-Gluconate",431,0.804
+"Beetle","D-Glucosamine",538,0.924
+"Beetle","Nitrate",562,0.017
+"Beetle","Vitamin-free",563,0.042
+"Beetle","2-Keto-D-gluconate",519,0.968
+"Beetle","Starch formation",593,0.027
+"Beetle","Growth at 19°C",158,1
+"Beetle","Growth at 25°C",156,1
+"Beetle","Growth at 30°C",228,0.686
+"Beetle","Growth at 37°C",429,0.008
+"Ant","Glucose_F",226,0.932
+"Ant","Galactose_F",570,0.707
+"Ant","Sucrose_F",622,0.894
+"Ant","Maltose_F",666,0.904
+"Ant","Lactose_F",798,0.908
+"Ant","Raffinose_F",697,0.824
+"Ant","Trehalose_F",566,0.544
+"Ant","Glucose",4,1
+"Ant","Inulin",723,0.925
+"Ant","Sucrose",328,0.712
+"Ant","Raffinose",594,0.858
+"Ant","Melibiose",728,0.957
+"Ant","Galactose",294,1
+"Ant","Lactose",729,0.901
+"Ant","Trehalose",253,0.64
+"Ant","Maltose",365,0.976
+"Ant","Melezitose",448,0.796
+"Ant","Methyl-?-D-glucoside",445,0.971
+"Ant","Soluble Starch",637,0.987
+"Ant","Cellobiose",309,0.959
+"Ant","Salicin",316,0.956
+"Ant","L-Sorbose",396,0.964
+"Ant","L-Rhamnose",650,0.863
+"Ant","D-Xylose",255,0.965
+"Ant","L-Arabinose",545,0.986
+"Ant","D-Arabinose",584,0.86
+"Ant","D-Ribose",495,0.983
+"Ant","Methanol",760,0.813
+"Ant","Ethanol",133,0.667
+"Ant","Glycerol",98,1
+"Ant","Erythritol",613,0.992
+"Ant","Ribitol",332,0.964
+"Ant","Galactitol",733,0.996
+"Ant","D-Mannitol",163,1
+"Ant","D-Glucitol",176,1
+"Ant","myo-Inositol",754,0.904
+"Ant","DL-Lactate",450,0.697
+"Ant","Succinate",141,0.628
+"Ant","Citrate",320,0.765
+"Ant","D-Gluconate",376,1
+"Ant","D-Glucosamine",517,0.841
+"Ant","Nitrate",683,0.688
+"Ant","Vitamin-free",670,0.898
+"Ant","2-Keto-D-gluconate",464,0.796
+"Ant","Starch formation",720,0.737
+"Ant","Growth at 19°C",15,1
+"Ant","Growth at 25°C",13,1
+"Ant","Growth at 30°C",103,1
+"Ant","Growth at 37°C",488,0.973
+"Fruit.fly","Glucose_F",254,0.862
+"Fruit.fly","Galactose_F",556,0.784
+"Fruit.fly","Sucrose_F",608,0.922
+"Fruit.fly","Maltose_F",638,0.774
+"Fruit.fly","Lactose_F",756,0.87
+"Fruit.fly","Raffinose_F",679,0.963
+"Fruit.fly","Trehalose_F",556,0.789
+"Fruit.fly","Glucose",54,1
+"Fruit.fly","Inulin",687,0.724
+"Fruit.fly","Sucrose",346,0.847
+"Fruit.fly","Raffinose",576,0.809
+"Fruit.fly","Melibiose",686,0.7
+"Fruit.fly","Galactose",310,0.807
+"Fruit.fly","Lactose",685,0.6
+"Fruit.fly","Trehalose",265,0.443
+"Fruit.fly","Maltose",373,0.771
+"Fruit.fly","Melezitose",452,0.851
+"Fruit.fly","Methyl-?-D-glucoside",439,0.694
+"Fruit.fly","Soluble Starch",589,0.172
+"Fruit.fly","Cellobiose",319,0.515
+"Fruit.fly","Salicin",324,0.515
+"Fruit.fly","L-Sorbose",414,0.948
+"Fruit.fly","L-Rhamnose",606,0.324
+"Fruit.fly","D-Xylose",267,0.437
+"Fruit.fly","L-Arabinose",509,0.226
+"Fruit.fly","D-Arabinose",544,0.268
+"Fruit.fly","D-Ribose",455,0.085
+"Fruit.fly","Methanol",712,0.341
+"Fruit.fly","Ethanol",171,0.831
+"Fruit.fly","Glycerol",130,0.604
+"Fruit.fly","Erythritol",557,0.025
+"Fruit.fly","Ribitol",338,0.583
+"Fruit.fly","Galactitol",683,0.428
+"Fruit.fly","D-Mannitol",197,0.729
+"Fruit.fly","D-Glucitol",206,0.702
+"Fruit.fly","myo-Inositol",708,0.584
+"Fruit.fly","DL-Lactate",450,0.76
+"Fruit.fly","Succinate",167,0.349
+"Fruit.fly","Citrate",306,0.102
+"Fruit.fly","D-Gluconate",376,0.628
+"Fruit.fly","D-Glucosamine",493,0.382
+"Fruit.fly","Nitrate",639,0.246
+"Fruit.fly","Vitamin-free",624,0.23
+"Fruit.fly","2-Keto-D-gluconate",464,0.804
+"Fruit.fly","Starch formation",674,0.193
+"Fruit.fly","Growth at 19°C",65,1
+"Fruit.fly","Growth at 25°C",63,1
+"Fruit.fly","Growth at 30°C",149,0.942
+"Fruit.fly","Growth at 37°C",490,0.91
+"Bee","Glucose_F",245,0.941
+"Bee","Galactose_F",559,0.625
+"Bee","Sucrose_F",619,0.949
+"Bee","Maltose_F",661,0.966
+"Bee","Lactose_F",787,0.995
+"Bee","Raffinose_F",692,0.964
+"Bee","Trehalose_F",559,0.745
+"Bee","Glucose",27,1
+"Bee","Inulin",698,0.529
+"Bee","Sucrose",331,0.549
+"Bee","Raffinose",589,0.861
+"Bee","Melibiose",705,0.647
+"Bee","Galactose",309,0.947
+"Bee","Lactose",706,0.532
+"Bee","Trehalose",244,0.108
+"Bee","Maltose",362,0.515
+"Bee","Melezitose",439,0.431
+"Bee","Methyl-?-D-glucoside",436,0.583
+"Bee","Soluble Starch",616,0.435
+"Bee","Cellobiose",302,0.258
+"Bee","Salicin",313,0.385
+"Bee","L-Sorbose",409,0.967
+"Bee","L-Rhamnose",627,0.333
+"Bee","D-Xylose",242,0.06
+"Bee","L-Arabinose",522,0.23
+"Bee","D-Arabinose",561,0.212
+"Bee","D-Ribose",492,0.81
+"Bee","Methanol",737,0.491
+"Bee","Ethanol",138,0.226
+"Bee","Glycerol",117,0.847
+"Bee","Erythritol",592,0.46
+"Bee","Ribitol",325,0.315
+"Bee","Galactitol",706,0.587
+"Bee","D-Mannitol",184,0.948
+"Bee","D-Glucitol",195,0.875
+"Bee","myo-Inositol",731,0.586
+"Bee","DL-Lactate",431,0.108
+"Bee","Succinate",152,0.464
+"Bee","Citrate",325,0.684
+"Bee","D-Gluconate",383,0.885
+"Bee","D-Glucosamine",502,0.36
+"Bee","Nitrate",676,0.906
+"Bee","Vitamin-free",649,0.436
+"Bee","2-Keto-D-gluconate",467,0.856
+"Bee","Starch formation",699,0.434
+"Bee","Growth at 19°C",38,1
+"Bee","Growth at 25°C",36,1
+"Bee","Growth at 30°C",124,0.889
+"Bee","Growth at 37°C",489,0.87
+"Water","Glucose_F",228,1
+"Water","Galactose_F",572,0.864
+"Water","Sucrose_F",622,0.87
+"Water","Maltose_F",666,0.935
+"Water","Lactose_F",798,0.938
+"Water","Raffinose_F",695,0.786
+"Water","Trehalose_F",570,0.898
+"Water","Glucose",4,1
+"Water","Inulin",719,0.805
+"Water","Sucrose",328,0.653
+"Water","Raffinose",590,0.628
+"Water","Melibiose",724,0.851
+"Water","Galactose",290,0.567
+"Water","Lactose",729,0.928
+"Water","Trehalose",255,0.905
+"Water","Maltose",365,0.943
+"Water","Melezitose",450,0.959
+"Water","Methyl-?-D-glucoside",445,0.958
+"Water","Soluble Starch",635,0.917
+"Water","Cellobiose",309,0.932
+"Water","Salicin",316,0.94
+"Water","L-Sorbose",394,0.654
+"Water","L-Rhamnose",648,0.825
+"Water","D-Xylose",255,0.926
+"Water","L-Arabinose",541,0.763
+"Water","D-Arabinose",582,0.784
+"Water","D-Ribose",493,0.848
+"Water","Methanol",762,0.919
+"Water","Ethanol",135,1
+"Water","Glycerol",98,1
+"Water","Erythritol",609,0.81
+"Water","Ribitol",330,0.764
+"Water","Galactitol",727,0.851
+"Water","D-Mannitol",163,1
+"Water","D-Glucitol",176,1
+"Water","myo-Inositol",752,0.888
+"Water","DL-Lactate",452,0.843
+"Water","Succinate",143,1
+"Water","Citrate",318,0.659
+"Water","D-Gluconate",374,0.949
+"Water","D-Glucosamine",517,0.87
+"Water","Nitrate",687,0.92
+"Water","Vitamin-free",670,0.9
+"Water","2-Keto-D-gluconate",466,0.965
+"Water","Starch formation",720,0.747
+"Water","Growth at 19°C",15,1
+"Water","Growth at 25°C",13,1
+"Water","Growth at 30°C",103,1
+"Water","Growth at 37°C",486,0.819
+"Tree.exudate","Glucose_F",259,0.906
+"Tree.exudate","Galactose_F",553,0.583
+"Tree.exudate","Sucrose_F",609,0.883
+"Tree.exudate","Maltose_F",635,0.591
+"Tree.exudate","Lactose_F",753,0.623
+"Tree.exudate","Raffinose_F",668,0.802
+"Tree.exudate","Trehalose_F",545,0.423
+"Tree.exudate","Glucose",51,1
+"Tree.exudate","Inulin",684,0.486
+"Tree.exudate","Sucrose",341,0.627
+"Tree.exudate","Raffinose",571,0.575
+"Tree.exudate","Melibiose",687,0.517
+"Tree.exudate","Galactose",287,0.159
+"Tree.exudate","Lactose",686,0.469
+"Tree.exudate","Trehalose",270,0.516
+"Tree.exudate","Maltose",364,0.451
+"Tree.exudate","Melezitose",445,0.643
+"Tree.exudate","Methyl-?-D-glucoside",444,0.698
+"Tree.exudate","Soluble Starch",598,0.245
+"Tree.exudate","Cellobiose",320,0.586
+"Tree.exudate","Salicin",327,0.643
+"Tree.exudate","L-Sorbose",401,0.692
+"Tree.exudate","L-Rhamnose",631,0.857
+"Tree.exudate","D-Xylose",272,0.625
+"Tree.exudate","L-Arabinose",522,0.413
+"Tree.exudate","D-Arabinose",561,0.532
+"Tree.exudate","D-Ribose",484,0.603
+"Tree.exudate","Methanol",733,0.928
+"Tree.exudate","Ethanol",176,0.936
+"Tree.exudate","Glycerol",131,0.535
+"Tree.exudate","Erythritol",590,0.63
+"Tree.exudate","Ribitol",339,0.595
+"Tree.exudate","Galactitol",688,0.446
+"Tree.exudate","D-Mannitol",194,0.728
+"Tree.exudate","D-Glucitol",209,0.816
+"Tree.exudate","myo-Inositol",707,0.45
+"Tree.exudate","DL-Lactate",467,0.947
+"Tree.exudate","Succinate",176,0.729
+"Tree.exudate","Citrate",321,0.338
+"Tree.exudate","D-Gluconate",367,0.298
+"Tree.exudate","D-Glucosamine",504,0.551
+"Tree.exudate","Nitrate",650,0.436
+"Tree.exudate","Vitamin-free",631,0.339
+"Tree.exudate","2-Keto-D-gluconate",453,0.472
+"Tree.exudate","Starch formation",677,0.208
+"Tree.exudate","Growth at 19°C",62,1
+"Tree.exudate","Growth at 25°C",60,1
+"Tree.exudate","Growth at 30°C",144,0.886
+"Tree.exudate","Growth at 37°C",489,0.856
+"Tree.flux","Glucose_F",253,0.806
+"Tree.flux","Galactose_F",551,0.561
+"Tree.flux","Sucrose_F",597,0.63
+"Tree.flux","Maltose_F",629,0.496
+"Tree.flux","Lactose_F",751,0.704
+"Tree.flux","Raffinose_F",666,0.678
+"Tree.flux","Trehalose_F",541,0.365
+"Tree.flux","Glucose",53,1
+"Tree.flux","Inulin",688,0.702
+"Tree.flux","Sucrose",339,0.615
+"Tree.flux","Raffinose",567,0.431
+"Tree.flux","Melibiose",689,0.622
+"Tree.flux","Galactose",293,0.294
+"Tree.flux","Lactose",686,0.514
+"Tree.flux","Trehalose",266,0.404
+"Tree.flux","Maltose",370,0.645
+"Tree.flux","Melezitose",447,0.737
+"Tree.flux","Methyl-?-D-glucoside",438,0.582
+"Tree.flux","Soluble Starch",598,0.331
+"Tree.flux","Cellobiose",312,0.342
+"Tree.flux","Salicin",319,0.443
+"Tree.flux","L-Sorbose",411,0.88
+"Tree.flux","L-Rhamnose",633,0.896
+"Tree.flux","D-Xylose",274,0.645
+"Tree.flux","L-Arabinose",514,0.261
+"Tree.flux","D-Arabinose",561,0.572
+"Tree.flux","D-Ribose",484,0.624
+"Tree.flux","Methanol",725,0.795
+"Tree.flux","Ethanol",180,0.969
+"Tree.flux","Glycerol",139,0.72
+"Tree.flux","Erythritol",574,0.27
+"Tree.flux","Ribitol",337,0.525
+"Tree.flux","Galactitol",688,0.54
+"Tree.flux","D-Mannitol",192,0.661
+"Tree.flux","D-Glucitol",209,0.808
+"Tree.flux","myo-Inositol",709,0.592
+"Tree.flux","DL-Lactate",471,0.969
+"Tree.flux","Succinate",186,0.939
+"Tree.flux","Citrate",321,0.38
+"Tree.flux","D-Gluconate",369,0.395
+"Tree.flux","D-Glucosamine",496,0.404
+"Tree.flux","Nitrate",648,0.459
+"Tree.flux","Vitamin-free",637,0.645
+"Tree.flux","2-Keto-D-gluconate",461,0.722
+"Tree.flux","Starch formation",679,0.372
+"Tree.flux","Growth at 19°C",64,1
+"Tree.flux","Growth at 25°C",62,1
+"Tree.flux","Growth at 30°C",144,0.89
+"Tree.flux","Growth at 37°C",471,0.427
+"Honey","Glucose_F",229,1
+"Honey","Galactose_F",569,0.79
+"Honey","Sucrose_F",621,0.893
+"Honey","Maltose_F",667,0.96
+"Honey","Lactose_F",797,0.954
+"Honey","Raffinose_F",698,0.939
+"Honey","Trehalose_F",565,0.65
+"Honey","Glucose",5,1
+"Honey","Inulin",718,0.853
+"Honey","Sucrose",331,0.953
+"Honey","Raffinose",595,0.965
+"Honey","Melibiose",725,0.938
+"Honey","Galactose",291,0.862
+"Honey","Lactose",728,0.929
+"Honey","Trehalose",252,0.575
+"Honey","Maltose",366,0.939
+"Honey","Melezitose",447,0.859
+"Honey","Methyl-?-D-glucoside",442,0.872
+"Honey","Soluble Starch",632,0.85
+"Honey","Cellobiose",304,0.562
+"Honey","Salicin",311,0.582
+"Honey","L-Sorbose",395,0.905
+"Honey","L-Rhamnose",647,0.861
+"Honey","D-Xylose",250,0.52
+"Honey","L-Arabinose",540,0.792
+"Honey","D-Arabinose",581,0.796
+"Honey","D-Ribose",492,0.87
+"Honey","Methanol",759,0.863
+"Honey","Ethanol",130,0.524
+"Honey","Glycerol",99,1
+"Honey","Erythritol",608,0.836
+"Honey","Ribitol",327,0.606
+"Honey","Galactitol",728,0.928
+"Honey","D-Mannitol",162,0.87
+"Honey","D-Glucitol",175,0.889
+"Honey","myo-Inositol",753,0.929
+"Honey","DL-Lactate",447,0.64
+"Honey","Succinate",138,0.552
+"Honey","Citrate",317,0.692
+"Honey","D-Gluconate",373,0.841
+"Honey","D-Glucosamine",514,0.769
+"Honey","Nitrate",684,0.869
+"Honey","Vitamin-free",667,0.861
+"Honey","2-Keto-D-gluconate",467,0.961
+"Honey","Starch formation",721,0.895
+"Honey","Growth at 19°C",16,1
+"Honey","Growth at 25°C",14,1
+"Honey","Growth at 30°C",104,1
+"Honey","Growth at 37°C",485,0.757
+"Nematode","Glucose_F",219,0.556
+"Nematode","Galactose_F",567,0.845
+"Nematode","Sucrose_F",617,0.865
+"Nematode","Maltose_F",661,0.909
+"Nematode","Lactose_F",797,0.978
+"Nematode","Raffinose_F",694,0.917
+"Nematode","Trehalose_F",565,0.828
+"Nematode","Glucose",5,1
+"Nematode","Inulin",718,0.928
+"Nematode","Sucrose",325,0.735
+"Nematode","Raffinose",589,0.839
+"Nematode","Melibiose",723,0.943
+"Nematode","Galactose",285,0.622
+"Nematode","Lactose",726,0.946
+"Nematode","Trehalose",256,0.915
+"Nematode","Maltose",358,0.698
+"Nematode","Melezitose",443,0.789
+"Nematode","Methyl-?-D-glucoside",438,0.773
+"Nematode","Soluble Starch",632,0.943
+"Nematode","Cellobiose",302,0.625
+"Nematode","Salicin",309,0.628
+"Nematode","L-Sorbose",399,1
+"Nematode","L-Rhamnose",645,0.896
+"Nematode","D-Xylose",250,0.685
+"Nematode","L-Arabinose",538,0.839
+"Nematode","D-Arabinose",579,0.842
+"Nematode","D-Ribose",488,0.787
+"Nematode","Methanol",759,0.948
+"Nematode","Ethanol",136,1
+"Nematode","Glycerol",99,1
+"Nematode","Erythritol",606,0.865
+"Nematode","Ribitol",325,0.705
+"Nematode","Galactitol",726,0.956
+"Nematode","D-Mannitol",162,0.922
+"Nematode","D-Glucitol",175,0.934
+"Nematode","myo-Inositol",751,0.957
+"Nematode","DL-Lactate",453,0.99
+"Nematode","Succinate",144,1
+"Nematode","Citrate",313,0.66
+"Nematode","D-Gluconate",367,0.688
+"Nematode","D-Glucosamine",512,0.802
+"Nematode","Nitrate",682,0.905
+"Nematode","Vitamin-free",667,0.934
+"Nematode","2-Keto-D-gluconate",467,0.992
+"Nematode","Starch formation",723,0.984
+"Nematode","Growth at 19°C",16,1
+"Nematode","Growth at 25°C",14,1
+"Nematode","Growth at 30°C",102,0.858
+"Nematode","Growth at 37°C",485,0.919
+"Mushroom.Fungus","Glucose_F",267,0.919
+"Mushroom.Fungus","Galactose_F",579,0.916
+"Mushroom.Fungus","Sucrose_F",581,0.171
+"Mushroom.Fungus","Maltose_F",635,0.524
+"Mushroom.Fungus","Lactose_F",749,0.572
+"Mushroom.Fungus","Raffinose_F",656,0.342
+"Mushroom.Fungus","Trehalose_F",583,0.968
+"Mushroom.Fungus","Glucose",55,1
+"Mushroom.Fungus","Inulin",678,0.434
+"Mushroom.Fungus","Sucrose",347,0.51
+"Mushroom.Fungus","Raffinose",557,0.128
+"Mushroom.Fungus","Melibiose",685,0.478
+"Mushroom.Fungus","Galactose",319,0.678
+"Mushroom.Fungus","Lactose",694,0.674
+"Mushroom.Fungus","Trehalose",294,0.863
+"Mushroom.Fungus","Maltose",386,0.756
+"Mushroom.Fungus","Melezitose",453,0.616
+"Mushroom.Fungus","Methyl-?-D-glucoside",464,0.902
+"Mushroom.Fungus","Soluble Starch",610,0.579
+"Mushroom.Fungus","Cellobiose",342,0.887
+"Mushroom.Fungus","Salicin",341,0.733
+"Mushroom.Fungus","L-Sorbose",385,0.162
+"Mushroom.Fungus","L-Rhamnose",615,0.426
+"Mushroom.Fungus","D-Xylose",288,0.764
+"Mushroom.Fungus","L-Arabinose",516,0.217
+"Mushroom.Fungus","D-Arabinose",573,0.694
+"Mushroom.Fungus","D-Ribose",494,0.681
+"Mushroom.Fungus","Methanol",717,0.599
+"Mushroom.Fungus","Ethanol",170,0.467
+"Mushroom.Fungus","Glycerol",149,1
+"Mushroom.Fungus","Erythritol",592,0.613
+"Mushroom.Fungus","Ribitol",367,0.918
+"Mushroom.Fungus","Galactitol",690,0.545
+"Mushroom.Fungus","D-Mannitol",208,0.879
+"Mushroom.Fungus","D-Glucitol",221,0.911
+"Mushroom.Fungus","myo-Inositol",709,0.49
+"Mushroom.Fungus","DL-Lactate",431,0.104
+"Mushroom.Fungus","Succinate",188,0.916
+"Mushroom.Fungus","Citrate",361,0.96
+"Mushroom.Fungus","D-Gluconate",393,0.691
+"Mushroom.Fungus","D-Glucosamine",530,0.924
+"Mushroom.Fungus","Nitrate",640,0.145
+"Mushroom.Fungus","Vitamin-free",629,0.246
+"Mushroom.Fungus","2-Keto-D-gluconate",491,0.962
+"Mushroom.Fungus","Starch formation",673,0.122
+"Mushroom.Fungus","Growth at 19°C",66,1
+"Mushroom.Fungus","Growth at 25°C",64,1
+"Mushroom.Fungus","Growth at 30°C",148,0.891
+"Mushroom.Fungus","Growth at 37°C",445,0.005
+"Soil","Glucose_F",295,0.301
+"Soil","Galactose_F",529,0.798
+"Soil","Sucrose_F",557,0.678
+"Soil","Maltose_F",567,0.394
+"Soil","Lactose_F",639,0.251
+"Soil","Raffinose_F",604,0.785
+"Soil","Trehalose_F",487,0.103
+"Soil","Glucose",167,1
+"Soil","Inulin",644,0.968
+"Soil","Sucrose",371,0.695
+"Soil","Raffinose",561,0.91
+"Soil","Melibiose",647,0.964
+"Soil","Galactose",367,0.883
+"Soil","Lactose",640,0.929
+"Soil","Trehalose",326,0.721
+"Soil","Maltose",382,0.477
+"Soil","Melezitose",445,0.681
+"Soil","Methyl-?-D-glucoside",456,0.847
+"Soil","Soluble Starch",564,0.567
+"Soil","Cellobiose",346,0.436
+"Soil","Salicin",355,0.502
+"Soil","L-Sorbose",427,0.798
+"Soil","L-Rhamnose",569,0.495
+"Soil","D-Xylose",304,0.263
+"Soil","L-Arabinose",510,0.653
+"Soil","D-Arabinose",509,0.213
+"Soil","D-Ribose",456,0.267
+"Soil","Methanol",631,0.65
+"Soil","Ethanol",244,0.772
+"Soil","Glycerol",203,0.197
+"Soil","Erythritol",544,0.544
+"Soil","Ribitol",335,0.12
+"Soil","Galactitol",644,0.924
+"Soil","D-Mannitol",236,0.202
+"Soil","D-Glucitol",245,0.172
+"Soil","myo-Inositol",631,0.585
+"Soil","DL-Lactate",445,0.536
+"Soil","Succinate",218,0.095
+"Soil","Citrate",345,0.322
+"Soil","D-Gluconate",405,0.736
+"Soil","D-Glucosamine",448,0.072
+"Soil","Nitrate",574,0.255
+"Soil","Vitamin-free",605,0.93
+"Soil","2-Keto-D-gluconate",443,0.383
+"Soil","Starch formation",609,0.583
+"Soil","Growth at 19°C",172,0.55
+"Soil","Growth at 25°C",172,0.695
+"Soil","Growth at 30°C",248,0.943
+"Soil","Growth at 37°C",475,0.677
+"Insect.Frass","Glucose_F",269,0.417
+"Insect.Frass","Galactose_F",551,0.269
+"Insect.Frass","Sucrose_F",587,0.209
+"Insect.Frass","Maltose_F",623,0.29
+"Insect.Frass","Lactose_F",725,0.324
+"Insect.Frass","Raffinose_F",642,0.138
+"Insect.Frass","Trehalose_F",561,0.61
+"Insect.Frass","Glucose",79,1
+"Insect.Frass","Inulin",660,0.186
+"Insect.Frass","Sucrose",351,0.228
+"Insect.Frass","Raffinose",567,0.243
+"Insect.Frass","Melibiose",677,0.513
+"Insect.Frass","Galactose",307,0.096
+"Insect.Frass","Lactose",686,0.684
+"Insect.Frass","Trehalose",310,0.846
+"Insect.Frass","Maltose",392,0.53
+"Insect.Frass","Melezitose",467,0.659
+"Insect.Frass","Methyl-?-D-glucoside",470,0.784
+"Insect.Frass","Soluble Starch",604,0.364
+"Insect.Frass","Cellobiose",358,0.857
+"Insect.Frass","Salicin",367,0.894
+"Insect.Frass","L-Sorbose",399,0.183
+"Insect.Frass","L-Rhamnose",653,0.96
+"Insect.Frass","D-Xylose",324,0.987
+"Insect.Frass","L-Arabinose",566,0.961
+"Insect.Frass","D-Arabinose",589,0.889
+"Insect.Frass","D-Ribose",510,0.807
+"Insect.Frass","Methanol",705,0.656
+"Insect.Frass","Ethanol",208,0.976
+"Insect.Frass","Glycerol",165,0.608
+"Insect.Frass","Erythritol",606,0.843
+"Insect.Frass","Ribitol",365,0.603
+"Insect.Frass","Galactitol",680,0.623
+"Insect.Frass","D-Mannitol",224,0.821
+"Insect.Frass","D-Glucitol",241,0.928
+"Insect.Frass","myo-Inositol",695,0.608
+"Insect.Frass","DL-Lactate",443,0.121
+"Insect.Frass","Succinate",212,0.886
+"Insect.Frass","Citrate",353,0.507
+"Insect.Frass","D-Gluconate",423,0.949
+"Insect.Frass","D-Glucosamine",520,0.647
+"Insect.Frass","Nitrate",650,0.556
+"Insect.Frass","Vitamin-free",623,0.205
+"Insect.Frass","2-Keto-D-gluconate",471,0.477
+"Insect.Frass","Starch formation",655,0.092
+"Insect.Frass","Growth at 19°C",90,1
+"Insect.Frass","Growth at 25°C",88,1
+"Insect.Frass","Growth at 30°C",178,1
+"Insect.Frass","Growth at 37°C",503,0.727
+"Unknown","Glucose_F",227,1
+"Unknown","Galactose_F",573,0.925
+"Unknown","Sucrose_F",621,0.881
+"Unknown","Maltose_F",665,0.908
+"Unknown","Lactose_F",799,0.958
+"Unknown","Raffinose_F",698,0.917
+"Unknown","Trehalose_F",571,0.98
+"Unknown","Glucose",3,1
+"Unknown","Inulin",722,0.938
+"Unknown","Sucrose",327,0.675
+"Unknown","Raffinose",595,0.975
+"Unknown","Melibiose",729,0.995
+"Unknown","Galactose",293,1
+"Unknown","Lactose",728,0.882
+"Unknown","Trehalose",252,0.519
+"Unknown","Maltose",362,0.723
+"Unknown","Melezitose",447,0.781
+"Unknown","Methyl-?-D-glucoside",444,0.956
+"Unknown","Soluble Starch",634,0.893
+"Unknown","Cellobiose",308,0.942
+"Unknown","Salicin",315,0.935
+"Unknown","L-Sorbose",395,0.964
+"Unknown","L-Rhamnose",647,0.734
+"Unknown","D-Xylose",254,0.933
+"Unknown","L-Arabinose",544,0.976
+"Unknown","D-Arabinose",585,0.982
+"Unknown","D-Ribose",494,0.963
+"Unknown","Methanol",761,0.859
+"Unknown","Ethanol",132,0.913
+"Unknown","Glycerol",95,0.88
+"Unknown","Erythritol",612,0.99
+"Unknown","Ribitol",331,0.945
+"Unknown","Galactitol",732,0.994
+"Unknown","D-Mannitol",160,0.911
+"Unknown","D-Glucitol",173,0.924
+"Unknown","myo-Inositol",757,0.997
+"Unknown","DL-Lactate",451,0.952
+"Unknown","Succinate",140,0.905
+"Unknown","Citrate",317,0.676
+"Unknown","D-Gluconate",373,0.943
+"Unknown","D-Glucosamine",518,0.979
+"Unknown","Nitrate",686,0.892
+"Unknown","Vitamin-free",667,0.718
+"Unknown","2-Keto-D-gluconate",465,0.869
+"Unknown","Starch formation",723,0.906
+"Unknown","Growth at 19°C",14,1
+"Unknown","Growth at 25°C",12,1
+"Unknown","Growth at 30°C",100,0.901
+"Unknown","Growth at 37°C",485,0.76
+"Air","Glucose_F",229,0.649
+"Air","Galactose_F",573,0.766
+"Air","Sucrose_F",621,0.729
+"Air","Maltose_F",667,0.897
+"Air","Lactose_F",793,0.86
+"Air","Raffinose_F",694,0.698
+"Air","Trehalose_F",571,0.763
+"Air","Glucose",9,1
+"Air","Inulin",722,0.901
+"Air","Sucrose",333,0.687
+"Air","Raffinose",591,0.616
+"Air","Melibiose",723,0.791
+"Air","Galactose",297,0.814
+"Air","Lactose",726,0.838
+"Air","Trehalose",262,1
+"Air","Maltose",372,1
+"Air","Melezitose",449,0.633
+"Air","Methyl-?-D-glucoside",450,0.909
+"Air","Soluble Starch",634,0.797
+"Air","Cellobiose",314,0.896
+"Air","Salicin",317,0.578
+"Air","L-Sorbose",399,0.774
+"Air","L-Rhamnose",643,0.507
+"Air","D-Xylose",260,0.78
+"Air","L-Arabinose",546,0.859
+"Air","D-Arabinose",581,0.588
+"Air","D-Ribose",494,0.715
+"Air","Methanol",757,0.768
+"Air","Ethanol",138,0.641
+"Air","Glycerol",103,1
+"Air","Erythritol",614,0.881
+"Air","Ribitol",337,0.919
+"Air","Galactitol",728,0.888
+"Air","D-Mannitol",168,1
+"Air","D-Glucitol",181,1
+"Air","myo-Inositol",749,0.809
+"Air","DL-Lactate",449,0.466
+"Air","Succinate",148,1
+"Air","Citrate",321,0.573
+"Air","D-Gluconate",373,0.444
+"Air","D-Glucosamine",522,0.905
+"Air","Nitrate",678,0.407
+"Air","Vitamin-free",667,0.692
+"Air","2-Keto-D-gluconate",465,0.615
+"Air","Starch formation",717,0.61
+"Air","Growth at 19°C",20,1
+"Air","Growth at 25°C",18,1
+"Air","Growth at 30°C",106,0.619
+"Air","Growth at 37°C",485,0.483
+"Leather.Tanning","Glucose_F",238,0.95
+"Leather.Tanning","Galactose_F",566,0.69
+"Leather.Tanning","Sucrose_F",614,0.591
+"Leather.Tanning","Maltose_F",652,0.475
+"Leather.Tanning","Lactose_F",784,0.806
+"Leather.Tanning","Raffinose_F",687,0.619
+"Leather.Tanning","Trehalose_F",562,0.608
+"Leather.Tanning","Glucose",18,1
+"Leather.Tanning","Inulin",707,0.516
+"Leather.Tanning","Sucrose",326,0.376
+"Leather.Tanning","Raffinose",586,0.561
+"Leather.Tanning","Melibiose",718,0.807
+"Leather.Tanning","Galactose",292,0.461
+"Leather.Tanning","Lactose",721,0.841
+"Leather.Tanning","Trehalose",255,0.506
+"Leather.Tanning","Maltose",363,0.592
+"Leather.Tanning","Melezitose",448,0.737
+"Leather.Tanning","Methyl-?-D-glucoside",443,0.726
+"Leather.Tanning","Soluble Starch",627,0.712
+"Leather.Tanning","Cellobiose",311,0.593
+"Leather.Tanning","Salicin",320,0.714
+"Leather.Tanning","L-Sorbose",388,0.325
+"Leather.Tanning","L-Rhamnose",648,0.891
+"Leather.Tanning","D-Xylose",265,0.931
+"Leather.Tanning","L-Arabinose",547,0.93
+"Leather.Tanning","D-Arabinose",576,0.61
+"Leather.Tanning","D-Ribose",493,0.788
+"Leather.Tanning","Methanol",752,0.823
+"Leather.Tanning","Ethanol",147,0.963
+"Leather.Tanning","Glycerol",110,0.928
+"Leather.Tanning","Erythritol",605,0.757
+"Leather.Tanning","Ribitol",334,0.747
+"Leather.Tanning","Galactitol",721,0.804
+"Leather.Tanning","D-Mannitol",165,0.631
+"Leather.Tanning","D-Glucitol",180,0.733
+"Leather.Tanning","myo-Inositol",740,0.731
+"Leather.Tanning","DL-Lactate",458,0.916
+"Leather.Tanning","Succinate",153,0.905
+"Leather.Tanning","Citrate",322,0.661
+"Leather.Tanning","D-Gluconate",376,0.738
+"Leather.Tanning","D-Glucosamine",513,0.695
+"Leather.Tanning","Nitrate",677,0.724
+"Leather.Tanning","Vitamin-free",654,0.371
+"Leather.Tanning","2-Keto-D-gluconate",458,0.498
+"Leather.Tanning","Starch formation",708,0.457
+"Leather.Tanning","Growth at 19°C",29,1
+"Leather.Tanning","Growth at 25°C",27,1
+"Leather.Tanning","Growth at 30°C",115,0.964
+"Leather.Tanning","Growth at 37°C",486,0.71
+"Industrial","Glucose_F",247,0.742
+"Industrial","Galactose_F",563,0.754
+"Industrial","Sucrose_F",607,0.58
+"Industrial","Maltose_F",641,0.517
+"Industrial","Lactose_F",759,0.711
+"Industrial","Raffinose_F",672,0.575
+"Industrial","Trehalose_F",557,0.621
+"Industrial","Glucose",45,1
+"Industrial","Inulin",686,0.39
+"Industrial","Sucrose",331,0.407
+"Industrial","Raffinose",577,0.486
+"Industrial","Melibiose",693,0.495
+"Industrial","Galactose",307,0.649
+"Industrial","Lactose",696,0.547
+"Industrial","Trehalose",262,0.388
+"Industrial","Maltose",366,0.531
+"Industrial","Melezitose",449,0.716
+"Industrial","Methyl-?-D-glucoside",442,0.592
+"Industrial","Soluble Starch",620,0.735
+"Industrial","Cellobiose",310,0.34
+"Industrial","Salicin",319,0.459
+"Industrial","L-Sorbose",407,0.815
+"Industrial","L-Rhamnose",625,0.501
+"Industrial","D-Xylose",274,0.792
+"Industrial","L-Arabinose",532,0.593
+"Industrial","D-Arabinose",561,0.344
+"Industrial","D-Ribose",482,0.454
+"Industrial","Methanol",725,0.516
+"Industrial","Ethanol",172,0.971
+"Industrial","Glycerol",129,0.745
+"Industrial","Erythritol",582,0.318
+"Industrial","Ribitol",333,0.44
+"Industrial","Galactitol",704,0.699
+"Industrial","D-Mannitol",178,0.481
+"Industrial","D-Glucitol",197,0.687
+"Industrial","myo-Inositol",723,0.717
+"Industrial","DL-Lactate",477,0.987
+"Industrial","Succinate",174,0.819
+"Industrial","Citrate",325,0.471
+"Industrial","D-Gluconate",377,0.597
+"Industrial","D-Glucosamine",502,0.405
+"Industrial","Nitrate",652,0.302
+"Industrial","Vitamin-free",645,0.693
+"Industrial","2-Keto-D-gluconate",461,0.629
+"Industrial","Starch formation",689,0.537
+"Industrial","Growth at 19°C",54,0.89
+"Industrial","Growth at 25°C",54,1
+"Industrial","Growth at 30°C",142,0.99
+"Industrial","Growth at 37°C",495,0.899
+"Fodder","Glucose_F",227,0.918
+"Fodder","Galactose_F",573,0.96
+"Fodder","Sucrose_F",621,0.915
+"Fodder","Maltose_F",665,0.943
+"Fodder","Lactose_F",797,0.94
+"Fodder","Raffinose_F",696,0.851
+"Fodder","Trehalose_F",569,0.891
+"Fodder","Glucose",5,1
+"Fodder","Inulin",718,0.801
+"Fodder","Sucrose",327,0.747
+"Fodder","Raffinose",591,0.742
+"Fodder","Melibiose",723,0.84
+"Fodder","Galactose",293,0.919
+"Fodder","Lactose",726,0.848
+"Fodder","Trehalose",254,0.848
+"Fodder","Maltose",364,0.892
+"Fodder","Melezitose",447,0.829
+"Fodder","Methyl-?-D-glucoside",442,0.809
+"Fodder","Soluble Starch",634,0.906
+"Fodder","Cellobiose",308,0.868
+"Fodder","Salicin",315,0.87
+"Fodder","L-Sorbose",395,0.849
+"Fodder","L-Rhamnose",645,0.69
+"Fodder","D-Xylose",256,0.94
+"Fodder","L-Arabinose",542,0.844
+"Fodder","D-Arabinose",579,0.621
+"Fodder","D-Ribose",494,0.95
+"Fodder","Methanol",759,0.858
+"Fodder","Ethanol",136,1
+"Fodder","Glycerol",99,1
+"Fodder","Erythritol",610,0.884
+"Fodder","Ribitol",331,0.888
+"Fodder","Galactitol",726,0.869
+"Fodder","D-Mannitol",160,0.818
+"Fodder","D-Glucitol",175,0.899
+"Fodder","myo-Inositol",751,0.886
+"Fodder","DL-Lactate",451,0.795
+"Fodder","Succinate",144,1
+"Fodder","Citrate",319,0.828
+"Fodder","D-Gluconate",373,0.909
+"Fodder","D-Glucosamine",516,0.873
+"Fodder","Nitrate",682,0.708
+"Fodder","Vitamin-free",671,0.962
+"Fodder","2-Keto-D-gluconate",467,0.98
+"Fodder","Starch formation",719,0.736
+"Fodder","Growth at 19°C",16,1
+"Fodder","Growth at 25°C",14,1
+"Fodder","Growth at 30°C",102,0.756
+"Fodder","Growth at 37°C",487,0.891
+"Freshwater","Glucose_F",232,0.892
+"Freshwater","Galactose_F",560,0.381
+"Freshwater","Sucrose_F",612,0.602
+"Freshwater","Maltose_F",656,0.7
+"Freshwater","Lactose_F",790,0.881
+"Freshwater","Raffinose_F",691,0.805
+"Freshwater","Trehalose_F",560,0.521
+"Freshwater","Glucose",12,1
+"Freshwater","Inulin",715,0.84
+"Freshwater","Sucrose",328,0.603
+"Freshwater","Raffinose",586,0.606
+"Freshwater","Melibiose",716,0.729
+"Freshwater","Galactose",284,0.237
+"Freshwater","Lactose",721,0.802
+"Freshwater","Trehalose",259,0.889
+"Freshwater","Maltose",365,0.773
+"Freshwater","Melezitose",448,0.832
+"Freshwater","Methyl-?-D-glucoside",443,0.814
+"Freshwater","Soluble Starch",625,0.596
+"Freshwater","Cellobiose",317,0.989
+"Freshwater","Salicin",324,0.99
+"Freshwater","L-Sorbose",390,0.479
+"Freshwater","L-Rhamnose",650,0.959
+"Freshwater","D-Xylose",261,0.945
+"Freshwater","L-Arabinose",531,0.383
+"Freshwater","D-Arabinose",574,0.563
+"Freshwater","D-Ribose",485,0.512
+"Freshwater","Methanol",754,0.834
+"Freshwater","Ethanol",141,0.956
+"Freshwater","Glycerol",104,0.92
+"Freshwater","Erythritol",599,0.489
+"Freshwater","Ribitol",324,0.356
+"Freshwater","Galactitol",719,0.726
+"Freshwater","D-Mannitol",167,0.908
+"Freshwater","D-Glucitol",182,0.976
+"Freshwater","myo-Inositol",744,0.794
+"Freshwater","DL-Lactate",452,0.877
+"Freshwater","Succinate",149,0.951
+"Freshwater","Citrate",318,0.694
+"Freshwater","D-Gluconate",374,0.796
+"Freshwater","D-Glucosamine",515,0.774
+"Freshwater","Nitrate",685,0.947
+"Freshwater","Vitamin-free",662,0.749
+"Freshwater","2-Keto-D-gluconate",462,0.718
+"Freshwater","Starch formation",712,0.574
+"Freshwater","Growth at 19°C",23,1
+"Freshwater","Growth at 25°C",21,1
+"Freshwater","Growth at 30°C",111,1
+"Freshwater","Growth at 37°C",484,0.744
+"Seawater.Marine","Glucose_F",242,0.735
+"Seawater.Marine","Galactose_F",550,0.393
+"Seawater.Marine","Sucrose_F",608,0.763
+"Seawater.Marine","Maltose_F",646,0.733
+"Seawater.Marine","Lactose_F",768,0.744
+"Seawater.Marine","Raffinose_F",673,0.611
+"Seawater.Marine","Trehalose_F",550,0.462
+"Seawater.Marine","Glucose",36,1
+"Seawater.Marine","Inulin",691,0.496
+"Seawater.Marine","Sucrose",340,0.814
+"Seawater.Marine","Raffinose",570,0.388
+"Seawater.Marine","Melibiose",694,0.481
+"Seawater.Marine","Galactose",290,0.345
+"Seawater.Marine","Lactose",699,0.645
+"Seawater.Marine","Trehalose",267,0.722
+"Seawater.Marine","Maltose",375,0.869
+"Seawater.Marine","Melezitose",452,0.853
+"Seawater.Marine","Methyl-?-D-glucoside",449,0.887
+"Seawater.Marine","Soluble Starch",605,0.327
+"Seawater.Marine","Cellobiose",317,0.667
+"Seawater.Marine","Salicin",320,0.559
+"Seawater.Marine","L-Sorbose",394,0.604
+"Seawater.Marine","L-Rhamnose",632,0.816
+"Seawater.Marine","D-Xylose",269,0.71
+"Seawater.Marine","L-Arabinose",531,0.654
+"Seawater.Marine","D-Arabinose",566,0.635
+"Seawater.Marine","D-Ribose",479,0.48
+"Seawater.Marine","Methanol",732,0.649
+"Seawater.Marine","Ethanol",161,0.813
+"Seawater.Marine","Glycerol",124,0.894
+"Seawater.Marine","Erythritol",591,0.638
+"Seawater.Marine","Ribitol",338,0.698
+"Seawater.Marine","Galactitol",697,0.518
+"Seawater.Marine","D-Mannitol",187,0.878
+"Seawater.Marine","D-Glucitol",200,0.884
+"Seawater.Marine","myo-Inositol",724,0.726
+"Seawater.Marine","DL-Lactate",444,0.596
+"Seawater.Marine","Succinate",161,0.502
+"Seawater.Marine","Citrate",322,0.593
+"Seawater.Marine","D-Gluconate",374,0.636
+"Seawater.Marine","D-Glucosamine",513,0.814
+"Seawater.Marine","Nitrate",655,0.308
+"Seawater.Marine","Vitamin-free",642,0.416
+"Seawater.Marine","2-Keto-D-gluconate",464,0.799
+"Seawater.Marine","Starch formation",688,0.157
+"Seawater.Marine","Growth at 19°C",47,1
+"Seawater.Marine","Growth at 25°C",45,1
+"Seawater.Marine","Growth at 30°C",123,0.415
+"Seawater.Marine","Growth at 37°C",472,0.437
+"Brine","Glucose_F",225,1
+"Brine","Galactose_F",571,0.909
+"Brine","Sucrose_F",621,0.945
+"Brine","Maltose_F",667,1
+"Brine","Lactose_F",801,0.994
+"Brine","Raffinose_F",698,0.968
+"Brine","Trehalose_F",569,0.935
+"Brine","Glucose",1,1
+"Brine","Inulin",722,0.961
+"Brine","Sucrose",327,0.864
+"Brine","Raffinose",593,0.931
+"Brine","Melibiose",727,0.967
+"Brine","Galactose",291,1
+"Brine","Lactose",730,0.983
+"Brine","Trehalose",252,0.831
+"Brine","Maltose",364,1
+"Brine","Melezitose",447,0.897
+"Brine","Methyl-?-D-glucoside",442,0.907
+"Brine","Soluble Starch",634,0.948
+"Brine","Cellobiose",306,0.851
+"Brine","Salicin",313,0.853
+"Brine","L-Sorbose",395,1
+"Brine","L-Rhamnose",649,0.966
+"Brine","D-Xylose",252,0.831
+"Brine","L-Arabinose",542,0.929
+"Brine","D-Arabinose",583,0.927
+"Brine","D-Ribose",494,1
+"Brine","Methanol",763,0.989
+"Brine","Ethanol",132,1
+"Brine","Glycerol",95,1
+"Brine","Erythritol",610,0.946
+"Brine","Ribitol",329,0.865
+"Brine","Galactitol",730,0.979
+"Brine","D-Mannitol",160,1
+"Brine","D-Glucitol",173,1
+"Brine","myo-Inositol",755,0.988
+"Brine","DL-Lactate",451,1
+"Brine","Succinate",140,1
+"Brine","Citrate",319,1
+"Brine","D-Gluconate",373,1
+"Brine","D-Glucosamine",516,0.912
+"Brine","Nitrate",688,1
+"Brine","Vitamin-free",669,0.952
+"Brine","2-Keto-D-gluconate",465,1
+"Brine","Starch formation",723,0.959
+"Brine","Growth at 19°C",12,1
+"Brine","Growth at 25°C",10,1
+"Brine","Growth at 30°C",100,1
+"Brine","Growth at 37°C",485,0.871
+"Plant","Glucose_F",258,0.505
+"Plant","Galactose_F",538,0.4
+"Plant","Sucrose_F",592,0.754
+"Plant","Maltose_F",628,0.784
+"Plant","Lactose_F",736,0.874
+"Plant","Raffinose_F",653,0.749
+"Plant","Trehalose_F",554,0.778
+"Plant","Glucose",76,1
+"Plant","Inulin",675,0.842
+"Plant","Sucrose",372,0.963
+"Plant","Raffinose",574,0.863
+"Plant","Melibiose",670,0.637
+"Plant","Galactose",320,0.666
+"Plant","Lactose",663,0.361
+"Plant","Trehalose",293,0.77
+"Plant","Maltose",399,0.939
+"Plant","Melezitose",466,0.897
+"Plant","Methyl-?-D-glucoside",447,0.721
+"Plant","Soluble Starch",599,0.736
+"Plant","Cellobiose",339,0.712
+"Plant","Salicin",336,0.502
+"Plant","L-Sorbose",424,0.892
+"Plant","L-Rhamnose",590,0.115
+"Plant","D-Xylose",281,0.371
+"Plant","L-Arabinose",499,0.137
+"Plant","D-Arabinose",544,0.391
+"Plant","D-Ribose",471,0.317
+"Plant","Methanol",694,0.311
+"Plant","Ethanol",173,0.238
+"Plant","Glycerol",158,0.801
+"Plant","Erythritol",551,0.097
+"Plant","Ribitol",342,0.379
+"Plant","Galactitol",671,0.596
+"Plant","D-Mannitol",217,0.765
+"Plant","D-Glucitol",228,0.748
+"Plant","myo-Inositol",686,0.291
+"Plant","DL-Lactate",432,0.25
+"Plant","Succinate",199,0.778
+"Plant","Citrate",346,0.696
+"Plant","D-Gluconate",380,0.435
+"Plant","D-Glucosamine",491,0.34
+"Plant","Nitrate",647,0.849
+"Plant","Vitamin-free",614,0.239
+"Plant","2-Keto-D-gluconate",462,0.636
+"Plant","Starch formation",670,0.661
+"Plant","Growth at 19°C",87,1
+"Plant","Growth at 25°C",77,0.269
+"Plant","Growth at 30°C",147,0.17
+"Plant","Growth at 37°C",476,0.54
+"Food","Glucose_F",259,0.903
+"Food","Galactose_F",559,0.76
+"Food","Sucrose_F",611,0.898
+"Food","Maltose_F",651,0.933
+"Food","Lactose_F",753,0.739
+"Food","Raffinose_F",674,0.839
+"Food","Trehalose_F",553,0.698
+"Food","Glucose",53,1
+"Food","Inulin",686,0.612
+"Food","Sucrose",333,0.461
+"Food","Raffinose",575,0.678
+"Food","Melibiose",685,0.486
+"Food","Galactose",309,0.681
+"Food","Lactose",690,0.551
+"Food","Trehalose",268,0.512
+"Food","Maltose",366,0.563
+"Food","Melezitose",431,0.261
+"Food","Methyl-?-D-glucoside",434,0.459
+"Food","Soluble Starch",614,0.727
+"Food","Cellobiose",312,0.398
+"Food","Salicin",317,0.363
+"Food","L-Sorbose",395,0.554
+"Food","L-Rhamnose",617,0.475
+"Food","D-Xylose",266,0.374
+"Food","L-Arabinose",520,0.374
+"Food","D-Arabinose",555,0.368
+"Food","D-Ribose",484,0.622
+"Food","Methanol",713,0.343
+"Food","Ethanol",176,0.925
+"Food","Glycerol",135,0.732
+"Food","Erythritol",586,0.557
+"Food","Ribitol",333,0.416
+"Food","Galactitol",692,0.648
+"Food","D-Mannitol",182,0.397
+"Food","D-Glucitol",199,0.508
+"Food","myo-Inositol",711,0.56
+"Food","DL-Lactate",459,0.86
+"Food","Succinate",178,0.817
+"Food","Citrate",325,0.457
+"Food","D-Gluconate",375,0.506
+"Food","D-Glucosamine",496,0.429
+"Food","Nitrate",652,0.578
+"Food","Vitamin-free",637,0.543
+"Food","2-Keto-D-gluconate",455,0.555
+"Food","Starch formation",673,0.12
+"Food","Growth at 19°C",64,1
+"Food","Growth at 25°C",62,1
+"Food","Growth at 30°C",148,0.949
+"Food","Growth at 37°C",499,0.958
+"Pickled.Salted.Brined","Glucose_F",238,0.797
+"Pickled.Salted.Brined","Galactose_F",562,0.651
+"Pickled.Salted.Brined","Sucrose_F",622,0.96
+"Pickled.Salted.Brined","Maltose_F",660,0.901
+"Pickled.Salted.Brined","Lactose_F",782,0.87
+"Pickled.Salted.Brined","Raffinose_F",695,0.969
+"Pickled.Salted.Brined","Trehalose_F",562,0.744
+"Pickled.Salted.Brined","Glucose",22,1
+"Pickled.Salted.Brined","Inulin",707,0.675
+"Pickled.Salted.Brined","Sucrose",334,0.734
+"Pickled.Salted.Brined","Raffinose",592,0.92
+"Pickled.Salted.Brined","Melibiose",712,0.761
+"Pickled.Salted.Brined","Galactose",300,0.806
+"Pickled.Salted.Brined","Lactose",711,0.624
+"Pickled.Salted.Brined","Trehalose",259,0.644
+"Pickled.Salted.Brined","Maltose",363,0.648
+"Pickled.Salted.Brined","Melezitose",438,0.34
+"Pickled.Salted.Brined","Methyl-?-D-glucoside",437,0.524
+"Pickled.Salted.Brined","Soluble Starch",621,0.526
+"Pickled.Salted.Brined","Cellobiose",309,0.546
+"Pickled.Salted.Brined","Salicin",314,0.472
+"Pickled.Salted.Brined","L-Sorbose",392,0.551
+"Pickled.Salted.Brined","L-Rhamnose",636,0.611
+"Pickled.Salted.Brined","D-Xylose",247,0.147
+"Pickled.Salted.Brined","L-Arabinose",533,0.543
+"Pickled.Salted.Brined","D-Arabinose",570,0.454
+"Pickled.Salted.Brined","D-Ribose",491,0.74
+"Pickled.Salted.Brined","Methanol",742,0.555
+"Pickled.Salted.Brined","Ethanol",147,0.803
+"Pickled.Salted.Brined","Glycerol",110,0.714
+"Pickled.Salted.Brined","Erythritol",603,0.773
+"Pickled.Salted.Brined","Ribitol",334,0.625
+"Pickled.Salted.Brined","Galactitol",717,0.815
+"Pickled.Salted.Brined","D-Mannitol",173,0.675
+"Pickled.Salted.Brined","D-Glucitol",186,0.576
+"Pickled.Salted.Brined","myo-Inositol",736,0.664
+"Pickled.Salted.Brined","DL-Lactate",450,0.737
+"Pickled.Salted.Brined","Succinate",149,0.522
+"Pickled.Salted.Brined","Citrate",320,0.532
+"Pickled.Salted.Brined","D-Gluconate",376,0.702
+"Pickled.Salted.Brined","D-Glucosamine",507,0.477
+"Pickled.Salted.Brined","Nitrate",675,0.785
+"Pickled.Salted.Brined","Vitamin-free",650,0.333
+"Pickled.Salted.Brined","2-Keto-D-gluconate",460,0.635
+"Pickled.Salted.Brined","Starch formation",704,0.45
+"Pickled.Salted.Brined","Growth at 19°C",31,0.754
+"Pickled.Salted.Brined","Growth at 25°C",31,1
+"Pickled.Salted.Brined","Growth at 30°C",121,1
+"Pickled.Salted.Brined","Growth at 37°C",482,0.641
+"Fruit","Glucose_F",310,0.977
+"Fruit","Galactose_F",522,0.8
+"Fruit","Sucrose_F",574,0.962
+"Fruit","Maltose_F",586,0.804
+"Fruit","Lactose_F",676,0.618
+"Fruit","Raffinose_F",627,0.966
+"Fruit","Trehalose_F",506,0.572
+"Fruit","Glucose",132,1
+"Fruit","Inulin",629,0.826
+"Fruit","Sucrose",354,0.836
+"Fruit","Raffinose",548,0.925
+"Fruit","Melibiose",618,0.619
+"Fruit","Galactose",312,0.594
+"Fruit","Lactose",611,0.226
+"Fruit","Trehalose",271,0.263
+"Fruit","Maltose",347,0.359
+"Fruit","Melezitose",400,0.189
+"Fruit","Methyl-?-D-glucoside",389,0.138
+"Fruit","Soluble Starch",549,0.487
+"Fruit","Cellobiose",307,0.256
+"Fruit","Salicin",316,0.334
+"Fruit","L-Sorbose",414,0.93
+"Fruit","L-Rhamnose",546,0.112
+"Fruit","D-Xylose",277,0.311
+"Fruit","L-Arabinose",463,0.124
+"Fruit","D-Arabinose",500,0.243
+"Fruit","D-Ribose",439,0.271
+"Fruit","Methanol",640,0.201
+"Fruit","Ethanol",215,0.724
+"Fruit","Glycerol",186,0.626
+"Fruit","Erythritol",507,0.054
+"Fruit","Ribitol",322,0.274
+"Fruit","Galactitol",629,0.682
+"Fruit","D-Mannitol",207,0.206
+"Fruit","D-Glucitol",220,0.27
+"Fruit","myo-Inositol",636,0.348
+"Fruit","DL-Lactate",428,0.685
+"Fruit","Succinate",209,0.5
+"Fruit","Citrate",330,0.513
+"Fruit","D-Gluconate",364,0.512
+"Fruit","D-Glucosamine",465,0.509
+"Fruit","Nitrate",601,0.729
+"Fruit","Vitamin-free",596,0.859
+"Fruit","2-Keto-D-gluconate",440,0.745
+"Fruit","Starch formation",636,0.904
+"Fruit","Growth at 19°C",143,1
+"Fruit","Growth at 25°C",141,1
+"Fruit","Growth at 30°C",197,0.658
+"Fruit","Growth at 37°C",464,0.841
+"Drink.Juice","Glucose_F",263,1
+"Drink.Juice","Galactose_F",561,0.773
+"Drink.Juice","Sucrose_F",625,0.991
+"Drink.Juice","Maltose_F",651,0.882
+"Drink.Juice","Lactose_F",765,0.754
+"Drink.Juice","Raffinose_F",682,0.905
+"Drink.Juice","Trehalose_F",565,0.887
+"Drink.Juice","Glucose",39,1
+"Drink.Juice","Inulin",696,0.765
+"Drink.Juice","Sucrose",341,0.818
+"Drink.Juice","Raffinose",587,0.897
+"Drink.Juice","Melibiose",695,0.594
+"Drink.Juice","Galactose",301,0.713
+"Drink.Juice","Lactose",698,0.551
+"Drink.Juice","Trehalose",262,0.569
+"Drink.Juice","Maltose",366,0.695
+"Drink.Juice","Melezitose",441,0.607
+"Drink.Juice","Methyl-?-D-glucoside",434,0.537
+"Drink.Juice","Soluble Starch",612,0.511
+"Drink.Juice","Cellobiose",310,0.443
+"Drink.Juice","Salicin",319,0.53
+"Drink.Juice","L-Sorbose",393,0.566
+"Drink.Juice","L-Rhamnose",621,0.384
+"Drink.Juice","D-Xylose",244,0.074
+"Drink.Juice","L-Arabinose",514,0.142
+"Drink.Juice","D-Arabinose",559,0.32
+"Drink.Juice","D-Ribose",476,0.343
+"Drink.Juice","Methanol",729,0.524
+"Drink.Juice","Ethanol",152,0.599
+"Drink.Juice","Glycerol",115,0.43
+"Drink.Juice","Erythritol",586,0.431
+"Drink.Juice","Ribitol",327,0.345
+"Drink.Juice","Galactitol",700,0.628
+"Drink.Juice","D-Mannitol",168,0.214
+"Drink.Juice","D-Glucitol",183,0.335
+"Drink.Juice","myo-Inositol",725,0.637
+"Drink.Juice","DL-Lactate",447,0.697
+"Drink.Juice","Succinate",152,0.344
+"Drink.Juice","Citrate",313,0.256
+"Drink.Juice","D-Gluconate",381,0.838
+"Drink.Juice","D-Glucosamine",502,0.542
+"Drink.Juice","Nitrate",664,0.666
+"Drink.Juice","Vitamin-free",639,0.343
+"Drink.Juice","2-Keto-D-gluconate",465,0.806
+"Drink.Juice","Starch formation",689,0.41
+"Drink.Juice","Growth at 19°C",48,0.771
+"Drink.Juice","Growth at 25°C",48,1
+"Drink.Juice","Growth at 30°C",132,0.875
+"Drink.Juice","Growth at 37°C",493,0.929
+"Sugar.Cane","Glucose_F",227,0.846
+"Sugar.Cane","Galactose_F",571,0.793
+"Sugar.Cane","Sucrose_F",623,0.931
+"Sugar.Cane","Maltose_F",667,0.952
+"Sugar.Cane","Lactose_F",797,0.92
+"Sugar.Cane","Raffinose_F",698,0.912
+"Sugar.Cane","Trehalose_F",571,0.917
+"Sugar.Cane","Glucose",5,1
+"Sugar.Cane","Inulin",720,0.882
+"Sugar.Cane","Sucrose",333,1
+"Sugar.Cane","Raffinose",593,0.831
+"Sugar.Cane","Melibiose",725,0.896
+"Sugar.Cane","Galactose",295,1
+"Sugar.Cane","Lactose",726,0.849
+"Sugar.Cane","Trehalose",256,0.857
+"Sugar.Cane","Maltose",366,0.921
+"Sugar.Cane","Melezitose",449,0.894
+"Sugar.Cane","Methyl-?-D-glucoside",442,0.799
+"Sugar.Cane","Soluble Starch",630,0.654
+"Sugar.Cane","Cellobiose",306,0.605
+"Sugar.Cane","Salicin",313,0.623
+"Sugar.Cane","L-Sorbose",395,0.814
+"Sugar.Cane","L-Rhamnose",649,0.905
+"Sugar.Cane","D-Xylose",254,0.702
+"Sugar.Cane","L-Arabinose",542,0.816
+"Sugar.Cane","D-Arabinose",583,0.854
+"Sugar.Cane","D-Ribose",494,0.864
+"Sugar.Cane","Methanol",761,0.881
+"Sugar.Cane","Ethanol",136,1
+"Sugar.Cane","Glycerol",99,1
+"Sugar.Cane","Erythritol",608,0.722
+"Sugar.Cane","Ribitol",331,0.784
+"Sugar.Cane","Galactitol",730,0.958
+"Sugar.Cane","D-Mannitol",162,0.77
+"Sugar.Cane","D-Glucitol",175,0.81
+"Sugar.Cane","myo-Inositol",751,0.862
+"Sugar.Cane","DL-Lactate",447,0.503
+"Sugar.Cane","Succinate",140,0.609
+"Sugar.Cane","Citrate",319,0.76
+"Sugar.Cane","D-Gluconate",373,0.7
+"Sugar.Cane","D-Glucosamine",514,0.649
+"Sugar.Cane","Nitrate",686,0.862
+"Sugar.Cane","Vitamin-free",667,0.795
+"Sugar.Cane","2-Keto-D-gluconate",463,0.694
+"Sugar.Cane","Starch formation",719,0.694
+"Sugar.Cane","Growth at 19°C",16,1
+"Sugar.Cane","Growth at 25°C",14,1
+"Sugar.Cane","Growth at 30°C",104,1
+"Sugar.Cane","Growth at 37°C",491,1
+"Fermented","Glucose_F",288,0.997
+"Fermented","Galactose_F",562,0.933
+"Fermented","Sucrose_F",632,1
+"Fermented","Maltose_F",650,0.979
+"Fermented","Lactose_F",734,0.733
+"Fermented","Raffinose_F",683,0.993
+"Fermented","Trehalose_F",558,0.874
+"Fermented","Glucose",74,1
+"Fermented","Inulin",675,0.781
+"Fermented","Sucrose",348,0.79
+"Fermented","Raffinose",588,0.975
+"Fermented","Melibiose",672,0.623
+"Fermented","Galactose",310,0.58
+"Fermented","Lactose",673,0.595
+"Fermented","Trehalose",281,0.618
+"Fermented","Maltose",369,0.608
+"Fermented","Melezitose",434,0.407
+"Fermented","Methyl-?-D-glucoside",425,0.327
+"Fermented","Soluble Starch",591,0.303
+"Fermented","Cellobiose",301,0.086
+"Fermented","Salicin",308,0.139
+"Fermented","L-Sorbose",390,0.391
+"Fermented","L-Rhamnose",588,0.087
+"Fermented","D-Xylose",255,0.072
+"Fermented","L-Arabinose",505,0.172
+"Fermented","D-Arabinose",538,0.188
+"Fermented","D-Ribose",475,0.405
+"Fermented","Methanol",694,0.251
+"Fermented","Ethanol",185,0.81
+"Fermented","Glycerol",148,0.648
+"Fermented","Erythritol",565,0.261
+"Fermented","Ribitol",332,0.308
+"Fermented","Galactitol",675,0.576
+"Fermented","D-Mannitol",183,0.153
+"Fermented","D-Glucitol",192,0.116
+"Fermented","myo-Inositol",686,0.26
+"Fermented","DL-Lactate",462,0.915
+"Fermented","Succinate",165,0.134
+"Fermented","Citrate",320,0.236
+"Fermented","D-Gluconate",378,0.604
+"Fermented","D-Glucosamine",495,0.46
+"Fermented","Nitrate",633,0.382
+"Fermented","Vitamin-free",630,0.666
+"Fermented","2-Keto-D-gluconate",458,0.669
+"Fermented","Starch formation",660,0.252
+"Fermented","Growth at 19°C",85,1
+"Fermented","Growth at 25°C",83,1
+"Fermented","Growth at 30°C",165,0.891
+"Fermented","Growth at 37°C",498,0.959
+"Wine","Glucose_F",239,0.839
+"Wine","Galactose_F",555,0.553
+"Wine","Sucrose_F",619,0.98
+"Wine","Maltose_F",651,0.854
+"Wine","Lactose_F",775,0.798
+"Wine","Raffinose_F",690,0.978
+"Wine","Trehalose_F",557,0.718
+"Wine","Glucose",29,1
+"Wine","Inulin",700,0.711
+"Wine","Sucrose",333,0.803
+"Wine","Raffinose",589,0.946
+"Wine","Melibiose",709,0.794
+"Wine","Galactose",293,0.7
+"Wine","Lactose",708,0.72
+"Wine","Trehalose",248,0.316
+"Wine","Maltose",356,0.532
+"Wine","Melezitose",435,0.49
+"Wine","Methyl-?-D-glucoside",428,0.397
+"Wine","Soluble Starch",612,0.382
+"Wine","Cellobiose",300,0.399
+"Wine","Salicin",307,0.389
+"Wine","L-Sorbose",393,0.758
+"Wine","L-Rhamnose",623,0.296
+"Wine","D-Xylose",246,0.247
+"Wine","L-Arabinose",524,0.357
+"Wine","D-Arabinose",563,0.398
+"Wine","D-Ribose",482,0.568
+"Wine","Methanol",735,0.49
+"Wine","Ethanol",148,0.689
+"Wine","Glycerol",111,0.645
+"Wine","Erythritol",590,0.493
+"Wine","Ribitol",325,0.444
+"Wine","Galactitol",712,0.816
+"Wine","D-Mannitol",158,0.188
+"Wine","D-Glucitol",173,0.249
+"Wine","myo-Inositol",729,0.615
+"Wine","DL-Lactate",453,0.913
+"Wine","Succinate",146,0.304
+"Wine","Citrate",315,0.503
+"Wine","D-Gluconate",361,0.376
+"Wine","D-Glucosamine",508,0.759
+"Wine","Nitrate",664,0.609
+"Wine","Vitamin-free",659,0.93
+"Wine","2-Keto-D-gluconate",457,0.711
+"Wine","Starch formation",699,0.613
+"Wine","Growth at 19°C",40,1
+"Wine","Growth at 25°C",38,1
+"Wine","Growth at 30°C",126,0.985
+"Wine","Growth at 37°C",495,0.985
+"Beer","Glucose_F",244,0.96
+"Beer","Galactose_F",572,0.949
+"Beer","Sucrose_F",624,0.987
+"Beer","Maltose_F",658,0.928
+"Beer","Lactose_F",780,0.894
+"Beer","Raffinose_F",695,0.981
+"Beer","Trehalose_F",558,0.672
+"Beer","Glucose",26,1
+"Beer","Inulin",707,0.827
+"Beer","Sucrose",332,0.775
+"Beer","Raffinose",592,0.944
+"Beer","Melibiose",706,0.719
+"Beer","Galactose",300,0.801
+"Beer","Lactose",713,0.852
+"Beer","Trehalose",257,0.536
+"Beer","Maltose",359,0.527
+"Beer","Melezitose",442,0.621
+"Beer","Methyl-?-D-glucoside",433,0.448
+"Beer","Soluble Starch",613,0.329
+"Beer","Cellobiose",303,0.328
+"Beer","Salicin",310,0.383
+"Beer","L-Sorbose",394,0.635
+"Beer","L-Rhamnose",630,0.527
+"Beer","D-Xylose",247,0.169
+"Beer","L-Arabinose",527,0.374
+"Beer","D-Arabinose",562,0.247
+"Beer","D-Ribose",485,0.606
+"Beer","Methanol",738,0.478
+"Beer","Ethanol",153,0.95
+"Beer","Glycerol",114,0.815
+"Beer","Erythritol",589,0.313
+"Beer","Ribitol",326,0.379
+"Beer","Galactitol",709,0.683
+"Beer","D-Mannitol",165,0.298
+"Beer","D-Glucitol",174,0.213
+"Beer","myo-Inositol",732,0.661
+"Beer","DL-Lactate",460,0.964
+"Beer","Succinate",147,0.329
+"Beer","Citrate",316,0.407
+"Beer","D-Gluconate",364,0.35
+"Beer","D-Glucosamine",507,0.61
+"Beer","Nitrate",665,0.485
+"Beer","Vitamin-free",656,0.774
+"Beer","2-Keto-D-gluconate",452,0.382
+"Beer","Starch formation",702,0.555
+"Beer","Growth at 19°C",37,1
+"Beer","Growth at 25°C",35,1
+"Beer","Growth at 30°C",121,0.88
+"Beer","Growth at 37°C",482,0.733
+"Tequila","Glucose_F",233,0.931
+"Tequila","Galactose_F",575,0.894
+"Tequila","Sucrose_F",623,0.881
+"Tequila","Maltose_F",667,0.904
+"Tequila","Lactose_F",791,0.842
+"Tequila","Raffinose_F",694,0.778
+"Tequila","Trehalose_F",575,0.947
+"Tequila","Glucose",11,1
+"Tequila","Inulin",718,0.82
+"Tequila","Sucrose",333,0.866
+"Tequila","Raffinose",589,0.581
+"Tequila","Melibiose",717,0.649
+"Tequila","Galactose",297,0.811
+"Tequila","Lactose",722,0.732
+"Tequila","Trehalose",260,0.875
+"Tequila","Maltose",368,0.867
+"Tequila","Melezitose",453,0.93
+"Tequila","Methyl-?-D-glucoside",446,0.86
+"Tequila","Soluble Starch",628,0.556
+"Tequila","Cellobiose",310,0.565
+"Tequila","Salicin",317,0.596
+"Tequila","L-Sorbose",401,0.946
+"Tequila","L-Rhamnose",643,0.596
+"Tequila","D-Xylose",258,0.695
+"Tequila","L-Arabinose",540,0.609
+"Tequila","D-Arabinose",585,0.836
+"Tequila","D-Ribose",492,0.64
+"Tequila","Methanol",755,0.764
+"Tequila","Ethanol",140,0.938
+"Tequila","Glycerol",101,0.718
+"Tequila","Erythritol",604,0.522
+"Tequila","Ribitol",335,0.851
+"Tequila","Galactitol",722,0.725
+"Tequila","D-Mannitol",166,0.842
+"Tequila","D-Glucitol",179,0.878
+"Tequila","myo-Inositol",745,0.709
+"Tequila","DL-Lactate",451,0.636
+"Tequila","Succinate",146,0.864
+"Tequila","Citrate",319,0.527
+"Tequila","D-Gluconate",375,0.712
+"Tequila","D-Glucosamine",516,0.69
+"Tequila","Nitrate",678,0.514
+"Tequila","Vitamin-free",661,0.452
+"Tequila","2-Keto-D-gluconate",469,0.928
+"Tequila","Starch formation",713,0.445
+"Tequila","Growth at 19°C",22,1
+"Tequila","Growth at 25°C",20,1
+"Tequila","Growth at 30°C",110,1
+"Tequila","Growth at 37°C",491,0.847
+"Cider","Glucose_F",239,0.989
+"Cider","Galactose_F",565,0.62
+"Cider","Sucrose_F",615,0.75
+"Cider","Maltose_F",657,0.75
+"Cider","Lactose_F",787,0.888
+"Cider","Raffinose_F",688,0.746
+"Cider","Trehalose_F",569,0.846
+"Cider","Glucose",17,1
+"Cider","Inulin",708,0.588
+"Cider","Sucrose",331,0.654
+"Cider","Raffinose",585,0.589
+"Cider","Melibiose",715,0.752
+"Cider","Galactose",293,0.613
+"Cider","Lactose",718,0.781
+"Cider","Trehalose",258,0.714
+"Cider","Maltose",366,0.751
+"Cider","Melezitose",449,0.779
+"Cider","Methyl-?-D-glucoside",444,0.802
+"Cider","Soluble Starch",628,0.712
+"Cider","Cellobiose",314,0.739
+"Cider","Salicin",321,0.734
+"Cider","L-Sorbose",397,0.74
+"Cider","L-Rhamnose",639,0.594
+"Cider","D-Xylose",258,0.615
+"Cider","L-Arabinose",532,0.366
+"Cider","D-Arabinose",575,0.532
+"Cider","D-Ribose",488,0.558
+"Cider","Methanol",749,0.722
+"Cider","Ethanol",144,0.915
+"Cider","Glycerol",107,0.865
+"Cider","Erythritol",602,0.613
+"Cider","Ribitol",333,0.627
+"Cider","Galactitol",716,0.641
+"Cider","D-Mannitol",166,0.495
+"Cider","D-Glucitol",181,0.599
+"Cider","myo-Inositol",741,0.718
+"Cider","DL-Lactate",457,0.896
+"Cider","Succinate",150,0.787
+"Cider","Citrate",323,0.662
+"Cider","D-Gluconate",375,0.691
+"Cider","D-Glucosamine",518,0.853
+"Cider","Nitrate",684,0.888
+"Cider","Vitamin-free",659,0.675
+"Cider","2-Keto-D-gluconate",465,0.739
+"Cider","Starch formation",707,0.348
+"Cider","Growth at 19°C",28,1
+"Cider","Growth at 25°C",26,1
+"Cider","Growth at 30°C",112,0.705
+"Cider","Growth at 37°C",475,0.228
+"Wood","Glucose_F",227,0.375
+"Wood","Galactose_F",569,0.593
+"Wood","Sucrose_F",617,0.553
+"Wood","Maltose_F",661,0.696
+"Wood","Lactose_F",791,0.828
+"Wood","Raffinose_F",690,0.51
+"Wood","Trehalose_F",567,0.611
+"Wood","Glucose",11,1
+"Wood","Inulin",716,0.69
+"Wood","Sucrose",331,0.562
+"Wood","Raffinose",593,0.741
+"Wood","Melibiose",723,0.825
+"Wood","Galactose",293,0.509
+"Wood","Lactose",724,0.776
+"Wood","Trehalose",260,0.764
+"Wood","Maltose",366,0.645
+"Wood","Melezitose",447,0.494
+"Wood","Methyl-?-D-glucoside",446,0.743
+"Wood","Soluble Starch",632,0.668
+"Wood","Cellobiose",316,0.935
+"Wood","Salicin",323,0.953
+"Wood","L-Sorbose",397,0.645
+"Wood","L-Rhamnose",653,0.914
+"Wood","D-Xylose",262,0.931
+"Wood","L-Arabinose",548,0.909
+"Wood","D-Arabinose",585,0.813
+"Wood","D-Ribose",498,0.873
+"Wood","Methanol",757,0.814
+"Wood","Ethanol",142,1
+"Wood","Glycerol",105,1
+"Wood","Erythritol",614,0.895
+"Wood","Ribitol",337,0.811
+"Wood","Galactitol",730,0.924
+"Wood","D-Mannitol",170,1
+"Wood","D-Glucitol",183,1
+"Wood","myo-Inositol",751,0.845
+"Wood","DL-Lactate",455,0.797
+"Wood","Succinate",150,1
+"Wood","Citrate",327,0.856
+"Wood","D-Gluconate",371,0.369
+"Wood","D-Glucosamine",512,0.406
+"Wood","Nitrate",678,0.504
+"Wood","Vitamin-free",665,0.631
+"Wood","2-Keto-D-gluconate",461,0.407
+"Wood","Starch formation",717,0.712
+"Wood","Growth at 19°C",22,1
+"Wood","Growth at 25°C",20,1
+"Wood","Growth at 30°C",110,1
+"Wood","Growth at 37°C",493,0.864
+"Silage","Glucose_F",232,1
+"Silage","Galactose_F",576,0.974
+"Silage","Sucrose_F",622,0.932
+"Silage","Maltose_F",664,0.916
+"Silage","Lactose_F",794,0.905
+"Silage","Raffinose_F",699,0.955
+"Silage","Trehalose_F",570,0.913
+"Silage","Glucose",8,1
+"Silage","Inulin",715,0.71
+"Silage","Sucrose",330,0.748
+"Silage","Raffinose",594,0.893
+"Silage","Melibiose",726,0.935
+"Silage","Galactose",296,0.973
+"Silage","Lactose",725,0.83
+"Silage","Trehalose",257,0.833
+"Silage","Maltose",361,0.595
+"Silage","Melezitose",444,0.574
+"Silage","Methyl-?-D-glucoside",439,0.562
+"Silage","Soluble Starch",631,0.746
+"Silage","Cellobiose",307,0.636
+"Silage","Salicin",312,0.516
+"Silage","L-Sorbose",390,0.43
+"Silage","L-Rhamnose",646,0.76
+"Silage","D-Xylose",255,0.69
+"Silage","L-Arabinose",543,0.886
+"Silage","D-Arabinose",580,0.666
+"Silage","D-Ribose",497,0.966
+"Silage","Methanol",756,0.781
+"Silage","Ethanol",135,0.634
+"Silage","Glycerol",100,0.883
+"Silage","Erythritol",607,0.744
+"Silage","Ribitol",328,0.556
+"Silage","Galactitol",723,0.778
+"Silage","D-Mannitol",163,0.772
+"Silage","D-Glucitol",172,0.475
+"Silage","myo-Inositol",750,0.86
+"Silage","DL-Lactate",446,0.476
+"Silage","Succinate",145,0.744
+"Silage","Citrate",316,0.522
+"Silage","D-Gluconate",374,0.85
+"Silage","D-Glucosamine",517,0.843
+"Silage","Nitrate",683,0.777
+"Silage","Vitamin-free",666,0.772
+"Silage","2-Keto-D-gluconate",466,0.88
+"Silage","Starch formation",718,0.751
+"Silage","Growth at 19°C",19,1
+"Silage","Growth at 25°C",17,1
+"Silage","Growth at 30°C",107,1
+"Silage","Growth at 37°C",488,0.881
+"Dairy","Glucose_F",238,0.891
+"Dairy","Galactose_F",574,0.953
+"Dairy","Sucrose_F",620,0.935
+"Dairy","Maltose_F",656,0.794
+"Dairy","Lactose_F",784,0.859
+"Dairy","Raffinose_F",697,0.98
+"Dairy","Trehalose_F",562,0.679
+"Dairy","Glucose",20,1
+"Dairy","Inulin",715,0.893
+"Dairy","Sucrose",332,0.749
+"Dairy","Raffinose",592,0.915
+"Dairy","Melibiose",712,0.66
+"Dairy","Galactose",302,0.893
+"Dairy","Lactose",721,0.885
+"Dairy","Trehalose",253,0.344
+"Dairy","Maltose",355,0.318
+"Dairy","Melezitose",438,0.337
+"Dairy","Methyl-?-D-glucoside",435,0.446
+"Dairy","Soluble Starch",619,0.388
+"Dairy","Cellobiose",299,0.187
+"Dairy","Salicin",306,0.211
+"Dairy","L-Sorbose",400,0.86
+"Dairy","L-Rhamnose",634,0.435
+"Dairy","D-Xylose",257,0.515
+"Dairy","L-Arabinose",531,0.443
+"Dairy","D-Arabinose",572,0.474
+"Dairy","D-Ribose",489,0.709
+"Dairy","Methanol",748,0.842
+"Dairy","Ethanol",145,0.741
+"Dairy","Glycerol",110,0.828
+"Dairy","Erythritol",601,0.675
+"Dairy","Ribitol",332,0.653
+"Dairy","Galactitol",715,0.698
+"Dairy","D-Mannitol",165,0.421
+"Dairy","D-Glucitol",180,0.557
+"Dairy","myo-Inositol",738,0.674
+"Dairy","DL-Lactate",458,0.951
+"Dairy","Succinate",153,0.687
+"Dairy","Citrate",324,0.696
+"Dairy","D-Gluconate",370,0.483
+"Dairy","D-Glucosamine",505,0.397
+"Dairy","Nitrate",671,0.563
+"Dairy","Vitamin-free",656,0.579
+"Dairy","2-Keto-D-gluconate",452,0.309
+"Dairy","Starch formation",710,0.752
+"Dairy","Growth at 19°C",31,1
+"Dairy","Growth at 25°C",29,1
+"Dairy","Growth at 30°C",117,0.9
+"Dairy","Growth at 37°C",490,0.863
+"Olives","Glucose_F",235,0.848
+"Olives","Galactose_F",573,0.769
+"Olives","Sucrose_F",619,0.719
+"Olives","Maltose_F",665,0.85
+"Olives","Lactose_F",791,0.857
+"Olives","Raffinose_F",692,0.701
+"Olives","Trehalose_F",575,0.91
+"Olives","Glucose",13,1
+"Olives","Inulin",716,0.792
+"Olives","Sucrose",333,0.658
+"Olives","Raffinose",593,0.724
+"Olives","Melibiose",721,0.786
+"Olives","Galactose",297,0.755
+"Olives","Lactose",724,0.809
+"Olives","Trehalose",264,0.952
+"Olives","Maltose",368,0.699
+"Olives","Melezitose",451,0.739
+"Olives","Methyl-?-D-glucoside",446,0.721
+"Olives","Soluble Starch",628,0.544
+"Olives","Cellobiose",312,0.662
+"Olives","Salicin",319,0.68
+"Olives","L-Sorbose",395,0.495
+"Olives","L-Rhamnose",645,0.666
+"Olives","D-Xylose",262,0.819
+"Olives","L-Arabinose",544,0.745
+"Olives","D-Arabinose",585,0.794
+"Olives","D-Ribose",496,0.745
+"Olives","Methanol",753,0.693
+"Olives","Ethanol",142,0.907
+"Olives","Glycerol",105,0.68
+"Olives","Erythritol",604,0.539
+"Olives","Ribitol",337,0.816
+"Olives","Galactitol",726,0.844
+"Olives","D-Mannitol",168,0.741
+"Olives","D-Glucitol",181,0.77
+"Olives","myo-Inositol",745,0.719
+"Olives","DL-Lactate",449,0.492
+"Olives","Succinate",150,0.91
+"Olives","Citrate",323,0.584
+"Olives","D-Gluconate",377,0.669
+"Olives","D-Glucosamine",520,0.775
+"Olives","Nitrate",678,0.511
+"Olives","Vitamin-free",657,0.279
+"Olives","2-Keto-D-gluconate",471,0.906
+"Olives","Starch formation",711,0.353
+"Olives","Growth at 19°C",24,1
+"Olives","Growth at 25°C",22,1
+"Olives","Growth at 30°C",112,1
+"Olives","Growth at 37°C",487,0.645
