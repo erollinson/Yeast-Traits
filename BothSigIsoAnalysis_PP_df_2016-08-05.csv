@@ -1,0 +1,1535 @@
+"Isolation","Trait_A","Trait_B","Observed_PP","Percent_PP"
+"0","0","0",0,0
+"Pathogenic","Glucose","Growth at 25°C",90,1
+"Pathogenic","Glucose","Growth at 37°C",66,1
+"Pathogenic","Growth at 25°C","Growth at 37°C",66,1
+"Clinical","Glucose","Glycerol",11,1
+"Clinical","Glucose","Succinate",11,1
+"Clinical","Glucose","Citrate",11,1
+"Clinical","Glucose","Growth at 19°C",11,1
+"Clinical","Glucose","Growth at 25°C",11,1
+"Clinical","Glucose","Growth at 30°C",11,1
+"Clinical","Glycerol","Succinate",11,1
+"Clinical","Glycerol","Citrate",11,1
+"Clinical","Glycerol","Growth at 19°C",11,1
+"Clinical","Glycerol","Growth at 25°C",11,1
+"Clinical","Glycerol","Growth at 30°C",11,1
+"Clinical","Succinate","Citrate",11,1
+"Clinical","Succinate","Growth at 19°C",11,1
+"Clinical","Succinate","Growth at 25°C",11,1
+"Clinical","Succinate","Growth at 30°C",11,1
+"Clinical","Citrate","Growth at 19°C",11,1
+"Clinical","Citrate","Growth at 25°C",11,1
+"Clinical","Citrate","Growth at 30°C",11,1
+"Clinical","Growth at 19°C","Growth at 25°C",11,1
+"Clinical","Growth at 19°C","Growth at 30°C",11,1
+"Clinical","Growth at 25°C","Growth at 30°C",11,1
+"Rotting.Decaying","Glucose","Ethanol",91,0.934
+"Spoiled","Glucose","Growth at 19°C",17,1
+"Spoiled","Glucose","Growth at 25°C",17,1
+"Spoiled","Growth at 19°C","Growth at 25°C",17,1
+"Contaminated","Glucose_F","Galactose_F",2,1
+"Contaminated","Glucose_F","Trehalose_F",2,1
+"Contaminated","Glucose_F","Glucose",2,1
+"Contaminated","Glucose_F","Galactose",2,1
+"Contaminated","Glucose_F","Trehalose",2,1
+"Contaminated","Glucose_F","Maltose",2,1
+"Contaminated","Glucose_F","Soluble Starch",2,1
+"Contaminated","Glucose_F","Cellobiose",2,1
+"Contaminated","Glucose_F","Salicin",2,1
+"Contaminated","Glucose_F","D-Xylose",2,1
+"Contaminated","Glucose_F","D-Arabinose",2,1
+"Contaminated","Glucose_F","Ethanol",2,1
+"Contaminated","Glucose_F","Ribitol",2,1
+"Contaminated","Glucose_F","D-Mannitol",2,1
+"Contaminated","Glucose_F","D-Glucitol",2,1
+"Contaminated","Glucose_F","DL-Lactate",2,1
+"Contaminated","Glucose_F","Succinate",2,1
+"Contaminated","Glucose_F","D-Glucosamine",2,1
+"Contaminated","Glucose_F","Growth at 19°C",2,1
+"Contaminated","Glucose_F","Growth at 25°C",2,1
+"Contaminated","Glucose_F","Growth at 30°C",2,1
+"Contaminated","Galactose_F","Trehalose_F",2,1
+"Contaminated","Galactose_F","Glucose",2,1
+"Contaminated","Galactose_F","Galactose",2,1
+"Contaminated","Galactose_F","Trehalose",2,1
+"Contaminated","Galactose_F","Maltose",2,1
+"Contaminated","Galactose_F","Soluble Starch",2,1
+"Contaminated","Galactose_F","Cellobiose",2,1
+"Contaminated","Galactose_F","Salicin",2,1
+"Contaminated","Galactose_F","D-Xylose",2,1
+"Contaminated","Galactose_F","D-Arabinose",2,1
+"Contaminated","Galactose_F","Ethanol",2,1
+"Contaminated","Galactose_F","Ribitol",2,1
+"Contaminated","Galactose_F","D-Mannitol",2,1
+"Contaminated","Galactose_F","D-Glucitol",2,1
+"Contaminated","Galactose_F","DL-Lactate",2,1
+"Contaminated","Galactose_F","Succinate",2,1
+"Contaminated","Galactose_F","D-Glucosamine",2,1
+"Contaminated","Galactose_F","Growth at 19°C",2,1
+"Contaminated","Galactose_F","Growth at 25°C",2,1
+"Contaminated","Galactose_F","Growth at 30°C",2,1
+"Contaminated","Trehalose_F","Glucose",2,1
+"Contaminated","Trehalose_F","Galactose",2,1
+"Contaminated","Trehalose_F","Trehalose",2,1
+"Contaminated","Trehalose_F","Maltose",2,1
+"Contaminated","Trehalose_F","Soluble Starch",2,1
+"Contaminated","Trehalose_F","Cellobiose",2,1
+"Contaminated","Trehalose_F","Salicin",2,1
+"Contaminated","Trehalose_F","D-Xylose",2,1
+"Contaminated","Trehalose_F","D-Arabinose",2,1
+"Contaminated","Trehalose_F","Ethanol",2,1
+"Contaminated","Trehalose_F","Ribitol",2,1
+"Contaminated","Trehalose_F","D-Mannitol",2,1
+"Contaminated","Trehalose_F","D-Glucitol",2,1
+"Contaminated","Trehalose_F","DL-Lactate",2,1
+"Contaminated","Trehalose_F","Succinate",2,1
+"Contaminated","Trehalose_F","D-Glucosamine",2,1
+"Contaminated","Trehalose_F","Growth at 19°C",2,1
+"Contaminated","Trehalose_F","Growth at 25°C",2,1
+"Contaminated","Trehalose_F","Growth at 30°C",2,1
+"Contaminated","Glucose","Galactose",2,1
+"Contaminated","Glucose","Trehalose",2,1
+"Contaminated","Glucose","Maltose",2,1
+"Contaminated","Glucose","Soluble Starch",2,1
+"Contaminated","Glucose","Cellobiose",2,1
+"Contaminated","Glucose","Salicin",2,1
+"Contaminated","Glucose","D-Xylose",2,1
+"Contaminated","Glucose","D-Arabinose",2,1
+"Contaminated","Glucose","Ethanol",2,1
+"Contaminated","Glucose","Ribitol",2,1
+"Contaminated","Glucose","D-Mannitol",2,1
+"Contaminated","Glucose","D-Glucitol",2,1
+"Contaminated","Glucose","DL-Lactate",2,1
+"Contaminated","Glucose","Succinate",2,1
+"Contaminated","Glucose","D-Glucosamine",2,1
+"Contaminated","Glucose","Growth at 19°C",2,1
+"Contaminated","Glucose","Growth at 25°C",2,1
+"Contaminated","Glucose","Growth at 30°C",2,1
+"Contaminated","Galactose","Trehalose",2,1
+"Contaminated","Galactose","Maltose",2,1
+"Contaminated","Galactose","Soluble Starch",2,1
+"Contaminated","Galactose","Cellobiose",2,1
+"Contaminated","Galactose","Salicin",2,1
+"Contaminated","Galactose","D-Xylose",2,1
+"Contaminated","Galactose","D-Arabinose",2,1
+"Contaminated","Galactose","Ethanol",2,1
+"Contaminated","Galactose","Ribitol",2,1
+"Contaminated","Galactose","D-Mannitol",2,1
+"Contaminated","Galactose","D-Glucitol",2,1
+"Contaminated","Galactose","DL-Lactate",2,1
+"Contaminated","Galactose","Succinate",2,1
+"Contaminated","Galactose","D-Glucosamine",2,1
+"Contaminated","Galactose","Growth at 19°C",2,1
+"Contaminated","Galactose","Growth at 25°C",2,1
+"Contaminated","Galactose","Growth at 30°C",2,1
+"Contaminated","Trehalose","Maltose",2,1
+"Contaminated","Trehalose","Soluble Starch",2,1
+"Contaminated","Trehalose","Cellobiose",2,1
+"Contaminated","Trehalose","Salicin",2,1
+"Contaminated","Trehalose","D-Xylose",2,1
+"Contaminated","Trehalose","D-Arabinose",2,1
+"Contaminated","Trehalose","Ethanol",2,1
+"Contaminated","Trehalose","Ribitol",2,1
+"Contaminated","Trehalose","D-Mannitol",2,1
+"Contaminated","Trehalose","D-Glucitol",2,1
+"Contaminated","Trehalose","DL-Lactate",2,1
+"Contaminated","Trehalose","Succinate",2,1
+"Contaminated","Trehalose","D-Glucosamine",2,1
+"Contaminated","Trehalose","Growth at 19°C",2,1
+"Contaminated","Trehalose","Growth at 25°C",2,1
+"Contaminated","Trehalose","Growth at 30°C",2,1
+"Contaminated","Maltose","Soluble Starch",2,1
+"Contaminated","Maltose","Cellobiose",2,1
+"Contaminated","Maltose","Salicin",2,1
+"Contaminated","Maltose","D-Xylose",2,1
+"Contaminated","Maltose","D-Arabinose",2,1
+"Contaminated","Maltose","Ethanol",2,1
+"Contaminated","Maltose","Ribitol",2,1
+"Contaminated","Maltose","D-Mannitol",2,1
+"Contaminated","Maltose","D-Glucitol",2,1
+"Contaminated","Maltose","DL-Lactate",2,1
+"Contaminated","Maltose","Succinate",2,1
+"Contaminated","Maltose","D-Glucosamine",2,1
+"Contaminated","Maltose","Growth at 19°C",2,1
+"Contaminated","Maltose","Growth at 25°C",2,1
+"Contaminated","Maltose","Growth at 30°C",2,1
+"Contaminated","Soluble Starch","Cellobiose",2,1
+"Contaminated","Soluble Starch","Salicin",2,1
+"Contaminated","Soluble Starch","D-Xylose",2,1
+"Contaminated","Soluble Starch","D-Arabinose",2,1
+"Contaminated","Soluble Starch","Ethanol",2,1
+"Contaminated","Soluble Starch","Ribitol",2,1
+"Contaminated","Soluble Starch","D-Mannitol",2,1
+"Contaminated","Soluble Starch","D-Glucitol",2,1
+"Contaminated","Soluble Starch","DL-Lactate",2,1
+"Contaminated","Soluble Starch","Succinate",2,1
+"Contaminated","Soluble Starch","D-Glucosamine",2,1
+"Contaminated","Soluble Starch","Growth at 19°C",2,1
+"Contaminated","Soluble Starch","Growth at 25°C",2,1
+"Contaminated","Soluble Starch","Growth at 30°C",2,1
+"Contaminated","Cellobiose","Salicin",2,1
+"Contaminated","Cellobiose","D-Xylose",2,1
+"Contaminated","Cellobiose","D-Arabinose",2,1
+"Contaminated","Cellobiose","Ethanol",2,1
+"Contaminated","Cellobiose","Ribitol",2,1
+"Contaminated","Cellobiose","D-Mannitol",2,1
+"Contaminated","Cellobiose","D-Glucitol",2,1
+"Contaminated","Cellobiose","DL-Lactate",2,1
+"Contaminated","Cellobiose","Succinate",2,1
+"Contaminated","Cellobiose","D-Glucosamine",2,1
+"Contaminated","Cellobiose","Growth at 19°C",2,1
+"Contaminated","Cellobiose","Growth at 25°C",2,1
+"Contaminated","Cellobiose","Growth at 30°C",2,1
+"Contaminated","Salicin","D-Xylose",2,1
+"Contaminated","Salicin","D-Arabinose",2,1
+"Contaminated","Salicin","Ethanol",2,1
+"Contaminated","Salicin","Ribitol",2,1
+"Contaminated","Salicin","D-Mannitol",2,1
+"Contaminated","Salicin","D-Glucitol",2,1
+"Contaminated","Salicin","DL-Lactate",2,1
+"Contaminated","Salicin","Succinate",2,1
+"Contaminated","Salicin","D-Glucosamine",2,1
+"Contaminated","Salicin","Growth at 19°C",2,1
+"Contaminated","Salicin","Growth at 25°C",2,1
+"Contaminated","Salicin","Growth at 30°C",2,1
+"Contaminated","D-Xylose","D-Arabinose",2,1
+"Contaminated","D-Xylose","Ethanol",2,1
+"Contaminated","D-Xylose","Ribitol",2,1
+"Contaminated","D-Xylose","D-Mannitol",2,1
+"Contaminated","D-Xylose","D-Glucitol",2,1
+"Contaminated","D-Xylose","DL-Lactate",2,1
+"Contaminated","D-Xylose","Succinate",2,1
+"Contaminated","D-Xylose","D-Glucosamine",2,1
+"Contaminated","D-Xylose","Growth at 19°C",2,1
+"Contaminated","D-Xylose","Growth at 25°C",2,1
+"Contaminated","D-Xylose","Growth at 30°C",2,1
+"Contaminated","D-Arabinose","Ethanol",2,1
+"Contaminated","D-Arabinose","Ribitol",2,1
+"Contaminated","D-Arabinose","D-Mannitol",2,1
+"Contaminated","D-Arabinose","D-Glucitol",2,1
+"Contaminated","D-Arabinose","DL-Lactate",2,1
+"Contaminated","D-Arabinose","Succinate",2,1
+"Contaminated","D-Arabinose","D-Glucosamine",2,1
+"Contaminated","D-Arabinose","Growth at 19°C",2,1
+"Contaminated","D-Arabinose","Growth at 25°C",2,1
+"Contaminated","D-Arabinose","Growth at 30°C",2,1
+"Contaminated","Ethanol","Ribitol",2,1
+"Contaminated","Ethanol","D-Mannitol",2,1
+"Contaminated","Ethanol","D-Glucitol",2,1
+"Contaminated","Ethanol","DL-Lactate",2,1
+"Contaminated","Ethanol","Succinate",2,1
+"Contaminated","Ethanol","D-Glucosamine",2,1
+"Contaminated","Ethanol","Growth at 19°C",2,1
+"Contaminated","Ethanol","Growth at 25°C",2,1
+"Contaminated","Ethanol","Growth at 30°C",2,1
+"Contaminated","Ribitol","D-Mannitol",2,1
+"Contaminated","Ribitol","D-Glucitol",2,1
+"Contaminated","Ribitol","DL-Lactate",2,1
+"Contaminated","Ribitol","Succinate",2,1
+"Contaminated","Ribitol","D-Glucosamine",2,1
+"Contaminated","Ribitol","Growth at 19°C",2,1
+"Contaminated","Ribitol","Growth at 25°C",2,1
+"Contaminated","Ribitol","Growth at 30°C",2,1
+"Contaminated","D-Mannitol","D-Glucitol",2,1
+"Contaminated","D-Mannitol","DL-Lactate",2,1
+"Contaminated","D-Mannitol","Succinate",2,1
+"Contaminated","D-Mannitol","D-Glucosamine",2,1
+"Contaminated","D-Mannitol","Growth at 19°C",2,1
+"Contaminated","D-Mannitol","Growth at 25°C",2,1
+"Contaminated","D-Mannitol","Growth at 30°C",2,1
+"Contaminated","D-Glucitol","DL-Lactate",2,1
+"Contaminated","D-Glucitol","Succinate",2,1
+"Contaminated","D-Glucitol","D-Glucosamine",2,1
+"Contaminated","D-Glucitol","Growth at 19°C",2,1
+"Contaminated","D-Glucitol","Growth at 25°C",2,1
+"Contaminated","D-Glucitol","Growth at 30°C",2,1
+"Contaminated","DL-Lactate","Succinate",2,1
+"Contaminated","DL-Lactate","D-Glucosamine",2,1
+"Contaminated","DL-Lactate","Growth at 19°C",2,1
+"Contaminated","DL-Lactate","Growth at 25°C",2,1
+"Contaminated","DL-Lactate","Growth at 30°C",2,1
+"Contaminated","Succinate","D-Glucosamine",2,1
+"Contaminated","Succinate","Growth at 19°C",2,1
+"Contaminated","Succinate","Growth at 25°C",2,1
+"Contaminated","Succinate","Growth at 30°C",2,1
+"Contaminated","D-Glucosamine","Growth at 19°C",2,1
+"Contaminated","D-Glucosamine","Growth at 25°C",2,1
+"Contaminated","D-Glucosamine","Growth at 30°C",2,1
+"Contaminated","Growth at 19°C","Growth at 25°C",2,1
+"Contaminated","Growth at 19°C","Growth at 30°C",2,1
+"Contaminated","Growth at 25°C","Growth at 30°C",2,1
+"Plant.Pathogen","Glucose","Growth at 19°C",29,1
+"Animal","Glucose","Growth at 37°C",72,0.997
+"Insect","Glucose","D-Glucitol",201,0.981
+"Tree","Glucose","Nitrate",64,0.998
+"Stone.Chamber","Glucose_F","Galactose_F",2,1
+"Stone.Chamber","Glucose_F","Glucose",2,1
+"Stone.Chamber","Glucose_F","Sucrose",2,1
+"Stone.Chamber","Glucose_F","Galactose",2,1
+"Stone.Chamber","Glucose_F","Trehalose",2,1
+"Stone.Chamber","Glucose_F","Maltose",2,1
+"Stone.Chamber","Glucose_F","Cellobiose",2,1
+"Stone.Chamber","Glucose_F","Salicin",2,1
+"Stone.Chamber","Glucose_F","L-Sorbose",2,1
+"Stone.Chamber","Glucose_F","D-Xylose",2,1
+"Stone.Chamber","Glucose_F","L-Arabinose",2,1
+"Stone.Chamber","Glucose_F","D-Arabinose",2,1
+"Stone.Chamber","Glucose_F","D-Ribose",2,1
+"Stone.Chamber","Glucose_F","Ethanol",2,1
+"Stone.Chamber","Glucose_F","Glycerol",2,1
+"Stone.Chamber","Glucose_F","Erythritol",2,1
+"Stone.Chamber","Glucose_F","Ribitol",2,1
+"Stone.Chamber","Glucose_F","D-Mannitol",2,1
+"Stone.Chamber","Glucose_F","D-Glucitol",2,1
+"Stone.Chamber","Glucose_F","Succinate",2,1
+"Stone.Chamber","Glucose_F","Citrate",2,1
+"Stone.Chamber","Glucose_F","D-Gluconate",2,1
+"Stone.Chamber","Glucose_F","D-Glucosamine",2,1
+"Stone.Chamber","Glucose_F","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Glucose_F","Growth at 19°C",2,1
+"Stone.Chamber","Glucose_F","Growth at 25°C",2,1
+"Stone.Chamber","Glucose_F","Growth at 30°C",2,1
+"Stone.Chamber","Galactose_F","Glucose",2,1
+"Stone.Chamber","Galactose_F","Sucrose",2,1
+"Stone.Chamber","Galactose_F","Galactose",2,1
+"Stone.Chamber","Galactose_F","Trehalose",2,1
+"Stone.Chamber","Galactose_F","Maltose",2,1
+"Stone.Chamber","Galactose_F","Cellobiose",2,1
+"Stone.Chamber","Galactose_F","Salicin",2,1
+"Stone.Chamber","Galactose_F","L-Sorbose",2,1
+"Stone.Chamber","Galactose_F","D-Xylose",2,1
+"Stone.Chamber","Galactose_F","L-Arabinose",2,1
+"Stone.Chamber","Galactose_F","D-Arabinose",2,1
+"Stone.Chamber","Galactose_F","D-Ribose",2,1
+"Stone.Chamber","Galactose_F","Ethanol",2,1
+"Stone.Chamber","Galactose_F","Glycerol",2,1
+"Stone.Chamber","Galactose_F","Erythritol",2,1
+"Stone.Chamber","Galactose_F","Ribitol",2,1
+"Stone.Chamber","Galactose_F","D-Mannitol",2,1
+"Stone.Chamber","Galactose_F","D-Glucitol",2,1
+"Stone.Chamber","Galactose_F","Succinate",2,1
+"Stone.Chamber","Galactose_F","Citrate",2,1
+"Stone.Chamber","Galactose_F","D-Gluconate",2,1
+"Stone.Chamber","Galactose_F","D-Glucosamine",2,1
+"Stone.Chamber","Galactose_F","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Galactose_F","Growth at 19°C",2,1
+"Stone.Chamber","Galactose_F","Growth at 25°C",2,1
+"Stone.Chamber","Galactose_F","Growth at 30°C",2,1
+"Stone.Chamber","Glucose","Sucrose",2,1
+"Stone.Chamber","Glucose","Galactose",2,1
+"Stone.Chamber","Glucose","Trehalose",2,1
+"Stone.Chamber","Glucose","Maltose",2,1
+"Stone.Chamber","Glucose","Cellobiose",2,1
+"Stone.Chamber","Glucose","Salicin",2,1
+"Stone.Chamber","Glucose","L-Sorbose",2,1
+"Stone.Chamber","Glucose","D-Xylose",2,1
+"Stone.Chamber","Glucose","L-Arabinose",2,1
+"Stone.Chamber","Glucose","D-Arabinose",2,1
+"Stone.Chamber","Glucose","D-Ribose",2,1
+"Stone.Chamber","Glucose","Ethanol",2,1
+"Stone.Chamber","Glucose","Glycerol",2,1
+"Stone.Chamber","Glucose","Erythritol",2,1
+"Stone.Chamber","Glucose","Ribitol",2,1
+"Stone.Chamber","Glucose","D-Mannitol",2,1
+"Stone.Chamber","Glucose","D-Glucitol",2,1
+"Stone.Chamber","Glucose","Succinate",2,1
+"Stone.Chamber","Glucose","Citrate",2,1
+"Stone.Chamber","Glucose","D-Gluconate",2,1
+"Stone.Chamber","Glucose","D-Glucosamine",2,1
+"Stone.Chamber","Glucose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Glucose","Growth at 19°C",2,1
+"Stone.Chamber","Glucose","Growth at 25°C",2,1
+"Stone.Chamber","Glucose","Growth at 30°C",2,1
+"Stone.Chamber","Sucrose","Galactose",2,1
+"Stone.Chamber","Sucrose","Trehalose",2,1
+"Stone.Chamber","Sucrose","Maltose",2,1
+"Stone.Chamber","Sucrose","Cellobiose",2,1
+"Stone.Chamber","Sucrose","Salicin",2,1
+"Stone.Chamber","Sucrose","L-Sorbose",2,1
+"Stone.Chamber","Sucrose","D-Xylose",2,1
+"Stone.Chamber","Sucrose","L-Arabinose",2,1
+"Stone.Chamber","Sucrose","D-Arabinose",2,1
+"Stone.Chamber","Sucrose","D-Ribose",2,1
+"Stone.Chamber","Sucrose","Ethanol",2,1
+"Stone.Chamber","Sucrose","Glycerol",2,1
+"Stone.Chamber","Sucrose","Erythritol",2,1
+"Stone.Chamber","Sucrose","Ribitol",2,1
+"Stone.Chamber","Sucrose","D-Mannitol",2,1
+"Stone.Chamber","Sucrose","D-Glucitol",2,1
+"Stone.Chamber","Sucrose","Succinate",2,1
+"Stone.Chamber","Sucrose","Citrate",2,1
+"Stone.Chamber","Sucrose","D-Gluconate",2,1
+"Stone.Chamber","Sucrose","D-Glucosamine",2,1
+"Stone.Chamber","Sucrose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Sucrose","Growth at 19°C",2,1
+"Stone.Chamber","Sucrose","Growth at 25°C",2,1
+"Stone.Chamber","Sucrose","Growth at 30°C",2,1
+"Stone.Chamber","Galactose","Trehalose",2,1
+"Stone.Chamber","Galactose","Maltose",2,1
+"Stone.Chamber","Galactose","Cellobiose",2,1
+"Stone.Chamber","Galactose","Salicin",2,1
+"Stone.Chamber","Galactose","L-Sorbose",2,1
+"Stone.Chamber","Galactose","D-Xylose",2,1
+"Stone.Chamber","Galactose","L-Arabinose",2,1
+"Stone.Chamber","Galactose","D-Arabinose",2,1
+"Stone.Chamber","Galactose","D-Ribose",2,1
+"Stone.Chamber","Galactose","Ethanol",2,1
+"Stone.Chamber","Galactose","Glycerol",2,1
+"Stone.Chamber","Galactose","Erythritol",2,1
+"Stone.Chamber","Galactose","Ribitol",2,1
+"Stone.Chamber","Galactose","D-Mannitol",2,1
+"Stone.Chamber","Galactose","D-Glucitol",2,1
+"Stone.Chamber","Galactose","Succinate",2,1
+"Stone.Chamber","Galactose","Citrate",2,1
+"Stone.Chamber","Galactose","D-Gluconate",2,1
+"Stone.Chamber","Galactose","D-Glucosamine",2,1
+"Stone.Chamber","Galactose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Galactose","Growth at 19°C",2,1
+"Stone.Chamber","Galactose","Growth at 25°C",2,1
+"Stone.Chamber","Galactose","Growth at 30°C",2,1
+"Stone.Chamber","Trehalose","Maltose",2,1
+"Stone.Chamber","Trehalose","Cellobiose",2,1
+"Stone.Chamber","Trehalose","Salicin",2,1
+"Stone.Chamber","Trehalose","L-Sorbose",2,1
+"Stone.Chamber","Trehalose","D-Xylose",2,1
+"Stone.Chamber","Trehalose","L-Arabinose",2,1
+"Stone.Chamber","Trehalose","D-Arabinose",2,1
+"Stone.Chamber","Trehalose","D-Ribose",2,1
+"Stone.Chamber","Trehalose","Ethanol",2,1
+"Stone.Chamber","Trehalose","Glycerol",2,1
+"Stone.Chamber","Trehalose","Erythritol",2,1
+"Stone.Chamber","Trehalose","Ribitol",2,1
+"Stone.Chamber","Trehalose","D-Mannitol",2,1
+"Stone.Chamber","Trehalose","D-Glucitol",2,1
+"Stone.Chamber","Trehalose","Succinate",2,1
+"Stone.Chamber","Trehalose","Citrate",2,1
+"Stone.Chamber","Trehalose","D-Gluconate",2,1
+"Stone.Chamber","Trehalose","D-Glucosamine",2,1
+"Stone.Chamber","Trehalose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Trehalose","Growth at 19°C",2,1
+"Stone.Chamber","Trehalose","Growth at 25°C",2,1
+"Stone.Chamber","Trehalose","Growth at 30°C",2,1
+"Stone.Chamber","Maltose","Cellobiose",2,1
+"Stone.Chamber","Maltose","Salicin",2,1
+"Stone.Chamber","Maltose","L-Sorbose",2,1
+"Stone.Chamber","Maltose","D-Xylose",2,1
+"Stone.Chamber","Maltose","L-Arabinose",2,1
+"Stone.Chamber","Maltose","D-Arabinose",2,1
+"Stone.Chamber","Maltose","D-Ribose",2,1
+"Stone.Chamber","Maltose","Ethanol",2,1
+"Stone.Chamber","Maltose","Glycerol",2,1
+"Stone.Chamber","Maltose","Erythritol",2,1
+"Stone.Chamber","Maltose","Ribitol",2,1
+"Stone.Chamber","Maltose","D-Mannitol",2,1
+"Stone.Chamber","Maltose","D-Glucitol",2,1
+"Stone.Chamber","Maltose","Succinate",2,1
+"Stone.Chamber","Maltose","Citrate",2,1
+"Stone.Chamber","Maltose","D-Gluconate",2,1
+"Stone.Chamber","Maltose","D-Glucosamine",2,1
+"Stone.Chamber","Maltose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Maltose","Growth at 19°C",2,1
+"Stone.Chamber","Maltose","Growth at 25°C",2,1
+"Stone.Chamber","Maltose","Growth at 30°C",2,1
+"Stone.Chamber","Cellobiose","Salicin",2,1
+"Stone.Chamber","Cellobiose","L-Sorbose",2,1
+"Stone.Chamber","Cellobiose","D-Xylose",2,1
+"Stone.Chamber","Cellobiose","L-Arabinose",2,1
+"Stone.Chamber","Cellobiose","D-Arabinose",2,1
+"Stone.Chamber","Cellobiose","D-Ribose",2,1
+"Stone.Chamber","Cellobiose","Ethanol",2,1
+"Stone.Chamber","Cellobiose","Glycerol",2,1
+"Stone.Chamber","Cellobiose","Erythritol",2,1
+"Stone.Chamber","Cellobiose","Ribitol",2,1
+"Stone.Chamber","Cellobiose","D-Mannitol",2,1
+"Stone.Chamber","Cellobiose","D-Glucitol",2,1
+"Stone.Chamber","Cellobiose","Succinate",2,1
+"Stone.Chamber","Cellobiose","Citrate",2,1
+"Stone.Chamber","Cellobiose","D-Gluconate",2,1
+"Stone.Chamber","Cellobiose","D-Glucosamine",2,1
+"Stone.Chamber","Cellobiose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Cellobiose","Growth at 19°C",2,1
+"Stone.Chamber","Cellobiose","Growth at 25°C",2,1
+"Stone.Chamber","Cellobiose","Growth at 30°C",2,1
+"Stone.Chamber","Salicin","L-Sorbose",2,1
+"Stone.Chamber","Salicin","D-Xylose",2,1
+"Stone.Chamber","Salicin","L-Arabinose",2,1
+"Stone.Chamber","Salicin","D-Arabinose",2,1
+"Stone.Chamber","Salicin","D-Ribose",2,1
+"Stone.Chamber","Salicin","Ethanol",2,1
+"Stone.Chamber","Salicin","Glycerol",2,1
+"Stone.Chamber","Salicin","Erythritol",2,1
+"Stone.Chamber","Salicin","Ribitol",2,1
+"Stone.Chamber","Salicin","D-Mannitol",2,1
+"Stone.Chamber","Salicin","D-Glucitol",2,1
+"Stone.Chamber","Salicin","Succinate",2,1
+"Stone.Chamber","Salicin","Citrate",2,1
+"Stone.Chamber","Salicin","D-Gluconate",2,1
+"Stone.Chamber","Salicin","D-Glucosamine",2,1
+"Stone.Chamber","Salicin","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Salicin","Growth at 19°C",2,1
+"Stone.Chamber","Salicin","Growth at 25°C",2,1
+"Stone.Chamber","Salicin","Growth at 30°C",2,1
+"Stone.Chamber","L-Sorbose","D-Xylose",2,1
+"Stone.Chamber","L-Sorbose","L-Arabinose",2,1
+"Stone.Chamber","L-Sorbose","D-Arabinose",2,1
+"Stone.Chamber","L-Sorbose","D-Ribose",2,1
+"Stone.Chamber","L-Sorbose","Ethanol",2,1
+"Stone.Chamber","L-Sorbose","Glycerol",2,1
+"Stone.Chamber","L-Sorbose","Erythritol",2,1
+"Stone.Chamber","L-Sorbose","Ribitol",2,1
+"Stone.Chamber","L-Sorbose","D-Mannitol",2,1
+"Stone.Chamber","L-Sorbose","D-Glucitol",2,1
+"Stone.Chamber","L-Sorbose","Succinate",2,1
+"Stone.Chamber","L-Sorbose","Citrate",2,1
+"Stone.Chamber","L-Sorbose","D-Gluconate",2,1
+"Stone.Chamber","L-Sorbose","D-Glucosamine",2,1
+"Stone.Chamber","L-Sorbose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","L-Sorbose","Growth at 19°C",2,1
+"Stone.Chamber","L-Sorbose","Growth at 25°C",2,1
+"Stone.Chamber","L-Sorbose","Growth at 30°C",2,1
+"Stone.Chamber","D-Xylose","L-Arabinose",2,1
+"Stone.Chamber","D-Xylose","D-Arabinose",2,1
+"Stone.Chamber","D-Xylose","D-Ribose",2,1
+"Stone.Chamber","D-Xylose","Ethanol",2,1
+"Stone.Chamber","D-Xylose","Glycerol",2,1
+"Stone.Chamber","D-Xylose","Erythritol",2,1
+"Stone.Chamber","D-Xylose","Ribitol",2,1
+"Stone.Chamber","D-Xylose","D-Mannitol",2,1
+"Stone.Chamber","D-Xylose","D-Glucitol",2,1
+"Stone.Chamber","D-Xylose","Succinate",2,1
+"Stone.Chamber","D-Xylose","Citrate",2,1
+"Stone.Chamber","D-Xylose","D-Gluconate",2,1
+"Stone.Chamber","D-Xylose","D-Glucosamine",2,1
+"Stone.Chamber","D-Xylose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Xylose","Growth at 19°C",2,1
+"Stone.Chamber","D-Xylose","Growth at 25°C",2,1
+"Stone.Chamber","D-Xylose","Growth at 30°C",2,1
+"Stone.Chamber","L-Arabinose","D-Arabinose",2,1
+"Stone.Chamber","L-Arabinose","D-Ribose",2,1
+"Stone.Chamber","L-Arabinose","Ethanol",2,1
+"Stone.Chamber","L-Arabinose","Glycerol",2,1
+"Stone.Chamber","L-Arabinose","Erythritol",2,1
+"Stone.Chamber","L-Arabinose","Ribitol",2,1
+"Stone.Chamber","L-Arabinose","D-Mannitol",2,1
+"Stone.Chamber","L-Arabinose","D-Glucitol",2,1
+"Stone.Chamber","L-Arabinose","Succinate",2,1
+"Stone.Chamber","L-Arabinose","Citrate",2,1
+"Stone.Chamber","L-Arabinose","D-Gluconate",2,1
+"Stone.Chamber","L-Arabinose","D-Glucosamine",2,1
+"Stone.Chamber","L-Arabinose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","L-Arabinose","Growth at 19°C",2,1
+"Stone.Chamber","L-Arabinose","Growth at 25°C",2,1
+"Stone.Chamber","L-Arabinose","Growth at 30°C",2,1
+"Stone.Chamber","D-Arabinose","D-Ribose",2,1
+"Stone.Chamber","D-Arabinose","Ethanol",2,1
+"Stone.Chamber","D-Arabinose","Glycerol",2,1
+"Stone.Chamber","D-Arabinose","Erythritol",2,1
+"Stone.Chamber","D-Arabinose","Ribitol",2,1
+"Stone.Chamber","D-Arabinose","D-Mannitol",2,1
+"Stone.Chamber","D-Arabinose","D-Glucitol",2,1
+"Stone.Chamber","D-Arabinose","Succinate",2,1
+"Stone.Chamber","D-Arabinose","Citrate",2,1
+"Stone.Chamber","D-Arabinose","D-Gluconate",2,1
+"Stone.Chamber","D-Arabinose","D-Glucosamine",2,1
+"Stone.Chamber","D-Arabinose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Arabinose","Growth at 19°C",2,1
+"Stone.Chamber","D-Arabinose","Growth at 25°C",2,1
+"Stone.Chamber","D-Arabinose","Growth at 30°C",2,1
+"Stone.Chamber","D-Ribose","Ethanol",2,1
+"Stone.Chamber","D-Ribose","Glycerol",2,1
+"Stone.Chamber","D-Ribose","Erythritol",2,1
+"Stone.Chamber","D-Ribose","Ribitol",2,1
+"Stone.Chamber","D-Ribose","D-Mannitol",2,1
+"Stone.Chamber","D-Ribose","D-Glucitol",2,1
+"Stone.Chamber","D-Ribose","Succinate",2,1
+"Stone.Chamber","D-Ribose","Citrate",2,1
+"Stone.Chamber","D-Ribose","D-Gluconate",2,1
+"Stone.Chamber","D-Ribose","D-Glucosamine",2,1
+"Stone.Chamber","D-Ribose","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Ribose","Growth at 19°C",2,1
+"Stone.Chamber","D-Ribose","Growth at 25°C",2,1
+"Stone.Chamber","D-Ribose","Growth at 30°C",2,1
+"Stone.Chamber","Ethanol","Glycerol",2,1
+"Stone.Chamber","Ethanol","Erythritol",2,1
+"Stone.Chamber","Ethanol","Ribitol",2,1
+"Stone.Chamber","Ethanol","D-Mannitol",2,1
+"Stone.Chamber","Ethanol","D-Glucitol",2,1
+"Stone.Chamber","Ethanol","Succinate",2,1
+"Stone.Chamber","Ethanol","Citrate",2,1
+"Stone.Chamber","Ethanol","D-Gluconate",2,1
+"Stone.Chamber","Ethanol","D-Glucosamine",2,1
+"Stone.Chamber","Ethanol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Ethanol","Growth at 19°C",2,1
+"Stone.Chamber","Ethanol","Growth at 25°C",2,1
+"Stone.Chamber","Ethanol","Growth at 30°C",2,1
+"Stone.Chamber","Glycerol","Erythritol",2,1
+"Stone.Chamber","Glycerol","Ribitol",2,1
+"Stone.Chamber","Glycerol","D-Mannitol",2,1
+"Stone.Chamber","Glycerol","D-Glucitol",2,1
+"Stone.Chamber","Glycerol","Succinate",2,1
+"Stone.Chamber","Glycerol","Citrate",2,1
+"Stone.Chamber","Glycerol","D-Gluconate",2,1
+"Stone.Chamber","Glycerol","D-Glucosamine",2,1
+"Stone.Chamber","Glycerol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Glycerol","Growth at 19°C",2,1
+"Stone.Chamber","Glycerol","Growth at 25°C",2,1
+"Stone.Chamber","Glycerol","Growth at 30°C",2,1
+"Stone.Chamber","Erythritol","Ribitol",2,1
+"Stone.Chamber","Erythritol","D-Mannitol",2,1
+"Stone.Chamber","Erythritol","D-Glucitol",2,1
+"Stone.Chamber","Erythritol","Succinate",2,1
+"Stone.Chamber","Erythritol","Citrate",2,1
+"Stone.Chamber","Erythritol","D-Gluconate",2,1
+"Stone.Chamber","Erythritol","D-Glucosamine",2,1
+"Stone.Chamber","Erythritol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Erythritol","Growth at 19°C",2,1
+"Stone.Chamber","Erythritol","Growth at 25°C",2,1
+"Stone.Chamber","Erythritol","Growth at 30°C",2,1
+"Stone.Chamber","Ribitol","D-Mannitol",2,1
+"Stone.Chamber","Ribitol","D-Glucitol",2,1
+"Stone.Chamber","Ribitol","Succinate",2,1
+"Stone.Chamber","Ribitol","Citrate",2,1
+"Stone.Chamber","Ribitol","D-Gluconate",2,1
+"Stone.Chamber","Ribitol","D-Glucosamine",2,1
+"Stone.Chamber","Ribitol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Ribitol","Growth at 19°C",2,1
+"Stone.Chamber","Ribitol","Growth at 25°C",2,1
+"Stone.Chamber","Ribitol","Growth at 30°C",2,1
+"Stone.Chamber","D-Mannitol","D-Glucitol",2,1
+"Stone.Chamber","D-Mannitol","Succinate",2,1
+"Stone.Chamber","D-Mannitol","Citrate",2,1
+"Stone.Chamber","D-Mannitol","D-Gluconate",2,1
+"Stone.Chamber","D-Mannitol","D-Glucosamine",2,1
+"Stone.Chamber","D-Mannitol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Mannitol","Growth at 19°C",2,1
+"Stone.Chamber","D-Mannitol","Growth at 25°C",2,1
+"Stone.Chamber","D-Mannitol","Growth at 30°C",2,1
+"Stone.Chamber","D-Glucitol","Succinate",2,1
+"Stone.Chamber","D-Glucitol","Citrate",2,1
+"Stone.Chamber","D-Glucitol","D-Gluconate",2,1
+"Stone.Chamber","D-Glucitol","D-Glucosamine",2,1
+"Stone.Chamber","D-Glucitol","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Glucitol","Growth at 19°C",2,1
+"Stone.Chamber","D-Glucitol","Growth at 25°C",2,1
+"Stone.Chamber","D-Glucitol","Growth at 30°C",2,1
+"Stone.Chamber","Succinate","Citrate",2,1
+"Stone.Chamber","Succinate","D-Gluconate",2,1
+"Stone.Chamber","Succinate","D-Glucosamine",2,1
+"Stone.Chamber","Succinate","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Succinate","Growth at 19°C",2,1
+"Stone.Chamber","Succinate","Growth at 25°C",2,1
+"Stone.Chamber","Succinate","Growth at 30°C",2,1
+"Stone.Chamber","Citrate","D-Gluconate",2,1
+"Stone.Chamber","Citrate","D-Glucosamine",2,1
+"Stone.Chamber","Citrate","2-Keto-D-gluconate",2,1
+"Stone.Chamber","Citrate","Growth at 19°C",2,1
+"Stone.Chamber","Citrate","Growth at 25°C",2,1
+"Stone.Chamber","Citrate","Growth at 30°C",2,1
+"Stone.Chamber","D-Gluconate","D-Glucosamine",2,1
+"Stone.Chamber","D-Gluconate","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Gluconate","Growth at 19°C",2,1
+"Stone.Chamber","D-Gluconate","Growth at 25°C",2,1
+"Stone.Chamber","D-Gluconate","Growth at 30°C",2,1
+"Stone.Chamber","D-Glucosamine","2-Keto-D-gluconate",2,1
+"Stone.Chamber","D-Glucosamine","Growth at 19°C",2,1
+"Stone.Chamber","D-Glucosamine","Growth at 25°C",2,1
+"Stone.Chamber","D-Glucosamine","Growth at 30°C",2,1
+"Stone.Chamber","2-Keto-D-gluconate","Growth at 19°C",2,1
+"Stone.Chamber","2-Keto-D-gluconate","Growth at 25°C",2,1
+"Stone.Chamber","2-Keto-D-gluconate","Growth at 30°C",2,1
+"Stone.Chamber","Growth at 19°C","Growth at 25°C",2,1
+"Stone.Chamber","Growth at 19°C","Growth at 30°C",2,1
+"Stone.Chamber","Growth at 25°C","Growth at 30°C",2,1
+"Lichen","Glucose","Ethanol",5,1
+"Lichen","Glucose","Glycerol",5,1
+"Lichen","Glucose","Ribitol",5,1
+"Lichen","Glucose","D-Glucitol",5,1
+"Lichen","Glucose","Succinate",5,1
+"Lichen","Glucose","Growth at 19°C",5,1
+"Lichen","Glucose","Growth at 25°C",5,1
+"Lichen","Glucose","Growth at 30°C",5,1
+"Lichen","Ethanol","Glycerol",5,1
+"Lichen","Ethanol","Ribitol",5,1
+"Lichen","Ethanol","D-Glucitol",5,1
+"Lichen","Ethanol","Succinate",5,1
+"Lichen","Ethanol","Growth at 19°C",5,1
+"Lichen","Ethanol","Growth at 25°C",5,1
+"Lichen","Ethanol","Growth at 30°C",5,1
+"Lichen","Glycerol","Ribitol",5,1
+"Lichen","Glycerol","D-Glucitol",5,1
+"Lichen","Glycerol","Succinate",5,1
+"Lichen","Glycerol","Growth at 19°C",5,1
+"Lichen","Glycerol","Growth at 25°C",5,1
+"Lichen","Glycerol","Growth at 30°C",5,1
+"Lichen","Ribitol","D-Glucitol",5,1
+"Lichen","Ribitol","Succinate",5,1
+"Lichen","Ribitol","Growth at 19°C",5,1
+"Lichen","Ribitol","Growth at 25°C",5,1
+"Lichen","Ribitol","Growth at 30°C",5,1
+"Lichen","D-Glucitol","Succinate",5,1
+"Lichen","D-Glucitol","Growth at 19°C",5,1
+"Lichen","D-Glucitol","Growth at 25°C",5,1
+"Lichen","D-Glucitol","Growth at 30°C",5,1
+"Lichen","Succinate","Growth at 19°C",5,1
+"Lichen","Succinate","Growth at 25°C",5,1
+"Lichen","Succinate","Growth at 30°C",5,1
+"Lichen","Growth at 19°C","Growth at 25°C",5,1
+"Lichen","Growth at 19°C","Growth at 30°C",5,1
+"Lichen","Growth at 25°C","Growth at 30°C",5,1
+"Pollen","Glucose_F","Glucose",7,1
+"Pollen","Glucose_F","Glycerol",7,1
+"Pollen","Glucose_F","D-Mannitol",7,1
+"Pollen","Glucose_F","D-Glucitol",7,1
+"Pollen","Glucose_F","Growth at 19°C",7,1
+"Pollen","Glucose_F","Growth at 25°C",7,1
+"Pollen","Glucose_F","Growth at 30°C",7,1
+"Pollen","Glucose","Glycerol",7,1
+"Pollen","Glucose","D-Mannitol",7,1
+"Pollen","Glucose","D-Glucitol",7,1
+"Pollen","Glucose","Growth at 19°C",7,1
+"Pollen","Glucose","Growth at 25°C",7,1
+"Pollen","Glucose","Growth at 30°C",7,1
+"Pollen","Glycerol","D-Mannitol",7,1
+"Pollen","Glycerol","D-Glucitol",7,1
+"Pollen","Glycerol","Growth at 19°C",7,1
+"Pollen","Glycerol","Growth at 25°C",7,1
+"Pollen","Glycerol","Growth at 30°C",7,1
+"Pollen","D-Mannitol","D-Glucitol",7,1
+"Pollen","D-Mannitol","Growth at 19°C",7,1
+"Pollen","D-Mannitol","Growth at 25°C",7,1
+"Pollen","D-Mannitol","Growth at 30°C",7,1
+"Pollen","D-Glucitol","Growth at 19°C",7,1
+"Pollen","D-Glucitol","Growth at 25°C",7,1
+"Pollen","D-Glucitol","Growth at 30°C",7,1
+"Pollen","Growth at 19°C","Growth at 25°C",7,1
+"Pollen","Growth at 19°C","Growth at 30°C",7,1
+"Pollen","Growth at 25°C","Growth at 30°C",7,1
+"Feces.Dung","Glucose","Growth at 37°C",20,0.971
+"Pine","Glucose","L-Arabinose",27,0.982
+"Bromeliad","Glucose_F","Maltose_F",2,1
+"Bromeliad","Glucose_F","Glucose",2,1
+"Bromeliad","Glucose_F","Sucrose",2,1
+"Bromeliad","Glucose_F","Trehalose",2,1
+"Bromeliad","Glucose_F","Maltose",2,1
+"Bromeliad","Glucose_F","Melezitose",2,1
+"Bromeliad","Glucose_F","Methyl-?-D-glucoside",2,1
+"Bromeliad","Glucose_F","Cellobiose",2,1
+"Bromeliad","Glucose_F","Salicin",2,1
+"Bromeliad","Glucose_F","L-Sorbose",2,1
+"Bromeliad","Glucose_F","D-Xylose",2,1
+"Bromeliad","Glucose_F","Ethanol",2,1
+"Bromeliad","Glucose_F","Glycerol",2,1
+"Bromeliad","Glucose_F","Erythritol",2,1
+"Bromeliad","Glucose_F","Ribitol",2,1
+"Bromeliad","Glucose_F","D-Mannitol",2,1
+"Bromeliad","Glucose_F","D-Glucitol",2,1
+"Bromeliad","Glucose_F","D-Gluconate",2,1
+"Bromeliad","Glucose_F","Vitamin-free",2,1
+"Bromeliad","Glucose_F","Growth at 19°C",2,1
+"Bromeliad","Glucose_F","Growth at 25°C",2,1
+"Bromeliad","Glucose_F","Growth at 30°C",2,1
+"Bromeliad","Maltose_F","Glucose",2,1
+"Bromeliad","Maltose_F","Sucrose",2,1
+"Bromeliad","Maltose_F","Trehalose",2,1
+"Bromeliad","Maltose_F","Maltose",2,1
+"Bromeliad","Maltose_F","Melezitose",2,1
+"Bromeliad","Maltose_F","Methyl-?-D-glucoside",2,1
+"Bromeliad","Maltose_F","Cellobiose",2,1
+"Bromeliad","Maltose_F","Salicin",2,1
+"Bromeliad","Maltose_F","L-Sorbose",2,1
+"Bromeliad","Maltose_F","D-Xylose",2,1
+"Bromeliad","Maltose_F","Ethanol",2,1
+"Bromeliad","Maltose_F","Glycerol",2,1
+"Bromeliad","Maltose_F","Erythritol",2,1
+"Bromeliad","Maltose_F","Ribitol",2,1
+"Bromeliad","Maltose_F","D-Mannitol",2,1
+"Bromeliad","Maltose_F","D-Glucitol",2,1
+"Bromeliad","Maltose_F","D-Gluconate",2,1
+"Bromeliad","Maltose_F","Vitamin-free",2,1
+"Bromeliad","Maltose_F","Growth at 19°C",2,1
+"Bromeliad","Maltose_F","Growth at 25°C",2,1
+"Bromeliad","Maltose_F","Growth at 30°C",2,1
+"Bromeliad","Glucose","Sucrose",2,1
+"Bromeliad","Glucose","Trehalose",2,1
+"Bromeliad","Glucose","Maltose",2,1
+"Bromeliad","Glucose","Melezitose",2,1
+"Bromeliad","Glucose","Methyl-?-D-glucoside",2,1
+"Bromeliad","Glucose","Cellobiose",2,1
+"Bromeliad","Glucose","Salicin",2,1
+"Bromeliad","Glucose","L-Sorbose",2,1
+"Bromeliad","Glucose","D-Xylose",2,1
+"Bromeliad","Glucose","Ethanol",2,1
+"Bromeliad","Glucose","Glycerol",2,1
+"Bromeliad","Glucose","Erythritol",2,1
+"Bromeliad","Glucose","Ribitol",2,1
+"Bromeliad","Glucose","D-Mannitol",2,1
+"Bromeliad","Glucose","D-Glucitol",2,1
+"Bromeliad","Glucose","D-Gluconate",2,1
+"Bromeliad","Glucose","Vitamin-free",2,1
+"Bromeliad","Glucose","Growth at 19°C",2,1
+"Bromeliad","Glucose","Growth at 25°C",2,1
+"Bromeliad","Glucose","Growth at 30°C",2,1
+"Bromeliad","Sucrose","Trehalose",2,1
+"Bromeliad","Sucrose","Maltose",2,1
+"Bromeliad","Sucrose","Melezitose",2,1
+"Bromeliad","Sucrose","Methyl-?-D-glucoside",2,1
+"Bromeliad","Sucrose","Cellobiose",2,1
+"Bromeliad","Sucrose","Salicin",2,1
+"Bromeliad","Sucrose","L-Sorbose",2,1
+"Bromeliad","Sucrose","D-Xylose",2,1
+"Bromeliad","Sucrose","Ethanol",2,1
+"Bromeliad","Sucrose","Glycerol",2,1
+"Bromeliad","Sucrose","Erythritol",2,1
+"Bromeliad","Sucrose","Ribitol",2,1
+"Bromeliad","Sucrose","D-Mannitol",2,1
+"Bromeliad","Sucrose","D-Glucitol",2,1
+"Bromeliad","Sucrose","D-Gluconate",2,1
+"Bromeliad","Sucrose","Vitamin-free",2,1
+"Bromeliad","Sucrose","Growth at 19°C",2,1
+"Bromeliad","Sucrose","Growth at 25°C",2,1
+"Bromeliad","Sucrose","Growth at 30°C",2,1
+"Bromeliad","Trehalose","Maltose",2,1
+"Bromeliad","Trehalose","Melezitose",2,1
+"Bromeliad","Trehalose","Methyl-?-D-glucoside",2,1
+"Bromeliad","Trehalose","Cellobiose",2,1
+"Bromeliad","Trehalose","Salicin",2,1
+"Bromeliad","Trehalose","L-Sorbose",2,1
+"Bromeliad","Trehalose","D-Xylose",2,1
+"Bromeliad","Trehalose","Ethanol",2,1
+"Bromeliad","Trehalose","Glycerol",2,1
+"Bromeliad","Trehalose","Erythritol",2,1
+"Bromeliad","Trehalose","Ribitol",2,1
+"Bromeliad","Trehalose","D-Mannitol",2,1
+"Bromeliad","Trehalose","D-Glucitol",2,1
+"Bromeliad","Trehalose","D-Gluconate",2,1
+"Bromeliad","Trehalose","Vitamin-free",2,1
+"Bromeliad","Trehalose","Growth at 19°C",2,1
+"Bromeliad","Trehalose","Growth at 25°C",2,1
+"Bromeliad","Trehalose","Growth at 30°C",2,1
+"Bromeliad","Maltose","Melezitose",2,1
+"Bromeliad","Maltose","Methyl-?-D-glucoside",2,1
+"Bromeliad","Maltose","Cellobiose",2,1
+"Bromeliad","Maltose","Salicin",2,1
+"Bromeliad","Maltose","L-Sorbose",2,1
+"Bromeliad","Maltose","D-Xylose",2,1
+"Bromeliad","Maltose","Ethanol",2,1
+"Bromeliad","Maltose","Glycerol",2,1
+"Bromeliad","Maltose","Erythritol",2,1
+"Bromeliad","Maltose","Ribitol",2,1
+"Bromeliad","Maltose","D-Mannitol",2,1
+"Bromeliad","Maltose","D-Glucitol",2,1
+"Bromeliad","Maltose","D-Gluconate",2,1
+"Bromeliad","Maltose","Vitamin-free",2,1
+"Bromeliad","Maltose","Growth at 19°C",2,1
+"Bromeliad","Maltose","Growth at 25°C",2,1
+"Bromeliad","Maltose","Growth at 30°C",2,1
+"Bromeliad","Melezitose","Methyl-?-D-glucoside",2,1
+"Bromeliad","Melezitose","Cellobiose",2,1
+"Bromeliad","Melezitose","Salicin",2,1
+"Bromeliad","Melezitose","L-Sorbose",2,1
+"Bromeliad","Melezitose","D-Xylose",2,1
+"Bromeliad","Melezitose","Ethanol",2,1
+"Bromeliad","Melezitose","Glycerol",2,1
+"Bromeliad","Melezitose","Erythritol",2,1
+"Bromeliad","Melezitose","Ribitol",2,1
+"Bromeliad","Melezitose","D-Mannitol",2,1
+"Bromeliad","Melezitose","D-Glucitol",2,1
+"Bromeliad","Melezitose","D-Gluconate",2,1
+"Bromeliad","Melezitose","Vitamin-free",2,1
+"Bromeliad","Melezitose","Growth at 19°C",2,1
+"Bromeliad","Melezitose","Growth at 25°C",2,1
+"Bromeliad","Melezitose","Growth at 30°C",2,1
+"Bromeliad","Methyl-?-D-glucoside","Cellobiose",2,1
+"Bromeliad","Methyl-?-D-glucoside","Salicin",2,1
+"Bromeliad","Methyl-?-D-glucoside","L-Sorbose",2,1
+"Bromeliad","Methyl-?-D-glucoside","D-Xylose",2,1
+"Bromeliad","Methyl-?-D-glucoside","Ethanol",2,1
+"Bromeliad","Methyl-?-D-glucoside","Glycerol",2,1
+"Bromeliad","Methyl-?-D-glucoside","Erythritol",2,1
+"Bromeliad","Methyl-?-D-glucoside","Ribitol",2,1
+"Bromeliad","Methyl-?-D-glucoside","D-Mannitol",2,1
+"Bromeliad","Methyl-?-D-glucoside","D-Glucitol",2,1
+"Bromeliad","Methyl-?-D-glucoside","D-Gluconate",2,1
+"Bromeliad","Methyl-?-D-glucoside","Vitamin-free",2,1
+"Bromeliad","Methyl-?-D-glucoside","Growth at 19°C",2,1
+"Bromeliad","Methyl-?-D-glucoside","Growth at 25°C",2,1
+"Bromeliad","Methyl-?-D-glucoside","Growth at 30°C",2,1
+"Bromeliad","Cellobiose","Salicin",2,1
+"Bromeliad","Cellobiose","L-Sorbose",2,1
+"Bromeliad","Cellobiose","D-Xylose",2,1
+"Bromeliad","Cellobiose","Ethanol",2,1
+"Bromeliad","Cellobiose","Glycerol",2,1
+"Bromeliad","Cellobiose","Erythritol",2,1
+"Bromeliad","Cellobiose","Ribitol",2,1
+"Bromeliad","Cellobiose","D-Mannitol",2,1
+"Bromeliad","Cellobiose","D-Glucitol",2,1
+"Bromeliad","Cellobiose","D-Gluconate",2,1
+"Bromeliad","Cellobiose","Vitamin-free",2,1
+"Bromeliad","Cellobiose","Growth at 19°C",2,1
+"Bromeliad","Cellobiose","Growth at 25°C",2,1
+"Bromeliad","Cellobiose","Growth at 30°C",2,1
+"Bromeliad","Salicin","L-Sorbose",2,1
+"Bromeliad","Salicin","D-Xylose",2,1
+"Bromeliad","Salicin","Ethanol",2,1
+"Bromeliad","Salicin","Glycerol",2,1
+"Bromeliad","Salicin","Erythritol",2,1
+"Bromeliad","Salicin","Ribitol",2,1
+"Bromeliad","Salicin","D-Mannitol",2,1
+"Bromeliad","Salicin","D-Glucitol",2,1
+"Bromeliad","Salicin","D-Gluconate",2,1
+"Bromeliad","Salicin","Vitamin-free",2,1
+"Bromeliad","Salicin","Growth at 19°C",2,1
+"Bromeliad","Salicin","Growth at 25°C",2,1
+"Bromeliad","Salicin","Growth at 30°C",2,1
+"Bromeliad","L-Sorbose","D-Xylose",2,1
+"Bromeliad","L-Sorbose","Ethanol",2,1
+"Bromeliad","L-Sorbose","Glycerol",2,1
+"Bromeliad","L-Sorbose","Erythritol",2,1
+"Bromeliad","L-Sorbose","Ribitol",2,1
+"Bromeliad","L-Sorbose","D-Mannitol",2,1
+"Bromeliad","L-Sorbose","D-Glucitol",2,1
+"Bromeliad","L-Sorbose","D-Gluconate",2,1
+"Bromeliad","L-Sorbose","Vitamin-free",2,1
+"Bromeliad","L-Sorbose","Growth at 19°C",2,1
+"Bromeliad","L-Sorbose","Growth at 25°C",2,1
+"Bromeliad","L-Sorbose","Growth at 30°C",2,1
+"Bromeliad","D-Xylose","Ethanol",2,1
+"Bromeliad","D-Xylose","Glycerol",2,1
+"Bromeliad","D-Xylose","Erythritol",2,1
+"Bromeliad","D-Xylose","Ribitol",2,1
+"Bromeliad","D-Xylose","D-Mannitol",2,1
+"Bromeliad","D-Xylose","D-Glucitol",2,1
+"Bromeliad","D-Xylose","D-Gluconate",2,1
+"Bromeliad","D-Xylose","Vitamin-free",2,1
+"Bromeliad","D-Xylose","Growth at 19°C",2,1
+"Bromeliad","D-Xylose","Growth at 25°C",2,1
+"Bromeliad","D-Xylose","Growth at 30°C",2,1
+"Bromeliad","Ethanol","Glycerol",2,1
+"Bromeliad","Ethanol","Erythritol",2,1
+"Bromeliad","Ethanol","Ribitol",2,1
+"Bromeliad","Ethanol","D-Mannitol",2,1
+"Bromeliad","Ethanol","D-Glucitol",2,1
+"Bromeliad","Ethanol","D-Gluconate",2,1
+"Bromeliad","Ethanol","Vitamin-free",2,1
+"Bromeliad","Ethanol","Growth at 19°C",2,1
+"Bromeliad","Ethanol","Growth at 25°C",2,1
+"Bromeliad","Ethanol","Growth at 30°C",2,1
+"Bromeliad","Glycerol","Erythritol",2,1
+"Bromeliad","Glycerol","Ribitol",2,1
+"Bromeliad","Glycerol","D-Mannitol",2,1
+"Bromeliad","Glycerol","D-Glucitol",2,1
+"Bromeliad","Glycerol","D-Gluconate",2,1
+"Bromeliad","Glycerol","Vitamin-free",2,1
+"Bromeliad","Glycerol","Growth at 19°C",2,1
+"Bromeliad","Glycerol","Growth at 25°C",2,1
+"Bromeliad","Glycerol","Growth at 30°C",2,1
+"Bromeliad","Erythritol","Ribitol",2,1
+"Bromeliad","Erythritol","D-Mannitol",2,1
+"Bromeliad","Erythritol","D-Glucitol",2,1
+"Bromeliad","Erythritol","D-Gluconate",2,1
+"Bromeliad","Erythritol","Vitamin-free",2,1
+"Bromeliad","Erythritol","Growth at 19°C",2,1
+"Bromeliad","Erythritol","Growth at 25°C",2,1
+"Bromeliad","Erythritol","Growth at 30°C",2,1
+"Bromeliad","Ribitol","D-Mannitol",2,1
+"Bromeliad","Ribitol","D-Glucitol",2,1
+"Bromeliad","Ribitol","D-Gluconate",2,1
+"Bromeliad","Ribitol","Vitamin-free",2,1
+"Bromeliad","Ribitol","Growth at 19°C",2,1
+"Bromeliad","Ribitol","Growth at 25°C",2,1
+"Bromeliad","Ribitol","Growth at 30°C",2,1
+"Bromeliad","D-Mannitol","D-Glucitol",2,1
+"Bromeliad","D-Mannitol","D-Gluconate",2,1
+"Bromeliad","D-Mannitol","Vitamin-free",2,1
+"Bromeliad","D-Mannitol","Growth at 19°C",2,1
+"Bromeliad","D-Mannitol","Growth at 25°C",2,1
+"Bromeliad","D-Mannitol","Growth at 30°C",2,1
+"Bromeliad","D-Glucitol","D-Gluconate",2,1
+"Bromeliad","D-Glucitol","Vitamin-free",2,1
+"Bromeliad","D-Glucitol","Growth at 19°C",2,1
+"Bromeliad","D-Glucitol","Growth at 25°C",2,1
+"Bromeliad","D-Glucitol","Growth at 30°C",2,1
+"Bromeliad","D-Gluconate","Vitamin-free",2,1
+"Bromeliad","D-Gluconate","Growth at 19°C",2,1
+"Bromeliad","D-Gluconate","Growth at 25°C",2,1
+"Bromeliad","D-Gluconate","Growth at 30°C",2,1
+"Bromeliad","Vitamin-free","Growth at 19°C",2,1
+"Bromeliad","Vitamin-free","Growth at 25°C",2,1
+"Bromeliad","Vitamin-free","Growth at 30°C",2,1
+"Bromeliad","Growth at 19°C","Growth at 25°C",2,1
+"Bromeliad","Growth at 19°C","Growth at 30°C",2,1
+"Bromeliad","Growth at 25°C","Growth at 30°C",2,1
+"Flower","Glucose","L-Sorbose",73,1
+"Cactus","Glucose","Growth at 19°C",47,1
+"Cactus","Glucose","Growth at 25°C",47,1
+"Cactus","Glucose","Growth at 30°C",47,1
+"Cactus","Glucose","Growth at 37°C",40,1
+"Cactus","Growth at 19°C","Growth at 25°C",47,1
+"Cactus","Growth at 19°C","Growth at 30°C",47,1
+"Cactus","Growth at 19°C","Growth at 37°C",40,1
+"Cactus","Growth at 25°C","Growth at 30°C",47,1
+"Cactus","Growth at 25°C","Growth at 37°C",40,1
+"Cactus","Growth at 30°C","Growth at 37°C",40,1
+"Ipomoea","Glucose","L-Sorbose",34,1
+"Ipomoea","Glucose","D-Mannitol",34,1
+"Ipomoea","Glucose","D-Glucitol",34,1
+"Ipomoea","Glucose","Growth at 19°C",34,1
+"Ipomoea","Glucose","Growth at 25°C",34,1
+"Ipomoea","L-Sorbose","D-Mannitol",34,1
+"Ipomoea","L-Sorbose","D-Glucitol",34,1
+"Ipomoea","L-Sorbose","Growth at 19°C",34,1
+"Ipomoea","L-Sorbose","Growth at 25°C",34,1
+"Ipomoea","D-Mannitol","D-Glucitol",34,1
+"Ipomoea","D-Mannitol","Growth at 19°C",34,1
+"Ipomoea","D-Mannitol","Growth at 25°C",34,1
+"Ipomoea","D-Glucitol","Growth at 19°C",34,1
+"Ipomoea","D-Glucitol","Growth at 25°C",34,1
+"Ipomoea","Growth at 19°C","Growth at 25°C",34,1
+"Oak","Glucose","Growth at 19°C",63,1
+"Oak","Glucose","Growth at 25°C",63,1
+"Oak","Growth at 19°C","Growth at 25°C",63,1
+"Hibiscus","Glucose","Glycerol",15,1
+"Hibiscus","Glucose","Growth at 19°C",15,1
+"Hibiscus","Glucose","Growth at 25°C",15,1
+"Hibiscus","Glucose","Growth at 30°C",15,1
+"Hibiscus","Glycerol","Growth at 19°C",15,1
+"Hibiscus","Glycerol","Growth at 25°C",15,1
+"Hibiscus","Glycerol","Growth at 30°C",15,1
+"Hibiscus","Growth at 19°C","Growth at 25°C",15,1
+"Hibiscus","Growth at 19°C","Growth at 30°C",15,1
+"Hibiscus","Growth at 25°C","Growth at 30°C",15,1
+"Beetle","Glucose","Growth at 19°C",147,1
+"Beetle","Glucose","Growth at 25°C",147,1
+"Beetle","Growth at 19°C","Growth at 25°C",147,1
+"Ant","Glucose","Galactose",4,1
+"Ant","Glucose","Glycerol",4,1
+"Ant","Glucose","D-Mannitol",4,1
+"Ant","Glucose","D-Glucitol",4,1
+"Ant","Glucose","D-Gluconate",4,1
+"Ant","Glucose","Growth at 19°C",4,1
+"Ant","Glucose","Growth at 25°C",4,1
+"Ant","Glucose","Growth at 30°C",4,1
+"Ant","Galactose","Glycerol",4,1
+"Ant","Galactose","D-Mannitol",4,1
+"Ant","Galactose","D-Glucitol",4,1
+"Ant","Galactose","D-Gluconate",4,1
+"Ant","Galactose","Growth at 19°C",4,1
+"Ant","Galactose","Growth at 25°C",4,1
+"Ant","Galactose","Growth at 30°C",4,1
+"Ant","Glycerol","D-Mannitol",4,1
+"Ant","Glycerol","D-Glucitol",4,1
+"Ant","Glycerol","D-Gluconate",4,1
+"Ant","Glycerol","Growth at 19°C",4,1
+"Ant","Glycerol","Growth at 25°C",4,1
+"Ant","Glycerol","Growth at 30°C",4,1
+"Ant","D-Mannitol","D-Glucitol",4,1
+"Ant","D-Mannitol","D-Gluconate",4,1
+"Ant","D-Mannitol","Growth at 19°C",4,1
+"Ant","D-Mannitol","Growth at 25°C",4,1
+"Ant","D-Mannitol","Growth at 30°C",4,1
+"Ant","D-Glucitol","D-Gluconate",4,1
+"Ant","D-Glucitol","Growth at 19°C",4,1
+"Ant","D-Glucitol","Growth at 25°C",4,1
+"Ant","D-Glucitol","Growth at 30°C",4,1
+"Ant","D-Gluconate","Growth at 19°C",4,1
+"Ant","D-Gluconate","Growth at 25°C",4,1
+"Ant","D-Gluconate","Growth at 30°C",4,1
+"Ant","Growth at 19°C","Growth at 25°C",4,1
+"Ant","Growth at 19°C","Growth at 30°C",4,1
+"Ant","Growth at 25°C","Growth at 30°C",4,1
+"Fruit.fly","Glucose","Growth at 19°C",54,1
+"Fruit.fly","Glucose","Growth at 25°C",54,1
+"Fruit.fly","Growth at 19°C","Growth at 25°C",54,1
+"Bee","Glucose","Growth at 19°C",27,1
+"Bee","Glucose","Growth at 25°C",27,1
+"Bee","Growth at 19°C","Growth at 25°C",27,1
+"Water","Glucose_F","Glucose",4,1
+"Water","Glucose_F","Ethanol",4,1
+"Water","Glucose_F","Glycerol",4,1
+"Water","Glucose_F","D-Mannitol",4,1
+"Water","Glucose_F","D-Glucitol",4,1
+"Water","Glucose_F","Succinate",4,1
+"Water","Glucose_F","Growth at 19°C",4,1
+"Water","Glucose_F","Growth at 25°C",4,1
+"Water","Glucose_F","Growth at 30°C",4,1
+"Water","Glucose","Ethanol",4,1
+"Water","Glucose","Glycerol",4,1
+"Water","Glucose","D-Mannitol",4,1
+"Water","Glucose","D-Glucitol",4,1
+"Water","Glucose","Succinate",4,1
+"Water","Glucose","Growth at 19°C",4,1
+"Water","Glucose","Growth at 25°C",4,1
+"Water","Glucose","Growth at 30°C",4,1
+"Water","Ethanol","Glycerol",4,1
+"Water","Ethanol","D-Mannitol",4,1
+"Water","Ethanol","D-Glucitol",4,1
+"Water","Ethanol","Succinate",4,1
+"Water","Ethanol","Growth at 19°C",4,1
+"Water","Ethanol","Growth at 25°C",4,1
+"Water","Ethanol","Growth at 30°C",4,1
+"Water","Glycerol","D-Mannitol",4,1
+"Water","Glycerol","D-Glucitol",4,1
+"Water","Glycerol","Succinate",4,1
+"Water","Glycerol","Growth at 19°C",4,1
+"Water","Glycerol","Growth at 25°C",4,1
+"Water","Glycerol","Growth at 30°C",4,1
+"Water","D-Mannitol","D-Glucitol",4,1
+"Water","D-Mannitol","Succinate",4,1
+"Water","D-Mannitol","Growth at 19°C",4,1
+"Water","D-Mannitol","Growth at 25°C",4,1
+"Water","D-Mannitol","Growth at 30°C",4,1
+"Water","D-Glucitol","Succinate",4,1
+"Water","D-Glucitol","Growth at 19°C",4,1
+"Water","D-Glucitol","Growth at 25°C",4,1
+"Water","D-Glucitol","Growth at 30°C",4,1
+"Water","Succinate","Growth at 19°C",4,1
+"Water","Succinate","Growth at 25°C",4,1
+"Water","Succinate","Growth at 30°C",4,1
+"Water","Growth at 19°C","Growth at 25°C",4,1
+"Water","Growth at 19°C","Growth at 30°C",4,1
+"Water","Growth at 25°C","Growth at 30°C",4,1
+"Tree.exudate","Glucose","Growth at 19°C",51,1
+"Tree.exudate","Glucose","Growth at 25°C",51,1
+"Tree.exudate","Growth at 19°C","Growth at 25°C",51,1
+"Tree.flux","Glucose","Growth at 19°C",53,1
+"Tree.flux","Glucose","Growth at 25°C",53,1
+"Tree.flux","Growth at 19°C","Growth at 25°C",53,1
+"Honey","Glucose_F","Glucose",5,1
+"Honey","Glucose_F","Glycerol",5,1
+"Honey","Glucose_F","Growth at 19°C",5,1
+"Honey","Glucose_F","Growth at 25°C",5,1
+"Honey","Glucose_F","Growth at 30°C",5,1
+"Honey","Glucose","Glycerol",5,1
+"Honey","Glucose","Growth at 19°C",5,1
+"Honey","Glucose","Growth at 25°C",5,1
+"Honey","Glucose","Growth at 30°C",5,1
+"Honey","Glycerol","Growth at 19°C",5,1
+"Honey","Glycerol","Growth at 25°C",5,1
+"Honey","Glycerol","Growth at 30°C",5,1
+"Honey","Growth at 19°C","Growth at 25°C",5,1
+"Honey","Growth at 19°C","Growth at 30°C",5,1
+"Honey","Growth at 25°C","Growth at 30°C",5,1
+"Nematode","Glucose","L-Sorbose",5,1
+"Nematode","Glucose","Ethanol",5,1
+"Nematode","Glucose","Glycerol",5,1
+"Nematode","Glucose","Succinate",5,1
+"Nematode","Glucose","Growth at 19°C",5,1
+"Nematode","Glucose","Growth at 25°C",5,1
+"Nematode","L-Sorbose","Ethanol",5,1
+"Nematode","L-Sorbose","Glycerol",5,1
+"Nematode","L-Sorbose","Succinate",5,1
+"Nematode","L-Sorbose","Growth at 19°C",5,1
+"Nematode","L-Sorbose","Growth at 25°C",5,1
+"Nematode","Ethanol","Glycerol",5,1
+"Nematode","Ethanol","Succinate",5,1
+"Nematode","Ethanol","Growth at 19°C",5,1
+"Nematode","Ethanol","Growth at 25°C",5,1
+"Nematode","Glycerol","Succinate",5,1
+"Nematode","Glycerol","Growth at 19°C",5,1
+"Nematode","Glycerol","Growth at 25°C",5,1
+"Nematode","Succinate","Growth at 19°C",5,1
+"Nematode","Succinate","Growth at 25°C",5,1
+"Nematode","Growth at 19°C","Growth at 25°C",5,1
+"Mushroom.Fungus","Glucose","Glycerol",55,1
+"Mushroom.Fungus","Glucose","Growth at 19°C",55,1
+"Mushroom.Fungus","Glucose","Growth at 25°C",55,1
+"Mushroom.Fungus","Glycerol","Growth at 19°C",55,1
+"Mushroom.Fungus","Glycerol","Growth at 25°C",55,1
+"Mushroom.Fungus","Growth at 19°C","Growth at 25°C",55,1
+"Soil","Glucose","Inulin",44,0.968
+"Insect.Frass","Glucose","Growth at 19°C",79,1
+"Insect.Frass","Glucose","Growth at 25°C",79,1
+"Insect.Frass","Glucose","Growth at 30°C",79,1
+"Insect.Frass","Growth at 19°C","Growth at 25°C",79,1
+"Insect.Frass","Growth at 19°C","Growth at 30°C",79,1
+"Insect.Frass","Growth at 25°C","Growth at 30°C",79,1
+"Unknown","Glucose_F","Glucose",3,1
+"Unknown","Glucose_F","Galactose",3,1
+"Unknown","Glucose_F","Growth at 19°C",3,1
+"Unknown","Glucose_F","Growth at 25°C",3,1
+"Unknown","Glucose","Galactose",3,1
+"Unknown","Glucose","Growth at 19°C",3,1
+"Unknown","Glucose","Growth at 25°C",3,1
+"Unknown","Galactose","Growth at 19°C",3,1
+"Unknown","Galactose","Growth at 25°C",3,1
+"Unknown","Growth at 19°C","Growth at 25°C",3,1
+"Air","Glucose","Trehalose",9,1
+"Air","Glucose","Maltose",9,1
+"Air","Glucose","Glycerol",9,1
+"Air","Glucose","D-Mannitol",9,1
+"Air","Glucose","D-Glucitol",9,1
+"Air","Glucose","Succinate",9,1
+"Air","Glucose","Growth at 19°C",9,1
+"Air","Glucose","Growth at 25°C",9,1
+"Air","Trehalose","Maltose",9,1
+"Air","Trehalose","Glycerol",9,1
+"Air","Trehalose","D-Mannitol",9,1
+"Air","Trehalose","D-Glucitol",9,1
+"Air","Trehalose","Succinate",9,1
+"Air","Trehalose","Growth at 19°C",9,1
+"Air","Trehalose","Growth at 25°C",9,1
+"Air","Maltose","Glycerol",9,1
+"Air","Maltose","D-Mannitol",9,1
+"Air","Maltose","D-Glucitol",9,1
+"Air","Maltose","Succinate",9,1
+"Air","Maltose","Growth at 19°C",9,1
+"Air","Maltose","Growth at 25°C",9,1
+"Air","Glycerol","D-Mannitol",9,1
+"Air","Glycerol","D-Glucitol",9,1
+"Air","Glycerol","Succinate",9,1
+"Air","Glycerol","Growth at 19°C",9,1
+"Air","Glycerol","Growth at 25°C",9,1
+"Air","D-Mannitol","D-Glucitol",9,1
+"Air","D-Mannitol","Succinate",9,1
+"Air","D-Mannitol","Growth at 19°C",9,1
+"Air","D-Mannitol","Growth at 25°C",9,1
+"Air","D-Glucitol","Succinate",9,1
+"Air","D-Glucitol","Growth at 19°C",9,1
+"Air","D-Glucitol","Growth at 25°C",9,1
+"Air","Succinate","Growth at 19°C",9,1
+"Air","Succinate","Growth at 25°C",9,1
+"Air","Growth at 19°C","Growth at 25°C",9,1
+"Leather.Tanning","Glucose","Growth at 19°C",18,1
+"Leather.Tanning","Glucose","Growth at 25°C",18,1
+"Leather.Tanning","Growth at 19°C","Growth at 25°C",18,1
+"Industrial","Glucose","Growth at 25°C",45,1
+"Fodder","Glucose","Ethanol",5,1
+"Fodder","Glucose","Glycerol",5,1
+"Fodder","Glucose","Succinate",5,1
+"Fodder","Glucose","Growth at 19°C",5,1
+"Fodder","Glucose","Growth at 25°C",5,1
+"Fodder","Ethanol","Glycerol",5,1
+"Fodder","Ethanol","Succinate",5,1
+"Fodder","Ethanol","Growth at 19°C",5,1
+"Fodder","Ethanol","Growth at 25°C",5,1
+"Fodder","Glycerol","Succinate",5,1
+"Fodder","Glycerol","Growth at 19°C",5,1
+"Fodder","Glycerol","Growth at 25°C",5,1
+"Fodder","Succinate","Growth at 19°C",5,1
+"Fodder","Succinate","Growth at 25°C",5,1
+"Fodder","Growth at 19°C","Growth at 25°C",5,1
+"Freshwater","Glucose","Growth at 19°C",12,1
+"Freshwater","Glucose","Growth at 25°C",12,1
+"Freshwater","Glucose","Growth at 30°C",12,1
+"Freshwater","Growth at 19°C","Growth at 25°C",12,1
+"Freshwater","Growth at 19°C","Growth at 30°C",12,1
+"Freshwater","Growth at 25°C","Growth at 30°C",12,1
+"Seawater.Marine","Glucose","Growth at 19°C",36,1
+"Seawater.Marine","Glucose","Growth at 25°C",36,1
+"Seawater.Marine","Growth at 19°C","Growth at 25°C",36,1
+"Brine","Glucose_F","Maltose_F",1,1
+"Brine","Glucose_F","Glucose",1,1
+"Brine","Glucose_F","Galactose",1,1
+"Brine","Glucose_F","Maltose",1,1
+"Brine","Glucose_F","L-Sorbose",1,1
+"Brine","Glucose_F","D-Ribose",1,1
+"Brine","Glucose_F","Ethanol",1,1
+"Brine","Glucose_F","Glycerol",1,1
+"Brine","Glucose_F","D-Mannitol",1,1
+"Brine","Glucose_F","D-Glucitol",1,1
+"Brine","Glucose_F","DL-Lactate",1,1
+"Brine","Glucose_F","Succinate",1,1
+"Brine","Glucose_F","Citrate",1,1
+"Brine","Glucose_F","D-Gluconate",1,1
+"Brine","Glucose_F","Nitrate",1,1
+"Brine","Glucose_F","2-Keto-D-gluconate",1,1
+"Brine","Glucose_F","Growth at 19°C",1,1
+"Brine","Glucose_F","Growth at 25°C",1,1
+"Brine","Glucose_F","Growth at 30°C",1,1
+"Brine","Maltose_F","Glucose",1,1
+"Brine","Maltose_F","Galactose",1,1
+"Brine","Maltose_F","Maltose",1,1
+"Brine","Maltose_F","L-Sorbose",1,1
+"Brine","Maltose_F","D-Ribose",1,1
+"Brine","Maltose_F","Ethanol",1,1
+"Brine","Maltose_F","Glycerol",1,1
+"Brine","Maltose_F","D-Mannitol",1,1
+"Brine","Maltose_F","D-Glucitol",1,1
+"Brine","Maltose_F","DL-Lactate",1,1
+"Brine","Maltose_F","Succinate",1,1
+"Brine","Maltose_F","Citrate",1,1
+"Brine","Maltose_F","D-Gluconate",1,1
+"Brine","Maltose_F","Nitrate",1,1
+"Brine","Maltose_F","2-Keto-D-gluconate",1,1
+"Brine","Maltose_F","Growth at 19°C",1,1
+"Brine","Maltose_F","Growth at 25°C",1,1
+"Brine","Maltose_F","Growth at 30°C",1,1
+"Brine","Glucose","Galactose",1,1
+"Brine","Glucose","Maltose",1,1
+"Brine","Glucose","L-Sorbose",1,1
+"Brine","Glucose","D-Ribose",1,1
+"Brine","Glucose","Ethanol",1,1
+"Brine","Glucose","Glycerol",1,1
+"Brine","Glucose","D-Mannitol",1,1
+"Brine","Glucose","D-Glucitol",1,1
+"Brine","Glucose","DL-Lactate",1,1
+"Brine","Glucose","Succinate",1,1
+"Brine","Glucose","Citrate",1,1
+"Brine","Glucose","D-Gluconate",1,1
+"Brine","Glucose","Nitrate",1,1
+"Brine","Glucose","2-Keto-D-gluconate",1,1
+"Brine","Glucose","Growth at 19°C",1,1
+"Brine","Glucose","Growth at 25°C",1,1
+"Brine","Glucose","Growth at 30°C",1,1
+"Brine","Galactose","Maltose",1,1
+"Brine","Galactose","L-Sorbose",1,1
+"Brine","Galactose","D-Ribose",1,1
+"Brine","Galactose","Ethanol",1,1
+"Brine","Galactose","Glycerol",1,1
+"Brine","Galactose","D-Mannitol",1,1
+"Brine","Galactose","D-Glucitol",1,1
+"Brine","Galactose","DL-Lactate",1,1
+"Brine","Galactose","Succinate",1,1
+"Brine","Galactose","Citrate",1,1
+"Brine","Galactose","D-Gluconate",1,1
+"Brine","Galactose","Nitrate",1,1
+"Brine","Galactose","2-Keto-D-gluconate",1,1
+"Brine","Galactose","Growth at 19°C",1,1
+"Brine","Galactose","Growth at 25°C",1,1
+"Brine","Galactose","Growth at 30°C",1,1
+"Brine","Maltose","L-Sorbose",1,1
+"Brine","Maltose","D-Ribose",1,1
+"Brine","Maltose","Ethanol",1,1
+"Brine","Maltose","Glycerol",1,1
+"Brine","Maltose","D-Mannitol",1,1
+"Brine","Maltose","D-Glucitol",1,1
+"Brine","Maltose","DL-Lactate",1,1
+"Brine","Maltose","Succinate",1,1
+"Brine","Maltose","Citrate",1,1
+"Brine","Maltose","D-Gluconate",1,1
+"Brine","Maltose","Nitrate",1,1
+"Brine","Maltose","2-Keto-D-gluconate",1,1
+"Brine","Maltose","Growth at 19°C",1,1
+"Brine","Maltose","Growth at 25°C",1,1
+"Brine","Maltose","Growth at 30°C",1,1
+"Brine","L-Sorbose","D-Ribose",1,1
+"Brine","L-Sorbose","Ethanol",1,1
+"Brine","L-Sorbose","Glycerol",1,1
+"Brine","L-Sorbose","D-Mannitol",1,1
+"Brine","L-Sorbose","D-Glucitol",1,1
+"Brine","L-Sorbose","DL-Lactate",1,1
+"Brine","L-Sorbose","Succinate",1,1
+"Brine","L-Sorbose","Citrate",1,1
+"Brine","L-Sorbose","D-Gluconate",1,1
+"Brine","L-Sorbose","Nitrate",1,1
+"Brine","L-Sorbose","2-Keto-D-gluconate",1,1
+"Brine","L-Sorbose","Growth at 19°C",1,1
+"Brine","L-Sorbose","Growth at 25°C",1,1
+"Brine","L-Sorbose","Growth at 30°C",1,1
+"Brine","D-Ribose","Ethanol",1,1
+"Brine","D-Ribose","Glycerol",1,1
+"Brine","D-Ribose","D-Mannitol",1,1
+"Brine","D-Ribose","D-Glucitol",1,1
+"Brine","D-Ribose","DL-Lactate",1,1
+"Brine","D-Ribose","Succinate",1,1
+"Brine","D-Ribose","Citrate",1,1
+"Brine","D-Ribose","D-Gluconate",1,1
+"Brine","D-Ribose","Nitrate",1,1
+"Brine","D-Ribose","2-Keto-D-gluconate",1,1
+"Brine","D-Ribose","Growth at 19°C",1,1
+"Brine","D-Ribose","Growth at 25°C",1,1
+"Brine","D-Ribose","Growth at 30°C",1,1
+"Brine","Ethanol","Glycerol",1,1
+"Brine","Ethanol","D-Mannitol",1,1
+"Brine","Ethanol","D-Glucitol",1,1
+"Brine","Ethanol","DL-Lactate",1,1
+"Brine","Ethanol","Succinate",1,1
+"Brine","Ethanol","Citrate",1,1
+"Brine","Ethanol","D-Gluconate",1,1
+"Brine","Ethanol","Nitrate",1,1
+"Brine","Ethanol","2-Keto-D-gluconate",1,1
+"Brine","Ethanol","Growth at 19°C",1,1
+"Brine","Ethanol","Growth at 25°C",1,1
+"Brine","Ethanol","Growth at 30°C",1,1
+"Brine","Glycerol","D-Mannitol",1,1
+"Brine","Glycerol","D-Glucitol",1,1
+"Brine","Glycerol","DL-Lactate",1,1
+"Brine","Glycerol","Succinate",1,1
+"Brine","Glycerol","Citrate",1,1
+"Brine","Glycerol","D-Gluconate",1,1
+"Brine","Glycerol","Nitrate",1,1
+"Brine","Glycerol","2-Keto-D-gluconate",1,1
+"Brine","Glycerol","Growth at 19°C",1,1
+"Brine","Glycerol","Growth at 25°C",1,1
+"Brine","Glycerol","Growth at 30°C",1,1
+"Brine","D-Mannitol","D-Glucitol",1,1
+"Brine","D-Mannitol","DL-Lactate",1,1
+"Brine","D-Mannitol","Succinate",1,1
+"Brine","D-Mannitol","Citrate",1,1
+"Brine","D-Mannitol","D-Gluconate",1,1
+"Brine","D-Mannitol","Nitrate",1,1
+"Brine","D-Mannitol","2-Keto-D-gluconate",1,1
+"Brine","D-Mannitol","Growth at 19°C",1,1
+"Brine","D-Mannitol","Growth at 25°C",1,1
+"Brine","D-Mannitol","Growth at 30°C",1,1
+"Brine","D-Glucitol","DL-Lactate",1,1
+"Brine","D-Glucitol","Succinate",1,1
+"Brine","D-Glucitol","Citrate",1,1
+"Brine","D-Glucitol","D-Gluconate",1,1
+"Brine","D-Glucitol","Nitrate",1,1
+"Brine","D-Glucitol","2-Keto-D-gluconate",1,1
+"Brine","D-Glucitol","Growth at 19°C",1,1
+"Brine","D-Glucitol","Growth at 25°C",1,1
+"Brine","D-Glucitol","Growth at 30°C",1,1
+"Brine","DL-Lactate","Succinate",1,1
+"Brine","DL-Lactate","Citrate",1,1
+"Brine","DL-Lactate","D-Gluconate",1,1
+"Brine","DL-Lactate","Nitrate",1,1
+"Brine","DL-Lactate","2-Keto-D-gluconate",1,1
+"Brine","DL-Lactate","Growth at 19°C",1,1
+"Brine","DL-Lactate","Growth at 25°C",1,1
+"Brine","DL-Lactate","Growth at 30°C",1,1
+"Brine","Succinate","Citrate",1,1
+"Brine","Succinate","D-Gluconate",1,1
+"Brine","Succinate","Nitrate",1,1
+"Brine","Succinate","2-Keto-D-gluconate",1,1
+"Brine","Succinate","Growth at 19°C",1,1
+"Brine","Succinate","Growth at 25°C",1,1
+"Brine","Succinate","Growth at 30°C",1,1
+"Brine","Citrate","D-Gluconate",1,1
+"Brine","Citrate","Nitrate",1,1
+"Brine","Citrate","2-Keto-D-gluconate",1,1
+"Brine","Citrate","Growth at 19°C",1,1
+"Brine","Citrate","Growth at 25°C",1,1
+"Brine","Citrate","Growth at 30°C",1,1
+"Brine","D-Gluconate","Nitrate",1,1
+"Brine","D-Gluconate","2-Keto-D-gluconate",1,1
+"Brine","D-Gluconate","Growth at 19°C",1,1
+"Brine","D-Gluconate","Growth at 25°C",1,1
+"Brine","D-Gluconate","Growth at 30°C",1,1
+"Brine","Nitrate","2-Keto-D-gluconate",1,1
+"Brine","Nitrate","Growth at 19°C",1,1
+"Brine","Nitrate","Growth at 25°C",1,1
+"Brine","Nitrate","Growth at 30°C",1,1
+"Brine","2-Keto-D-gluconate","Growth at 19°C",1,1
+"Brine","2-Keto-D-gluconate","Growth at 25°C",1,1
+"Brine","2-Keto-D-gluconate","Growth at 30°C",1,1
+"Brine","Growth at 19°C","Growth at 25°C",1,1
+"Brine","Growth at 19°C","Growth at 30°C",1,1
+"Brine","Growth at 25°C","Growth at 30°C",1,1
+"Plant","Glucose","Growth at 19°C",76,1
+"Food","Glucose","Growth at 19°C",53,1
+"Food","Glucose","Growth at 25°C",53,1
+"Food","Growth at 19°C","Growth at 25°C",53,1
+"Pickled.Salted.Brined","Glucose","Growth at 25°C",22,1
+"Pickled.Salted.Brined","Glucose","Growth at 30°C",22,1
+"Pickled.Salted.Brined","Growth at 25°C","Growth at 30°C",22,1
+"Fruit","Glucose","Growth at 19°C",132,1
+"Fruit","Glucose","Growth at 25°C",132,1
+"Fruit","Growth at 19°C","Growth at 25°C",132,1
+"Drink.Juice","Glucose_F","Glucose",39,1
+"Drink.Juice","Glucose_F","Growth at 25°C",39,1
+"Drink.Juice","Glucose","Growth at 25°C",39,1
+"Sugar.Cane","Glucose","Sucrose",5,1
+"Sugar.Cane","Glucose","Galactose",5,1
+"Sugar.Cane","Glucose","Ethanol",5,1
+"Sugar.Cane","Glucose","Glycerol",5,1
+"Sugar.Cane","Glucose","Growth at 19°C",5,1
+"Sugar.Cane","Glucose","Growth at 25°C",5,1
+"Sugar.Cane","Glucose","Growth at 30°C",5,1
+"Sugar.Cane","Glucose","Growth at 37°C",5,1
+"Sugar.Cane","Sucrose","Galactose",5,1
+"Sugar.Cane","Sucrose","Ethanol",5,1
+"Sugar.Cane","Sucrose","Glycerol",5,1
+"Sugar.Cane","Sucrose","Growth at 19°C",5,1
+"Sugar.Cane","Sucrose","Growth at 25°C",5,1
+"Sugar.Cane","Sucrose","Growth at 30°C",5,1
+"Sugar.Cane","Sucrose","Growth at 37°C",5,1
+"Sugar.Cane","Galactose","Ethanol",5,1
+"Sugar.Cane","Galactose","Glycerol",5,1
+"Sugar.Cane","Galactose","Growth at 19°C",5,1
+"Sugar.Cane","Galactose","Growth at 25°C",5,1
+"Sugar.Cane","Galactose","Growth at 30°C",5,1
+"Sugar.Cane","Galactose","Growth at 37°C",5,1
+"Sugar.Cane","Ethanol","Glycerol",5,1
+"Sugar.Cane","Ethanol","Growth at 19°C",5,1
+"Sugar.Cane","Ethanol","Growth at 25°C",5,1
+"Sugar.Cane","Ethanol","Growth at 30°C",5,1
+"Sugar.Cane","Ethanol","Growth at 37°C",5,1
+"Sugar.Cane","Glycerol","Growth at 19°C",5,1
+"Sugar.Cane","Glycerol","Growth at 25°C",5,1
+"Sugar.Cane","Glycerol","Growth at 30°C",5,1
+"Sugar.Cane","Glycerol","Growth at 37°C",5,1
+"Sugar.Cane","Growth at 19°C","Growth at 25°C",5,1
+"Sugar.Cane","Growth at 19°C","Growth at 30°C",5,1
+"Sugar.Cane","Growth at 19°C","Growth at 37°C",5,1
+"Sugar.Cane","Growth at 25°C","Growth at 30°C",5,1
+"Sugar.Cane","Growth at 25°C","Growth at 37°C",5,1
+"Sugar.Cane","Growth at 30°C","Growth at 37°C",5,1
+"Fermented","Sucrose_F","Glucose",42,1
+"Fermented","Sucrose_F","Growth at 19°C",42,1
+"Fermented","Sucrose_F","Growth at 25°C",42,1
+"Fermented","Glucose","Growth at 19°C",74,1
+"Fermented","Glucose","Growth at 25°C",74,1
+"Fermented","Growth at 19°C","Growth at 25°C",74,1
+"Wine","Glucose","Growth at 19°C",29,1
+"Wine","Glucose","Growth at 25°C",29,1
+"Wine","Growth at 19°C","Growth at 25°C",29,1
+"Beer","Glucose","Growth at 19°C",26,1
+"Beer","Glucose","Growth at 25°C",26,1
+"Beer","Growth at 19°C","Growth at 25°C",26,1
+"Tequila","Glucose","Growth at 19°C",11,1
+"Tequila","Glucose","Growth at 25°C",11,1
+"Tequila","Glucose","Growth at 30°C",11,1
+"Tequila","Growth at 19°C","Growth at 25°C",11,1
+"Tequila","Growth at 19°C","Growth at 30°C",11,1
+"Tequila","Growth at 25°C","Growth at 30°C",11,1
+"Cider","Glucose","Growth at 19°C",17,1
+"Cider","Glucose","Growth at 25°C",17,1
+"Cider","Growth at 19°C","Growth at 25°C",17,1
+"Wood","Glucose","Ethanol",11,1
+"Wood","Glucose","Glycerol",11,1
+"Wood","Glucose","D-Mannitol",11,1
+"Wood","Glucose","D-Glucitol",11,1
+"Wood","Glucose","Succinate",11,1
+"Wood","Glucose","Growth at 19°C",11,1
+"Wood","Glucose","Growth at 25°C",11,1
+"Wood","Glucose","Growth at 30°C",11,1
+"Wood","Ethanol","Glycerol",11,1
+"Wood","Ethanol","D-Mannitol",11,1
+"Wood","Ethanol","D-Glucitol",11,1
+"Wood","Ethanol","Succinate",11,1
+"Wood","Ethanol","Growth at 19°C",11,1
+"Wood","Ethanol","Growth at 25°C",11,1
+"Wood","Ethanol","Growth at 30°C",11,1
+"Wood","Glycerol","D-Mannitol",11,1
+"Wood","Glycerol","D-Glucitol",11,1
+"Wood","Glycerol","Succinate",11,1
+"Wood","Glycerol","Growth at 19°C",11,1
+"Wood","Glycerol","Growth at 25°C",11,1
+"Wood","Glycerol","Growth at 30°C",11,1
+"Wood","D-Mannitol","D-Glucitol",11,1
+"Wood","D-Mannitol","Succinate",11,1
+"Wood","D-Mannitol","Growth at 19°C",11,1
+"Wood","D-Mannitol","Growth at 25°C",11,1
+"Wood","D-Mannitol","Growth at 30°C",11,1
+"Wood","D-Glucitol","Succinate",11,1
+"Wood","D-Glucitol","Growth at 19°C",11,1
+"Wood","D-Glucitol","Growth at 25°C",11,1
+"Wood","D-Glucitol","Growth at 30°C",11,1
+"Wood","Succinate","Growth at 19°C",11,1
+"Wood","Succinate","Growth at 25°C",11,1
+"Wood","Succinate","Growth at 30°C",11,1
+"Wood","Growth at 19°C","Growth at 25°C",11,1
+"Wood","Growth at 19°C","Growth at 30°C",11,1
+"Wood","Growth at 25°C","Growth at 30°C",11,1
+"Silage","Glucose_F","Glucose",8,1
+"Silage","Glucose_F","Growth at 19°C",8,1
+"Silage","Glucose_F","Growth at 25°C",8,1
+"Silage","Glucose_F","Growth at 30°C",8,1
+"Silage","Glucose","Growth at 19°C",8,1
+"Silage","Glucose","Growth at 25°C",8,1
+"Silage","Glucose","Growth at 30°C",8,1
+"Silage","Growth at 19°C","Growth at 25°C",8,1
+"Silage","Growth at 19°C","Growth at 30°C",8,1
+"Silage","Growth at 25°C","Growth at 30°C",8,1
+"Dairy","Glucose","Growth at 19°C",20,1
+"Dairy","Glucose","Growth at 25°C",20,1
+"Dairy","Growth at 19°C","Growth at 25°C",20,1
+"Olives","Glucose","Growth at 19°C",13,1
+"Olives","Glucose","Growth at 25°C",13,1
+"Olives","Glucose","Growth at 30°C",13,1
+"Olives","Growth at 19°C","Growth at 25°C",13,1
+"Olives","Growth at 19°C","Growth at 30°C",13,1
+"Olives","Growth at 25°C","Growth at 30°C",13,1

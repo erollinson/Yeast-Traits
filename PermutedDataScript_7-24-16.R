@@ -837,7 +837,7 @@ IsoAnalysis_PP_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_P
+  tempObs = IsoAllAssoc_list[[iso]]$Both_P
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -897,9 +897,9 @@ for(iso in 1:length(Isolations)){
       PermutedIsoSum_PP_df[k,1] = Isolations[iso]
       PermutedIsoSum_PP_df[k,2] = Traits[i]
       PermutedIsoSum_PP_df[k,3] = Traits[j]
-      PermutedIsoSum_PP_df[k,5] = mean(templist)
-      PermutedIsoSum_PP_df[k,5] =sd(templist)
-      PermutedIsoSum_PP_df[k,5] =var(templist)
+      PermutedIsoSum_PP_df[k,4] = mean(templist, na.rm = T)
+      PermutedIsoSum_PP_df[k,5] =sd(templist, na.rm = T)
+      PermutedIsoSum_PP_df[k,6] =var(templist, na.rm = T)
       k = k+1
     }
   } 
@@ -911,6 +911,7 @@ write.csv(PermutedIsoSum_PP_df, file = paste("PermutedIsoSum_PP_df_", Sys.Date()
 AllSigIsoAnalysis_PP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_PP_df))
 colnames(AllSigIsoAnalysis_PP_df) = colnames(IsoAnalysis_PP_df)
 
+# Isolation Trait Pair Visualization - Positive (+,+) #
 AllSigIsoAnalysis_PP_df = data.frame(AllSigIsoAnalysis_PP_df)
 
 for(i in 1:length(Pos_SigTraitsIso_PP_list)){
@@ -922,6 +923,41 @@ for(i in 1:length(Pos_SigTraitsIso_PP_list)){
 }
 
 write.csv(AllSigIsoAnalysis_PP_df, file = paste("AllSigIsoAnalysis_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
+AllIsoSum_PP_df = merge(IsoAnalysis_PP_df, PermutedIsoSum_PP_df)
+AllIsoSum_PP_df$Difference = AllIsoSum_PP_df$Observed_PP - AllIsoSum_PP_df$Mean_PP
+AllIsoSum_PP_df$Color = rep(0, nrow(AllIsoSum_PP_df))
+
+for(i in 1:nrow(AllIsoSum_PP_df)){
+  SigValue = PosIsoCutOffs_PP_df[which(PosIsoCutOffs_PP_df$Isolation == AllIsoSum_PP_df[i,"Isolation"]), 2] 
+  if(AllIsoSum_PP_df[i,"Difference"] > 0 & AllIsoSum_PP_df[i,"Percent_PP"] >= SigValue){
+    AllIsoSum_PP_df[i, "Color"] = 1
+  }else if(AllIsoSum_PP_df[i,"Difference"] < 0 & AllIsoSum_PP_df[i,"Percent_PP"] >= SigValue){
+    AllIsoSum_PP_df[i, "Color"] = 2
+  }else{
+    AllIsoSum_PP_df[i, "Color"] = 3
+  }
+}
+write.csv(AllIsoSum_PP_df, file = paste("AllIsoSum_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+pdf(paste("Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Positive (+/+) #
 
@@ -951,7 +987,7 @@ IsoAnalysis_NN_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Both_N
+  tempObs = IsoAllAssoc_list[[iso]]$Both_N
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -1010,9 +1046,9 @@ for(iso in 1:length(Isolations)){
       PermutedIsoSum_NN_df[k,1] = Isolations[iso]
       PermutedIsoSum_NN_df[k,2] = Traits[i]
       PermutedIsoSum_NN_df[k,3] = Traits[j]
-      PermutedIsoSum_NN_df[k,5] = mean(templist)
-      PermutedIsoSum_NN_df[k,5] =sd(templist)
-      PermutedIsoSum_NN_df[k,5] =var(templist)
+      PermutedIsoSum_NN_df[k,4] = mean(templist, na.rm = T)
+      PermutedIsoSum_NN_df[k,5] =sd(templist, na.rm = T)
+      PermutedIsoSum_NN_df[k,6] =var(templist, na.rm = T)
       k = k+1
     }
   } 
@@ -1035,6 +1071,42 @@ for(i in 1:length(Pos_SigTraitsIso_NN_list)){
 }
 
 write.csv(AllSigIsoAnalysis_NN_df, file = paste("AllSigIsoAnalysis_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
+AllIsoSum_NN_df = merge(IsoAnalysis_NN_df, PermutedIsoSum_NN_df)
+AllIsoSum_NN_df$Difference = AllIsoSum_NN_df$Observed_NN - AllIsoSum_NN_df$Mean_NN
+AllIsoSum_NN_df$Color = rep(0, nrow(AllIsoSum_NN_df))
+
+for(i in 1:nrow(AllIsoSum_NN_df)){
+  SigValue = PosIsoCutOffs_NN_df[which(PosIsoCutOffs_NN_df$Isolation == AllIsoSum_NN_df[i,"Isolation"]), 2] 
+  if(AllIsoSum_NN_df[i,"Difference"] > 0 & AllIsoSum_NN_df[i,"Percent_NN"] >= SigValue){
+    AllIsoSum_NN_df[i, "Color"] = 1
+  }else if(AllIsoSum_NN_df[i,"Difference"] < 0 & AllIsoSum_NN_df[i,"Percent_NN"] >= SigValue){
+    AllIsoSum_NN_df[i, "Color"] = 2
+  }else{
+    AllIsoSum_NN_df[i, "Color"] = 3
+  }
+}
+write.csv(AllIsoSum_NN_df, file = paste("AllIsoSum_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+pdf(paste("Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_NN_df[which(AllIsoSum_NN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Positive (-/-) #
 BothSigIsoAnalysis_NN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NN_df))
@@ -1064,7 +1136,7 @@ IsoAnalysis_PN_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Diff_PN
+  tempObs = IsoAllAssoc_list[[iso]]$Diff_PN
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -1123,9 +1195,9 @@ for(iso in 1:length(Isolations)){
       PermutedIsoSum_PN_df[k,1] = Isolations[iso]
       PermutedIsoSum_PN_df[k,2] = Traits[i]
       PermutedIsoSum_PN_df[k,3] = Traits[j]
-      PermutedIsoSum_PN_df[k,5] = mean(templist)
-      PermutedIsoSum_PN_df[k,5] =sd(templist)
-      PermutedIsoSum_PN_df[k,5] =var(templist)
+      PermutedIsoSum_PN_df[k,4] = mean(templist, na.rm = T)
+      PermutedIsoSum_PN_df[k,5] =sd(templist, na.rm = T)
+      PermutedIsoSum_PN_df[k,6] =var(templist, na.rm = T)
       k = k+1
     }
   } 
@@ -1148,6 +1220,41 @@ for(i in 1:length(Neg_SigTraitsIso_PN_list)){
 }
 
 write.csv(AllSigIsoAnalysis_PN_df, file = paste("AllSigIsoAnalysis_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
+AllIsoSum_PN_df = merge(IsoAnalysis_PN_df, PermutedIsoSum_PN_df)
+AllIsoSum_PN_df$Difference = AllIsoSum_PN_df$Observed_PN - AllIsoSum_PN_df$Mean_PN
+AllIsoSum_PN_df$Color = rep(0, nrow(AllIsoSum_PN_df))
+
+for(i in 1:nrow(AllIsoSum_PN_df)){
+  SigValue = NegIsoCutOffs_PN_df[which(NegIsoCutOffs_PN_df$Isolation == AllIsoSum_PN_df[i,"Isolation"]), 2] 
+  if(AllIsoSum_PN_df[i,"Difference"] > 0 & AllIsoSum_PN_df[i,"Percent_PN"] >= SigValue){
+    AllIsoSum_PN_df[i, "Color"] = 1
+  }else if(AllIsoSum_PN_df[i,"Difference"] < 0 & AllIsoSum_PN_df[i,"Percent_PN"] >= SigValue){
+    AllIsoSum_PN_df[i, "Color"] = 2
+  }else{
+    AllIsoSum_PN_df[i, "Color"] = 3
+  }
+}
+write.csv(AllIsoSum_PN_df, file = paste("AllIsoSum_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+pdf(paste("Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_PN_df[which(AllIsoSum_PN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (+/-) #
 BothSigIsoAnalysis_PN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_PN_df))
@@ -1176,7 +1283,7 @@ IsoAnalysis_NP_df = data.frame(Isolation = character(),
 
 k = 1
 for(iso in 1:length(Isolations)){
-  tempObs = IsoAllAssoc_list[[which(IsoAllAssoc_list[[iso]]$Isolation == Isolations[[iso]])]]$Diff_NP
+  tempObs = IsoAllAssoc_list[[iso]]$Diff_NP
   for(i in 1:(length(Traits)-1)){
     for(j in (i+1):length(Traits)){
       temp_list = list()
@@ -1235,9 +1342,9 @@ for(iso in 1:length(Isolations)){
       PermutedIsoSum_NP_df[k,1] = Isolations[iso]
       PermutedIsoSum_NP_df[k,2] = Traits[i]
       PermutedIsoSum_NP_df[k,3] = Traits[j]
-      PermutedIsoSum_NP_df[k,5] = mean(templist)
-      PermutedIsoSum_NP_df[k,5] =sd(templist)
-      PermutedIsoSum_NP_df[k,5] =var(templist)
+      PermutedIsoSum_NP_df[k,4] = mean(templist, na.rm = T)
+      PermutedIsoSum_NP_df[k,5] =sd(templist, na.rm = T)
+      PermutedIsoSum_NP_df[k,6] =var(templist, na.rm = T)
       k = k+1
     }
   } 
@@ -1260,6 +1367,41 @@ for(i in 1:length(Neg_SigTraitsIso_NP_list)){
 }
 
 write.csv(AllSigIsoAnalysis_NP_df, file = paste("AllSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
+AllIsoSum_NP_df = merge(IsoAnalysis_NP_df, PermutedIsoSum_NP_df)
+AllIsoSum_NP_df$Difference = AllIsoSum_NP_df$Observed_NP - AllIsoSum_NP_df$Mean_NP
+AllIsoSum_NP_df$Color = rep(0, nrow(AllIsoSum_NP_df))
+
+for(i in 1:nrow(AllIsoSum_NP_df)){
+  SigValue = NegIsoCutOffs_NP_df[which(NegIsoCutOffs_NP_df$Isolation == AllIsoSum_NP_df[i,"Isolation"]), 2] 
+  if(AllIsoSum_NP_df[i,"Difference"] > 0 & AllIsoSum_NP_df[i,"Percent_NP"] >= SigValue){
+    AllIsoSum_NP_df[i, "Color"] = 1
+  }else if(AllIsoSum_NP_df[i,"Difference"] < 0 & AllIsoSum_NP_df[i,"Percent_NP"] >= SigValue){
+    AllIsoSum_NP_df[i, "Color"] = 2
+  }else{
+    AllIsoSum_NP_df[i, "Color"] = 3
+  }
+}
+write.csv(AllIsoSum_NP_df, file = paste("AllIsoSum_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+pdf(paste("Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
 BothSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
