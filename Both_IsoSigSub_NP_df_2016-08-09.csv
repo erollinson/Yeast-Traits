@@ -1,0 +1,1643 @@
+"Isolation","Trait_A","Trait_B","Observed_NP","Percent_NP","Mean_NP","SD_NP","Var_NP","Difference","Color"
+"Pathogenic","Lactose_F","Glucose",89,0.968,87.915,1.12651855024409,1.26904404404404,1.08499999999999,1
+"Clinical","Glucose","Methanol",0,1,0,0,0,0,3
+"Clinical","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Clinical","Glucose","Starch formation",0,1,0,0,0,0,3
+"Clinical","Lactose_F","Glucose",11,1,10.796,0.43424943589206,0.188572572572573,0.204000000000001,1
+"Clinical","Lactose_F","Methanol",0,0.636,0.433,0.62921133723647,0.395906906906907,-0.433,3
+"Clinical","Lactose_F","myo-Inositol",0,0.705,0.341,0.568367875624619,0.323042042042042,-0.341,3
+"Clinical","Lactose_F","Starch formation",0,0.41,0.843,0.875852794776678,0.767118118118118,-0.843,3
+"Clinical","Methanol","myo-Inositol",0,0.711,0.329,0.554135422136201,0.307066066066066,-0.329,3
+"Clinical","Methanol","Starch formation",0,0.425,0.813,0.866476648145685,0.750781781781782,-0.813,3
+"Clinical","myo-Inositol","Starch formation",0,0.417,0.828,0.872454684884652,0.761177177177177,-0.828,3
+"Rotting.Decaying","Lactose_F","Glucose",97,0.933,96.069,1.10881399182571,1.22946846846847,0.930999999999997,1
+"Spoiled","Glucose","Starch formation",0,1,0,0,0,0,3
+"Contaminated","Erythritol","Growth at 37°C",0,0.637,0.401,0.56259711651902,0.316515515515515,-0.401,3
+"Contaminated","Erythritol","Nitrate",0,0.823,0.182,0.398791969622051,0.159035035035035,-0.182,3
+"Contaminated","Erythritol","Starch formation",0,0.863,0.14,0.355705674015086,0.126526526526527,-0.14,3
+"Contaminated","Erythritol","Vitamin-free",0,0.824,0.186,0.414216821936985,0.171575575575576,-0.186,3
+"Contaminated","Glucose","Erythritol",0,1,0,0,0,0,3
+"Contaminated","Glucose","Growth at 37°C",0,1,0,0,0,0,3
+"Contaminated","Glucose","Inulin",0,1,0,0,0,0,3
+"Contaminated","Glucose","Lactose",0,1,0,0,0,0,3
+"Contaminated","Glucose","Melibiose",0,1,0,0,0,0,3
+"Contaminated","Glucose","Methanol",0,1,0,0,0,0,3
+"Contaminated","Glucose","Methyl-?-D-glucoside",0,1,0,0,0,0,3
+"Contaminated","Glucose","Nitrate",0,1,0,0,0,0,3
+"Contaminated","Glucose","Starch formation",0,1,0,0,0,0,3
+"Contaminated","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Contaminated","Inulin","Erythritol",0,0.841,0.167,0.394038407095382,0.155266266266266,-0.167,3
+"Contaminated","Inulin","Growth at 37°C",0,0.621,0.419,0.569001548998562,0.323762762762763,-0.419,3
+"Contaminated","Inulin","Lactose",0,0.915,0.088,0.2938406750985,0.0863423423423423,-0.088,3
+"Contaminated","Inulin","Melibiose",0,0.917,0.089,0.30524117050649,0.0931721721721722,-0.089,3
+"Contaminated","Inulin","Methanol",0,0.897,0.105,0.313166206786545,0.0980730730730731,-0.105,3
+"Contaminated","Inulin","Methyl-?-D-glucoside",0,0.685,0.341,0.526304090803022,0.276995995995996,-0.341,3
+"Contaminated","Inulin","Nitrate",0,0.817,0.189,0.406748625620843,0.165444444444444,-0.189,3
+"Contaminated","Inulin","Starch formation",0,0.857,0.146,0.361683307348867,0.130814814814815,-0.146,3
+"Contaminated","Inulin","Vitamin-free",0,0.822,0.186,0.40935506784645,0.167571571571572,-0.186,3
+"Contaminated","Lactose","Erythritol",0,0.842,0.166,0.393190282940205,0.154598598598599,-0.166,3
+"Contaminated","Lactose","Growth at 37°C",0,0.617,0.418,0.559990704913563,0.31358958958959,-0.418,3
+"Contaminated","Lactose","Methanol",0,0.892,0.11,0.319377522693758,0.102002002002002,-0.11,3
+"Contaminated","Lactose","Methyl-?-D-glucoside",0,0.678,0.349,0.530547340470651,0.28148048048048,-0.349,3
+"Contaminated","Lactose","Nitrate",0,0.819,0.187,0.405210063047792,0.164195195195195,-0.187,3
+"Contaminated","Lactose","Starch formation",0,0.86,0.143,0.358719499999205,0.12867967967968,-0.143,3
+"Contaminated","Lactose","Vitamin-free",0,0.82,0.191,0.420351871288443,0.176695695695696,-0.191,3
+"Contaminated","Lactose_F","Erythritol",0,0.835,0.173,0.399036627680004,0.15923023023023,-0.173,3
+"Contaminated","Lactose_F","Glucose",2,1,1.97,0.170672578726429,0.0291291291291291,0.03,1
+"Contaminated","Lactose_F","Growth at 37°C",0,0.605,0.437,0.574770703290766,0.330361361361361,-0.437,3
+"Contaminated","Lactose_F","Inulin",0,0.898,0.106,0.320728649900296,0.102866866866867,-0.106,3
+"Contaminated","Lactose_F","Lactose",0,0.909,0.094,0.302084847775017,0.0912552552552553,-0.094,3
+"Contaminated","Lactose_F","Melibiose",0,0.916,0.09,0.306584399462846,0.093993993993994,-0.09,3
+"Contaminated","Lactose_F","Methanol",0,0.893,0.11,0.322496517816866,0.104004004004004,-0.11,3
+"Contaminated","Lactose_F","Methyl-?-D-glucoside",0,0.672,0.357,0.536506140541596,0.287838838838839,-0.357,3
+"Contaminated","Lactose_F","Nitrate",0,0.816,0.19,0.407512044074854,0.166066066066066,-0.19,3
+"Contaminated","Lactose_F","Raffinose_F",0,0.864,0.141,0.362284764032729,0.13125025025025,-0.141,3
+"Contaminated","Lactose_F","Starch formation",0,0.849,0.154,0.369351350911866,0.13642042042042,-0.154,3
+"Contaminated","Lactose_F","Vitamin-free",0,0.811,0.199,0.423767127770169,0.179578578578579,-0.199,3
+"Contaminated","Melibiose","Erythritol",0,0.843,0.165,0.392337774027596,0.153928928928929,-0.165,3
+"Contaminated","Melibiose","Growth at 37°C",0,0.623,0.417,0.568712963132048,0.323434434434434,-0.417,3
+"Contaminated","Melibiose","Lactose",0,0.915,0.087,0.288988779219046,0.0835145145145145,-0.087,3
+"Contaminated","Melibiose","Methanol",0,0.891,0.112,0.324902387743706,0.105561561561562,-0.112,3
+"Contaminated","Melibiose","Methyl-?-D-glucoside",0,0.682,0.347,0.53373764704757,0.284875875875876,-0.347,3
+"Contaminated","Melibiose","Nitrate",0,0.818,0.188,0.405981305999206,0.164820820820821,-0.188,3
+"Contaminated","Melibiose","Starch formation",0,0.856,0.147,0.36266034043237,0.131522522522523,-0.147,3
+"Contaminated","Melibiose","Vitamin-free",0,0.819,0.192,0.421085874036773,0.177313313313313,-0.192,3
+"Contaminated","Methanol","Erythritol",0,0.842,0.164,0.386333085889952,0.149253253253253,-0.164,3
+"Contaminated","Methanol","Growth at 37°C",0,0.614,0.425,0.568064871029443,0.322697697697698,-0.425,3
+"Contaminated","Methanol","Nitrate",0,0.819,0.186,0.401952193134414,0.161565565565566,-0.186,3
+"Contaminated","Methanol","Starch formation",0,0.858,0.145,0.360700852653699,0.130105105105105,-0.145,3
+"Contaminated","Methanol","Vitamin-free",0,0.82,0.189,0.414065756191514,0.17145045045045,-0.189,3
+"Contaminated","Methyl-?-D-glucoside","Erythritol",0,0.867,0.139,0.363057586080791,0.131810810810811,-0.139,3
+"Contaminated","Methyl-?-D-glucoside","Growth at 37°C",0,0.674,0.356,0.53810180593783,0.289553553553554,-0.356,3
+"Contaminated","Methyl-?-D-glucoside","Methanol",0,0.908,0.095,0.303425554406789,0.0920670670670671,-0.095,3
+"Contaminated","Methyl-?-D-glucoside","Nitrate",0,0.839,0.165,0.381995969770521,0.145920920920921,-0.165,3
+"Contaminated","Methyl-?-D-glucoside","Starch formation",0,0.872,0.131,0.34635091880773,0.119958958958959,-0.131,3
+"Contaminated","Methyl-?-D-glucoside","Vitamin-free",0,0.852,0.157,0.38794523002803,0.150501501501501,-0.157,3
+"Contaminated","Nitrate","Growth at 37°C",0,0.647,0.385,0.548703996774286,0.301076076076076,-0.385,3
+"Contaminated","Nitrate","Starch formation",0,0.868,0.134,0.346647031090941,0.120164164164164,-0.134,3
+"Contaminated","Nitrate","Vitamin-free",0,0.826,0.184,0.412691548634467,0.170314314314314,-0.184,3
+"Contaminated","Raffinose_F","Erythritol",0,0.853,0.154,0.380037403986013,0.144428428428428,-0.154,3
+"Contaminated","Raffinose_F","Glucose",2,1,1.855,0.366209105715722,0.134109109109109,0.145,1
+"Contaminated","Raffinose_F","Growth at 37°C",0,0.631,0.407,0.56362103284802,0.317668668668669,-0.407,3
+"Contaminated","Raffinose_F","Inulin",0,0.905,0.099,0.31192354238867,0.0972962962962963,-0.099,3
+"Contaminated","Raffinose_F","Lactose",0,0.916,0.086,0.287552928496106,0.0826866866866867,-0.086,3
+"Contaminated","Raffinose_F","Melibiose",0,0.92,0.084,0.291597374866491,0.085029029029029,-0.084,3
+"Contaminated","Raffinose_F","Methanol",0,0.895,0.108,0.320060054424851,0.102438438438438,-0.108,3
+"Contaminated","Raffinose_F","Methyl-?-D-glucoside",0,0.698,0.327,0.519943594384373,0.270341341341341,-0.327,3
+"Contaminated","Raffinose_F","Nitrate",0,0.829,0.176,0.393927885759791,0.155179179179179,-0.176,3
+"Contaminated","Raffinose_F","Starch formation",0,0.859,0.144,0.359712931924046,0.129393393393393,-0.144,3
+"Contaminated","Raffinose_F","Vitamin-free",0,0.823,0.188,0.418127768547882,0.174830830830831,-0.188,3
+"Contaminated","Starch formation","Growth at 37°C",0,0.632,0.405,0.561507159607329,0.31529029029029,-0.405,3
+"Contaminated","Vitamin-free","Growth at 37°C",0,0.639,0.397,0.558303414554042,0.311702702702703,-0.397,3
+"Contaminated","Vitamin-free","Starch formation",0,0.865,0.138,0.353668037969338,0.125081081081081,-0.138,3
+"Plant.Pathogen","Glucose","Methanol",0,1,0,0,0,0,3
+"Plant.Pathogen","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Plant.Pathogen","Methanol","myo-Inositol",0,0.545,0.583,0.734609182253156,0.539650650650651,-0.583,3
+"Animal","Lactose_F","Glucose",103,0.974,101.717,1.17485798771226,1.38029129129129,1.283,1
+"Insect","Glucose","Starch formation",0,1,0,0,0,0,3
+"Tree","Glucose","Galactose",0,1,0,0,0,0,3
+"Stone.Chamber","Galactitol","Growth at 19°C",2,1,1.905,0.293361655744341,0.0860610610610611,0.095,1
+"Stone.Chamber","Galactitol","myo-Inositol",0,0.93,0.072,0.266245914310223,0.0708868868868869,-0.072,3
+"Stone.Chamber","Galactitol","Nitrate",0,0.814,0.189,0.399297431044126,0.159438438438438,-0.189,3
+"Stone.Chamber","Galactitol","Starch formation",0,0.823,0.181,0.395468577001252,0.156395395395395,-0.181,3
+"Stone.Chamber","Galactitol","Vitamin-free",0,0.796,0.214,0.434041924694369,0.188392392392392,-0.214,3
+"Stone.Chamber","Glucose","Galactitol",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Growth at 19°C",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Melibiose",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Methanol",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Nitrate",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Raffinose",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Starch formation",0,1,0,0,0,0,3
+"Stone.Chamber","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Stone.Chamber","Lactose_F","Galactitol",0,0.905,0.095,0.293361655744341,0.0860610610610611,-0.095,3
+"Stone.Chamber","Lactose_F","Glucose",2,1,1.971,0.167890402308134,0.0281871871871872,0.0289999999999999,1
+"Stone.Chamber","Lactose_F","Growth at 19°C",2,1,1.971,0.167890402308134,0.0281871871871872,0.0289999999999999,1
+"Stone.Chamber","Lactose_F","Melibiose",0,0.918,0.085,0.289583940954706,0.0838588588588589,-0.085,3
+"Stone.Chamber","Lactose_F","Methanol",0,0.888,0.113,0.319895816373602,0.102333333333333,-0.113,3
+"Stone.Chamber","Lactose_F","myo-Inositol",0,0.929,0.073,0.267848357737625,0.0717427427427427,-0.073,3
+"Stone.Chamber","Lactose_F","Nitrate",0,0.805,0.198,0.406153863653863,0.164960960960961,-0.198,3
+"Stone.Chamber","Lactose_F","Raffinose",0,0.744,0.273,0.482393722703461,0.232703703703704,-0.273,3
+"Stone.Chamber","Lactose_F","Raffinose_F",0,0.85,0.157,0.382749915084899,0.146497497497497,-0.157,3
+"Stone.Chamber","Lactose_F","Soluble Starch",0,0.832,0.177,0.404765160105011,0.163834834834835,-0.177,3
+"Stone.Chamber","Lactose_F","Starch formation",0,0.813,0.193,0.40977910991035,0.167918918918919,-0.193,3
+"Stone.Chamber","Lactose_F","Vitamin-free",0,0.789,0.222,0.441487158262741,0.194910910910911,-0.222,3
+"Stone.Chamber","Maltose_F","Galactitol",0,0.91,0.09,0.286324958712967,0.081981981981982,-0.09,3
+"Stone.Chamber","Maltose_F","Glucose",2,1,1.85,0.370995468486662,0.137637637637638,0.15,1
+"Stone.Chamber","Maltose_F","Growth at 19°C",2,1,1.85,0.370995468486662,0.137637637637638,0.15,1
+"Stone.Chamber","Maltose_F","Lactose_F",0,0.974,0.026,0.159214789983058,0.0253493493493493,-0.026,3
+"Stone.Chamber","Maltose_F","Melibiose",0,0.921,0.082,0.285232111371349,0.0813573573573574,-0.082,3
+"Stone.Chamber","Maltose_F","Methanol",0,0.891,0.11,0.316227766016838,0.1,-0.11,3
+"Stone.Chamber","Maltose_F","myo-Inositol",0,0.935,0.067,0.258026311793153,0.0665775775775776,-0.067,3
+"Stone.Chamber","Maltose_F","Nitrate",0,0.816,0.187,0.39773004562038,0.158189189189189,-0.187,3
+"Stone.Chamber","Maltose_F","Raffinose",0,0.759,0.257,0.472413139290361,0.223174174174174,-0.257,3
+"Stone.Chamber","Maltose_F","Raffinose_F",0,0.858,0.148,0.371798647434649,0.138234234234234,-0.148,3
+"Stone.Chamber","Maltose_F","Soluble Starch",0,0.841,0.168,0.397409025984481,0.157933933933934,-0.168,3
+"Stone.Chamber","Maltose_F","Starch formation",0,0.824,0.18,0.394659037342053,0.155755755755756,-0.18,3
+"Stone.Chamber","Maltose_F","Vitamin-free",0,0.795,0.215,0.43469985503099,0.188963963963964,-0.215,3
+"Stone.Chamber","Melibiose","Galactitol",0,0.911,0.089,0.284886223184204,0.0811601601601602,-0.089,3
+"Stone.Chamber","Melibiose","Growth at 19°C",2,1,1.913,0.292432071627783,0.0855165165165165,0.087,1
+"Stone.Chamber","Melibiose","Methanol",0,0.888,0.113,0.319895816373602,0.102333333333333,-0.113,3
+"Stone.Chamber","Melibiose","myo-Inositol",0,0.933,0.069,0.261356666850699,0.0683073073073073,-0.069,3
+"Stone.Chamber","Melibiose","Nitrate",0,0.812,0.191,0.400848699236607,0.16067967967968,-0.191,3
+"Stone.Chamber","Melibiose","Soluble Starch",0,0.835,0.173,0.399036627680004,0.15923023023023,-0.173,3
+"Stone.Chamber","Melibiose","Starch formation",0,0.82,0.186,0.404434874321648,0.163567567567568,-0.186,3
+"Stone.Chamber","Melibiose","Vitamin-free",0,0.796,0.215,0.43699652855139,0.190965965965966,-0.215,3
+"Stone.Chamber","Methanol","Galactitol",0,0.911,0.089,0.284886223184204,0.0811601601601602,-0.089,3
+"Stone.Chamber","Methanol","Growth at 19°C",2,1,1.885,0.322302464897306,0.103878878878879,0.115,1
+"Stone.Chamber","Methanol","myo-Inositol",0,0.929,0.073,0.267848357737625,0.0717427427427427,-0.073,3
+"Stone.Chamber","Methanol","Nitrate",0,0.814,0.188,0.395995975753306,0.156812812812813,-0.188,3
+"Stone.Chamber","Methanol","Starch formation",0,0.82,0.185,0.401168214014939,0.160935935935936,-0.185,3
+"Stone.Chamber","Methanol","Vitamin-free",0,0.794,0.214,0.429404690692112,0.184388388388388,-0.214,3
+"Stone.Chamber","myo-Inositol","Growth at 19°C",2,1,1.926,0.269437556024762,0.0725965965965966,0.0740000000000001,1
+"Stone.Chamber","myo-Inositol","Nitrate",0,0.806,0.197,0.405407640968144,0.164355355355355,-0.197,3
+"Stone.Chamber","myo-Inositol","Starch formation",0,0.82,0.186,0.404434874321648,0.163567567567568,-0.186,3
+"Stone.Chamber","myo-Inositol","Vitamin-free",0,0.79,0.221,0.440855252155799,0.194353353353353,-0.221,3
+"Stone.Chamber","Nitrate","Growth at 19°C",2,1,1.8,0.407634844151191,0.166166166166166,0.2,1
+"Stone.Chamber","Nitrate","Starch formation",0,0.838,0.166,0.382871506631912,0.146590590590591,-0.166,3
+"Stone.Chamber","Nitrate","Vitamin-free",0,0.8,0.207,0.422290574521063,0.178329329329329,-0.207,3
+"Stone.Chamber","Raffinose","Galactitol",0,0.919,0.081,0.272971634998059,0.0745135135135135,-0.081,3
+"Stone.Chamber","Raffinose","Growth at 19°C",2,1,1.724,0.485860123965797,0.23606006006006,0.276,1
+"Stone.Chamber","Raffinose","Melibiose",0,0.931,0.072,0.269979423084221,0.0728888888888889,-0.072,3
+"Stone.Chamber","Raffinose","Methanol",0,0.907,0.094,0.295383227775802,0.0872512512512512,-0.094,3
+"Stone.Chamber","Raffinose","myo-Inositol",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Stone.Chamber","Raffinose","Nitrate",0,0.837,0.165,0.376718617693521,0.141916916916917,-0.165,3
+"Stone.Chamber","Raffinose","Soluble Starch",0,0.851,0.157,0.385356327960888,0.1484994994995,-0.157,3
+"Stone.Chamber","Raffinose","Starch formation",0,0.845,0.161,0.3837006987565,0.147226226226226,-0.161,3
+"Stone.Chamber","Raffinose","Vitamin-free",0,0.808,0.2,0.419733458490238,0.176176176176176,-0.2,3
+"Stone.Chamber","Raffinose_F","Galactitol",0,0.913,0.087,0.281976081451088,0.0795105105105105,-0.087,3
+"Stone.Chamber","Raffinose_F","Glucose",2,1,1.838,0.387176840611504,0.149905905905906,0.162,1
+"Stone.Chamber","Raffinose_F","Growth at 19°C",2,1,1.838,0.387176840611504,0.149905905905906,0.162,1
+"Stone.Chamber","Raffinose_F","Melibiose",0,0.916,0.086,0.287552928496106,0.0826866866866867,-0.086,3
+"Stone.Chamber","Raffinose_F","Methanol",0,0.898,0.102,0.302799748493435,0.0916876876876877,-0.102,3
+"Stone.Chamber","Raffinose_F","myo-Inositol",0,0.933,0.069,0.261356666850699,0.0683073073073073,-0.069,3
+"Stone.Chamber","Raffinose_F","Nitrate",0,0.81,0.192,0.399118147038312,0.159295295295295,-0.192,3
+"Stone.Chamber","Raffinose_F","Raffinose",0,0.756,0.259,0.471318513471666,0.222141141141141,-0.259,3
+"Stone.Chamber","Raffinose_F","Soluble Starch",0,0.847,0.162,0.392313535211201,0.15390990990991,-0.162,3
+"Stone.Chamber","Raffinose_F","Starch formation",0,0.822,0.184,0.402872568321928,0.162306306306306,-0.184,3
+"Stone.Chamber","Raffinose_F","Vitamin-free",0,0.803,0.206,0.426316485425729,0.181745745745746,-0.206,3
+"Stone.Chamber","Soluble Starch","Galactitol",0,0.913,0.087,0.281976081451088,0.0795105105105105,-0.087,3
+"Stone.Chamber","Soluble Starch","Growth at 19°C",2,1,1.821,0.406354677743623,0.165124124124124,0.179,1
+"Stone.Chamber","Soluble Starch","Methanol",0,0.891,0.11,0.316227766016838,0.1,-0.11,3
+"Stone.Chamber","Soluble Starch","myo-Inositol",0,0.931,0.071,0.264629985128347,0.070029029029029,-0.071,3
+"Stone.Chamber","Soluble Starch","Nitrate",0,0.82,0.181,0.387800708340495,0.150389389389389,-0.181,3
+"Stone.Chamber","Soluble Starch","Starch formation",0,0.828,0.177,0.394749068177275,0.155826826826827,-0.177,3
+"Stone.Chamber","Soluble Starch","Vitamin-free",0,0.804,0.206,0.42865807789863,0.183747747747748,-0.206,3
+"Stone.Chamber","Starch formation","Growth at 19°C",2,1,1.805,0.411271375303636,0.169144144144144,0.195,1
+"Stone.Chamber","Sucrose_F","Galactitol",0,0.92,0.08,0.271428947744476,0.0736736736736737,-0.08,3
+"Stone.Chamber","Sucrose_F","Glucose",2,1,1.745,0.469249608625511,0.220195195195195,0.255,1
+"Stone.Chamber","Sucrose_F","Growth at 19°C",2,1,1.745,0.469249608625511,0.220195195195195,0.255,1
+"Stone.Chamber","Sucrose_F","Lactose_F",0,0.976,0.024,0.1531255937048,0.0234474474474474,-0.024,3
+"Stone.Chamber","Sucrose_F","Maltose_F",0,0.877,0.128,0.348909354614831,0.121737737737738,-0.128,3
+"Stone.Chamber","Sucrose_F","Melibiose",0,0.926,0.076,0.272577141921876,0.0742982982982983,-0.076,3
+"Stone.Chamber","Sucrose_F","Methanol",0,0.9,0.101,0.304781711872435,0.0928918918918919,-0.101,3
+"Stone.Chamber","Sucrose_F","myo-Inositol",0,0.932,0.07,0.263000321614193,0.0691691691691692,-0.07,3
+"Stone.Chamber","Sucrose_F","Nitrate",0,0.837,0.165,0.376718617693521,0.141916916916917,-0.165,3
+"Stone.Chamber","Sucrose_F","Raffinose",0,0.777,0.238,0.459964746005134,0.211567567567568,-0.238,3
+"Stone.Chamber","Sucrose_F","Raffinose_F",0,0.866,0.139,0.360289895513056,0.129808808808809,-0.139,3
+"Stone.Chamber","Sucrose_F","Soluble Starch",0,0.842,0.167,0.396570634651973,0.157268268268268,-0.167,3
+"Stone.Chamber","Sucrose_F","Starch formation",0,0.834,0.17,0.386327903793202,0.149249249249249,-0.17,3
+"Stone.Chamber","Sucrose_F","Vitamin-free",0,0.815,0.194,0.41777809724606,0.174538538538539,-0.194,3
+"Stone.Chamber","Vitamin-free","Growth at 19°C",2,1,1.774,0.443983244189599,0.197121121121121,0.226,1
+"Stone.Chamber","Vitamin-free","Starch formation",0,0.834,0.171,0.389757502699962,0.151910910910911,-0.171,3
+"Lichen","DL-Lactate","Vitamin-free",0,0.727,0.296,0.508569211261007,0.258642642642643,-0.296,3
+"Lichen","Glucose","DL-Lactate",0,1,0,0,0,0,3
+"Lichen","Glucose","Inulin",0,1,0,0,0,0,3
+"Lichen","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Lichen","Glucose","Raffinose",0,1,0,0,0,0,3
+"Lichen","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Lichen","Inulin","DL-Lactate",0,0.365,0.885,0.822466687137814,0.676451451451451,-0.885,3
+"Lichen","Inulin","myo-Inositol",0,0.89,0.112,0.321806711489303,0.10355955955956,-0.112,3
+"Lichen","Inulin","Raffinose",0,0.621,0.454,0.642103026232003,0.412296296296296,-0.454,3
+"Lichen","Inulin","Vitamin-free",0,0.679,0.354,0.544959614082531,0.296980980980981,-0.354,3
+"Lichen","Lactose_F","DL-Lactate",0,0.354,0.916,0.841220334782542,0.707651651651652,-0.916,3
+"Lichen","Lactose_F","Glucose",5,1,4.944,0.242740443525431,0.0589229229229229,0.056,1
+"Lichen","Lactose_F","Inulin",0,0.806,0.21,0.447325496814233,0.2001001001001,-0.21,3
+"Lichen","Lactose_F","myo-Inositol",0,0.891,0.111,0.320595979048056,0.102781781781782,-0.111,3
+"Lichen","Lactose_F","Raffinose",0,0.614,0.466,0.652126727921245,0.425269269269269,-0.466,3
+"Lichen","Lactose_F","Raffinose_F",0,0.746,0.277,0.498517321183045,0.24851951951952,-0.277,3
+"Lichen","Lactose_F","Vitamin-free",0,0.671,0.366,0.557094565001629,0.310354354354354,-0.366,3
+"Lichen","Maltose_F","DL-Lactate",0,0.371,0.875,0.824654506478352,0.680055055055055,-0.875,3
+"Lichen","Maltose_F","Glucose",5,1,4.686,0.541938832062898,0.293697697697698,0.314,1
+"Lichen","Maltose_F","Inulin",0,0.819,0.197,0.438615302267697,0.192383383383383,-0.197,3
+"Lichen","Maltose_F","Lactose_F",0,0.95,0.052,0.230974780764804,0.0533493493493493,-0.052,3
+"Lichen","Maltose_F","myo-Inositol",0,0.895,0.107,0.315674912925704,0.0996506506506507,-0.107,3
+"Lichen","Maltose_F","Raffinose",0,0.623,0.446,0.630461324334397,0.397481481481481,-0.446,3
+"Lichen","Maltose_F","Raffinose_F",0,0.761,0.261,0.488997053281631,0.239118118118118,-0.261,3
+"Lichen","Maltose_F","Vitamin-free",0,0.691,0.343,0.545571854707195,0.297648648648649,-0.343,3
+"Lichen","myo-Inositol","DL-Lactate",0,0.362,0.9,0.83348346995888,0.694694694694695,-0.9,3
+"Lichen","myo-Inositol","Vitamin-free",0,0.673,0.362,0.552504535059452,0.305261261261261,-0.362,3
+"Lichen","Raffinose","DL-Lactate",0,0.4,0.822,0.806825239421132,0.650966966966967,-0.822,3
+"Lichen","Raffinose","myo-Inositol",0,0.896,0.106,0.314424653713513,0.0988628628628629,-0.106,3
+"Lichen","Raffinose","Vitamin-free",0,0.696,0.333,0.53140699411411,0.282393393393393,-0.333,3
+"Lichen","Raffinose_F","DL-Lactate",0,0.37,0.887,0.832420521085301,0.692923923923924,-0.887,3
+"Lichen","Raffinose_F","Glucose",5,1,4.72,0.503839115049491,0.253853853853854,0.28,1
+"Lichen","Raffinose_F","Inulin",0,0.815,0.202,0.444289762872603,0.197393393393393,-0.202,3
+"Lichen","Raffinose_F","myo-Inositol",0,0.9,0.102,0.309340737200408,0.0956916916916917,-0.102,3
+"Lichen","Raffinose_F","Raffinose",0,0.626,0.446,0.636780566199605,0.405489489489489,-0.446,3
+"Lichen","Raffinose_F","Vitamin-free",0,0.682,0.35,0.543871120575266,0.295795795795796,-0.35,3
+"Lichen","Sucrose_F","DL-Lactate",0,0.387,0.844,0.813834335922445,0.662326326326326,-0.844,3
+"Lichen","Sucrose_F","Glucose",5,1,4.599,0.597122730730924,0.356555555555556,0.401,1
+"Lichen","Sucrose_F","Inulin",0,0.812,0.205,0.446289339077436,0.199174174174174,-0.205,3
+"Lichen","Sucrose_F","Lactose_F",0,0.951,0.051,0.229022818626117,0.0524514514514514,-0.051,3
+"Lichen","Sucrose_F","Maltose_F",0,0.744,0.287,0.51855558998038,0.2688998998999,-0.287,3
+"Lichen","Sucrose_F","myo-Inositol",0,0.897,0.105,0.313166206786545,0.0980730730730731,-0.105,3
+"Lichen","Sucrose_F","Raffinose",0,0.625,0.447,0.63529095270954,0.403594594594595,-0.447,3
+"Lichen","Sucrose_F","Raffinose_F",0,0.771,0.251,0.483976480041369,0.234233233233233,-0.251,3
+"Lichen","Sucrose_F","Vitamin-free",0,0.693,0.342,0.545282801244761,0.297333333333333,-0.342,3
+"Pollen","DL-Lactate","Starch formation",0,0.687,0.355,0.561507159607329,0.31529029029029,-0.355,3
+"Pollen","Galactitol","DL-Lactate",0,0.228,1.24,0.940896001312199,0.885285285285285,-1.24,3
+"Pollen","Galactitol","myo-Inositol",0,0.805,0.212,0.450842832103671,0.203259259259259,-0.212,3
+"Pollen","Galactitol","Starch formation",0,0.633,0.439,0.636147532954175,0.404683683683684,-0.439,3
+"Pollen","Glucose","DL-Lactate",0,1,0,0,0,0,3
+"Pollen","Glucose","Galactitol",0,1,0,0,0,0,3
+"Pollen","Glucose","Inulin",0,1,0,0,0,0,3
+"Pollen","Glucose","Lactose",0,1,0,0,0,0,3
+"Pollen","Glucose","Melibiose",0,1,0,0,0,0,3
+"Pollen","Glucose","Methanol",0,1,0,0,0,0,3
+"Pollen","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Pollen","Glucose","Starch formation",0,1,0,0,0,0,3
+"Pollen","Inulin","DL-Lactate",0,0.241,1.222,0.94106407943434,0.885601601601602,-1.222,3
+"Pollen","Inulin","Galactitol",0,0.82,0.198,0.448326886319566,0.200996996996997,-0.198,3
+"Pollen","Inulin","Lactose",0,0.773,0.248,0.484490176093108,0.234730730730731,-0.248,3
+"Pollen","Inulin","Melibiose",0,0.781,0.236,0.467463926439808,0.218522522522523,-0.236,3
+"Pollen","Inulin","Methanol",0,0.784,0.232,0.458678957863108,0.210386386386386,-0.232,3
+"Pollen","Inulin","myo-Inositol",0,0.806,0.209,0.442170232506118,0.195514514514515,-0.209,3
+"Pollen","Inulin","Starch formation",0,0.634,0.435,0.629421298631665,0.396171171171171,-0.435,3
+"Pollen","Lactose","DL-Lactate",0,0.233,1.231,0.939426166083062,0.882521521521522,-1.231,3
+"Pollen","Lactose","Galactitol",0,0.817,0.205,0.461723064388371,0.213188188188188,-0.205,3
+"Pollen","Lactose","Methanol",0,0.785,0.23,0.455310122122611,0.207307307307307,-0.23,3
+"Pollen","Lactose","myo-Inositol",0,0.804,0.211,0.445732742433936,0.198677677677678,-0.211,3
+"Pollen","Lactose","Starch formation",0,0.647,0.422,0.629533408416354,0.396312312312312,-0.422,3
+"Pollen","Melibiose","DL-Lactate",0,0.233,1.233,0.938931622959091,0.881592592592593,-1.233,3
+"Pollen","Melibiose","Galactitol",0,0.82,0.201,0.456954929733565,0.208807807807808,-0.201,3
+"Pollen","Melibiose","Lactose",0,0.778,0.244,0.484457117502363,0.234698698698699,-0.244,3
+"Pollen","Melibiose","Methanol",0,0.785,0.23,0.455310122122611,0.207307307307307,-0.23,3
+"Pollen","Melibiose","myo-Inositol",0,0.811,0.204,0.438835477800709,0.192576576576577,-0.204,3
+"Pollen","Melibiose","Starch formation",0,0.637,0.436,0.637424748743183,0.40631031031031,-0.436,3
+"Pollen","Methanol","DL-Lactate",0,0.237,1.24,0.954626267872046,0.911311311311311,-1.24,3
+"Pollen","Methanol","Galactitol",0,0.816,0.205,0.459549982250229,0.211186186186186,-0.205,3
+"Pollen","Methanol","myo-Inositol",0,0.806,0.21,0.447325496814233,0.2001001001001,-0.21,3
+"Pollen","Methanol","Starch formation",0,0.638,0.426,0.622021632188874,0.386910910910911,-0.426,3
+"Pollen","myo-Inositol","DL-Lactate",0,0.244,1.228,0.957566150682517,0.916932932932933,-1.228,3
+"Pollen","myo-Inositol","Starch formation",0,0.628,0.446,0.638350602327194,0.407491491491491,-0.446,3
+"Feces.Dung","Glucose","Melibiose",0,1,0,0,0,0,3
+"Feces.Dung","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Feces.Dung","Glucose","Starch formation",0,1,0,0,0,0,3
+"Feces.Dung","Lactose_F","Glucose",29,1,28.678,0.571526589619978,0.326642642642643,0.321999999999999,1
+"Feces.Dung","Lactose_F","Melibiose",0,0.43,0.841,0.909145502956235,0.826545545545545,-0.841,3
+"Feces.Dung","Lactose_F","myo-Inositol",0,0.523,0.644,0.787327050141099,0.619883883883884,-0.644,3
+"Feces.Dung","Lactose_F","Starch formation",0,0.227,1.37,1.12443957790731,1.26436436436436,-1.37,3
+"Feces.Dung","Melibiose","myo-Inositol",0,0.53,0.631,0.783232055301909,0.613452452452453,-0.631,3
+"Feces.Dung","Melibiose","Starch formation",0,0.235,1.337,1.11025387351887,1.23266366366366,-1.337,3
+"Feces.Dung","myo-Inositol","Starch formation",0,0.226,1.358,1.10863206929308,1.22906506506506,-1.358,3
+"Pine","Glucose","Inulin",0,1,0,0,0,0,3
+"Pine","Lactose_F","Glucose",38,1,37.452,0.740435172209049,0.548244244244244,0.548000000000002,1
+"Pine","Lactose_F","Inulin",0,0.151,1.817,1.29351620947872,1.67318418418418,-1.817,3
+"Bromeliad","D-Arabinose","DL-Lactate",0,0.683,0.344,0.529097291567386,0.279943943943944,-0.344,3
+"Bromeliad","D-Arabinose","Galactitol",0,0.943,0.058,0.238102273598327,0.0566926926926927,-0.058,3
+"Bromeliad","D-Arabinose","Growth at 37°C",0,0.689,0.345,0.542465915306454,0.294269269269269,-0.345,3
+"Bromeliad","D-Arabinose","Methanol",0,0.929,0.075,0.27830280712284,0.0774524524524525,-0.075,3
+"Bromeliad","D-Arabinose","myo-Inositol",0,0.933,0.068,0.255815248649179,0.0654414414414414,-0.068,3
+"Bromeliad","D-Arabinose","Nitrate",0,0.868,0.141,0.373173228217484,0.139258258258258,-0.141,3
+"Bromeliad","D-Arabinose","Succinate",0,0.473,0.631,0.664289304655946,0.44128028028028,-0.631,3
+"Bromeliad","DL-Lactate","Growth at 37°C",0,0.711,0.313,0.513122104663495,0.263294294294294,-0.313,3
+"Bromeliad","DL-Lactate","Nitrate",0,0.874,0.132,0.355953231060912,0.126702702702703,-0.132,3
+"Bromeliad","DL-Lactate","Succinate",0,0.476,0.6,0.626412318199756,0.392392392392392,-0.6,3
+"Bromeliad","Galactitol","DL-Lactate",0,0.66,0.371,0.543741349038911,0.295654654654655,-0.371,3
+"Bromeliad","Galactitol","Growth at 37°C",0,0.664,0.373,0.555138882784461,0.308179179179179,-0.373,3
+"Bromeliad","Galactitol","myo-Inositol",0,0.925,0.077,0.274127974030645,0.0751461461461461,-0.077,3
+"Bromeliad","Galactitol","Nitrate",0,0.854,0.156,0.389635490960225,0.151815815815816,-0.156,3
+"Bromeliad","Galactitol","Succinate",0,0.419,0.701,0.670856951256413,0.450049049049049,-0.701,3
+"Bromeliad","Galactose_F","D-Arabinose",0,0.826,0.184,0.412691548634467,0.170314314314314,-0.184,3
+"Bromeliad","Galactose_F","DL-Lactate",0,0.689,0.341,0.533857662681734,0.285004004004004,-0.341,3
+"Bromeliad","Galactose_F","Galactitol",0,0.944,0.057,0.236234643536478,0.0558068068068068,-0.057,3
+"Bromeliad","Galactose_F","Glucose",2,1,1.754,0.460104005302818,0.211695695695696,0.246,1
+"Bromeliad","Galactose_F","Growth at 37°C",0,0.698,0.331,0.528884409600736,0.279718718718719,-0.331,3
+"Bromeliad","Galactose_F","Inulin",0,0.914,0.089,0.29523916773722,0.0871661661661662,-0.089,3
+"Bromeliad","Galactose_F","L-Arabinose",0,0.802,0.209,0.433020214893608,0.187506506506507,-0.209,3
+"Bromeliad","Galactose_F","Lactose",0,0.941,0.059,0.235742602375079,0.0555745745745746,-0.059,3
+"Bromeliad","Galactose_F","Melibiose",0,0.941,0.06,0.241781840630057,0.0584584584584585,-0.06,3
+"Bromeliad","Galactose_F","Methanol",0,0.929,0.075,0.27830280712284,0.0774524524524525,-0.075,3
+"Bromeliad","Galactose_F","myo-Inositol",0,0.931,0.071,0.264629985128347,0.070029029029029,-0.071,3
+"Bromeliad","Galactose_F","Nitrate",0,0.868,0.14,0.369508506717419,0.136536536536537,-0.14,3
+"Bromeliad","Galactose_F","Raffinose",0,0.834,0.178,0.412900092621068,0.170486486486486,-0.178,3
+"Bromeliad","Galactose_F","Soluble Starch",0,0.842,0.164,0.386333085889952,0.149253253253253,-0.164,3
+"Bromeliad","Galactose_F","Succinate",0,0.465,0.626,0.645399520096305,0.416540540540541,-0.626,3
+"Bromeliad","Galactose_F","Sucrose_F",0,0.846,0.158,0.375735514926626,0.141177177177177,-0.158,3
+"Bromeliad","Galactose_F","Trehalose_F",0,0.824,0.185,0.41102791139282,0.168943943943944,-0.185,3
+"Bromeliad","Glucose","D-Arabinose",0,1,0,0,0,0,3
+"Bromeliad","Glucose","DL-Lactate",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Galactitol",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Growth at 37°C",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Inulin",0,1,0,0,0,0,3
+"Bromeliad","Glucose","L-Arabinose",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Lactose",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Melibiose",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Methanol",0,1,0,0,0,0,3
+"Bromeliad","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Nitrate",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Raffinose",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Bromeliad","Glucose","Succinate",0,1,0,0,0,0,3
+"Bromeliad","Inulin","D-Arabinose",0,0.814,0.196,0.421618028269382,0.177761761761762,-0.196,3
+"Bromeliad","Inulin","DL-Lactate",0,0.666,0.366,0.544371509486252,0.29634034034034,-0.366,3
+"Bromeliad","Inulin","Galactitol",0,0.939,0.062,0.245389926884166,0.0602162162162162,-0.062,3
+"Bromeliad","Inulin","Growth at 37°C",0,0.664,0.368,0.544860415953364,0.296872872872873,-0.368,3
+"Bromeliad","Inulin","L-Arabinose",0,0.79,0.221,0.440855252155799,0.194353353353353,-0.221,3
+"Bromeliad","Inulin","Lactose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Bromeliad","Inulin","Melibiose",0,0.94,0.061,0.243594618861621,0.0593383383383383,-0.061,3
+"Bromeliad","Inulin","Methanol",0,0.928,0.077,0.284872168089745,0.0811521521521522,-0.077,3
+"Bromeliad","Inulin","myo-Inositol",0,0.925,0.076,0.26887970599563,0.0722962962962963,-0.076,3
+"Bromeliad","Inulin","Nitrate",0,0.858,0.151,0.382551101613033,0.146345345345345,-0.151,3
+"Bromeliad","Inulin","Raffinose",0,0.817,0.195,0.425624430873224,0.181156156156156,-0.195,3
+"Bromeliad","Inulin","Soluble Starch",0,0.832,0.174,0.394816260911174,0.15587987987988,-0.174,3
+"Bromeliad","Inulin","Succinate",0,0.434,0.681,0.669093929644177,0.447686686686687,-0.681,3
+"Bromeliad","L-Arabinose","D-Arabinose",0,0.827,0.182,0.408708995549453,0.167043043043043,-0.182,3
+"Bromeliad","L-Arabinose","DL-Lactate",0,0.678,0.349,0.530547340470651,0.28148048048048,-0.349,3
+"Bromeliad","L-Arabinose","Galactitol",0,0.94,0.061,0.243594618861621,0.0593383383383383,-0.061,3
+"Bromeliad","L-Arabinose","Growth at 37°C",0,0.69,0.338,0.529184311970826,0.280036036036036,-0.338,3
+"Bromeliad","L-Arabinose","Methanol",0,0.928,0.076,0.27982548544102,0.0783023023023023,-0.076,3
+"Bromeliad","L-Arabinose","myo-Inositol",0,0.93,0.071,0.260819913018594,0.068027027027027,-0.071,3
+"Bromeliad","L-Arabinose","Nitrate",0,0.866,0.141,0.367769294876903,0.135254254254254,-0.141,3
+"Bromeliad","L-Arabinose","Succinate",0,0.464,0.647,0.671447571923409,0.450841841841842,-0.647,3
+"Bromeliad","Lactose","D-Arabinose",0,0.809,0.2,0.42211157077031,0.178178178178178,-0.2,3
+"Bromeliad","Lactose","DL-Lactate",0,0.656,0.376,0.546738441051041,0.298922922922923,-0.376,3
+"Bromeliad","Lactose","Galactitol",0,0.937,0.064,0.248929640593413,0.061965965965966,-0.064,3
+"Bromeliad","Lactose","Growth at 37°C",0,0.663,0.375,0.557391860082012,0.310685685685686,-0.375,3
+"Bromeliad","Lactose","L-Arabinose",0,0.787,0.225,0.445615948517974,0.198573573573574,-0.225,3
+"Bromeliad","Lactose","Methanol",0,0.923,0.082,0.292166667094933,0.0853613613613614,-0.082,3
+"Bromeliad","Lactose","myo-Inositol",0,0.924,0.078,0.275666450610139,0.075991991991992,-0.078,3
+"Bromeliad","Lactose","Nitrate",0,0.856,0.154,0.387858781561581,0.150434434434434,-0.154,3
+"Bromeliad","Lactose","Soluble Starch",0,0.833,0.174,0.397343531320043,0.157881881881882,-0.174,3
+"Bromeliad","Lactose","Succinate",0,0.414,0.697,0.658501803053435,0.433624624624625,-0.697,3
+"Bromeliad","Melibiose","D-Arabinose",0,0.803,0.207,0.429342911127382,0.184335335335335,-0.207,3
+"Bromeliad","Melibiose","DL-Lactate",0,0.663,0.37,0.54717401199198,0.299399399399399,-0.37,3
+"Bromeliad","Melibiose","Galactitol",0,0.941,0.06,0.241781840630057,0.0584584584584585,-0.06,3
+"Bromeliad","Melibiose","Growth at 37°C",0,0.658,0.379,0.556478812416671,0.309668668668669,-0.379,3
+"Bromeliad","Melibiose","L-Arabinose",0,0.79,0.222,0.443748704688716,0.196912912912913,-0.222,3
+"Bromeliad","Melibiose","Lactose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Bromeliad","Melibiose","Methanol",0,0.923,0.082,0.292166667094933,0.0853613613613614,-0.082,3
+"Bromeliad","Melibiose","myo-Inositol",0,0.925,0.077,0.274127974030645,0.0751461461461461,-0.077,3
+"Bromeliad","Melibiose","Nitrate",0,0.856,0.154,0.387858781561581,0.150434434434434,-0.154,3
+"Bromeliad","Melibiose","Soluble Starch",0,0.834,0.173,0.396520148577885,0.157228228228228,-0.173,3
+"Bromeliad","Melibiose","Succinate",0,0.418,0.698,0.665762149148808,0.443239239239239,-0.698,3
+"Bromeliad","Methanol","DL-Lactate",0,0.662,0.37,0.545341541969248,0.297397397397397,-0.37,3
+"Bromeliad","Methanol","Galactitol",0,0.94,0.061,0.243594618861621,0.0593383383383383,-0.061,3
+"Bromeliad","Methanol","Growth at 37°C",0,0.669,0.367,0.551919935874412,0.304615615615616,-0.367,3
+"Bromeliad","Methanol","myo-Inositol",0,0.928,0.074,0.269437556024762,0.0725965965965966,-0.074,3
+"Bromeliad","Methanol","Nitrate",0,0.856,0.154,0.387858781561581,0.150434434434434,-0.154,3
+"Bromeliad","Methanol","Succinate",0,0.429,0.686,0.667719888763132,0.44584984984985,-0.686,3
+"Bromeliad","myo-Inositol","DL-Lactate",0,0.655,0.378,0.549014951906974,0.301417417417417,-0.378,3
+"Bromeliad","myo-Inositol","Growth at 37°C",0,0.667,0.369,0.552398537420352,0.305144144144144,-0.369,3
+"Bromeliad","myo-Inositol","Nitrate",0,0.853,0.157,0.390516969546143,0.152503503503504,-0.157,3
+"Bromeliad","myo-Inositol","Succinate",0,0.428,0.685,0.664994148257876,0.442217217217217,-0.685,3
+"Bromeliad","Nitrate","Growth at 37°C",0,0.692,0.342,0.541598863855279,0.293329329329329,-0.342,3
+"Bromeliad","Raffinose","D-Arabinose",0,0.817,0.191,0.413146087588506,0.17068968968969,-0.191,3
+"Bromeliad","Raffinose","DL-Lactate",0,0.684,0.344,0.530985824618648,0.281945945945946,-0.344,3
+"Bromeliad","Raffinose","Galactitol",0,0.942,0.059,0.239951196239103,0.0575765765765766,-0.059,3
+"Bromeliad","Raffinose","Growth at 37°C",0,0.683,0.346,0.533449687007658,0.284568568568569,-0.346,3
+"Bromeliad","Raffinose","L-Arabinose",0,0.798,0.213,0.435684313259981,0.189820820820821,-0.213,3
+"Bromeliad","Raffinose","Lactose",0,0.937,0.063,0.243084532807191,0.0590900900900901,-0.063,3
+"Bromeliad","Raffinose","Melibiose",0,0.939,0.061,0.239450070654273,0.0573363363363363,-0.061,3
+"Bromeliad","Raffinose","Methanol",0,0.931,0.074,0.280361556927127,0.0786026026026026,-0.074,3
+"Bromeliad","Raffinose","myo-Inositol",0,0.929,0.073,0.267848357737625,0.0717427427427427,-0.073,3
+"Bromeliad","Raffinose","Nitrate",0,0.86,0.15,0.384249460178733,0.147647647647648,-0.15,3
+"Bromeliad","Raffinose","Soluble Starch",0,0.843,0.163,0.385460217894895,0.14857957957958,-0.163,3
+"Bromeliad","Raffinose","Succinate",0,0.455,0.649,0.66048106349481,0.436235235235235,-0.649,3
+"Bromeliad","Soluble Starch","D-Arabinose",0,0.817,0.194,0.422542947571655,0.178542542542543,-0.194,3
+"Bromeliad","Soluble Starch","DL-Lactate",0,0.677,0.35,0.530831217791288,0.281781781781782,-0.35,3
+"Bromeliad","Soluble Starch","Galactitol",0,0.941,0.06,0.241781840630057,0.0584584584584585,-0.06,3
+"Bromeliad","Soluble Starch","Growth at 37°C",0,0.674,0.359,0.544440460854459,0.296415415415415,-0.359,3
+"Bromeliad","Soluble Starch","L-Arabinose",0,0.801,0.208,0.427690213728253,0.182918918918919,-0.208,3
+"Bromeliad","Soluble Starch","Methanol",0,0.926,0.078,0.282835634240094,0.079995995995996,-0.078,3
+"Bromeliad","Soluble Starch","myo-Inositol",0,0.927,0.075,0.271013742176386,0.0734484484484484,-0.075,3
+"Bromeliad","Soluble Starch","Nitrate",0,0.855,0.154,0.38526929858533,0.148432432432432,-0.154,3
+"Bromeliad","Soluble Starch","Succinate",0,0.447,0.655,0.656052898328637,0.430405405405405,-0.655,3
+"Bromeliad","Succinate","Growth at 37°C",0,0.763,0.253,0.470332023375203,0.221212212212212,-0.253,3
+"Bromeliad","Succinate","Nitrate",0,0.895,0.109,0.324382835896452,0.105224224224224,-0.109,3
+"Bromeliad","Sucrose_F","D-Arabinose",0,0.819,0.188,0.408439497138588,0.166822822822823,-0.188,3
+"Bromeliad","Sucrose_F","DL-Lactate",0,0.679,0.348,0.530261423429215,0.281177177177177,-0.348,3
+"Bromeliad","Sucrose_F","Galactitol",0,0.945,0.056,0.23434785878885,0.0549189189189189,-0.056,3
+"Bromeliad","Sucrose_F","Glucose",2,1,1.819,0.395468577001252,0.156395395395395,0.181,1
+"Bromeliad","Sucrose_F","Growth at 37°C",0,0.68,0.351,0.538599191504303,0.290089089089089,-0.351,3
+"Bromeliad","Sucrose_F","Inulin",0,0.902,0.1,0.306747606501003,0.0940940940940941,-0.1,3
+"Bromeliad","Sucrose_F","L-Arabinose",0,0.798,0.213,0.435684313259981,0.189820820820821,-0.213,3
+"Bromeliad","Sucrose_F","Lactose",0,0.935,0.065,0.246649216167082,0.0608358358358358,-0.065,3
+"Bromeliad","Sucrose_F","Melibiose",0,0.939,0.061,0.239450070654273,0.0573363363363363,-0.061,3
+"Bromeliad","Sucrose_F","Methanol",0,0.928,0.076,0.27982548544102,0.0783023023023023,-0.076,3
+"Bromeliad","Sucrose_F","myo-Inositol",0,0.932,0.07,0.263000321614193,0.0691691691691692,-0.07,3
+"Bromeliad","Sucrose_F","Nitrate",0,0.861,0.145,0.368932393686311,0.136111111111111,-0.145,3
+"Bromeliad","Sucrose_F","Raffinose",0,0.828,0.183,0.414346090463857,0.171682682682683,-0.183,3
+"Bromeliad","Sucrose_F","Soluble Starch",0,0.838,0.168,0.389779332350919,0.151927927927928,-0.168,3
+"Bromeliad","Sucrose_F","Succinate",0,0.454,0.66,0.672943424704375,0.452852852852853,-0.66,3
+"Bromeliad","Sucrose_F","Trehalose_F",0,0.818,0.187,0.402732160614462,0.162193193193193,-0.187,3
+"Bromeliad","Trehalose_F","D-Arabinose",0,0.829,0.179,0.403883797796002,0.163122122122122,-0.179,3
+"Bromeliad","Trehalose_F","DL-Lactate",0,0.679,0.347,0.528081309903948,0.27886986986987,-0.347,3
+"Bromeliad","Trehalose_F","Galactitol",0,0.944,0.056,0.230036772966665,0.0529169169169169,-0.056,3
+"Bromeliad","Trehalose_F","Glucose",2,1,1.786,0.431729533840795,0.18639039039039,0.214,1
+"Bromeliad","Trehalose_F","Growth at 37°C",0,0.688,0.342,0.534154772815259,0.285321321321321,-0.342,3
+"Bromeliad","Trehalose_F","Inulin",0,0.906,0.096,0.301454598364123,0.0908748748748749,-0.096,3
+"Bromeliad","Trehalose_F","L-Arabinose",0,0.805,0.205,0.427969809867657,0.183158158158158,-0.205,3
+"Bromeliad","Trehalose_F","Lactose",0,0.94,0.06,0.237605674293474,0.0564564564564565,-0.06,3
+"Bromeliad","Trehalose_F","Melibiose",0,0.939,0.062,0.245389926884166,0.0602162162162162,-0.062,3
+"Bromeliad","Trehalose_F","Methanol",0,0.929,0.076,0.28338014098434,0.0803043043043043,-0.076,3
+"Bromeliad","Trehalose_F","myo-Inositol",0,0.933,0.068,0.255815248649179,0.0654414414414414,-0.068,3
+"Bromeliad","Trehalose_F","Nitrate",0,0.862,0.145,0.371635726368057,0.138113113113113,-0.145,3
+"Bromeliad","Trehalose_F","Raffinose",0,0.826,0.184,0.412691548634467,0.170314314314314,-0.184,3
+"Bromeliad","Trehalose_F","Soluble Starch",0,0.843,0.161,0.378447119452933,0.143222222222222,-0.161,3
+"Bromeliad","Trehalose_F","Succinate",0,0.449,0.641,0.640725783412475,0.41052952952953,-0.641,3
+"Flower","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Cactus","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Ipomoea","Erythritol","myo-Inositol",0,0.501,0.685,0.824897239330727,0.680455455455455,-0.685,3
+"Ipomoea","Erythritol","Starch formation",0,0.199,1.55,1.17936037363093,1.39089089089089,-1.55,3
+"Ipomoea","Erythritol","Vitamin-free",0,0.11,2.003,1.34044313112783,1.79678778778779,-2.003,3
+"Ipomoea","Glucose","Erythritol",0,1,0,0,0,0,3
+"Ipomoea","Glucose","Lactose",0,1,0,0,0,0,3
+"Ipomoea","Glucose","Methanol",0,1,0,0,0,0,3
+"Ipomoea","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Ipomoea","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Ipomoea","Glucose","Starch formation",0,1,0,0,0,0,3
+"Ipomoea","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Ipomoea","Lactose","Erythritol",0,0.121,1.96,1.32897184551298,1.76616616616617,-1.96,3
+"Ipomoea","Lactose","Methanol",0,0.394,0.878,0.889892076550807,0.791907907907908,-0.878,3
+"Ipomoea","Lactose","myo-Inositol",0,0.488,0.705,0.828650506342488,0.686661661661662,-0.705,3
+"Ipomoea","Lactose","Soluble Starch",0,0.127,2.021,1.32978469209392,1.76832732732733,-2.021,3
+"Ipomoea","Lactose","Starch formation",0,0.184,1.606,1.20673949973481,1.45622022022022,-1.606,3
+"Ipomoea","Lactose","Vitamin-free",0,0.097,2.083,1.37039738360411,1.87798898898899,-2.083,3
+"Ipomoea","Methanol","Erythritol",0,0.123,1.954,1.33479049504619,1.78166566566567,-1.954,3
+"Ipomoea","Methanol","myo-Inositol",0,0.486,0.712,0.84009628124505,0.705761761761762,-0.712,3
+"Ipomoea","Methanol","Starch formation",0,0.184,1.614,1.2159286502433,1.47848248248248,-1.614,3
+"Ipomoea","Methanol","Vitamin-free",0,0.095,2.065,1.35003614677445,1.8225975975976,-2.065,3
+"Ipomoea","myo-Inositol","Starch formation",0,0.185,1.617,1.20820973790595,1.45977077077077,-1.617,3
+"Ipomoea","myo-Inositol","Vitamin-free",0,0.095,2.087,1.35767237368751,1.84327427427427,-2.087,3
+"Ipomoea","Soluble Starch","Erythritol",0,0.143,1.882,1.3273423966098,1.76183783783784,-1.882,3
+"Ipomoea","Soluble Starch","Methanol",0,0.407,0.854,0.889649074340819,0.791475475475475,-0.854,3
+"Ipomoea","Soluble Starch","myo-Inositol",0,0.505,0.674,0.819997802677785,0.672396396396396,-0.674,3
+"Ipomoea","Soluble Starch","Starch formation",0,0.198,1.563,1.20061337343563,1.44147247247247,-1.563,3
+"Ipomoea","Soluble Starch","Vitamin-free",0,0.107,2.012,1.33927205960912,1.79364964964965,-2.012,3
+"Ipomoea","Vitamin-free","Starch formation",0,0.197,1.554,1.19268877185396,1.42250650650651,-1.554,3
+"Oak","Glucose","Galactitol",0,1,0,0,0,0,3
+"Hibiscus","Erythritol","myo-Inositol",0,0.699,0.351,0.576308191101889,0.332131131131131,-0.351,3
+"Hibiscus","Erythritol","Starch formation",0,0.453,0.778,0.864559693406686,0.747463463463463,-0.778,3
+"Hibiscus","Glucose","Erythritol",0,1,0,0,0,0,3
+"Hibiscus","Glucose","L-Rhamnose",0,1,0,0,0,0,3
+"Hibiscus","Glucose","Lactose",0,1,0,0,0,0,3
+"Hibiscus","Glucose","Methanol",0,1,0,0,0,0,3
+"Hibiscus","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Hibiscus","Glucose","Starch formation",0,1,0,0,0,0,3
+"Hibiscus","L-Rhamnose","Erythritol",0,0.366,0.965,0.933083943515076,0.870645645645646,-0.965,3
+"Hibiscus","L-Rhamnose","Methanol",0,0.659,0.41,0.627928574197969,0.394294294294294,-0.41,3
+"Hibiscus","L-Rhamnose","myo-Inositol",0,0.699,0.351,0.578042501147738,0.334133133133133,-0.351,3
+"Hibiscus","L-Rhamnose","Starch formation",0,0.444,0.778,0.854075784368955,0.729445445445445,-0.778,3
+"Hibiscus","Lactose","Erythritol",0,0.36,0.985,0.942158512492809,0.887662662662663,-0.985,3
+"Hibiscus","Lactose","L-Rhamnose",0,0.445,0.791,0.872972554597841,0.762081081081081,-0.791,3
+"Hibiscus","Lactose","Methanol",0,0.651,0.422,0.639002601187448,0.408324324324324,-0.422,3
+"Hibiscus","Lactose","myo-Inositol",0,0.689,0.363,0.584442103695971,0.341572572572573,-0.363,3
+"Hibiscus","Lactose","Starch formation",0,0.433,0.808,0.874013672604668,0.7638998998999,-0.808,3
+"Hibiscus","Methanol","Erythritol",0,0.362,0.983,0.951638910835731,0.905616616616617,-0.983,3
+"Hibiscus","Methanol","myo-Inositol",0,0.69,0.365,0.590019595541642,0.348123123123123,-0.365,3
+"Hibiscus","Methanol","Starch formation",0,0.437,0.807,0.880071318431368,0.774525525525526,-0.807,3
+"Hibiscus","myo-Inositol","Starch formation",0,0.428,0.821,0.881893835298068,0.777736736736737,-0.821,3
+"Beetle","Glucose","Raffinose",0,1,0,0,0,0,3
+"Ant","Glucose","Methanol",0,1,0,0,0,0,3
+"Ant","Glucose","Nitrate",0,1,0,0,0,0,3
+"Ant","Glucose","Starch formation",0,1,0,0,0,0,3
+"Ant","Lactose_F","Glucose",4,1,3.906,0.298752829699157,0.0892532532532533,0.0939999999999999,1
+"Ant","Lactose_F","Methanol",0,0.819,0.192,0.421085874036773,0.177313313313313,-0.192,3
+"Ant","Lactose_F","Nitrate",0,0.699,0.344,0.563898911137433,0.317981981981982,-0.344,3
+"Ant","Lactose_F","Starch formation",0,0.748,0.279,0.505385411754647,0.255414414414414,-0.279,3
+"Ant","Lactose_F","Trehalose_F",0,0.557,0.528,0.660039128879229,0.435651651651652,-0.528,3
+"Ant","Methanol","Nitrate",0,0.707,0.334,0.555655246310833,0.308752752752753,-0.334,3
+"Ant","Methanol","Starch formation",0,0.745,0.283,0.50908758595174,0.25917017017017,-0.283,3
+"Ant","Nitrate","Starch formation",0,0.768,0.259,0.496150345324041,0.246165165165165,-0.259,3
+"Ant","Trehalose_F","Glucose",4,1,3.453,0.669506713363831,0.448239239239239,0.547,1
+"Ant","Trehalose_F","Methanol",0,0.843,0.166,0.39572793760436,0.156600600600601,-0.166,3
+"Ant","Trehalose_F","Nitrate",0,0.741,0.291,0.524016787511234,0.274593593593594,-0.291,3
+"Ant","Trehalose_F","Starch formation",0,0.786,0.236,0.473844413841219,0.224528528528529,-0.236,3
+"Fruit.fly","Glucose","Erythritol",0,1,0,0,0,0,3
+"Bee","Glucose","Methanol",0,1,0,0,0,0,3
+"Water","Galactitol","myo-Inositol",0,0.894,0.113,0.338149885916505,0.114345345345345,-0.113,3
+"Water","Galactitol","Starch formation",0,0.75,0.269,0.486698958161897,0.236875875875876,-0.269,3
+"Water","Glucose","Galactitol",0,1,0,0,0,0,3
+"Water","Glucose","Inulin",0,1,0,0,0,0,3
+"Water","Glucose","Melibiose",0,1,0,0,0,0,3
+"Water","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Water","Glucose","Raffinose",0,1,0,0,0,0,3
+"Water","Glucose","Starch formation",0,1,0,0,0,0,3
+"Water","Inulin","Galactitol",0,0.856,0.148,0.366374439924826,0.13423023023023,-0.148,3
+"Water","Inulin","Melibiose",0,0.864,0.142,0.366019084160881,0.13396996996997,-0.142,3
+"Water","Inulin","myo-Inositol",0,0.893,0.115,0.343355344931301,0.117892892892893,-0.115,3
+"Water","Inulin","Raffinose",0,0.646,0.405,0.58593371495274,0.343318318318318,-0.405,3
+"Water","Inulin","Starch formation",0,0.764,0.256,0.48238645990191,0.232696696696697,-0.256,3
+"Water","Lactose_F","Galactitol",0,0.86,0.144,0.362485027822385,0.131395395395395,-0.144,3
+"Water","Lactose_F","Glucose",4,1,3.936,0.252918896027893,0.063967967967968,0.0640000000000001,1
+"Water","Lactose_F","Inulin",0,0.808,0.205,0.434930068130687,0.189164164164164,-0.205,3
+"Water","Lactose_F","Melibiose",0,0.852,0.155,0.380946348086079,0.14512012012012,-0.155,3
+"Water","Lactose_F","myo-Inositol",0,0.889,0.118,0.343793825125167,0.118194194194194,-0.118,3
+"Water","Lactose_F","Raffinose",0,0.636,0.419,0.594804835885514,0.353792792792793,-0.419,3
+"Water","Lactose_F","Raffinose_F",0,0.788,0.23,0.468315405810357,0.219319319319319,-0.23,3
+"Water","Lactose_F","Starch formation",0,0.751,0.265,0.478543628109292,0.229004004004004,-0.265,3
+"Water","Melibiose","Galactitol",0,0.857,0.147,0.365410077207135,0.133524524524525,-0.147,3
+"Water","Melibiose","myo-Inositol",0,0.895,0.113,0.341097269627517,0.116347347347347,-0.113,3
+"Water","Melibiose","Starch formation",0,0.754,0.264,0.482220423184809,0.232536536536537,-0.264,3
+"Water","myo-Inositol","Starch formation",0,0.754,0.262,0.47705721206537,0.227583583583584,-0.262,3
+"Water","Raffinose","Galactitol",0,0.87,0.134,0.35237503908218,0.124168168168168,-0.134,3
+"Water","Raffinose","Melibiose",0,0.87,0.135,0.356232932085036,0.126901901901902,-0.135,3
+"Water","Raffinose","myo-Inositol",0,0.903,0.102,0.318900764655241,0.101697697697698,-0.102,3
+"Water","Raffinose","Starch formation",0,0.772,0.242,0.462222510972421,0.21364964964965,-0.242,3
+"Water","Raffinose_F","Galactitol",0,0.863,0.141,0.359511123956197,0.129248248248248,-0.141,3
+"Water","Raffinose_F","Glucose",4,1,3.767,0.472158801605915,0.222933933933934,0.233,1
+"Water","Raffinose_F","Inulin",0,0.817,0.196,0.428681429231274,0.183767767767768,-0.196,3
+"Water","Raffinose_F","Melibiose",0,0.855,0.15,0.370995468486662,0.137637637637638,-0.15,3
+"Water","Raffinose_F","myo-Inositol",0,0.892,0.115,0.340427511947685,0.115890890890891,-0.115,3
+"Water","Raffinose_F","Raffinose",0,0.652,0.398,0.583040252414819,0.339935935935936,-0.398,3
+"Water","Raffinose_F","Starch formation",0,0.761,0.255,0.473496778446484,0.224199199199199,-0.255,3
+"Tree.exudate","Glucose","Starch formation",0,1,0,0,0,0,3
+"Tree.flux","Glucose","L-Arabinose",0,1,0,0,0,0,3
+"Honey","Glucose","Inulin",0,1,0,0,0,0,3
+"Honey","Glucose","Methanol",0,1,0,0,0,0,3
+"Honey","Inulin","Methanol",0,0.869,0.135,0.353411799321839,0.1248998998999,-0.135,3
+"Honey","Lactose_F","Glucose",5,1,4.954,0.209589904165081,0.0439279279279279,0.0460000000000003,1
+"Honey","Lactose_F","Inulin",0,0.855,0.159,0.402344231822554,0.161880880880881,-0.159,3
+"Honey","Lactose_F","Methanol",0,0.864,0.14,0.358508756557673,0.128528528528529,-0.14,3
+"Honey","Lactose_F","Trehalose_F",0,0.651,0.398,0.588168293893799,0.345941941941942,-0.398,3
+"Honey","Trehalose_F","Glucose",5,1,4.598,0.593926551644855,0.352748748748749,0.402,1
+"Honey","Trehalose_F","Inulin",0,0.87,0.141,0.378500016198497,0.143262262262262,-0.141,3
+"Honey","Trehalose_F","Methanol",0,0.882,0.122,0.339457259800451,0.115231231231231,-0.122,3
+"Nematode","Cellobiose","Citrate",0,0.685,0.359,0.566073704953197,0.320439439439439,-0.359,3
+"Nematode","Cellobiose","D-Arabinose",0,0.859,0.153,0.392102977219945,0.153744744744745,-0.153,3
+"Nematode","Cellobiose","D-Gluconate",0,0.715,0.338,0.581458591899797,0.338094094094094,-0.338,3
+"Nematode","Cellobiose","D-Glucosamine",0,0.825,0.19,0.431376965177889,0.186086086086086,-0.19,3
+"Nematode","Cellobiose","D-Ribose",0,0.797,0.221,0.456472745481444,0.208367367367367,-0.221,3
+"Nematode","Cellobiose","Erythritol",0,0.874,0.128,0.340193667977127,0.115731731731732,-0.128,3
+"Nematode","Cellobiose","Galactitol",0,0.962,0.039,0.198792652073759,0.0395185185185185,-0.039,3
+"Nematode","Cellobiose","L-Arabinose",0,0.851,0.16,0.39567228429163,0.156556556556557,-0.16,3
+"Nematode","Cellobiose","L-Rhamnose",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Cellobiose","Methanol",0,0.951,0.05,0.222597281091997,0.0495495495495495,-0.05,3
+"Nematode","Cellobiose","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Cellobiose","Nitrate",0,0.912,0.09,0.293233671303256,0.085985985985986,-0.09,3
+"Nematode","Cellobiose","Ribitol",0,0.73,0.304,0.540255380237787,0.291875875875876,-0.304,3
+"Nematode","Cellobiose","Salicin",0,0.653,0.409,0.621373563249279,0.386105105105105,-0.409,3
+"Nematode","Citrate","D-Gluconate",0,0.704,0.346,0.581912899515574,0.338622622622623,-0.346,3
+"Nematode","Citrate","D-Glucosamine",0,0.813,0.201,0.436794905865201,0.19078978978979,-0.201,3
+"Nematode","Citrate","Nitrate",0,0.912,0.09,0.293233671303256,0.085985985985986,-0.09,3
+"Nematode","D-Arabinose","Citrate",0,0.667,0.378,0.573973383917273,0.329445445445445,-0.378,3
+"Nematode","D-Arabinose","D-Gluconate",0,0.694,0.361,0.595847324433058,0.355034034034034,-0.361,3
+"Nematode","D-Arabinose","D-Glucosamine",0,0.808,0.207,0.44311098761749,0.196347347347347,-0.207,3
+"Nematode","D-Arabinose","D-Ribose",0,0.791,0.228,0.46285011637703,0.21423023023023,-0.228,3
+"Nematode","D-Arabinose","Erythritol",0,0.869,0.135,0.353411799321839,0.1248998998999,-0.135,3
+"Nematode","D-Arabinose","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","D-Arabinose","Methanol",0,0.95,0.05,0.218054001448145,0.0475475475475475,-0.05,3
+"Nematode","D-Arabinose","myo-Inositol",0,0.96,0.041,0.203372467065629,0.0413603603603604,-0.041,3
+"Nematode","D-Arabinose","Nitrate",0,0.909,0.094,0.302084847775017,0.0912552552552553,-0.094,3
+"Nematode","D-Arabinose","Ribitol",0,0.716,0.323,0.555859676519155,0.30897997997998,-0.323,3
+"Nematode","D-Gluconate","D-Glucosamine",0,0.811,0.204,0.441110619435282,0.194578578578579,-0.204,3
+"Nematode","D-Gluconate","Nitrate",0,0.911,0.092,0.29937539248513,0.0896256256256256,-0.092,3
+"Nematode","D-Glucosamine","Nitrate",0,0.91,0.093,0.300734835763071,0.0904414414414414,-0.093,3
+"Nematode","D-Ribose","Citrate",0,0.672,0.377,0.580696313238002,0.337208208208208,-0.377,3
+"Nematode","D-Ribose","D-Gluconate",0,0.7,0.353,0.58714200644796,0.344735735735736,-0.353,3
+"Nematode","D-Ribose","D-Glucosamine",0,0.816,0.196,0.426339965011217,0.181765765765766,-0.196,3
+"Nematode","D-Ribose","Erythritol",0,0.869,0.135,0.353411799321839,0.1248998998999,-0.135,3
+"Nematode","D-Ribose","Galactitol",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Nematode","D-Ribose","Methanol",0,0.948,0.053,0.228567808851647,0.0522432432432432,-0.053,3
+"Nematode","D-Ribose","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","D-Ribose","Nitrate",0,0.908,0.095,0.303425554406789,0.0920670670670671,-0.095,3
+"Nematode","D-Ribose","Ribitol",0,0.716,0.322,0.553735155667962,0.306622622622623,-0.322,3
+"Nematode","Erythritol","Citrate",0,0.669,0.378,0.577450819940062,0.333449449449449,-0.378,3
+"Nematode","Erythritol","D-Gluconate",0,0.699,0.356,0.592971850609804,0.351615615615616,-0.356,3
+"Nematode","Erythritol","D-Glucosamine",0,0.807,0.208,0.443771261950268,0.196932932932933,-0.208,3
+"Nematode","Erythritol","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Erythritol","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Erythritol","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Erythritol","Ribitol",0,0.711,0.328,0.557428674116004,0.310726726726727,-0.328,3
+"Nematode","Galactitol","Citrate",0,0.663,0.387,0.584442103695971,0.341572572572573,-0.387,3
+"Nematode","Galactitol","D-Gluconate",0,0.689,0.37,0.604537397904766,0.365465465465465,-0.37,3
+"Nematode","Galactitol","D-Glucosamine",0,0.804,0.211,0.445732742433936,0.198677677677678,-0.211,3
+"Nematode","Galactitol","myo-Inositol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Galactitol","Nitrate",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Galactose","Cellobiose",0,0.654,0.399,0.593423247902499,0.352151151151151,-0.399,3
+"Nematode","Galactose","Citrate",0,0.684,0.356,0.559979979622109,0.313577577577578,-0.356,3
+"Nematode","Galactose","D-Arabinose",0,0.853,0.16,0.403190479255851,0.162562562562563,-0.16,3
+"Nematode","Galactose","D-Gluconate",0,0.715,0.335,0.580613565215378,0.337112112112112,-0.335,3
+"Nematode","Galactose","D-Glucosamine",0,0.817,0.196,0.43101017362676,0.18576976976977,-0.196,3
+"Nematode","Galactose","D-Ribose",0,0.799,0.218,0.452416490283766,0.204680680680681,-0.218,3
+"Nematode","Galactose","Erythritol",0,0.874,0.13,0.348168380559208,0.121221221221221,-0.13,3
+"Nematode","Galactose","Galactitol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Galactose","L-Arabinose",0,0.853,0.159,0.397337233187222,0.157876876876877,-0.159,3
+"Nematode","Galactose","L-Rhamnose",0,0.904,0.099,0.308697739373476,0.0952942942942943,-0.099,3
+"Nematode","Galactose","Lactose",0,0.953,0.048,0.218503418151167,0.0477437437437437,-0.048,3
+"Nematode","Galactose","Maltose",0,0.723,0.323,0.564791988248762,0.31898998998999,-0.323,3
+"Nematode","Galactose","Melezitose",0,0.805,0.213,0.451480713690889,0.203834834834835,-0.213,3
+"Nematode","Galactose","Methanol",0,0.951,0.05,0.222597281091997,0.0495495495495495,-0.05,3
+"Nematode","Galactose","Methyl-?-D-glucoside",0,0.796,0.225,0.467539937966366,0.218593593593594,-0.225,3
+"Nematode","Galactose","myo-Inositol",0,0.96,0.041,0.203372467065629,0.0413603603603604,-0.041,3
+"Nematode","Galactose","Nitrate",0,0.916,0.087,0.292432071627783,0.0855165165165165,-0.087,3
+"Nematode","Galactose","Ribitol",0,0.722,0.31,0.534963724177805,0.286186186186186,-0.31,3
+"Nematode","Galactose","Salicin",0,0.659,0.41,0.631108784836892,0.398298298298298,-0.41,3
+"Nematode","Galactose_F","Cellobiose",0,0.635,0.422,0.606864304671386,0.368284284284284,-0.422,3
+"Nematode","Galactose_F","Citrate",0,0.669,0.377,0.57550169608977,0.331202202202202,-0.377,3
+"Nematode","Galactose_F","D-Arabinose",0,0.847,0.166,0.408179630322987,0.166610610610611,-0.166,3
+"Nematode","Galactose_F","D-Gluconate",0,0.699,0.358,0.598493269965665,0.358194194194194,-0.358,3
+"Nematode","Galactose_F","D-Glucosamine",0,0.81,0.204,0.436548479065698,0.190574574574575,-0.204,3
+"Nematode","Galactose_F","D-Ribose",0,0.793,0.226,0.461667777884852,0.213137137137137,-0.226,3
+"Nematode","Galactose_F","Erythritol",0,0.87,0.134,0.35237503908218,0.124168168168168,-0.134,3
+"Nematode","Galactose_F","Galactitol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Galactose_F","Galactose",0,0.635,0.427,0.615670406995537,0.37905005005005,-0.427,3
+"Nematode","Galactose_F","Glucose",5,1,4.83,0.418658900867132,0.175275275275275,0.17,1
+"Nematode","Galactose_F","Inulin",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Nematode","Galactose_F","L-Arabinose",0,0.84,0.173,0.411388186802004,0.16924024024024,-0.173,3
+"Nematode","Galactose_F","L-Rhamnose",0,0.897,0.105,0.313166206786545,0.0980730730730731,-0.105,3
+"Nematode","Galactose_F","Lactose",0,0.949,0.052,0.226599530774773,0.0513473473473473,-0.052,3
+"Nematode","Galactose_F","Lactose_F",0,0.979,0.021,0.143455845400526,0.0205795795795796,-0.021,3
+"Nematode","Galactose_F","Maltose",0,0.707,0.347,0.585605612963139,0.342933933933934,-0.347,3
+"Nematode","Galactose_F","Maltose_F",0,0.911,0.09,0.289799903353994,0.083983983983984,-0.09,3
+"Nematode","Galactose_F","Melezitose",0,0.796,0.225,0.467539937966366,0.218593593593594,-0.225,3
+"Nematode","Galactose_F","Melibiose",0,0.944,0.057,0.236234643536478,0.0558068068068068,-0.057,3
+"Nematode","Galactose_F","Methanol",0,0.95,0.051,0.224609548883055,0.0504494494494495,-0.051,3
+"Nematode","Galactose_F","Methyl-?-D-glucoside",0,0.78,0.243,0.481853902322253,0.232183183183183,-0.243,3
+"Nematode","Galactose_F","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Galactose_F","Nitrate",0,0.91,0.093,0.300734835763071,0.0904414414414414,-0.093,3
+"Nematode","Galactose_F","Raffinose",0,0.846,0.168,0.414666067996826,0.171947947947948,-0.168,3
+"Nematode","Galactose_F","Raffinose_F",0,0.92,0.085,0.296416704763518,0.0878628628628629,-0.085,3
+"Nematode","Galactose_F","Ribitol",0,0.712,0.325,0.552883966742282,0.305680680680681,-0.325,3
+"Nematode","Galactose_F","Salicin",0,0.64,0.43,0.641491630118049,0.411511511511511,-0.43,3
+"Nematode","Galactose_F","Sucrose_F",0,0.869,0.14,0.372207655131566,0.138538538538539,-0.14,3
+"Nematode","Galactose_F","Trehalose_F",0,0.833,0.184,0.431659970729659,0.18633033033033,-0.184,3
+"Nematode","Glucose","Cellobiose",0,1,0,0,0,0,3
+"Nematode","Glucose","Citrate",0,1,0,0,0,0,3
+"Nematode","Glucose","D-Arabinose",0,1,0,0,0,0,3
+"Nematode","Glucose","D-Gluconate",0,1,0,0,0,0,3
+"Nematode","Glucose","D-Glucosamine",0,1,0,0,0,0,3
+"Nematode","Glucose","D-Ribose",0,1,0,0,0,0,3
+"Nematode","Glucose","Erythritol",0,1,0,0,0,0,3
+"Nematode","Glucose","Galactitol",0,1,0,0,0,0,3
+"Nematode","Glucose","Galactose",0,1,0,0,0,0,3
+"Nematode","Glucose","Inulin",0,1,0,0,0,0,3
+"Nematode","Glucose","L-Arabinose",0,1,0,0,0,0,3
+"Nematode","Glucose","L-Rhamnose",0,1,0,0,0,0,3
+"Nematode","Glucose","Lactose",0,1,0,0,0,0,3
+"Nematode","Glucose","Maltose",0,1,0,0,0,0,3
+"Nematode","Glucose","Melezitose",0,1,0,0,0,0,3
+"Nematode","Glucose","Melibiose",0,1,0,0,0,0,3
+"Nematode","Glucose","Methanol",0,1,0,0,0,0,3
+"Nematode","Glucose","Methyl-?-D-glucoside",0,1,0,0,0,0,3
+"Nematode","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Nematode","Glucose","Nitrate",0,1,0,0,0,0,3
+"Nematode","Glucose","Raffinose",0,1,0,0,0,0,3
+"Nematode","Glucose","Ribitol",0,1,0,0,0,0,3
+"Nematode","Glucose","Salicin",0,1,0,0,0,0,3
+"Nematode","Glucose_F","Cellobiose",0,0.655,0.395,0.589340582619526,0.347322322322322,-0.395,3
+"Nematode","Glucose_F","Citrate",0,0.692,0.348,0.55785948697428,0.311207207207207,-0.348,3
+"Nematode","Glucose_F","D-Arabinose",0,0.851,0.162,0.404870250722278,0.16391991991992,-0.162,3
+"Nematode","Glucose_F","D-Gluconate",0,0.716,0.335,0.580613565215378,0.337112112112112,-0.335,3
+"Nematode","Glucose_F","D-Glucosamine",0,0.822,0.191,0.427436196059367,0.182701701701702,-0.191,3
+"Nematode","Glucose_F","D-Ribose",0,0.81,0.206,0.442447465536599,0.19575975975976,-0.206,3
+"Nematode","Glucose_F","Erythritol",0,0.878,0.124,0.335762917453278,0.112736736736737,-0.124,3
+"Nematode","Glucose_F","Galactitol",0,0.963,0.038,0.196455070167697,0.0385945945945946,-0.038,3
+"Nematode","Glucose_F","Galactose",0,0.652,0.401,0.598796758138818,0.358557557557558,-0.401,3
+"Nematode","Glucose_F","Galactose_F",0,0.866,0.148,0.397811832722776,0.158254254254254,-0.148,3
+"Nematode","Glucose_F","Glucose",5,1,4.438,0.710394721729167,0.504660660660661,0.562,1
+"Nematode","Glucose_F","Inulin",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Nematode","Glucose_F","L-Arabinose",0,0.855,0.155,0.388749438747024,0.151126126126126,-0.155,3
+"Nematode","Glucose_F","L-Rhamnose",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Glucose_F","Lactose",0,0.949,0.052,0.226599530774773,0.0513473473473473,-0.052,3
+"Nematode","Glucose_F","Lactose_F",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Nematode","Glucose_F","Maltose",0,0.723,0.328,0.573362664240308,0.328744744744745,-0.328,3
+"Nematode","Glucose_F","Maltose_F",0,0.919,0.083,0.283180492250422,0.0801911911911912,-0.083,3
+"Nematode","Glucose_F","Melezitose",0,0.813,0.205,0.448526672758908,0.201176176176176,-0.205,3
+"Nematode","Glucose_F","Melibiose",0,0.949,0.051,0.220107808692576,0.0484474474474474,-0.051,3
+"Nematode","Glucose_F","Methanol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Glucose_F","Methyl-?-D-glucoside",0,0.801,0.22,0.464559808653112,0.215815815815816,-0.22,3
+"Nematode","Glucose_F","myo-Inositol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Glucose_F","Nitrate",0,0.914,0.089,0.29523916773722,0.0871661661661662,-0.089,3
+"Nematode","Glucose_F","Raffinose",0,0.851,0.16,0.400700088046609,0.160560560560561,-0.16,3
+"Nematode","Glucose_F","Raffinose_F",0,0.93,0.073,0.271559836398435,0.0737447447447447,-0.073,3
+"Nematode","Glucose_F","Ribitol",0,0.735,0.297,0.53204706001826,0.283074074074074,-0.297,3
+"Nematode","Glucose_F","Salicin",0,0.669,0.387,0.599658728436926,0.359590590590591,-0.387,3
+"Nematode","Glucose_F","Sucrose_F",0,0.873,0.135,0.364565368497761,0.132907907907908,-0.135,3
+"Nematode","Glucose_F","Trehalose_F",0,0.843,0.172,0.417840388893403,0.174590590590591,-0.172,3
+"Nematode","Inulin","Cellobiose",0,0.63,0.427,0.604182121579277,0.365036036036036,-0.427,3
+"Nematode","Inulin","Citrate",0,0.663,0.385,0.580613565215378,0.337112112112112,-0.385,3
+"Nematode","Inulin","D-Arabinose",0,0.844,0.171,0.414645548548312,0.171930930930931,-0.171,3
+"Nematode","Inulin","D-Gluconate",0,0.69,0.37,0.606190949674661,0.367467467467467,-0.37,3
+"Nematode","Inulin","D-Glucosamine",0,0.805,0.21,0.445082125116363,0.198098098098098,-0.21,3
+"Nematode","Inulin","D-Ribose",0,0.789,0.231,0.466751386561258,0.217856856856857,-0.231,3
+"Nematode","Inulin","Erythritol",0,0.866,0.138,0.356487142942187,0.127083083083083,-0.138,3
+"Nematode","Inulin","Galactitol",0,0.956,0.045,0.212179216748531,0.04502002002002,-0.045,3
+"Nematode","Inulin","Galactose",0,0.625,0.443,0.628606511377464,0.395146146146146,-0.443,3
+"Nematode","Inulin","L-Arabinose",0,0.839,0.174,0.412181869923816,0.169893893893894,-0.174,3
+"Nematode","Inulin","L-Rhamnose",0,0.897,0.105,0.313166206786545,0.0980730730730731,-0.105,3
+"Nematode","Inulin","Lactose",0,0.947,0.054,0.230514939075838,0.0531371371371371,-0.054,3
+"Nematode","Inulin","Maltose",0,0.705,0.35,0.588086597233644,0.345845845845846,-0.35,3
+"Nematode","Inulin","Melezitose",0,0.792,0.229,0.469872088743075,0.22077977977978,-0.229,3
+"Nematode","Inulin","Melibiose",0,0.943,0.058,0.238102273598327,0.0566926926926927,-0.058,3
+"Nematode","Inulin","Methanol",0,0.948,0.053,0.228567808851647,0.0522432432432432,-0.053,3
+"Nematode","Inulin","Methyl-?-D-glucoside",0,0.776,0.248,0.486551880823343,0.236732732732733,-0.248,3
+"Nematode","Inulin","myo-Inositol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Inulin","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Inulin","Raffinose",0,0.841,0.174,0.424150803257407,0.179903903903904,-0.174,3
+"Nematode","Inulin","Ribitol",0,0.709,0.331,0.560136369782174,0.313752752752753,-0.331,3
+"Nematode","Inulin","Salicin",0,0.631,0.443,0.648977790199458,0.421172172172172,-0.443,3
+"Nematode","L-Arabinose","Citrate",0,0.677,0.369,0.573731791143012,0.329168168168168,-0.369,3
+"Nematode","L-Arabinose","D-Arabinose",0,0.847,0.169,0.417867938006272,0.174613613613614,-0.169,3
+"Nematode","L-Arabinose","D-Gluconate",0,0.693,0.36,0.588852058455048,0.346746746746747,-0.36,3
+"Nematode","L-Arabinose","D-Glucosamine",0,0.802,0.213,0.447024418606893,0.199830830830831,-0.213,3
+"Nematode","L-Arabinose","D-Ribose",0,0.794,0.224,0.458294702166667,0.210034034034034,-0.224,3
+"Nematode","L-Arabinose","Erythritol",0,0.87,0.134,0.35237503908218,0.124168168168168,-0.134,3
+"Nematode","L-Arabinose","Galactitol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","L-Arabinose","Methanol",0,0.95,0.051,0.224609548883055,0.0504494494494495,-0.051,3
+"Nematode","L-Arabinose","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","L-Arabinose","Nitrate",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","L-Arabinose","Ribitol",0,0.714,0.322,0.550107824538625,0.302618618618619,-0.322,3
+"Nematode","L-Rhamnose","Citrate",0,0.666,0.381,0.578077134276364,0.334173173173173,-0.381,3
+"Nematode","L-Rhamnose","D-Arabinose",0,0.849,0.165,0.409808422245008,0.167942942942943,-0.165,3
+"Nematode","L-Rhamnose","D-Gluconate",0,0.691,0.369,0.605975417163276,0.367206206206206,-0.369,3
+"Nematode","L-Rhamnose","D-Glucosamine",0,0.804,0.211,0.445732742433936,0.198677677677678,-0.211,3
+"Nematode","L-Rhamnose","D-Ribose",0,0.793,0.227,0.464420807766714,0.215686686686687,-0.227,3
+"Nematode","L-Rhamnose","Erythritol",0,0.868,0.136,0.3544427028867,0.12562962962963,-0.136,3
+"Nematode","L-Rhamnose","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","L-Rhamnose","L-Arabinose",0,0.847,0.166,0.405719864695591,0.164608608608609,-0.166,3
+"Nematode","L-Rhamnose","Methanol",0,0.949,0.052,0.226599530774773,0.0513473473473473,-0.052,3
+"Nematode","L-Rhamnose","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","L-Rhamnose","Nitrate",0,0.905,0.098,0.307393055371279,0.0944904904904905,-0.098,3
+"Nematode","L-Rhamnose","Ribitol",0,0.707,0.333,0.560736502668968,0.314425425425425,-0.333,3
+"Nematode","Lactose","Cellobiose",0,0.627,0.436,0.618293042404883,0.382286286286286,-0.436,3
+"Nematode","Lactose","Citrate",0,0.664,0.386,0.584247674659767,0.341345345345345,-0.386,3
+"Nematode","Lactose","D-Arabinose",0,0.843,0.173,0.421008608282833,0.177248248248248,-0.173,3
+"Nematode","Lactose","D-Gluconate",0,0.694,0.364,0.601552878694688,0.361865865865866,-0.364,3
+"Nematode","Lactose","D-Glucosamine",0,0.804,0.211,0.445732742433936,0.198677677677678,-0.211,3
+"Nematode","Lactose","D-Ribose",0,0.788,0.231,0.464601823990021,0.215854854854855,-0.231,3
+"Nematode","Lactose","Erythritol",0,0.867,0.137,0.355467800732158,0.126357357357357,-0.137,3
+"Nematode","Lactose","Galactitol",0,0.956,0.045,0.212179216748531,0.04502002002002,-0.045,3
+"Nematode","Lactose","L-Arabinose",0,0.844,0.169,0.408173499391626,0.166605605605606,-0.169,3
+"Nematode","Lactose","L-Rhamnose",0,0.898,0.105,0.316346447862269,0.100075075075075,-0.105,3
+"Nematode","Lactose","Maltose",0,0.702,0.352,0.586890484196533,0.34444044044044,-0.352,3
+"Nematode","Lactose","Melezitose",0,0.79,0.231,0.471021083244541,0.221860860860861,-0.231,3
+"Nematode","Lactose","Methanol",0,0.948,0.053,0.228567808851647,0.0522432432432432,-0.053,3
+"Nematode","Lactose","Methyl-?-D-glucoside",0,0.774,0.25,0.487583570003889,0.237737737737738,-0.25,3
+"Nematode","Lactose","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Lactose","Nitrate",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Lactose","Ribitol",0,0.705,0.335,0.561328860909619,0.31509009009009,-0.335,3
+"Nematode","Lactose","Salicin",0,0.631,0.443,0.648977790199458,0.421172172172172,-0.443,3
+"Nematode","Lactose_F","Cellobiose",0,0.628,0.435,0.618188609695421,0.382157157157157,-0.435,3
+"Nematode","Lactose_F","Citrate",0,0.662,0.388,0.584634755892769,0.341797797797798,-0.388,3
+"Nematode","Lactose_F","D-Arabinose",0,0.842,0.174,0.421784188776561,0.177901901901902,-0.174,3
+"Nematode","Lactose_F","D-Gluconate",0,0.688,0.371,0.60475178769866,0.365724724724725,-0.371,3
+"Nematode","Lactose_F","D-Glucosamine",0,0.802,0.213,0.447024418606893,0.199830830830831,-0.213,3
+"Nematode","Lactose_F","D-Ribose",0,0.787,0.233,0.467899486994728,0.21892992992993,-0.233,3
+"Nematode","Lactose_F","Erythritol",0,0.867,0.137,0.355467800732158,0.126357357357357,-0.137,3
+"Nematode","Lactose_F","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Lactose_F","Galactose",0,0.622,0.449,0.633877591338265,0.401800800800801,-0.449,3
+"Nematode","Lactose_F","Glucose",5,1,4.978,0.146756729104793,0.0215375375375375,0.0220000000000002,1
+"Nematode","Lactose_F","Inulin",0,0.928,0.072,0.258617251711642,0.0668828828828829,-0.072,3
+"Nematode","Lactose_F","L-Arabinose",0,0.84,0.171,0.404873959304526,0.163922922922923,-0.171,3
+"Nematode","Lactose_F","L-Rhamnose",0,0.896,0.107,0.318830131343718,0.101652652652653,-0.107,3
+"Nematode","Lactose_F","Lactose",0,0.946,0.055,0.23244145290595,0.054029029029029,-0.055,3
+"Nematode","Lactose_F","Maltose",0,0.699,0.356,0.589585966260741,0.347611611611612,-0.356,3
+"Nematode","Lactose_F","Melezitose",0,0.79,0.23,0.468315405810357,0.219319319319319,-0.23,3
+"Nematode","Lactose_F","Melibiose",0,0.943,0.058,0.238102273598327,0.0566926926926927,-0.058,3
+"Nematode","Lactose_F","Methanol",0,0.948,0.053,0.228567808851647,0.0522432432432432,-0.053,3
+"Nematode","Lactose_F","Methyl-?-D-glucoside",0,0.776,0.248,0.486551880823343,0.236732732732733,-0.248,3
+"Nematode","Lactose_F","myo-Inositol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Lactose_F","Nitrate",0,0.905,0.098,0.307393055371279,0.0944904904904905,-0.098,3
+"Nematode","Lactose_F","Raffinose",0,0.839,0.176,0.425682047078809,0.181205205205205,-0.176,3
+"Nematode","Lactose_F","Raffinose_F",0,0.917,0.09,0.309832206195541,0.095995995995996,-0.09,3
+"Nematode","Lactose_F","Ribitol",0,0.706,0.334,0.561033652073348,0.314758758758759,-0.334,3
+"Nematode","Lactose_F","Salicin",0,0.63,0.442,0.645796448622206,0.417053053053053,-0.442,3
+"Nematode","Lactose_F","Trehalose_F",0,0.828,0.19,0.438283118648314,0.192092092092092,-0.19,3
+"Nematode","Maltose","Cellobiose",0,0.646,0.411,0.605347375847493,0.366445445445445,-0.411,3
+"Nematode","Maltose","Citrate",0,0.68,0.364,0.569058720896032,0.323827827827828,-0.364,3
+"Nematode","Maltose","D-Arabinose",0,0.848,0.167,0.413862636973045,0.171282282282282,-0.167,3
+"Nematode","Maltose","D-Gluconate",0,0.701,0.354,0.594169198997253,0.353037037037037,-0.354,3
+"Nematode","Maltose","D-Glucosamine",0,0.813,0.199,0.430795293131883,0.185584584584585,-0.199,3
+"Nematode","Maltose","D-Ribose",0,0.805,0.212,0.448617049672945,0.201257257257257,-0.212,3
+"Nematode","Maltose","Erythritol",0,0.873,0.131,0.349229095238299,0.121960960960961,-0.131,3
+"Nematode","Maltose","Galactitol",0,0.961,0.04,0.201098086615563,0.0404404404404404,-0.04,3
+"Nematode","Maltose","L-Arabinose",0,0.847,0.164,0.399078016512139,0.159263263263263,-0.164,3
+"Nematode","Maltose","L-Rhamnose",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Maltose","Melezitose",0,0.801,0.215,0.45053077361927,0.202977977977978,-0.215,3
+"Nematode","Maltose","Methanol",0,0.954,0.047,0.216420511592219,0.0468378378378378,-0.047,3
+"Nematode","Maltose","Methyl-?-D-glucoside",0,0.791,0.229,0.465591855358076,0.216775775775776,-0.229,3
+"Nematode","Maltose","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Maltose","Nitrate",0,0.913,0.089,0.291828998155023,0.0851641641641642,-0.089,3
+"Nematode","Maltose","Ribitol",0,0.723,0.304,0.521397982213065,0.271855855855856,-0.304,3
+"Nematode","Maltose","Salicin",0,0.656,0.41,0.631108784836892,0.398298298298298,-0.41,3
+"Nematode","Maltose_F","Cellobiose",0,0.633,0.428,0.610892125656559,0.373189189189189,-0.428,3
+"Nematode","Maltose_F","Citrate",0,0.662,0.386,0.580810934247403,0.337341341341341,-0.386,3
+"Nematode","Maltose_F","D-Arabinose",0,0.843,0.173,0.421008608282833,0.177248248248248,-0.173,3
+"Nematode","Maltose_F","D-Gluconate",0,0.694,0.365,0.603439424581407,0.364139139139139,-0.365,3
+"Nematode","Maltose_F","D-Glucosamine",0,0.806,0.209,0.444428303010189,0.197516516516517,-0.209,3
+"Nematode","Maltose_F","D-Ribose",0,0.789,0.23,0.464020813450556,0.215315315315315,-0.23,3
+"Nematode","Maltose_F","Erythritol",0,0.869,0.135,0.353411799321839,0.1248998998999,-0.135,3
+"Nematode","Maltose_F","Galactitol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Maltose_F","Galactose",0,0.628,0.443,0.63336573332645,0.401152152152152,-0.443,3
+"Nematode","Maltose_F","Glucose",5,1,4.907,0.297387692145185,0.0884394394394394,0.093,1
+"Nematode","Maltose_F","Inulin",0,0.928,0.072,0.258617251711642,0.0668828828828829,-0.072,3
+"Nematode","Maltose_F","L-Arabinose",0,0.843,0.169,0.405713696593551,0.164603603603604,-0.169,3
+"Nematode","Maltose_F","L-Rhamnose",0,0.897,0.106,0.3175922934595,0.100864864864865,-0.106,3
+"Nematode","Maltose_F","Lactose",0,0.946,0.055,0.23244145290595,0.054029029029029,-0.055,3
+"Nematode","Maltose_F","Lactose_F",0,0.978,0.022,0.146756729104793,0.0215375375375375,-0.022,3
+"Nematode","Maltose_F","Maltose",0,0.704,0.35,0.586381994815533,0.343843843843844,-0.35,3
+"Nematode","Maltose_F","Melezitose",0,0.792,0.228,0.467155471159478,0.218234234234234,-0.228,3
+"Nematode","Maltose_F","Melibiose",0,0.944,0.057,0.236234643536478,0.0558068068068068,-0.057,3
+"Nematode","Maltose_F","Methanol",0,0.951,0.05,0.222597281091997,0.0495495495495495,-0.05,3
+"Nematode","Maltose_F","Methyl-?-D-glucoside",0,0.78,0.243,0.481853902322253,0.232183183183183,-0.243,3
+"Nematode","Maltose_F","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Maltose_F","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Maltose_F","Raffinose",0,0.843,0.172,0.422604536883591,0.178594594594595,-0.172,3
+"Nematode","Maltose_F","Raffinose_F",0,0.919,0.088,0.307165021365308,0.0943503503503503,-0.088,3
+"Nematode","Maltose_F","Ribitol",0,0.714,0.324,0.554374721042844,0.307331331331331,-0.324,3
+"Nematode","Maltose_F","Salicin",0,0.636,0.437,0.646876687978048,0.418449449449449,-0.437,3
+"Nematode","Maltose_F","Trehalose_F",0,0.829,0.189,0.437573388668084,0.19147047047047,-0.189,3
+"Nematode","Melezitose","Cellobiose",0,0.635,0.423,0.608639007492488,0.370441441441441,-0.423,3
+"Nematode","Melezitose","Citrate",0,0.673,0.373,0.574631361136165,0.330201201201201,-0.373,3
+"Nematode","Melezitose","D-Arabinose",0,0.846,0.168,0.412245007181343,0.169945945945946,-0.168,3
+"Nematode","Melezitose","D-Gluconate",0,0.696,0.356,0.587885711350097,0.34560960960961,-0.356,3
+"Nematode","Melezitose","D-Glucosamine",0,0.809,0.206,0.442447465536599,0.19575975975976,-0.206,3
+"Nematode","Melezitose","D-Ribose",0,0.793,0.225,0.458896050958804,0.210585585585586,-0.225,3
+"Nematode","Melezitose","Erythritol",0,0.87,0.134,0.35237503908218,0.124168168168168,-0.134,3
+"Nematode","Melezitose","Galactitol",0,0.956,0.045,0.212179216748531,0.04502002002002,-0.045,3
+"Nematode","Melezitose","L-Arabinose",0,0.846,0.166,0.403245094956661,0.162606606606607,-0.166,3
+"Nematode","Melezitose","L-Rhamnose",0,0.9,0.102,0.309340737200408,0.0956916916916917,-0.102,3
+"Nematode","Melezitose","Methanol",0,0.951,0.049,0.215976030257169,0.0466456456456456,-0.049,3
+"Nematode","Melezitose","Methyl-?-D-glucoside",0,0.782,0.241,0.480780771402258,0.23115015015015,-0.241,3
+"Nematode","Melezitose","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Melezitose","Nitrate",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Melezitose","Ribitol",0,0.723,0.316,0.553579669469942,0.30645045045045,-0.316,3
+"Nematode","Melezitose","Salicin",0,0.637,0.431,0.638472118926619,0.407646646646647,-0.431,3
+"Nematode","Melibiose","Cellobiose",0,0.627,0.434,0.614834955107484,0.378022022022022,-0.434,3
+"Nematode","Melibiose","Citrate",0,0.664,0.386,0.584247674659767,0.341345345345345,-0.386,3
+"Nematode","Melibiose","D-Arabinose",0,0.843,0.173,0.421008608282833,0.177248248248248,-0.173,3
+"Nematode","Melibiose","D-Gluconate",0,0.689,0.371,0.606404754868171,0.367726726726727,-0.371,3
+"Nematode","Melibiose","D-Glucosamine",0,0.803,0.212,0.446380168976239,0.199255255255255,-0.212,3
+"Nematode","Melibiose","D-Ribose",0,0.791,0.228,0.46285011637703,0.21423023023023,-0.228,3
+"Nematode","Melibiose","Erythritol",0,0.866,0.138,0.356487142942187,0.127083083083083,-0.138,3
+"Nematode","Melibiose","Galactitol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Melibiose","Galactose",0,0.628,0.442,0.631692199599643,0.399035035035035,-0.442,3
+"Nematode","Melibiose","L-Arabinose",0,0.839,0.174,0.412181869923816,0.169893893893894,-0.174,3
+"Nematode","Melibiose","L-Rhamnose",0,0.898,0.105,0.316346447862269,0.100075075075075,-0.105,3
+"Nematode","Melibiose","Lactose",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Nematode","Melibiose","Maltose",0,0.699,0.355,0.587639617725286,0.34532032032032,-0.355,3
+"Nematode","Melibiose","Melezitose",0,0.789,0.231,0.468891094881166,0.219858858858859,-0.231,3
+"Nematode","Melibiose","Methanol",0,0.95,0.051,0.224609548883055,0.0504494494494495,-0.051,3
+"Nematode","Melibiose","Methyl-?-D-glucoside",0,0.775,0.249,0.487069026151567,0.237236236236236,-0.249,3
+"Nematode","Melibiose","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Melibiose","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Melibiose","Ribitol",0,0.708,0.33,0.55444333110554,0.307407407407407,-0.33,3
+"Nematode","Melibiose","Salicin",0,0.631,0.442,0.647344618464582,0.419055055055055,-0.442,3
+"Nematode","Methanol","Citrate",0,0.661,0.386,0.57908491548247,0.335339339339339,-0.386,3
+"Nematode","Methanol","D-Gluconate",0,0.69,0.37,0.606190949674661,0.367467467467467,-0.37,3
+"Nematode","Methanol","D-Glucosamine",0,0.805,0.21,0.445082125116363,0.198098098098098,-0.21,3
+"Nematode","Methanol","Erythritol",0,0.866,0.138,0.356487142942187,0.127083083083083,-0.138,3
+"Nematode","Methanol","Galactitol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Methanol","myo-Inositol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Methanol","Nitrate",0,0.905,0.098,0.307393055371279,0.0944904904904905,-0.098,3
+"Nematode","Methanol","Ribitol",0,0.705,0.334,0.559246597447635,0.312756756756757,-0.334,3
+"Nematode","Methyl-?-D-glucoside","Cellobiose",0,0.64,0.416,0.601086770196538,0.361305305305305,-0.416,3
+"Nematode","Methyl-?-D-glucoside","Citrate",0,0.674,0.371,0.57243924279061,0.327686686686687,-0.371,3
+"Nematode","Methyl-?-D-glucoside","D-Arabinose",0,0.849,0.166,0.413055219812817,0.170614614614615,-0.166,3
+"Nematode","Methyl-?-D-glucoside","D-Gluconate",0,0.701,0.353,0.590541903457951,0.34873973973974,-0.353,3
+"Nematode","Methyl-?-D-glucoside","D-Glucosamine",0,0.805,0.209,0.442170232506118,0.195514514514515,-0.209,3
+"Nematode","Methyl-?-D-glucoside","D-Ribose",0,0.798,0.218,0.450198488090174,0.202678678678679,-0.218,3
+"Nematode","Methyl-?-D-glucoside","Erythritol",0,0.871,0.132,0.347414301226499,0.120696696696697,-0.132,3
+"Nematode","Methyl-?-D-glucoside","Galactitol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Methyl-?-D-glucoside","L-Arabinose",0,0.844,0.167,0.401587191369785,0.161272272272272,-0.167,3
+"Nematode","Methyl-?-D-glucoside","L-Rhamnose",0,0.903,0.099,0.305437869774349,0.0932922922922923,-0.099,3
+"Nematode","Methyl-?-D-glucoside","Methanol",0,0.952,0.049,0.220562117435537,0.0486476476476476,-0.049,3
+"Nematode","Methyl-?-D-glucoside","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Methyl-?-D-glucoside","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Methyl-?-D-glucoside","Ribitol",0,0.715,0.321,0.549782921943981,0.302261261261261,-0.321,3
+"Nematode","Methyl-?-D-glucoside","Salicin",0,0.645,0.422,0.634285675637026,0.402318318318318,-0.422,3
+"Nematode","myo-Inositol","Citrate",0,0.662,0.386,0.580810934247403,0.337341341341341,-0.386,3
+"Nematode","myo-Inositol","D-Gluconate",0,0.689,0.371,0.606404754868171,0.367726726726727,-0.371,3
+"Nematode","myo-Inositol","D-Glucosamine",0,0.805,0.21,0.445082125116363,0.198098098098098,-0.21,3
+"Nematode","myo-Inositol","Nitrate",0,0.906,0.097,0.306079539800825,0.0936846846846847,-0.097,3
+"Nematode","Raffinose","Cellobiose",0,0.632,0.428,0.61252852275726,0.375191191191191,-0.428,3
+"Nematode","Raffinose","Citrate",0,0.678,0.367,0.5715222109749,0.326637637637638,-0.367,3
+"Nematode","Raffinose","D-Arabinose",0,0.847,0.169,0.417867938006272,0.174613613613614,-0.169,3
+"Nematode","Raffinose","D-Gluconate",0,0.7,0.354,0.5907901768251,0.349033033033033,-0.354,3
+"Nematode","Raffinose","D-Glucosamine",0,0.807,0.208,0.443771261950268,0.196932932932933,-0.208,3
+"Nematode","Raffinose","D-Ribose",0,0.798,0.222,0.461442227076076,0.212928928928929,-0.222,3
+"Nematode","Raffinose","Erythritol",0,0.869,0.134,0.349522769166997,0.122166166166166,-0.134,3
+"Nematode","Raffinose","Galactitol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Raffinose","Galactose",0,0.633,0.435,0.627828933045594,0.394169169169169,-0.435,3
+"Nematode","Raffinose","L-Arabinose",0,0.843,0.168,0.402415131348136,0.161937937937938,-0.168,3
+"Nematode","Raffinose","L-Rhamnose",0,0.901,0.101,0.308048525225968,0.0948938938938939,-0.101,3
+"Nematode","Raffinose","Lactose",0,0.949,0.052,0.226599530774773,0.0513473473473473,-0.052,3
+"Nematode","Raffinose","Maltose",0,0.704,0.349,0.584414699114029,0.341540540540541,-0.349,3
+"Nematode","Raffinose","Melezitose",0,0.797,0.223,0.464205220227527,0.215486486486486,-0.223,3
+"Nematode","Raffinose","Melibiose",0,0.944,0.057,0.236234643536478,0.0558068068068068,-0.057,3
+"Nematode","Raffinose","Methanol",0,0.951,0.05,0.222597281091997,0.0495495495495495,-0.05,3
+"Nematode","Raffinose","Methyl-?-D-glucoside",0,0.78,0.244,0.484457117502363,0.234698698698699,-0.244,3
+"Nematode","Raffinose","myo-Inositol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Raffinose","Nitrate",0,0.909,0.094,0.302084847775017,0.0912552552552553,-0.094,3
+"Nematode","Raffinose","Ribitol",0,0.715,0.324,0.556177429723046,0.309333333333333,-0.324,3
+"Nematode","Raffinose","Salicin",0,0.642,0.426,0.63791138172236,0.406930930930931,-0.426,3
+"Nematode","Raffinose_F","Cellobiose",0,0.628,0.433,0.613096148158579,0.375886886886887,-0.433,3
+"Nematode","Raffinose_F","Citrate",0,0.664,0.384,0.580414404439518,0.336880880880881,-0.384,3
+"Nematode","Raffinose_F","D-Arabinose",0,0.844,0.17,0.413849334022989,0.171271271271271,-0.17,3
+"Nematode","Raffinose_F","D-Gluconate",0,0.69,0.37,0.606190949674661,0.367467467467467,-0.37,3
+"Nematode","Raffinose_F","D-Glucosamine",0,0.806,0.209,0.444428303010189,0.197516516516517,-0.209,3
+"Nematode","Raffinose_F","D-Ribose",0,0.788,0.232,0.467326860339093,0.218394394394394,-0.232,3
+"Nematode","Raffinose_F","Erythritol",0,0.868,0.135,0.350567964734227,0.122897897897898,-0.135,3
+"Nematode","Raffinose_F","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Raffinose_F","Galactose",0,0.627,0.441,0.628421764354095,0.394913913913914,-0.441,3
+"Nematode","Raffinose_F","Glucose",5,1,4.91,0.309832206195541,0.095995995995996,0.0899999999999999,1
+"Nematode","Raffinose_F","Inulin",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Nematode","Raffinose_F","L-Arabinose",0,0.841,0.171,0.407338833067662,0.165924924924925,-0.171,3
+"Nematode","Raffinose_F","L-Rhamnose",0,0.898,0.105,0.316346447862269,0.100075075075075,-0.105,3
+"Nematode","Raffinose_F","Lactose",0,0.946,0.055,0.23244145290595,0.054029029029029,-0.055,3
+"Nematode","Raffinose_F","Maltose",0,0.703,0.352,0.588593614000732,0.346442442442442,-0.352,3
+"Nematode","Raffinose_F","Melezitose",0,0.796,0.225,0.467539937966366,0.218593593593594,-0.225,3
+"Nematode","Raffinose_F","Melibiose",0,0.943,0.058,0.238102273598327,0.0566926926926927,-0.058,3
+"Nematode","Raffinose_F","Methanol",0,0.949,0.052,0.226599530774773,0.0513473473473473,-0.052,3
+"Nematode","Raffinose_F","Methyl-?-D-glucoside",0,0.777,0.246,0.483443603451031,0.233717717717718,-0.246,3
+"Nematode","Raffinose_F","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Raffinose_F","Nitrate",0,0.908,0.095,0.303425554406789,0.0920670670670671,-0.095,3
+"Nematode","Raffinose_F","Raffinose",0,0.842,0.172,0.417840388893403,0.174590590590591,-0.172,3
+"Nematode","Raffinose_F","Ribitol",0,0.711,0.326,0.551387366583628,0.304028028028028,-0.326,3
+"Nematode","Raffinose_F","Salicin",0,0.633,0.44,0.645613519697982,0.416816816816817,-0.44,3
+"Nematode","Raffinose_F","Trehalose_F",0,0.83,0.188,0.436860214309849,0.190846846846847,-0.188,3
+"Nematode","Ribitol","Citrate",0,0.679,0.367,0.573271000173251,0.32863963963964,-0.367,3
+"Nematode","Ribitol","D-Gluconate",0,0.698,0.354,0.585685092030715,0.343027027027027,-0.354,3
+"Nematode","Ribitol","D-Glucosamine",0,0.812,0.201,0.434497166605017,0.188787787787788,-0.201,3
+"Nematode","Ribitol","Galactitol",0,0.957,0.044,0.210019304132044,0.0441081081081081,-0.044,3
+"Nematode","Ribitol","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Ribitol","Nitrate",0,0.908,0.095,0.303425554406789,0.0920670670670671,-0.095,3
+"Nematode","Salicin","Citrate",0,0.686,0.362,0.575575613874743,0.331287287287287,-0.362,3
+"Nematode","Salicin","D-Arabinose",0,0.852,0.161,0.404032476717209,0.163242242242242,-0.161,3
+"Nematode","Salicin","D-Gluconate",0,0.712,0.344,0.593309376308866,0.352016016016016,-0.344,3
+"Nematode","Salicin","D-Glucosamine",0,0.816,0.194,0.420167276855945,0.176540540540541,-0.194,3
+"Nematode","Salicin","D-Ribose",0,0.806,0.212,0.450842832103671,0.203259259259259,-0.212,3
+"Nematode","Salicin","Erythritol",0,0.874,0.13,0.348168380559208,0.121221221221221,-0.13,3
+"Nematode","Salicin","Galactitol",0,0.959,0.042,0.205616823918371,0.0422782782782783,-0.042,3
+"Nematode","Salicin","L-Arabinose",0,0.848,0.161,0.391448888403368,0.153232232232232,-0.161,3
+"Nematode","Salicin","L-Rhamnose",0,0.908,0.094,0.298752829699157,0.0892532532532533,-0.094,3
+"Nematode","Salicin","Methanol",0,0.954,0.047,0.216420511592219,0.0468378378378378,-0.047,3
+"Nematode","Salicin","myo-Inositol",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Nematode","Salicin","Nitrate",0,0.911,0.092,0.29937539248513,0.0896256256256256,-0.092,3
+"Nematode","Salicin","Ribitol",0,0.73,0.301,0.527899306381129,0.278677677677678,-0.301,3
+"Nematode","Sucrose_F","Cellobiose",0,0.632,0.429,0.614277084332743,0.377336336336336,-0.429,3
+"Nematode","Sucrose_F","Citrate",0,0.666,0.382,0.578282293011303,0.33441041041041,-0.382,3
+"Nematode","Sucrose_F","D-Arabinose",0,0.849,0.167,0.416274289722875,0.173284284284284,-0.167,3
+"Nematode","Sucrose_F","D-Gluconate",0,0.699,0.357,0.594899071191832,0.353904904904905,-0.357,3
+"Nematode","Sucrose_F","D-Glucosamine",0,0.809,0.206,0.442447465536599,0.19575975975976,-0.206,3
+"Nematode","Sucrose_F","D-Ribose",0,0.79,0.227,0.457909031010179,0.209680680680681,-0.227,3
+"Nematode","Sucrose_F","Erythritol",0,0.868,0.136,0.3544427028867,0.12562962962963,-0.136,3
+"Nematode","Sucrose_F","Galactitol",0,0.958,0.042,0.200689502157627,0.0402762762762763,-0.042,3
+"Nematode","Sucrose_F","Galactose",0,0.63,0.437,0.626437086564504,0.392423423423423,-0.437,3
+"Nematode","Sucrose_F","Glucose",5,1,4.856,0.376039100899634,0.141405405405405,0.144,1
+"Nematode","Sucrose_F","Inulin",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Nematode","Sucrose_F","L-Arabinose",0,0.844,0.168,0.40489497396231,0.16393993993994,-0.168,3
+"Nematode","Sucrose_F","L-Rhamnose",0,0.899,0.104,0.315092499566847,0.0992832832832833,-0.104,3
+"Nematode","Sucrose_F","Lactose",0,0.946,0.055,0.23244145290595,0.054029029029029,-0.055,3
+"Nematode","Sucrose_F","Lactose_F",0,0.978,0.022,0.146756729104793,0.0215375375375375,-0.022,3
+"Nematode","Sucrose_F","Maltose",0,0.702,0.351,0.584928321370355,0.342141141141141,-0.351,3
+"Nematode","Sucrose_F","Maltose_F",0,0.912,0.09,0.293233671303256,0.085985985985986,-0.09,3
+"Nematode","Sucrose_F","Melezitose",0,0.796,0.224,0.464801075773325,0.21604004004004,-0.224,3
+"Nematode","Sucrose_F","Melibiose",0,0.943,0.058,0.238102273598327,0.0566926926926927,-0.058,3
+"Nematode","Sucrose_F","Methanol",0,0.952,0.049,0.220562117435537,0.0486476476476476,-0.049,3
+"Nematode","Sucrose_F","Methyl-?-D-glucoside",0,0.777,0.246,0.483443603451031,0.233717717717718,-0.246,3
+"Nematode","Sucrose_F","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Sucrose_F","Nitrate",0,0.907,0.096,0.304757078468863,0.0928768768768769,-0.096,3
+"Nematode","Sucrose_F","Raffinose",0,0.846,0.169,0.420256606867299,0.176615615615616,-0.169,3
+"Nematode","Sucrose_F","Raffinose_F",0,0.918,0.089,0.308503118580954,0.0951741741741742,-0.089,3
+"Nematode","Sucrose_F","Ribitol",0,0.712,0.326,0.555006335127836,0.308032032032032,-0.326,3
+"Nematode","Sucrose_F","Salicin",0,0.635,0.435,0.642018058303026,0.412187187187187,-0.435,3
+"Nematode","Sucrose_F","Trehalose_F",0,0.833,0.184,0.431659970729659,0.18633033033033,-0.184,3
+"Nematode","Trehalose_F","Cellobiose",0,0.633,0.425,0.608888943688211,0.370745745745746,-0.425,3
+"Nematode","Trehalose_F","Citrate",0,0.67,0.376,0.575286845803861,0.330954954954955,-0.376,3
+"Nematode","Trehalose_F","D-Arabinose",0,0.845,0.171,0.419445985717988,0.175934934934935,-0.171,3
+"Nematode","Trehalose_F","D-Gluconate",0,0.698,0.36,0.600633632725275,0.360760760760761,-0.36,3
+"Nematode","Trehalose_F","D-Glucosamine",0,0.808,0.207,0.44311098761749,0.196347347347347,-0.207,3
+"Nematode","Trehalose_F","D-Ribose",0,0.793,0.225,0.458896050958804,0.210585585585586,-0.225,3
+"Nematode","Trehalose_F","Erythritol",0,0.872,0.132,0.350283740271653,0.122698698698699,-0.132,3
+"Nematode","Trehalose_F","Galactitol",0,0.956,0.044,0.205197724417465,0.0421061061061061,-0.044,3
+"Nematode","Trehalose_F","Galactose",0,0.636,0.434,0.630905731501975,0.398042042042042,-0.434,3
+"Nematode","Trehalose_F","Glucose",5,1,4.81,0.438283118648314,0.192092092092092,0.19,1
+"Nematode","Trehalose_F","Inulin",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Nematode","Trehalose_F","L-Arabinose",0,0.848,0.164,0.401578467133467,0.161265265265265,-0.164,3
+"Nematode","Trehalose_F","L-Rhamnose",0,0.898,0.105,0.316346447862269,0.100075075075075,-0.105,3
+"Nematode","Trehalose_F","Lactose",0,0.947,0.054,0.230514939075838,0.0531371371371371,-0.054,3
+"Nematode","Trehalose_F","Maltose",0,0.71,0.341,0.577106621043332,0.333052052052052,-0.341,3
+"Nematode","Trehalose_F","Melezitose",0,0.795,0.225,0.465394017571769,0.216591591591592,-0.225,3
+"Nematode","Trehalose_F","Melibiose",0,0.946,0.055,0.23244145290595,0.054029029029029,-0.055,3
+"Nematode","Trehalose_F","Methanol",0,0.95,0.051,0.224609548883055,0.0504494494494495,-0.051,3
+"Nematode","Trehalose_F","Methyl-?-D-glucoside",0,0.782,0.24,0.478151261243373,0.228628628628629,-0.24,3
+"Nematode","Trehalose_F","myo-Inositol",0,0.958,0.043,0.207832129840875,0.0431941941941942,-0.043,3
+"Nematode","Trehalose_F","Nitrate",0,0.91,0.093,0.300734835763071,0.0904414414414414,-0.093,3
+"Nematode","Trehalose_F","Raffinose",0,0.842,0.172,0.420229214349256,0.176592592592593,-0.172,3
+"Nematode","Trehalose_F","Ribitol",0,0.714,0.323,0.550430716779118,0.302973973973974,-0.323,3
+"Nematode","Trehalose_F","Salicin",0,0.642,0.427,0.630133373237815,0.397068068068068,-0.427,3
+"Mushroom.Fungus","Glucose","Growth at 37°C",0,1,0,0,0,0,3
+"Soil","Glucose","D-Glucosamine",0,1,0,0,0,0,3
+"Insect.Frass","Lactose_F","Glucose",78,0.975,76.868,1.13484089803984,1.28786386386386,1.13200000000001,1
+"Unknown","Glucose","L-Rhamnose",0,1,0,0,0,0,3
+"Unknown","Glucose","Lactose",0,1,0,0,0,0,3
+"Unknown","Glucose","Methanol",0,1,0,0,0,0,3
+"Unknown","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Unknown","L-Rhamnose","Methanol",0,0.88,0.122,0.333507462026305,0.111227227227227,-0.122,3
+"Unknown","L-Rhamnose","Vitamin-free",0,0.757,0.256,0.465489721348045,0.216680680680681,-0.256,3
+"Unknown","Lactose","L-Rhamnose",0,0.75,0.268,0.482087552637909,0.232408408408408,-0.268,3
+"Unknown","Lactose","Methanol",0,0.873,0.131,0.349229095238299,0.121960960960961,-0.131,3
+"Unknown","Lactose","Vitamin-free",0,0.735,0.283,0.48902980497118,0.23915015015015,-0.283,3
+"Unknown","Lactose_F","Glucose",3,1,2.958,0.200689502157627,0.0402762762762763,0.0419999999999998,1
+"Unknown","Lactose_F","L-Rhamnose",0,0.735,0.287,0.49887862239214,0.24887987987988,-0.287,3
+"Unknown","Lactose_F","Lactose",0,0.883,0.119,0.330072640411089,0.108947947947948,-0.119,3
+"Unknown","Lactose_F","Methanol",0,0.864,0.14,0.358508756557673,0.128528528528529,-0.14,3
+"Unknown","Lactose_F","Vitamin-free",0,0.722,0.298,0.499445137573133,0.249445445445445,-0.298,3
+"Unknown","Methanol","Vitamin-free",0,0.741,0.279,0.491325147331582,0.2414004004004,-0.279,3
+"Air","Glucose","Nitrate",0,1,0,0,0,0,3
+"Air","Lactose_F","Glucose",9,1,8.85,0.384249460178733,0.147647647647648,0.15,1
+"Air","Lactose_F","Nitrate",0,0.41,0.799,0.809477766374256,0.655254254254254,-0.799,3
+"Leather.Tanning","Lactose_F","Glucose",18,1,17.789,0.447972855963037,0.20067967967968,0.210999999999999,1
+"Industrial","Glucose","Growth at 19°C",0,1,0,0,0,0,3
+"Fodder","D-Arabinose","Galactitol",0,0.883,0.121,0.338339287511033,0.114473473473473,-0.121,3
+"Fodder","D-Arabinose","Methanol",0,0.88,0.129,0.361233289564361,0.130489489489489,-0.129,3
+"Fodder","D-Arabinose","myo-Inositol",0,0.899,0.107,0.328113789193107,0.107658658658659,-0.107,3
+"Fodder","D-Arabinose","Nitrate",0,0.739,0.291,0.516319267106686,0.266585585585586,-0.291,3
+"Fodder","D-Arabinose","Starch formation",0,0.765,0.261,0.495100115253596,0.245124124124124,-0.261,3
+"Fodder","Galactitol","myo-Inositol",0,0.891,0.115,0.337474278855276,0.113888888888889,-0.115,3
+"Fodder","Galactitol","Nitrate",0,0.718,0.314,0.528851286926376,0.279683683683684,-0.314,3
+"Fodder","Galactitol","Starch formation",0,0.741,0.295,0.531278888397852,0.282257257257257,-0.295,3
+"Fodder","Glucose","D-Arabinose",0,1,0,0,0,0,3
+"Fodder","Glucose","Galactitol",0,1,0,0,0,0,3
+"Fodder","Glucose","Inulin",0,1,0,0,0,0,3
+"Fodder","Glucose","L-Rhamnose",0,1,0,0,0,0,3
+"Fodder","Glucose","Lactose",0,1,0,0,0,0,3
+"Fodder","Glucose","Melibiose",0,1,0,0,0,0,3
+"Fodder","Glucose","Methanol",0,1,0,0,0,0,3
+"Fodder","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Fodder","Glucose","Nitrate",0,1,0,0,0,0,3
+"Fodder","Glucose","Starch formation",0,1,0,0,0,0,3
+"Fodder","Inulin","D-Arabinose",0,0.632,0.426,0.607365534824699,0.368892892892893,-0.426,3
+"Fodder","Inulin","Galactitol",0,0.875,0.13,0.35103165558568,0.123223223223223,-0.13,3
+"Fodder","Inulin","L-Rhamnose",0,0.71,0.315,0.5177287349984,0.268043043043043,-0.315,3
+"Fodder","Inulin","Lactose",0,0.856,0.151,0.377281514709297,0.142341341341341,-0.151,3
+"Fodder","Inulin","Melibiose",0,0.849,0.158,0.383644605309632,0.147183183183183,-0.158,3
+"Fodder","Inulin","Methanol",0,0.865,0.145,0.379630239995603,0.144119119119119,-0.145,3
+"Fodder","Inulin","myo-Inositol",0,0.891,0.116,0.341556233526283,0.116660660660661,-0.116,3
+"Fodder","Inulin","Nitrate",0,0.721,0.31,0.525524667523967,0.276176176176176,-0.31,3
+"Fodder","Inulin","Starch formation",0,0.754,0.283,0.528384509793947,0.27919019019019,-0.283,3
+"Fodder","L-Rhamnose","D-Arabinose",0,0.65,0.408,0.604898257479638,0.365901901901902,-0.408,3
+"Fodder","L-Rhamnose","Galactitol",0,0.882,0.123,0.343495253226284,0.117988988988989,-0.123,3
+"Fodder","L-Rhamnose","Methanol",0,0.871,0.135,0.359031898170488,0.128903903903904,-0.135,3
+"Fodder","L-Rhamnose","myo-Inositol",0,0.899,0.107,0.328113789193107,0.107658658658659,-0.107,3
+"Fodder","L-Rhamnose","Nitrate",0,0.732,0.298,0.519100631347589,0.269465465465465,-0.298,3
+"Fodder","L-Rhamnose","Starch formation",0,0.759,0.271,0.507756651179299,0.257816816816817,-0.271,3
+"Fodder","Lactose","D-Arabinose",0,0.633,0.423,0.603684880906782,0.364435435435435,-0.423,3
+"Fodder","Lactose","Galactitol",0,0.872,0.133,0.354170067109625,0.125436436436436,-0.133,3
+"Fodder","Lactose","L-Rhamnose",0,0.709,0.319,0.524894765181093,0.275514514514515,-0.319,3
+"Fodder","Lactose","Methanol",0,0.866,0.143,0.375088911715198,0.140691691691692,-0.143,3
+"Fodder","Lactose","myo-Inositol",0,0.891,0.116,0.341556233526283,0.116660660660661,-0.116,3
+"Fodder","Lactose","Nitrate",0,0.718,0.314,0.528851286926376,0.279683683683684,-0.314,3
+"Fodder","Lactose","Starch formation",0,0.749,0.285,0.52349694273133,0.274049049049049,-0.285,3
+"Fodder","Lactose_F","D-Arabinose",0,0.632,0.432,0.617865485164658,0.381757757757758,-0.432,3
+"Fodder","Lactose_F","Galactitol",0,0.873,0.132,0.353129863790505,0.124700700700701,-0.132,3
+"Fodder","Lactose_F","Glucose",5,1,4.94,0.237605674293474,0.0564564564564565,0.0599999999999996,1
+"Fodder","Lactose_F","Inulin",0,0.803,0.21,0.438283118648314,0.192092092092092,-0.21,3
+"Fodder","Lactose_F","L-Rhamnose",0,0.695,0.332,0.527308310245585,0.278054054054054,-0.332,3
+"Fodder","Lactose_F","Lactose",0,0.851,0.158,0.388827966055925,0.151187187187187,-0.158,3
+"Fodder","Lactose_F","Melibiose",0,0.843,0.166,0.39572793760436,0.156600600600601,-0.166,3
+"Fodder","Lactose_F","Methanol",0,0.859,0.15,0.38163548792748,0.145645645645646,-0.15,3
+"Fodder","Lactose_F","myo-Inositol",0,0.888,0.119,0.34490282393445,0.118957957957958,-0.119,3
+"Fodder","Lactose_F","Nitrate",0,0.713,0.321,0.535018920455385,0.286245245245245,-0.321,3
+"Fodder","Lactose_F","Starch formation",0,0.742,0.295,0.533159693956003,0.284259259259259,-0.295,3
+"Fodder","Melibiose","D-Arabinose",0,0.633,0.43,0.616019057724255,0.379479479479479,-0.43,3
+"Fodder","Melibiose","Galactitol",0,0.877,0.128,0.348909354614831,0.121737737737738,-0.128,3
+"Fodder","Melibiose","L-Rhamnose",0,0.704,0.321,0.519835771402112,0.270229229229229,-0.321,3
+"Fodder","Melibiose","Lactose",0,0.854,0.154,0.382662292929981,0.14643043043043,-0.154,3
+"Fodder","Melibiose","Methanol",0,0.865,0.143,0.372410646584774,0.13868968968969,-0.143,3
+"Fodder","Melibiose","myo-Inositol",0,0.897,0.11,0.334681956507984,0.112012012012012,-0.11,3
+"Fodder","Melibiose","Nitrate",0,0.72,0.315,0.534846764093288,0.286061061061061,-0.315,3
+"Fodder","Melibiose","Starch formation",0,0.748,0.285,0.521581294763383,0.272047047047047,-0.285,3
+"Fodder","Methanol","Galactitol",0,0.874,0.13,0.348168380559208,0.121221221221221,-0.13,3
+"Fodder","Methanol","myo-Inositol",0,0.89,0.116,0.338612844792779,0.114658658658659,-0.116,3
+"Fodder","Methanol","Nitrate",0,0.72,0.314,0.532623401370694,0.283687687687688,-0.314,3
+"Fodder","Methanol","Starch formation",0,0.749,0.287,0.528119219409699,0.27890990990991,-0.287,3
+"Fodder","myo-Inositol","Nitrate",0,0.716,0.316,0.529551153737223,0.280424424424424,-0.316,3
+"Fodder","myo-Inositol","Starch formation",0,0.744,0.292,0.530110381917782,0.281017017017017,-0.292,3
+"Fodder","Nitrate","Starch formation",0,0.754,0.281,0.523749284785491,0.274313313313313,-0.281,3
+"Freshwater","Erythritol","Galactitol",0,0.745,0.289,0.527026334025878,0.277756756756757,-0.289,3
+"Freshwater","Erythritol","myo-Inositol",0,0.813,0.201,0.434497166605017,0.188787787787788,-0.201,3
+"Freshwater","Erythritol","Starch formation",0,0.604,0.484,0.675425939833673,0.4562002002002,-0.484,3
+"Freshwater","Galactitol","myo-Inositol",0,0.801,0.215,0.448303441851583,0.200975975975976,-0.215,3
+"Freshwater","Galactitol","Starch formation",0,0.584,0.509,0.68584939264345,0.470389389389389,-0.509,3
+"Freshwater","Galactose_F","Erythritol",0,0.521,0.634,0.758036027256369,0.574618618618619,-0.634,3
+"Freshwater","Galactose_F","Galactitol",0,0.751,0.279,0.51324694097717,0.263422422422422,-0.279,3
+"Freshwater","Galactose_F","Glucose",12,1,11.071,0.923478105756607,0.852811811811812,0.929,1
+"Freshwater","Galactose_F","L-Arabinose",0,0.419,0.831,0.883866630335267,0.78122022022022,-0.831,3
+"Freshwater","Galactose_F","Lactose_F",0,0.891,0.115,0.337474278855276,0.113888888888889,-0.115,3
+"Freshwater","Galactose_F","Melibiose",0,0.754,0.277,0.520136079830597,0.270541541541542,-0.277,3
+"Freshwater","Galactose_F","myo-Inositol",0,0.815,0.199,0.43311267193028,0.187586586586587,-0.199,3
+"Freshwater","Galactose_F","Starch formation",0,0.602,0.477,0.661746861653993,0.437908908908909,-0.477,3
+"Freshwater","Glucose","Erythritol",0,1,0,0,0,0,3
+"Freshwater","Glucose","Galactitol",0,1,0,0,0,0,3
+"Freshwater","Glucose","L-Arabinose",0,1,0,0,0,0,3
+"Freshwater","Glucose","Melibiose",0,1,0,0,0,0,3
+"Freshwater","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Freshwater","Glucose","Starch formation",0,1,0,0,0,0,3
+"Freshwater","L-Arabinose","Erythritol",0,0.533,0.614,0.753373460888802,0.567571571571572,-0.614,3
+"Freshwater","L-Arabinose","Galactitol",0,0.753,0.28,0.521413340711447,0.271871871871872,-0.28,3
+"Freshwater","L-Arabinose","myo-Inositol",0,0.812,0.198,0.423054340451643,0.178974974974975,-0.198,3
+"Freshwater","L-Arabinose","Starch formation",0,0.613,0.469,0.662931729877578,0.439478478478478,-0.469,3
+"Freshwater","Lactose_F","Erythritol",0,0.496,0.682,0.787080361523203,0.619495495495496,-0.682,3
+"Freshwater","Lactose_F","Galactitol",0,0.729,0.312,0.548595440153267,0.300956956956957,-0.312,3
+"Freshwater","Lactose_F","Glucose",12,1,11.874,0.352488649814782,0.124248248248248,0.125999999999999,1
+"Freshwater","Lactose_F","L-Arabinose",0,0.388,0.909,0.917366099526552,0.84156056056056,-0.909,3
+"Freshwater","Lactose_F","Melibiose",0,0.735,0.302,0.541377030440976,0.293089089089089,-0.302,3
+"Freshwater","Lactose_F","myo-Inositol",0,0.795,0.22,0.449223554371097,0.201801801801802,-0.22,3
+"Freshwater","Lactose_F","Starch formation",0,0.58,0.519,0.694349422928486,0.482121121121121,-0.519,3
+"Freshwater","Melibiose","Erythritol",0,0.504,0.67,0.782120011067171,0.611711711711712,-0.67,3
+"Freshwater","Melibiose","Galactitol",0,0.729,0.312,0.548595440153267,0.300956956956957,-0.312,3
+"Freshwater","Melibiose","L-Arabinose",0,0.395,0.896,0.921972903090993,0.850034034034034,-0.896,3
+"Freshwater","Melibiose","myo-Inositol",0,0.799,0.214,0.440906337444132,0.194398398398398,-0.214,3
+"Freshwater","Melibiose","Starch formation",0,0.587,0.506,0.685882230732386,0.470434434434434,-0.506,3
+"Freshwater","myo-Inositol","Starch formation",0,0.58,0.518,0.692933009861816,0.480156156156156,-0.518,3
+"Seawater.Marine","Glucose","Starch formation",0,1,0,0,0,0,3
+"Brine","Cellobiose","D-Arabinose",0,0.935,0.065,0.246649216167082,0.0608358358358358,-0.065,3
+"Brine","Cellobiose","D-Glucosamine",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Cellobiose","D-Xylose",0,0.855,0.145,0.352277020396022,0.124099099099099,-0.145,3
+"Brine","Cellobiose","Erythritol",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Cellobiose","Galactitol",0,0.984,0.016,0.125537881771837,0.0157597597597598,-0.016,3
+"Brine","Cellobiose","Growth at 37°C",0,0.885,0.115,0.319181573523405,0.101876876876877,-0.115,3
+"Brine","Cellobiose","L-Arabinose",0,0.939,0.061,0.239450070654273,0.0573363363363363,-0.061,3
+"Brine","Cellobiose","L-Rhamnose",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Cellobiose","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Cellobiose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Cellobiose","Ribitol",0,0.888,0.112,0.315524255098646,0.0995555555555555,-0.112,3
+"Brine","Cellobiose","Salicin",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Cellobiose","Starch formation",0,0.965,0.035,0.18387171834953,0.0338088088088088,-0.035,3
+"Brine","Cellobiose","Vitamin-free",0,0.957,0.043,0.202958597236462,0.0411921921921922,-0.043,3
+"Brine","D-Arabinose","D-Glucosamine",0,0.917,0.083,0.276020265899421,0.0761871871871872,-0.083,3
+"Brine","D-Arabinose","Erythritol",0,0.947,0.053,0.224145580463326,0.0502412412412412,-0.053,3
+"Brine","D-Arabinose","Galactitol",0,0.982,0.018,0.133017644294634,0.0176936936936937,-0.018,3
+"Brine","D-Arabinose","Growth at 37°C",0,0.889,0.111,0.314289321768618,0.0987777777777778,-0.111,3
+"Brine","D-Arabinose","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","D-Arabinose","myo-Inositol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","D-Arabinose","Ribitol",0,0.873,0.127,0.333139583331045,0.110981981981982,-0.127,3
+"Brine","D-Arabinose","Starch formation",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","D-Arabinose","Vitamin-free",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","D-Glucosamine","Growth at 37°C",0,0.884,0.116,0.320385153598987,0.102646646646647,-0.116,3
+"Brine","D-Glucosamine","Starch formation",0,0.964,0.036,0.186383311320351,0.0347387387387387,-0.036,3
+"Brine","D-Glucosamine","Vitamin-free",0,0.957,0.043,0.202958597236462,0.0411921921921922,-0.043,3
+"Brine","D-Xylose","D-Arabinose",0,0.937,0.063,0.243084532807191,0.0590900900900901,-0.063,3
+"Brine","D-Xylose","D-Glucosamine",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Brine","D-Xylose","Erythritol",0,0.951,0.049,0.215976030257169,0.0466456456456456,-0.049,3
+"Brine","D-Xylose","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","D-Xylose","Growth at 37°C",0,0.892,0.108,0.310535718448671,0.0964324324324324,-0.108,3
+"Brine","D-Xylose","L-Arabinose",0,0.938,0.062,0.241276219744537,0.0582142142142142,-0.062,3
+"Brine","D-Xylose","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","D-Xylose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","D-Xylose","Ribitol",0,0.879,0.121,0.326290461805836,0.106465465465465,-0.121,3
+"Brine","D-Xylose","Starch formation",0,0.968,0.032,0.176088066055048,0.031007007007007,-0.032,3
+"Brine","D-Xylose","Vitamin-free",0,0.958,0.042,0.200689502157627,0.0402762762762763,-0.042,3
+"Brine","Erythritol","D-Glucosamine",0,0.914,0.086,0.28050433629925,0.0786826826826827,-0.086,3
+"Brine","Erythritol","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Erythritol","Growth at 37°C",0,0.874,0.126,0.332015412645609,0.110234234234234,-0.126,3
+"Brine","Erythritol","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Erythritol","Ribitol",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Erythritol","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Erythritol","Vitamin-free",0,0.958,0.042,0.200689502157627,0.0402762762762763,-0.042,3
+"Brine","Galactitol","D-Glucosamine",0,0.915,0.085,0.279021240863223,0.0778528528528529,-0.085,3
+"Brine","Galactitol","Growth at 37°C",0,0.875,0.125,0.330884397463048,0.109484484484484,-0.125,3
+"Brine","Galactitol","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Galactitol","Starch formation",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Brine","Galactitol","Vitamin-free",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Galactose_F","Cellobiose",0,0.861,0.139,0.346119630761965,0.119798798798799,-0.139,3
+"Brine","Galactose_F","D-Arabinose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Brine","Galactose_F","D-Glucosamine",0,0.921,0.079,0.269873733126868,0.0728318318318318,-0.079,3
+"Brine","Galactose_F","D-Xylose",0,0.843,0.157,0.363982806576744,0.132483483483483,-0.157,3
+"Brine","Galactose_F","Erythritol",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Galactose_F","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Galactose_F","Glucose",1,1,0.909,0.287753022228789,0.0828018018018018,0.091,1
+"Brine","Galactose_F","Growth at 37°C",0,0.887,0.113,0.316751213622507,0.100331331331331,-0.113,3
+"Brine","Galactose_F","Inulin",0,0.965,0.035,0.18387171834953,0.0338088088088088,-0.035,3
+"Brine","Galactose_F","L-Arabinose",0,0.936,0.064,0.244875404979683,0.059963963963964,-0.064,3
+"Brine","Galactose_F","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Galactose_F","Lactose",0,0.984,0.016,0.125537881771837,0.0157597597597598,-0.016,3
+"Brine","Galactose_F","Lactose_F",0,0.994,0.006,0.0772655807586403,0.00596996996996997,-0.006,3
+"Brine","Galactose_F","Melezitose",0,0.905,0.095,0.293361655744341,0.0860610610610611,-0.095,3
+"Brine","Galactose_F","Melibiose",0,0.971,0.029,0.167890402308134,0.0281871871871872,-0.029,3
+"Brine","Galactose_F","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Galactose_F","Methyl-?-D-glucoside",0,0.914,0.086,0.28050433629925,0.0786826826826827,-0.086,3
+"Brine","Galactose_F","myo-Inositol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Galactose_F","Raffinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Galactose_F","Raffinose_F",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Galactose_F","Ribitol",0,0.875,0.125,0.330884397463048,0.109484484484484,-0.125,3
+"Brine","Galactose_F","Salicin",0,0.866,0.134,0.340822769427396,0.11616016016016,-0.134,3
+"Brine","Galactose_F","Soluble Starch",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Galactose_F","Starch formation",0,0.963,0.037,0.188856206322871,0.0356666666666667,-0.037,3
+"Brine","Galactose_F","Sucrose",0,0.878,0.122,0.327449573557858,0.107223223223223,-0.122,3
+"Brine","Galactose_F","Sucrose_F",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Galactose_F","Trehalose",0,0.844,0.156,0.363036906933435,0.131795795795796,-0.156,3
+"Brine","Galactose_F","Trehalose_F",0,0.94,0.06,0.237605674293474,0.0564564564564565,-0.06,3
+"Brine","Galactose_F","Vitamin-free",0,0.957,0.043,0.202958597236462,0.0411921921921922,-0.043,3
+"Brine","Glucose","Cellobiose",0,1,0,0,0,0,3
+"Brine","Glucose","D-Arabinose",0,1,0,0,0,0,3
+"Brine","Glucose","D-Glucosamine",0,1,0,0,0,0,3
+"Brine","Glucose","D-Xylose",0,1,0,0,0,0,3
+"Brine","Glucose","Erythritol",0,1,0,0,0,0,3
+"Brine","Glucose","Galactitol",0,1,0,0,0,0,3
+"Brine","Glucose","Growth at 37°C",0,1,0,0,0,0,3
+"Brine","Glucose","Inulin",0,1,0,0,0,0,3
+"Brine","Glucose","L-Arabinose",0,1,0,0,0,0,3
+"Brine","Glucose","L-Rhamnose",0,1,0,0,0,0,3
+"Brine","Glucose","Lactose",0,1,0,0,0,0,3
+"Brine","Glucose","Melezitose",0,1,0,0,0,0,3
+"Brine","Glucose","Melibiose",0,1,0,0,0,0,3
+"Brine","Glucose","Methanol",0,1,0,0,0,0,3
+"Brine","Glucose","Methyl-?-D-glucoside",0,1,0,0,0,0,3
+"Brine","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Brine","Glucose","Raffinose",0,1,0,0,0,0,3
+"Brine","Glucose","Ribitol",0,1,0,0,0,0,3
+"Brine","Glucose","Salicin",0,1,0,0,0,0,3
+"Brine","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Brine","Glucose","Starch formation",0,1,0,0,0,0,3
+"Brine","Glucose","Sucrose",0,1,0,0,0,0,3
+"Brine","Glucose","Trehalose",0,1,0,0,0,0,3
+"Brine","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Brine","Inulin","Cellobiose",0,0.855,0.145,0.352277020396022,0.124099099099099,-0.145,3
+"Brine","Inulin","D-Arabinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Inulin","D-Glucosamine",0,0.914,0.086,0.28050433629925,0.0786826826826827,-0.086,3
+"Brine","Inulin","D-Xylose",0,0.834,0.166,0.372266816386557,0.138582582582583,-0.166,3
+"Brine","Inulin","Erythritol",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Inulin","Galactitol",0,0.982,0.018,0.133017644294634,0.0176936936936937,-0.018,3
+"Brine","Inulin","Growth at 37°C",0,0.876,0.124,0.32974646735444,0.108732732732733,-0.124,3
+"Brine","Inulin","L-Arabinose",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Brine","Inulin","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Inulin","Lactose",0,0.984,0.016,0.125537881771837,0.0157597597597598,-0.016,3
+"Brine","Inulin","Melezitose",0,0.902,0.098,0.297463417052391,0.0884844844844845,-0.098,3
+"Brine","Inulin","Melibiose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Inulin","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Inulin","Methyl-?-D-glucoside",0,0.911,0.089,0.284886223184204,0.0811601601601602,-0.089,3
+"Brine","Inulin","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Inulin","Raffinose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Brine","Inulin","Ribitol",0,0.868,0.132,0.338660140392534,0.114690690690691,-0.132,3
+"Brine","Inulin","Salicin",0,0.858,0.142,0.349224795737585,0.121957957957958,-0.142,3
+"Brine","Inulin","Soluble Starch",0,0.949,0.051,0.220107808692576,0.0484474474474474,-0.051,3
+"Brine","Inulin","Starch formation",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","Inulin","Sucrose",0,0.867,0.133,0.339744648856206,0.115426426426426,-0.133,3
+"Brine","Inulin","Trehalose",0,0.838,0.162,0.368635174517967,0.135891891891892,-0.162,3
+"Brine","Inulin","Vitamin-free",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","L-Arabinose","D-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","L-Arabinose","D-Glucosamine",0,0.917,0.083,0.276020265899421,0.0761871871871872,-0.083,3
+"Brine","L-Arabinose","Erythritol",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","L-Arabinose","Galactitol",0,0.982,0.018,0.133017644294634,0.0176936936936937,-0.018,3
+"Brine","L-Arabinose","Growth at 37°C",0,0.876,0.124,0.32974646735444,0.108732732732733,-0.124,3
+"Brine","L-Arabinose","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","L-Arabinose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","L-Arabinose","Ribitol",0,0.875,0.125,0.330884397463048,0.109484484484484,-0.125,3
+"Brine","L-Arabinose","Starch formation",0,0.962,0.038,0.191291904148065,0.0365925925925926,-0.038,3
+"Brine","L-Arabinose","Vitamin-free",0,0.956,0.044,0.205197724417465,0.0421061061061061,-0.044,3
+"Brine","L-Rhamnose","D-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","L-Rhamnose","D-Glucosamine",0,0.912,0.088,0.283436653127884,0.0803363363363363,-0.088,3
+"Brine","L-Rhamnose","D-Xylose",0,0.835,0.165,0.37136627864268,0.137912912912913,-0.165,3
+"Brine","L-Rhamnose","Erythritol",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","L-Rhamnose","Galactitol",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Brine","L-Rhamnose","Growth at 37°C",0,0.876,0.124,0.32974646735444,0.108732732732733,-0.124,3
+"Brine","L-Rhamnose","L-Arabinose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Brine","L-Rhamnose","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","L-Rhamnose","myo-Inositol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","L-Rhamnose","Ribitol",0,0.869,0.131,0.337569182469243,0.113952952952953,-0.131,3
+"Brine","L-Rhamnose","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","L-Rhamnose","Vitamin-free",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Lactose","Cellobiose",0,0.858,0.142,0.349224795737585,0.121957957957958,-0.142,3
+"Brine","Lactose","D-Arabinose",0,0.927,0.073,0.260266668512775,0.0677387387387387,-0.073,3
+"Brine","Lactose","D-Glucosamine",0,0.915,0.085,0.279021240863223,0.0778528528528529,-0.085,3
+"Brine","Lactose","D-Xylose",0,0.831,0.169,0.374939434548541,0.14057957957958,-0.169,3
+"Brine","Lactose","Erythritol",0,0.947,0.053,0.224145580463326,0.0502412412412412,-0.053,3
+"Brine","Lactose","Galactitol",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Brine","Lactose","Growth at 37°C",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Lactose","L-Arabinose",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Brine","Lactose","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Lactose","Melezitose",0,0.898,0.102,0.302799748493435,0.0916876876876877,-0.102,3
+"Brine","Lactose","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Lactose","Methyl-?-D-glucoside",0,0.91,0.09,0.286324958712967,0.081981981981982,-0.09,3
+"Brine","Lactose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Lactose","Ribitol",0,0.866,0.134,0.340822769427396,0.11616016016016,-0.134,3
+"Brine","Lactose","Salicin",0,0.855,0.145,0.352277020396022,0.124099099099099,-0.145,3
+"Brine","Lactose","Soluble Starch",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Lactose","Starch formation",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","Lactose","Trehalose",0,0.834,0.166,0.372266816386557,0.138582582582583,-0.166,3
+"Brine","Lactose","Vitamin-free",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Lactose_F","Cellobiose",0,0.851,0.149,0.356266650033266,0.126925925925926,-0.149,3
+"Brine","Lactose_F","D-Arabinose",0,0.928,0.072,0.258617251711642,0.0668828828828829,-0.072,3
+"Brine","Lactose_F","D-Glucosamine",0,0.912,0.088,0.283436653127884,0.0803363363363363,-0.088,3
+"Brine","Lactose_F","D-Xylose",0,0.832,0.168,0.374053359717455,0.139915915915916,-0.168,3
+"Brine","Lactose_F","Erythritol",0,0.946,0.054,0.226130792098589,0.0511351351351351,-0.054,3
+"Brine","Lactose_F","Galactitol",0,0.979,0.021,0.143455845400526,0.0205795795795796,-0.021,3
+"Brine","Lactose_F","Glucose",1,1,0.994,0.0772655807586403,0.00596996996996997,0.00600000000000001,1
+"Brine","Lactose_F","Growth at 37°C",0,0.871,0.129,0.33536766610911,0.112471471471471,-0.129,3
+"Brine","Lactose_F","Inulin",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Lactose_F","L-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","Lactose_F","L-Rhamnose",0,0.966,0.034,0.181319819316248,0.0328768768768769,-0.034,3
+"Brine","Lactose_F","Lactose",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Lactose_F","Melezitose",0,0.897,0.103,0.304110972316823,0.0924834834834835,-0.103,3
+"Brine","Lactose_F","Melibiose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Lactose_F","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Lactose_F","Methyl-?-D-glucoside",0,0.91,0.09,0.286324958712967,0.081981981981982,-0.09,3
+"Brine","Lactose_F","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Lactose_F","Raffinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Lactose_F","Raffinose_F",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Lactose_F","Ribitol",0,0.866,0.134,0.340822769427396,0.11616016016016,-0.134,3
+"Brine","Lactose_F","Salicin",0,0.853,0.147,0.354283102217022,0.125516516516517,-0.147,3
+"Brine","Lactose_F","Soluble Starch",0,0.949,0.051,0.220107808692576,0.0484474474474474,-0.051,3
+"Brine","Lactose_F","Starch formation",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Brine","Lactose_F","Sucrose",0,0.864,0.136,0.342960087505269,0.117621621621622,-0.136,3
+"Brine","Lactose_F","Trehalose",0,0.831,0.169,0.374939434548541,0.14057957957958,-0.169,3
+"Brine","Lactose_F","Trehalose_F",0,0.935,0.065,0.246649216167082,0.0608358358358358,-0.065,3
+"Brine","Lactose_F","Vitamin-free",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Melezitose","Cellobiose",0,0.868,0.132,0.338660140392534,0.114690690690691,-0.132,3
+"Brine","Melezitose","D-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","Melezitose","D-Glucosamine",0,0.919,0.081,0.272971634998059,0.0745135135135135,-0.081,3
+"Brine","Melezitose","D-Xylose",0,0.851,0.149,0.356266650033266,0.126925925925926,-0.149,3
+"Brine","Melezitose","Erythritol",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Melezitose","Galactitol",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Brine","Melezitose","Growth at 37°C",0,0.885,0.115,0.319181573523405,0.101876876876877,-0.115,3
+"Brine","Melezitose","L-Arabinose",0,0.936,0.064,0.244875404979683,0.059963963963964,-0.064,3
+"Brine","Melezitose","L-Rhamnose",0,0.972,0.028,0.16505527329729,0.0272432432432432,-0.028,3
+"Brine","Melezitose","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Melezitose","Methyl-?-D-glucoside",0,0.914,0.086,0.28050433629925,0.0786826826826827,-0.086,3
+"Brine","Melezitose","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Melezitose","Ribitol",0,0.875,0.125,0.330884397463048,0.109484484484484,-0.125,3
+"Brine","Melezitose","Salicin",0,0.869,0.131,0.337569182469243,0.113952952952953,-0.131,3
+"Brine","Melezitose","Soluble Starch",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Melezitose","Starch formation",0,0.962,0.038,0.191291904148065,0.0365925925925926,-0.038,3
+"Brine","Melezitose","Vitamin-free",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Melibiose","Cellobiose",0,0.854,0.146,0.353282901948012,0.124808808808809,-0.146,3
+"Brine","Melibiose","D-Arabinose",0,0.927,0.073,0.260266668512775,0.0677387387387387,-0.073,3
+"Brine","Melibiose","D-Glucosamine",0,0.913,0.087,0.281976081451088,0.0795105105105105,-0.087,3
+"Brine","Melibiose","D-Xylose",0,0.84,0.16,0.366789496216201,0.134534534534535,-0.16,3
+"Brine","Melibiose","Erythritol",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Melibiose","Galactitol",0,0.979,0.021,0.143455845400526,0.0205795795795796,-0.021,3
+"Brine","Melibiose","Growth at 37°C",0,0.874,0.126,0.332015412645609,0.110234234234234,-0.126,3
+"Brine","Melibiose","L-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","Melibiose","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Melibiose","Lactose",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Melibiose","Melezitose",0,0.9,0.1,0.300150112593832,0.0900900900900901,-0.1,3
+"Brine","Melibiose","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Melibiose","Methyl-?-D-glucoside",0,0.908,0.092,0.289170571842329,0.0836196196196196,-0.092,3
+"Brine","Melibiose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Melibiose","Ribitol",0,0.868,0.132,0.338660140392534,0.114690690690691,-0.132,3
+"Brine","Melibiose","Salicin",0,0.86,0.14,0.347160655202344,0.120520520520521,-0.14,3
+"Brine","Melibiose","Soluble Starch",0,0.949,0.051,0.220107808692576,0.0484474474474474,-0.051,3
+"Brine","Melibiose","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Melibiose","Trehalose",0,0.832,0.168,0.374053359717455,0.139915915915916,-0.168,3
+"Brine","Melibiose","Vitamin-free",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Methanol","D-Glucosamine",0,0.915,0.085,0.279021240863223,0.0778528528528529,-0.085,3
+"Brine","Methanol","Erythritol",0,0.947,0.053,0.224145580463326,0.0502412412412412,-0.053,3
+"Brine","Methanol","Galactitol",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Brine","Methanol","Growth at 37°C",0,0.873,0.127,0.333139583331045,0.110981981981982,-0.127,3
+"Brine","Methanol","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Methanol","Ribitol",0,0.865,0.135,0.341894562536306,0.116891891891892,-0.135,3
+"Brine","Methanol","Starch formation",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","Methanol","Vitamin-free",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Methyl-?-D-glucoside","Cellobiose",0,0.865,0.135,0.341894562536306,0.116891891891892,-0.135,3
+"Brine","Methyl-?-D-glucoside","D-Arabinose",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Brine","Methyl-?-D-glucoside","D-Glucosamine",0,0.921,0.079,0.269873733126868,0.0728318318318318,-0.079,3
+"Brine","Methyl-?-D-glucoside","D-Xylose",0,0.851,0.149,0.356266650033266,0.126925925925926,-0.149,3
+"Brine","Methyl-?-D-glucoside","Erythritol",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Methyl-?-D-glucoside","Galactitol",0,0.979,0.021,0.143455845400526,0.0205795795795796,-0.021,3
+"Brine","Methyl-?-D-glucoside","Growth at 37°C",0,0.882,0.118,0.322769546550136,0.10418018018018,-0.118,3
+"Brine","Methyl-?-D-glucoside","L-Arabinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Methyl-?-D-glucoside","L-Rhamnose",0,0.97,0.03,0.170672578726429,0.0291291291291291,-0.03,3
+"Brine","Methyl-?-D-glucoside","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Methyl-?-D-glucoside","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Methyl-?-D-glucoside","Ribitol",0,0.879,0.121,0.326290461805836,0.106465465465465,-0.121,3
+"Brine","Methyl-?-D-glucoside","Salicin",0,0.865,0.135,0.341894562536306,0.116891891891892,-0.135,3
+"Brine","Methyl-?-D-glucoside","Soluble Starch",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Methyl-?-D-glucoside","Starch formation",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","Methyl-?-D-glucoside","Vitamin-free",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","myo-Inositol","D-Glucosamine",0,0.912,0.088,0.283436653127884,0.0803363363363363,-0.088,3
+"Brine","myo-Inositol","Growth at 37°C",0,0.874,0.126,0.332015412645609,0.110234234234234,-0.126,3
+"Brine","myo-Inositol","Starch formation",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Brine","myo-Inositol","Vitamin-free",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Raffinose","Cellobiose",0,0.865,0.135,0.341894562536306,0.116891891891892,-0.135,3
+"Brine","Raffinose","D-Arabinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Raffinose","D-Glucosamine",0,0.917,0.083,0.276020265899421,0.0761871871871872,-0.083,3
+"Brine","Raffinose","D-Xylose",0,0.844,0.156,0.363036906933435,0.131795795795796,-0.156,3
+"Brine","Raffinose","Erythritol",0,0.947,0.053,0.224145580463326,0.0502412412412412,-0.053,3
+"Brine","Raffinose","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Raffinose","Growth at 37°C",0,0.883,0.117,0.321581116383432,0.103414414414414,-0.117,3
+"Brine","Raffinose","L-Arabinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Raffinose","L-Rhamnose",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Raffinose","Lactose",0,0.984,0.016,0.125537881771837,0.0157597597597598,-0.016,3
+"Brine","Raffinose","Melezitose",0,0.903,0.097,0.296105857217784,0.0876786786786787,-0.097,3
+"Brine","Raffinose","Melibiose",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Raffinose","Methanol",0,0.991,0.009,0.0944877131056093,0.00892792792792793,-0.009,3
+"Brine","Raffinose","Methyl-?-D-glucoside",0,0.917,0.083,0.276020265899421,0.0761871871871872,-0.083,3
+"Brine","Raffinose","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Raffinose","Ribitol",0,0.871,0.129,0.33536766610911,0.112471471471471,-0.129,3
+"Brine","Raffinose","Salicin",0,0.868,0.132,0.338660140392534,0.114690690690691,-0.132,3
+"Brine","Raffinose","Soluble Starch",0,0.95,0.05,0.218054001448145,0.0475475475475475,-0.05,3
+"Brine","Raffinose","Starch formation",0,0.964,0.036,0.186383311320351,0.0347387387387387,-0.036,3
+"Brine","Raffinose","Trehalose",0,0.836,0.164,0.370460849809047,0.137241241241241,-0.164,3
+"Brine","Raffinose","Vitamin-free",0,0.956,0.044,0.205197724417465,0.0421061061061061,-0.044,3
+"Brine","Raffinose_F","Cellobiose",0,0.857,0.143,0.350248017372938,0.122673673673674,-0.143,3
+"Brine","Raffinose_F","D-Arabinose",0,0.927,0.073,0.260266668512775,0.0677387387387387,-0.073,3
+"Brine","Raffinose_F","D-Glucosamine",0,0.917,0.083,0.276020265899421,0.0761871871871872,-0.083,3
+"Brine","Raffinose_F","D-Xylose",0,0.838,0.162,0.368635174517967,0.135891891891892,-0.162,3
+"Brine","Raffinose_F","Erythritol",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Raffinose_F","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Raffinose_F","Glucose",1,1,0.968,0.176088066055048,0.031007007007007,0.032,1
+"Brine","Raffinose_F","Growth at 37°C",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Raffinose_F","Inulin",0,0.963,0.037,0.188856206322871,0.0356666666666667,-0.037,3
+"Brine","Raffinose_F","L-Arabinose",0,0.93,0.07,0.255274685711618,0.0651651651651652,-0.07,3
+"Brine","Raffinose_F","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Raffinose_F","Lactose",0,0.984,0.016,0.125537881771837,0.0157597597597598,-0.016,3
+"Brine","Raffinose_F","Melezitose",0,0.9,0.1,0.300150112593832,0.0900900900900901,-0.1,3
+"Brine","Raffinose_F","Melibiose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Raffinose_F","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Raffinose_F","Methyl-?-D-glucoside",0,0.907,0.093,0.290577761426155,0.0844354354354354,-0.093,3
+"Brine","Raffinose_F","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Raffinose_F","Raffinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Raffinose_F","Ribitol",0,0.871,0.129,0.33536766610911,0.112471471471471,-0.129,3
+"Brine","Raffinose_F","Salicin",0,0.855,0.145,0.352277020396022,0.124099099099099,-0.145,3
+"Brine","Raffinose_F","Soluble Starch",0,0.948,0.052,0.222138122224316,0.0493453453453453,-0.052,3
+"Brine","Raffinose_F","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Raffinose_F","Sucrose",0,0.868,0.132,0.338660140392534,0.114690690690691,-0.132,3
+"Brine","Raffinose_F","Trehalose",0,0.836,0.164,0.370460849809047,0.137241241241241,-0.164,3
+"Brine","Raffinose_F","Trehalose_F",0,0.936,0.064,0.244875404979683,0.059963963963964,-0.064,3
+"Brine","Raffinose_F","Vitamin-free",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Ribitol","D-Glucosamine",0,0.92,0.08,0.271428947744476,0.0736736736736737,-0.08,3
+"Brine","Ribitol","Galactitol",0,0.982,0.018,0.133017644294634,0.0176936936936937,-0.018,3
+"Brine","Ribitol","Growth at 37°C",0,0.888,0.112,0.315524255098646,0.0995555555555555,-0.112,3
+"Brine","Ribitol","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Ribitol","Starch formation",0,0.963,0.037,0.188856206322871,0.0356666666666667,-0.037,3
+"Brine","Ribitol","Vitamin-free",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Brine","Salicin","D-Arabinose",0,0.935,0.065,0.246649216167082,0.0608358358358358,-0.065,3
+"Brine","Salicin","D-Glucosamine",0,0.925,0.075,0.263523138347365,0.0694444444444444,-0.075,3
+"Brine","Salicin","D-Xylose",0,0.849,0.151,0.358228038164697,0.128327327327327,-0.151,3
+"Brine","Salicin","Erythritol",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Salicin","Galactitol",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Salicin","Growth at 37°C",0,0.886,0.114,0.317970289657863,0.101105105105105,-0.114,3
+"Brine","Salicin","L-Arabinose",0,0.943,0.057,0.231958627355839,0.0538048048048048,-0.057,3
+"Brine","Salicin","L-Rhamnose",0,0.974,0.026,0.159214789983058,0.0253493493493493,-0.026,3
+"Brine","Salicin","Methanol",0,0.991,0.009,0.0944877131056093,0.00892792792792793,-0.009,3
+"Brine","Salicin","myo-Inositol",0,0.992,0.008,0.0891288053546324,0.00794394394394394,-0.008,3
+"Brine","Salicin","Ribitol",0,0.887,0.113,0.316751213622507,0.100331331331331,-0.113,3
+"Brine","Salicin","Starch formation",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Salicin","Vitamin-free",0,0.96,0.04,0.196057232558349,0.0384384384384384,-0.04,3
+"Brine","Soluble Starch","Cellobiose",0,0.856,0.144,0.351265408754388,0.123387387387387,-0.144,3
+"Brine","Soluble Starch","D-Arabinose",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Brine","Soluble Starch","D-Glucosamine",0,0.915,0.085,0.279021240863223,0.0778528528528529,-0.085,3
+"Brine","Soluble Starch","D-Xylose",0,0.842,0.158,0.364923511395428,0.133169169169169,-0.158,3
+"Brine","Soluble Starch","Erythritol",0,0.949,0.051,0.220107808692576,0.0484474474474474,-0.051,3
+"Brine","Soluble Starch","Galactitol",0,0.979,0.021,0.143455845400526,0.0205795795795796,-0.021,3
+"Brine","Soluble Starch","Growth at 37°C",0,0.881,0.119,0.323950527000565,0.104943943943944,-0.119,3
+"Brine","Soluble Starch","L-Arabinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Soluble Starch","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Soluble Starch","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Soluble Starch","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Soluble Starch","Ribitol",0,0.871,0.129,0.33536766610911,0.112471471471471,-0.129,3
+"Brine","Soluble Starch","Salicin",0,0.86,0.14,0.347160655202344,0.120520520520521,-0.14,3
+"Brine","Soluble Starch","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Soluble Starch","Vitamin-free",0,0.952,0.048,0.213873190797121,0.0457417417417417,-0.048,3
+"Brine","Starch formation","Growth at 37°C",0,0.873,0.127,0.333139583331045,0.110981981981982,-0.127,3
+"Brine","Sucrose","Cellobiose",0,0.876,0.124,0.32974646735444,0.108732732732733,-0.124,3
+"Brine","Sucrose","D-Arabinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Sucrose","D-Glucosamine",0,0.924,0.076,0.265130711714607,0.0702942942942943,-0.076,3
+"Brine","Sucrose","D-Xylose",0,0.856,0.144,0.351265408754388,0.123387387387387,-0.144,3
+"Brine","Sucrose","Erythritol",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Sucrose","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Sucrose","Growth at 37°C",0,0.887,0.113,0.316751213622507,0.100331331331331,-0.113,3
+"Brine","Sucrose","L-Arabinose",0,0.944,0.056,0.230036772966665,0.0529169169169169,-0.056,3
+"Brine","Sucrose","L-Rhamnose",0,0.973,0.027,0.162164414398774,0.0262972972972973,-0.027,3
+"Brine","Sucrose","Lactose",0,0.985,0.015,0.121613279660528,0.0147897897897898,-0.015,3
+"Brine","Sucrose","Melezitose",0,0.906,0.094,0.291974740772638,0.0852492492492492,-0.094,3
+"Brine","Sucrose","Melibiose",0,0.97,0.03,0.170672578726429,0.0291291291291291,-0.03,3
+"Brine","Sucrose","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Sucrose","Methyl-?-D-glucoside",0,0.918,0.082,0.274502006097135,0.0753513513513513,-0.082,3
+"Brine","Sucrose","myo-Inositol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Sucrose","Raffinose",0,0.936,0.064,0.244875404979683,0.059963963963964,-0.064,3
+"Brine","Sucrose","Ribitol",0,0.887,0.113,0.316751213622507,0.100331331331331,-0.113,3
+"Brine","Sucrose","Salicin",0,0.877,0.123,0.328601550481703,0.107978978978979,-0.123,3
+"Brine","Sucrose","Soluble Starch",0,0.953,0.047,0.211744742168102,0.0448358358358358,-0.047,3
+"Brine","Sucrose","Starch formation",0,0.962,0.038,0.191291904148065,0.0365925925925926,-0.038,3
+"Brine","Sucrose","Trehalose",0,0.851,0.149,0.356266650033266,0.126925925925926,-0.149,3
+"Brine","Sucrose","Vitamin-free",0,0.959,0.041,0.198389410902796,0.0393583583583584,-0.041,3
+"Brine","Sucrose_F","Cellobiose",0,0.856,0.144,0.351265408754388,0.123387387387387,-0.144,3
+"Brine","Sucrose_F","D-Arabinose",0,0.931,0.069,0.253580960056751,0.0643033033033033,-0.069,3
+"Brine","Sucrose_F","D-Glucosamine",0,0.922,0.078,0.268305773303498,0.071987987987988,-0.078,3
+"Brine","Sucrose_F","D-Xylose",0,0.842,0.158,0.364923511395428,0.133169169169169,-0.158,3
+"Brine","Sucrose_F","Erythritol",0,0.946,0.054,0.226130792098589,0.0511351351351351,-0.054,3
+"Brine","Sucrose_F","Galactitol",0,0.98,0.02,0.140070052543788,0.0196196196196196,-0.02,3
+"Brine","Sucrose_F","Glucose",1,1,0.945,0.228094337998616,0.052027027027027,0.055,1
+"Brine","Sucrose_F","Growth at 37°C",0,0.882,0.118,0.322769546550136,0.10418018018018,-0.118,3
+"Brine","Sucrose_F","Inulin",0,0.963,0.037,0.188856206322871,0.0356666666666667,-0.037,3
+"Brine","Sucrose_F","L-Arabinose",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Brine","Sucrose_F","L-Rhamnose",0,0.967,0.033,0.178725887724591,0.0319429429429429,-0.033,3
+"Brine","Sucrose_F","Lactose",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Sucrose_F","Lactose_F",0,0.995,0.005,0.0705689732104696,0.00497997997997998,-0.005,3
+"Brine","Sucrose_F","Melezitose",0,0.901,0.099,0.29881145943268,0.0892882882882883,-0.099,3
+"Brine","Sucrose_F","Melibiose",0,0.968,0.032,0.176088066055048,0.031007007007007,-0.032,3
+"Brine","Sucrose_F","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Sucrose_F","Methyl-?-D-glucoside",0,0.912,0.088,0.283436653127884,0.0803363363363363,-0.088,3
+"Brine","Sucrose_F","myo-Inositol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Sucrose_F","Raffinose",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Brine","Sucrose_F","Raffinose_F",0,0.972,0.028,0.16505527329729,0.0272432432432432,-0.028,3
+"Brine","Sucrose_F","Ribitol",0,0.874,0.126,0.332015412645609,0.110234234234234,-0.126,3
+"Brine","Sucrose_F","Salicin",0,0.861,0.139,0.346119630761965,0.119798798798799,-0.139,3
+"Brine","Sucrose_F","Soluble Starch",0,0.951,0.049,0.215976030257169,0.0466456456456456,-0.049,3
+"Brine","Sucrose_F","Starch formation",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Sucrose_F","Sucrose",0,0.873,0.127,0.333139583331045,0.110981981981982,-0.127,3
+"Brine","Sucrose_F","Trehalose",0,0.841,0.159,0.36585906146063,0.133852852852853,-0.159,3
+"Brine","Sucrose_F","Trehalose_F",0,0.939,0.061,0.239450070654273,0.0573363363363363,-0.061,3
+"Brine","Sucrose_F","Vitamin-free",0,0.958,0.042,0.200689502157627,0.0402762762762763,-0.042,3
+"Brine","Trehalose","Cellobiose",0,0.877,0.123,0.328601550481703,0.107978978978979,-0.123,3
+"Brine","Trehalose","D-Arabinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Trehalose","D-Glucosamine",0,0.927,0.073,0.260266668512775,0.0677387387387387,-0.073,3
+"Brine","Trehalose","D-Xylose",0,0.858,0.142,0.349224795737585,0.121957957957958,-0.142,3
+"Brine","Trehalose","Erythritol",0,0.955,0.045,0.207407854282373,0.043018018018018,-0.045,3
+"Brine","Trehalose","Galactitol",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Trehalose","Growth at 37°C",0,0.89,0.11,0.313046319253234,0.097997997997998,-0.11,3
+"Brine","Trehalose","L-Arabinose",0,0.933,0.067,0.250147103868051,0.0625735735735736,-0.067,3
+"Brine","Trehalose","L-Rhamnose",0,0.97,0.03,0.170672578726429,0.0291291291291291,-0.03,3
+"Brine","Trehalose","Melezitose",0,0.921,0.079,0.269873733126868,0.0728318318318318,-0.079,3
+"Brine","Trehalose","Methanol",0,0.99,0.01,0.0995485304256668,0.00990990990990991,-0.01,3
+"Brine","Trehalose","Methyl-?-D-glucoside",0,0.921,0.079,0.269873733126868,0.0728318318318318,-0.079,3
+"Brine","Trehalose","myo-Inositol",0,0.991,0.009,0.0944877131056093,0.00892792792792793,-0.009,3
+"Brine","Trehalose","Ribitol",0,0.886,0.114,0.317970289657863,0.101105105105105,-0.114,3
+"Brine","Trehalose","Salicin",0,0.871,0.129,0.33536766610911,0.112471471471471,-0.129,3
+"Brine","Trehalose","Soluble Starch",0,0.958,0.042,0.200689502157627,0.0402762762762763,-0.042,3
+"Brine","Trehalose","Starch formation",0,0.962,0.038,0.191291904148065,0.0365925925925926,-0.038,3
+"Brine","Trehalose","Vitamin-free",0,0.961,0.039,0.193691808077979,0.0375165165165165,-0.039,3
+"Brine","Trehalose_F","Cellobiose",0,0.863,0.137,0.344019402576874,0.118349349349349,-0.137,3
+"Brine","Trehalose_F","D-Arabinose",0,0.929,0.071,0.256953351846254,0.066025025025025,-0.071,3
+"Brine","Trehalose_F","D-Glucosamine",0,0.913,0.087,0.281976081451088,0.0795105105105105,-0.087,3
+"Brine","Trehalose_F","D-Xylose",0,0.842,0.158,0.364923511395428,0.133169169169169,-0.158,3
+"Brine","Trehalose_F","Erythritol",0,0.95,0.05,0.218054001448145,0.0475475475475475,-0.05,3
+"Brine","Trehalose_F","Galactitol",0,0.981,0.019,0.136593036636783,0.0186576576576577,-0.019,3
+"Brine","Trehalose_F","Glucose",1,1,0.935,0.246649216167082,0.0608358358358358,0.0649999999999999,1
+"Brine","Trehalose_F","Growth at 37°C",0,0.877,0.123,0.328601550481703,0.107978978978979,-0.123,3
+"Brine","Trehalose_F","Inulin",0,0.964,0.036,0.186383311320351,0.0347387387387387,-0.036,3
+"Brine","Trehalose_F","L-Arabinose",0,0.932,0.068,0.251871871076227,0.0634394394394394,-0.068,3
+"Brine","Trehalose_F","L-Rhamnose",0,0.968,0.032,0.176088066055048,0.031007007007007,-0.032,3
+"Brine","Trehalose_F","Lactose",0,0.983,0.017,0.129335717138491,0.0167277277277277,-0.017,3
+"Brine","Trehalose_F","Melezitose",0,0.905,0.095,0.293361655744341,0.0860610610610611,-0.095,3
+"Brine","Trehalose_F","Melibiose",0,0.969,0.031,0.173404351355637,0.0300690690690691,-0.031,3
+"Brine","Trehalose_F","Methanol",0,0.989,0.011,0.104354635210372,0.0108898898898899,-0.011,3
+"Brine","Trehalose_F","Methyl-?-D-glucoside",0,0.913,0.087,0.281976081451088,0.0795105105105105,-0.087,3
+"Brine","Trehalose_F","myo-Inositol",0,0.988,0.012,0.108939744206914,0.0118678678678679,-0.012,3
+"Brine","Trehalose_F","Raffinose",0,0.934,0.066,0.248406331855099,0.0617057057057057,-0.066,3
+"Brine","Trehalose_F","Ribitol",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Trehalose_F","Salicin",0,0.863,0.137,0.344019402576874,0.118349349349349,-0.137,3
+"Brine","Trehalose_F","Soluble Starch",0,0.951,0.049,0.215976030257169,0.0466456456456456,-0.049,3
+"Brine","Trehalose_F","Starch formation",0,0.963,0.037,0.188856206322871,0.0356666666666667,-0.037,3
+"Brine","Trehalose_F","Sucrose",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Trehalose_F","Trehalose",0,0.842,0.158,0.364923511395428,0.133169169169169,-0.158,3
+"Brine","Trehalose_F","Vitamin-free",0,0.954,0.046,0.209589904165081,0.0439279279279279,-0.046,3
+"Brine","Vitamin-free","Growth at 37°C",0,0.872,0.128,0.334256978577453,0.111727727727728,-0.128,3
+"Brine","Vitamin-free","Starch formation",0,0.962,0.038,0.191291904148065,0.0365925925925926,-0.038,3
+"Plant","Glucose","Erythritol",0,1,0,0,0,0,3
+"Food","Glucose","Starch formation",0,1,0,0,0,0,3
+"Pickled.Salted.Brined","Glucose","Methanol",0,1,0,0,0,0,3
+"Fruit","Glucose","Erythritol",0,1,0,0,0,0,3
+"Drink.Juice","Glucose","D-Xylose",0,1,0,0,0,0,3
+"Sugar.Cane","Glucose","Lactose",0,1,0,0,0,0,3
+"Sugar.Cane","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Sugar.Cane","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Sugar.Cane","Glucose","Starch formation",0,1,0,0,0,0,3
+"Sugar.Cane","Lactose","myo-Inositol",0,0.868,0.139,0.365804336787869,0.133812812812813,-0.139,3
+"Sugar.Cane","Lactose","Soluble Starch",0,0.667,0.391,0.607031702209602,0.368487487487487,-0.391,3
+"Sugar.Cane","Lactose","Starch formation",0,0.701,0.339,0.558919843440355,0.312391391391391,-0.339,3
+"Sugar.Cane","Lactose_F","Glucose",5,1,4.917,0.28669355275833,0.0821931931931932,0.0830000000000002,1
+"Sugar.Cane","Lactose_F","Lactose",0,0.85,0.156,0.379219999219197,0.143807807807808,-0.156,3
+"Sugar.Cane","Lactose_F","myo-Inositol",0,0.862,0.145,0.371635726368057,0.138113113113113,-0.145,3
+"Sugar.Cane","Lactose_F","Soluble Starch",0,0.66,0.399,0.610058334236302,0.372171171171171,-0.399,3
+"Sugar.Cane","Lactose_F","Starch formation",0,0.7,0.341,0.561278927124504,0.315034034034034,-0.341,3
+"Sugar.Cane","myo-Inositol","Starch formation",0,0.706,0.335,0.559542749115819,0.313088088088088,-0.335,3
+"Sugar.Cane","Soluble Starch","myo-Inositol",0,0.874,0.131,0.352083744246966,0.123962962962963,-0.131,3
+"Sugar.Cane","Soluble Starch","Starch formation",0,0.715,0.319,0.539935672585661,0.291530530530531,-0.319,3
+"Fermented","Glucose","D-Xylose",0,1,0,0,0,0,3
+"Wine","Glucose","Methanol",0,1,0,0,0,0,3
+"Beer","Glucose","Methanol",0,1,0,0,0,0,3
+"Tequila","Glucose","Melibiose",0,1,0,0,0,0,3
+"Tequila","Glucose","myo-Inositol",0,1,0,0,0,0,3
+"Tequila","Glucose","Starch formation",0,1,0,0,0,0,3
+"Tequila","Lactose_F","Glucose",11,1,10.836,0.386333085889952,0.149253253253253,0.164,1
+"Tequila","Lactose_F","Melibiose",0,0.652,0.418,0.633780464891178,0.401677677677678,-0.418,3
+"Tequila","Lactose_F","myo-Inositol",0,0.716,0.323,0.552246300101663,0.304975975975976,-0.323,3
+"Tequila","Lactose_F","Starch formation",0,0.452,0.755,0.818318180565875,0.669644644644645,-0.755,3
+"Tequila","Melibiose","myo-Inositol",0,0.722,0.312,0.539394982315322,0.290946946946947,-0.312,3
+"Tequila","Melibiose","Starch formation",0,0.463,0.732,0.804252959474084,0.646822822822823,-0.732,3
+"Tequila","myo-Inositol","Starch formation",0,0.456,0.746,0.812492550208397,0.660144144144144,-0.746,3
+"Cider","Glucose","Starch formation",0,1,0,0,0,0,3
+"Wood","Lactose_F","Glucose",11,1,10.811,0.432973978971562,0.187466466466466,0.189,1
+"Silage","Glucose","Galactitol",0,1,0,0,0,0,3
+"Silage","Glucose","Inulin",0,1,0,0,0,0,3
+"Silage","Glucose","Methanol",0,1,0,0,0,0,3
+"Silage","Inulin","Galactitol",0,0.788,0.237,0.482767090908301,0.233064064064064,-0.237,3
+"Silage","Inulin","Methanol",0,0.79,0.239,0.496109992970435,0.246125125125125,-0.239,3
+"Silage","Lactose_F","Galactitol",0,0.78,0.247,0.494201613954503,0.244235235235235,-0.247,3
+"Silage","Lactose_F","Glucose",8,1,7.901,0.31192354238867,0.0972962962962963,0.0990000000000002,1
+"Silage","Lactose_F","Inulin",0,0.716,0.329,0.563095086176461,0.317076076076076,-0.329,3
+"Silage","Lactose_F","Methanol",0,0.782,0.25,0.509666321979155,0.25975975975976,-0.25,3
+"Silage","Methanol","Galactitol",0,0.785,0.241,0.489037992550843,0.239158158158158,-0.241,3
+"Dairy","Glucose","Soluble Starch",0,1,0,0,0,0,3
+"Olives","Glucose","Starch formation",0,1,0,0,0,0,3
+"Olives","Glucose","Vitamin-free",0,1,0,0,0,0,3
+"Olives","Vitamin-free","Starch formation",0,0.406,0.874,0.89270427405772,0.796920920920921,-0.874,3

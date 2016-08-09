@@ -9,6 +9,7 @@ options(stringsAsFactors = FALSE)
 require(FD)
 require(picante)
 require(cooccur)
+require(ggplot2)
 
 # Files #
 traits<-read.csv("TraitMatrix_Imputed_2016-06-27_pruned.csv", check.names=FALSE, row.names=1)
@@ -941,6 +942,9 @@ for(i in 1:nrow(AllIsoSum_PP_df)){
 }
 write.csv(AllIsoSum_PP_df, file = paste("AllIsoSum_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+
+Mean_PP_Diff = mean(AllIsoSum_PP_df$Difference)
+
 pdf(paste("Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == Isolations[iso]),]
@@ -953,7 +957,7 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PP_Diff)
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
@@ -976,6 +980,81 @@ for(i in 1:length(Pos_SigTraitsIso_PP_list)){
 }
 
 write.csv(BothSigIsoAnalysis_PP_df, file = paste("BothSigIsoAnalysis_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+# Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
+Both_IsoSigSub_PP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PP_df))
+colnames(Both_IsoSigSub_PP_df) = colnames(AllIsoSum_PP_df)
+
+Both_IsoSigSub_PP_df = data.frame(Both_IsoSigSub_PP_df)
+
+for(i in 1:length(Pos_SigTraitsIso_PP_list)){
+  iso = Pos_SigTraitsIso_PP_list[[i]]$Isolation
+  keepTraits = Pos_SigTraitsIso_PP_list[[i]]$Traits
+  tempData = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
+  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
+  Both_IsoSigSub_PP_df = rbind(Both_IsoSigSub_PP_df, dataKeep)
+}
+
+Both_IsoSigSub_PP_df = Both_IsoSigSub_PP_df[-1,]
+
+Both_Mean_PP_Diff = mean(Both_IsoSigSub_PP_df$Difference)
+
+write.csv(Both_IsoSigSub_PP_df, file = paste("Both_IsoSigSub_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+pdf(paste("BothSig_Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_PP_df[which(Both_IsoSigSub_PP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PP_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
+All_IsoSigSub_PP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PP_df))
+colnames(All_IsoSigSub_PP_df) = colnames(AllIsoSum_PP_df)
+
+All_IsoSigSub_PP_df = data.frame(All_IsoSigSub_PP_df)
+
+for(i in 1:length(Pos_SigTraitsIso_PP_list)){
+  iso = Pos_SigTraitsIso_PP_list[[i]]$Isolation
+  keepTraits = Pos_SigTraitsIso_PP_list[[i]]$Traits
+  tempData = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits | tempData$Trait_B %in% keepTraits),]
+  All_IsoSigSub_PP_df = rbind(All_IsoSigSub_PP_df, dataKeep)
+}
+
+write.csv(All_IsoSigSub_PP_df, file = paste("All_IsoSigSub_PP_df", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+All_IsoSigSub_PP_df = All_IsoSigSub_PP_df[-1,]
+All_Mean_PP_Diff = mean(All_IsoSigSub_PP_df$Difference)
+
+pdf(paste("AllSig_Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_PP_df[which(All_IsoSigSub_PP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PP_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
 
 ###### Isolation Trait pair analysis for Positively Associated traits (-,-) ######
 # Determine the number of observed (-/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
@@ -1089,6 +1168,8 @@ for(i in 1:nrow(AllIsoSum_NN_df)){
 }
 write.csv(AllIsoSum_NN_df, file = paste("AllIsoSum_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+Mean_NN_Diff = mean(AllIsoSum_NN_df$Difference)
+
 pdf(paste("Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_NN_df[which(AllIsoSum_NN_df$Isolation == Isolations[iso]),]
@@ -1101,7 +1182,7 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NN_Diff)
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
@@ -1125,10 +1206,84 @@ for(i in 1:length(Pos_SigTraitsIso_NN_list)){
 
 write.csv(BothSigIsoAnalysis_NN_df, file = paste("BothSigIsoAnalysis_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+# Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
+Both_IsoSigSub_NN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NN_df))
+colnames(Both_IsoSigSub_NN_df) = colnames(AllIsoSum_NN_df)
+
+Both_IsoSigSub_NN_df = data.frame(Both_IsoSigSub_NN_df)
+
+for(i in 1:length(Pos_SigTraitsIso_NN_list)){
+  iso = Pos_SigTraitsIso_NN_list[[i]]$Isolation
+  keepTraits = Pos_SigTraitsIso_NN_list[[i]]$Traits
+  tempData = AllIsoSum_NN_df[which(AllIsoSum_NN_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
+  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
+  Both_IsoSigSub_NN_df = rbind(Both_IsoSigSub_NN_df, dataKeep)
+}
+
+Both_IsoSigSub_NN_df = Both_IsoSigSub_NN_df[-1,]
+write.csv(Both_IsoSigSub_NN_df, file = paste("Both_IsoSigSub_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+Both_Mean_NN_Diff = mean(Both_IsoSigSub_NN_df$Difference)
+
+pdf(paste("BothSig_Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_NN_df[which(Both_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NN_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
+All_IsoSigSub_NN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NN_df))
+colnames(All_IsoSigSub_NN_df) = colnames(AllIsoSum_NN_df)
+
+All_IsoSigSub_NN_df = data.frame(All_IsoSigSub_NN_df)
+
+for(i in 1:length(Pos_SigTraitsIso_NN_list)){
+  iso = Pos_SigTraitsIso_NN_list[[i]]$Isolation
+  keepTraits = Pos_SigTraitsIso_NN_list[[i]]$Traits
+  tempData = AllIsoSum_NN_df[which(AllIsoSum_NN_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits | tempData$Trait_B %in% keepTraits),]
+  All_IsoSigSub_NN_df = rbind(All_IsoSigSub_NN_df, dataKeep)
+}
+
+All_IsoSigSub_NN_df = All_IsoSigSub_NN_df[-1,]
+write.csv(All_IsoSigSub_NN_df, file = paste("All_IsoSigSub_NN_df", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+All_Mean_NN_Diff = mean(All_IsoSigSub_NN_df$Difference)
+
+pdf(paste("AllSig_Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_NN_df[which(All_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NN_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
 
 ###### Isolation Trait pair analysis for Negatively Associated traits (+,-) ######
 # Determine the number of observed (+/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
-IsoAnalysis_PN_df = data.frame(Isolation = character(),
+IsoAnalysis_NP_df = data.frame(Isolation = character(),
                                Trait_A = character(),
                                Trait_B = character(),
                                Observed_PN = numeric(), 
@@ -1236,7 +1391,10 @@ for(i in 1:nrow(AllIsoSum_PN_df)){
     AllIsoSum_PN_df[i, "Color"] = 3
   }
 }
+
 write.csv(AllIsoSum_PN_df, file = paste("AllIsoSum_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+Mean_PN_Diff = mean(AllIsoSum_PN_df$Difference)
 
 pdf(paste("Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
@@ -1250,7 +1408,7 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PN_Diff)
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
@@ -1272,6 +1430,82 @@ for(i in 1:length(Neg_SigTraitsIso_PN_list)){
 }
 
 write.csv(BothSigIsoAnalysis_PN_df, file = paste("BothSigIsoAnalysis_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+# Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
+Both_IsoSigSub_PN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PN_df))
+colnames(Both_IsoSigSub_PN_df) = colnames(AllIsoSum_PN_df)
+
+Both_IsoSigSub_PN_df = data.frame(Both_IsoSigSub_PN_df)
+
+for(i in 1:length(Neg_SigTraitsIso_PN_list)){
+  iso = Neg_SigTraitsIso_PN_list[[i]]$Isolation
+  keepTraits = Neg_SigTraitsIso_PN_list[[i]]$Traits
+  tempData = AllIsoSum_PN_df[which(AllIsoSum_PN_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
+  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
+  Both_IsoSigSub_PN_df = rbind(Both_IsoSigSub_PN_df, dataKeep)
+}
+
+Both_IsoSigSub_PN_df = Both_IsoSigSub_PN_df[-1,]
+
+write.csv(Both_IsoSigSub_PN_df, file = paste("Both_IsoSigSub_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+Both_Mean_PN_Diff = mean(Both_IsoSigSub_PN_df$Difference)
+
+pdf(paste("BothSig_Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_PN_df[which(Both_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PN_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
+All_IsoSigSub_PN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PN_df))
+colnames(All_IsoSigSub_PN_df) = colnames(AllIsoSum_PN_df)
+
+All_IsoSigSub_PN_df = data.frame(All_IsoSigSub_PN_df)
+
+for(i in 1:length(Neg_SigTraitsIso_PN_list)){
+  iso = Neg_SigTraitsIso_PN_list[[i]]$Isolation
+  keepTraits = Neg_SigTraitsIso_PN_list[[i]]$Traits
+  tempData = AllIsoSum_PN_df[which(AllIsoSum_PN_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits | tempData$Trait_B %in% keepTraits),]
+  All_IsoSigSub_PN_df = rbind(All_IsoSigSub_PN_df, dataKeep)
+}
+
+All_IsoSigSub_PN_df = All_IsoSigSub_PN_df[-1,]
+
+write.csv(All_IsoSigSub_PN_df, file = paste("All_IsoSigSub_PN_df", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+All_Mean_PN_Diff = mean(All_IsoSigSub_PN_df$Difference)
+
+pdf(paste("AllSig_Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_PN_df[which(All_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PN_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
 
 ###### Isolation Trait pair analysis for Negatively Associated traits (-,+) ######
 # Determine the number of observed (-/+)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
@@ -1368,6 +1602,22 @@ for(i in 1:length(Neg_SigTraitsIso_NP_list)){
 
 write.csv(AllSigIsoAnalysis_NP_df, file = paste("AllSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+BothSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
+colnames(BothSigIsoAnalysis_NP_df) = colnames(IsoAnalysis_NP_df)
+
+BothSigIsoAnalysis_NP_df = data.frame(BothSigIsoAnalysis_NP_df)
+
+for(i in 1:length(Neg_SigTraitsIso_NP_list)){
+  iso = Neg_SigTraitsIso_NP_list[[i]]$Isolation
+  keepTraits = Neg_SigTraitsIso_NP_list[[i]]$Traits
+  tempData = IsoAnalysis_NP_df[which(IsoAnalysis_NP_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
+  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
+  BothSigIsoAnalysis_NP_df = rbind(BothSigIsoAnalysis_NP_df, dataKeep)
+}
+
+write.csv(BothSigIsoAnalysis_NP_df, file = paste("BothSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
 ####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
 AllIsoSum_NP_df = merge(IsoAnalysis_NP_df, PermutedIsoSum_NP_df)
 AllIsoSum_NP_df$Difference = AllIsoSum_NP_df$Observed_NP - AllIsoSum_NP_df$Mean_NP
@@ -1385,6 +1635,8 @@ for(i in 1:nrow(AllIsoSum_NP_df)){
 }
 write.csv(AllIsoSum_NP_df, file = paste("AllIsoSum_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
+Mean_NP_Diff = mean(AllIsoSum_NP_df$Difference)
+                    
 pdf(paste("Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == Isolations[iso]),]
@@ -1397,25 +1649,83 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NP_Diff)
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
-BothSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
-colnames(BothSigIsoAnalysis_NP_df) = colnames(IsoAnalysis_NP_df)
+Both_IsoSigSub_NP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NP_df))
+colnames(Both_IsoSigSub_NP_df) = colnames(AllIsoSum_NP_df)
 
-BothSigIsoAnalysis_NP_df = data.frame(BothSigIsoAnalysis_NP_df)
+Both_IsoSigSub_NP_df = data.frame(Both_IsoSigSub_NP_df)
 
 for(i in 1:length(Neg_SigTraitsIso_NP_list)){
   iso = Neg_SigTraitsIso_NP_list[[i]]$Isolation
   keepTraits = Neg_SigTraitsIso_NP_list[[i]]$Traits
-  tempData = IsoAnalysis_NP_df[which(IsoAnalysis_NP_df$Isolation == iso),]
+  tempData = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == iso),]
   dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
   dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
-  BothSigIsoAnalysis_NP_df = rbind(BothSigIsoAnalysis_NP_df, dataKeep)
+  Both_IsoSigSub_NP_df = rbind(Both_IsoSigSub_NP_df, dataKeep)
 }
 
-write.csv(BothSigIsoAnalysis_NP_df, file = paste("BothSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+Both_IsoSigSub_NP_df = Both_IsoSigSub_NP_df[-1,]
+write.csv(Both_IsoSigSub_NP_df, file = paste("Both_IsoSigSub_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+Both_Mean_NP_Diff = mean(Both_IsoSigSub_NP_df$Difference)
+
+pdf(paste("BothSig_Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_NP_df[which(Both_IsoSigSub_NP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NP_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
+
+All_IsoSigSub_NP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NP_df))
+colnames(All_IsoSigSub_NP_df) = colnames(AllIsoSum_NP_df)
+
+All_IsoSigSub_NP_df = data.frame(All_IsoSigSub_NP_df)
+
+for(i in 1:length(Neg_SigTraitsIso_NP_list)){
+  iso = Neg_SigTraitsIso_NP_list[[i]]$Isolation
+  keepTraits = Neg_SigTraitsIso_NP_list[[i]]$Traits
+  tempData = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits | tempData$Trait_B %in% keepTraits),]
+  All_IsoSigSub_NP_df = rbind(All_IsoSigSub_NP_df, dataKeep)
+}
+
+All_IsoSigSub_NP_df = All_IsoSigSub_NP_df[-1,]
+
+write.csv(All_IsoSigSub_NP_df, file = paste("All_IsoSigSub_NP_df", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+All_Mean_NP_Diff = mean(All_IsoSigSub_NP_df$Difference)
+
+pdf(paste("AllSig_Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_NP_df[which(All_IsoSigSub_NP_df$Isolation == Isolations[iso]),]
+  lengthCheck = length(unique(tempDF$Color))
+  Values = unique(tempDF$Color)
+  if(lengthCheck == 3){
+    colorValues = c("#5C0023", "#034A58", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 1) > 0)){
+    colorValues = c("#5C0023", "grey80")
+  }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
+    colorValues = c("#034A58", "grey80")
+  }
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NP_Diff)
+  a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
+  print(a)
+}
+dev.off()
