@@ -943,8 +943,6 @@ for(i in 1:nrow(AllIsoSum_PP_df)){
 write.csv(AllIsoSum_PP_df, file = paste("AllIsoSum_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 
-Mean_PP_Diff = mean(AllIsoSum_PP_df$Difference)
-
 pdf(paste("Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == Isolations[iso]),]
@@ -957,11 +955,39 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PP_Diff)
+  Mean_PP_Diff = mean(tempDF$Difference)
+  Mean_PP_Diff = round(Mean_PP_Diff)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PP_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+IsoPairStat_PP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_PP_df[which(AllIsoSum_PP_df$Isolation == Isolations[iso]),]
+  IsoPairStat_PP_df[iso, 1] = Isolations[iso]
+  IsoPairStat_PP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_PP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_PP_df[iso, 4] = mean(tempDF$Observed_PP, na.rm = TRUE)
+  IsoPairStat_PP_df[iso, 5] = var(tempDF$Observed_PP, na.rm = TRUE)
+}
+write.csv(IsoPairStat_PP_df, file = paste("IsoPairStat_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(IsoPairStat_PP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(paste("IsoPairStat_PP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(IsoPairStat_PP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("IsoPair_TraitCount_PP_", Sys.Date(), ".pdf", sep = ""))
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Positive (+/+) #
 
@@ -998,8 +1024,6 @@ for(i in 1:length(Pos_SigTraitsIso_PP_list)){
 
 Both_IsoSigSub_PP_df = Both_IsoSigSub_PP_df[-1,]
 
-Both_Mean_PP_Diff = mean(Both_IsoSigSub_PP_df$Difference)
-
 write.csv(Both_IsoSigSub_PP_df, file = paste("Both_IsoSigSub_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 pdf(paste("BothSig_Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
@@ -1014,11 +1038,38 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PP_Diff)
+  Both_Mean_PP_Diff = mean(tempDF$Difference)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PP_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+Both_IsoStat_PP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_PP_df[which(Both_IsoSigSub_PP_df$Isolation == Isolations[iso]),]
+  Both_IsoStat_PP_df[iso, 1] = Isolations[iso]
+  Both_IsoStat_PP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_PP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_PP_df[iso, 4] = mean(tempDF$Observed_PP, na.rm = TRUE)
+  Both_IsoStat_PP_df[iso, 5] = var(tempDF$Observed_PP, na.rm = TRUE)
+}
+
+write.csv(Both_IsoStat_PP_df, file = paste("Both_IsoStat_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(Both_IsoStat_PP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("Both_IsoStat_PP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(Both_IsoStat_PP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("Both_TraitCount_PP_", Sys.Date(), ".pdf", sep = ""))
 
 All_IsoSigSub_PP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PP_df))
 colnames(All_IsoSigSub_PP_df) = colnames(AllIsoSum_PP_df)
@@ -1033,10 +1084,9 @@ for(i in 1:length(Pos_SigTraitsIso_PP_list)){
   All_IsoSigSub_PP_df = rbind(All_IsoSigSub_PP_df, dataKeep)
 }
 
-write.csv(All_IsoSigSub_PP_df, file = paste("All_IsoSigSub_PP_df", Sys.Date(), ".csv", sep = ""), row.names = F)
-
 All_IsoSigSub_PP_df = All_IsoSigSub_PP_df[-1,]
-All_Mean_PP_Diff = mean(All_IsoSigSub_PP_df$Difference)
+
+write.csv(All_IsoSigSub_PP_df, file = paste("All_IsoSigSub_PP_df", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 pdf(paste("AllSig_Isolation_TraitPair_PP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
@@ -1050,11 +1100,38 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PP_Diff)
+  All_Mean_PP_Diff = mean(tempDF$Difference)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PP_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+All_IsoStat_PP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_PP_df[which(All_IsoSigSub_PP_df$Isolation == Isolations[iso]),]
+  All_IsoStat_PP_df[iso, 1] = Isolations[iso]
+  All_IsoStat_PP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_PP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_PP_df[iso, 4] = mean(tempDF$Observed_PP, na.rm = TRUE)
+  All_IsoStat_PP_df[iso, 5] = var(tempDF$Observed_PP, na.rm = TRUE)
+}
+
+write.csv(All_IsoStat_PP_df, file = paste("All_IsoStat_PP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(All_IsoStat_PP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("All_IsoStat_PP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(All_IsoStat_PP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("All_TraitCount_PP_", Sys.Date(), ".pdf", sep = ""))
 
 ###### Isolation Trait pair analysis for Positively Associated traits (-,-) ######
 # Determine the number of observed (-/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
@@ -1166,9 +1243,9 @@ for(i in 1:nrow(AllIsoSum_NN_df)){
     AllIsoSum_NN_df[i, "Color"] = 3
   }
 }
+
 write.csv(AllIsoSum_NN_df, file = paste("AllIsoSum_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Mean_NN_Diff = mean(AllIsoSum_NN_df$Difference)
 
 pdf(paste("Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
@@ -1182,12 +1259,41 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NN_Diff)
+  
+  Mean_NN_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
 
+
+IsoPairStat_NN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_NN_df[which(AllIsoSum_NN_df$Isolation == Isolations[iso]),]
+  IsoPairStat_NN_df[iso, 1] = Isolations[iso]
+  IsoPairStat_NN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_NN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_NN_df[iso, 4] = mean(tempDF$Observed_NN, na.rm = TRUE)
+  IsoPairStat_NN_df[iso, 5] = var(tempDF$Observed_NN, na.rm = TRUE)
+}
+
+write.csv(IsoPairStat_NN_df, file = paste("IsoPairStat_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(IsoPairStat_NN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(paste("IsoPairStat_NN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(IsoPairStat_NN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("IsoPair_TraitCount_NN_", Sys.Date(), ".pdf", sep = ""))
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Positive (-/-) #
 BothSigIsoAnalysis_NN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NN_df))
@@ -1224,8 +1330,6 @@ for(i in 1:length(Pos_SigTraitsIso_NN_list)){
 Both_IsoSigSub_NN_df = Both_IsoSigSub_NN_df[-1,]
 write.csv(Both_IsoSigSub_NN_df, file = paste("Both_IsoSigSub_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Both_Mean_NN_Diff = mean(Both_IsoSigSub_NN_df$Difference)
-
 pdf(paste("BothSig_Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = Both_IsoSigSub_NN_df[which(Both_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
@@ -1238,11 +1342,39 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NN_Diff)
+  Both_Mean_NN_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+Both_IsoStat_NN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_NN_df[which(Both_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
+  Both_IsoStat_NN_df[iso, 1] = Isolations[iso]
+  Both_IsoStat_NN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_NN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_NN_df[iso, 4] = mean(tempDF$Observed_NN, na.rm = TRUE)
+  Both_IsoStat_NN_df[iso, 5] = var(tempDF$Observed_NN, na.rm = TRUE)
+}
+
+write.csv(Both_IsoStat_NN_df, file = paste("Both_IsoStat_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(Both_IsoStat_NN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("Both_IsoStat_NN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(Both_IsoStat_NN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("Both_TraitCount_NN_", Sys.Date(), ".pdf", sep = ""))
 
 All_IsoSigSub_NN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NN_df))
 colnames(All_IsoSigSub_NN_df) = colnames(AllIsoSum_NN_df)
@@ -1260,8 +1392,6 @@ for(i in 1:length(Pos_SigTraitsIso_NN_list)){
 All_IsoSigSub_NN_df = All_IsoSigSub_NN_df[-1,]
 write.csv(All_IsoSigSub_NN_df, file = paste("All_IsoSigSub_NN_df", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-All_Mean_NN_Diff = mean(All_IsoSigSub_NN_df$Difference)
-
 pdf(paste("AllSig_Isolation_TraitPair_NN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = All_IsoSigSub_NN_df[which(All_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
@@ -1274,12 +1404,39 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NN_Diff)
+  All_Mean_NN_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
 
+All_IsoStat_NN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_NN_df[which(All_IsoSigSub_NN_df$Isolation == Isolations[iso]),]
+  All_IsoStat_NN_df[iso, 1] = Isolations[iso]
+  All_IsoStat_NN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_NN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_NN_df[iso, 4] = mean(tempDF$Observed_NN, na.rm = TRUE)
+  All_IsoStat_NN_df[iso, 5] = var(tempDF$Observed_NN, na.rm = TRUE)
+}
+
+write.csv(All_IsoStat_NN_df, file = paste("All_IsoStat_NN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(All_IsoStat_NN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("All_IsoStat_NN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(All_IsoStat_NN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("All_TraitCount_NN_", Sys.Date(), ".pdf", sep = ""))
 
 ###### Isolation Trait pair analysis for Negatively Associated traits (+,-) ######
 # Determine the number of observed (+/-)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
@@ -1394,8 +1551,6 @@ for(i in 1:nrow(AllIsoSum_PN_df)){
 
 write.csv(AllIsoSum_PN_df, file = paste("AllIsoSum_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Mean_PN_Diff = mean(AllIsoSum_PN_df$Difference)
-
 pdf(paste("Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_PN_df[which(AllIsoSum_PN_df$Isolation == Isolations[iso]),]
@@ -1408,11 +1563,40 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PN_Diff)
+  Mean_PN_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_PN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+IsoPairStat_PN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_PN_df[which(AllIsoSum_PN_df$Isolation == Isolations[iso]),]
+  IsoPairStat_PN_df[iso, 1] = Isolations[iso]
+  IsoPairStat_PN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_PN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  IsoPairStat_PN_df[iso, 4] = mean(tempDF$Observed_PN, na.rm = TRUE)
+  IsoPairStat_PN_df[iso, 5] = var(tempDF$Observed_PN, na.rm = TRUE)
+}
+
+write.csv(IsoPairStat_PN_df, file = paste("IsoPairStat_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(IsoPairStat_PN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(paste("IsoPairStat_PN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(IsoPairStat_PN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("IsoPair_TraitCount_PN_", Sys.Date(), ".pdf", sep = ""))
+
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (+/-) #
 BothSigIsoAnalysis_PN_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_PN_df))
@@ -1450,8 +1634,6 @@ Both_IsoSigSub_PN_df = Both_IsoSigSub_PN_df[-1,]
 
 write.csv(Both_IsoSigSub_PN_df, file = paste("Both_IsoSigSub_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Both_Mean_PN_Diff = mean(Both_IsoSigSub_PN_df$Difference)
-
 pdf(paste("BothSig_Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = Both_IsoSigSub_PN_df[which(Both_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
@@ -1464,11 +1646,39 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PN_Diff)
+  Both_Mean_PN_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_PN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+Both_IsoStat_PN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_PN_df[which(Both_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
+  Both_IsoStat_PN_df[iso, 1] = Isolations[iso]
+  Both_IsoStat_PN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_PN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_PN_df[iso, 4] = mean(tempDF$Observed_PN, na.rm = TRUE)
+  Both_IsoStat_PN_df[iso, 5] = var(tempDF$Observed_PN, na.rm = TRUE)
+}
+
+write.csv(Both_IsoStat_PN_df, file = paste("Both_IsoStat_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(Both_IsoStat_PN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("Both_IsoStat_PN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(Both_IsoStat_PN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("Both_TraitCount_PN_", Sys.Date(), ".pdf", sep = ""))
 
 All_IsoSigSub_PN_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_PN_df))
 colnames(All_IsoSigSub_PN_df) = colnames(AllIsoSum_PN_df)
@@ -1487,8 +1697,6 @@ All_IsoSigSub_PN_df = All_IsoSigSub_PN_df[-1,]
 
 write.csv(All_IsoSigSub_PN_df, file = paste("All_IsoSigSub_PN_df", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-All_Mean_PN_Diff = mean(All_IsoSigSub_PN_df$Difference)
-
 pdf(paste("AllSig_Isolation_TraitPair_PN_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = All_IsoSigSub_PN_df[which(All_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
@@ -1501,11 +1709,38 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PN_Diff)
+  All_Mean_PN_Diff = mean(tempDF$Difference)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_PN_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+All_IsoStat_PN_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_PN_df[which(All_IsoSigSub_PN_df$Isolation == Isolations[iso]),]
+  All_IsoStat_PN_df[iso, 1] = Isolations[iso]
+  All_IsoStat_PN_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_PN_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_PN_df[iso, 4] = mean(tempDF$Observed_PN, na.rm = TRUE)
+  All_IsoStat_PN_df[iso, 5] = var(tempDF$Observed_PN, na.rm = TRUE)
+}
+
+write.csv(All_IsoStat_PN_df, file = paste("All_IsoStat_PN_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(All_IsoStat_PN_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("All_IsoStat_PN_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(All_IsoStat_PN_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("All_TraitCount_PN_", Sys.Date(), ".pdf", sep = ""))
 
 ###### Isolation Trait pair analysis for Negatively Associated traits (-,+) ######
 # Determine the number of observed (-/+)'s for Trait pairs in an isolation environment for the observed data and compare it to the permuted data # 
@@ -1602,22 +1837,6 @@ for(i in 1:length(Neg_SigTraitsIso_NP_list)){
 
 write.csv(AllSigIsoAnalysis_NP_df, file = paste("AllSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-BothSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
-colnames(BothSigIsoAnalysis_NP_df) = colnames(IsoAnalysis_NP_df)
-
-BothSigIsoAnalysis_NP_df = data.frame(BothSigIsoAnalysis_NP_df)
-
-for(i in 1:length(Neg_SigTraitsIso_NP_list)){
-  iso = Neg_SigTraitsIso_NP_list[[i]]$Isolation
-  keepTraits = Neg_SigTraitsIso_NP_list[[i]]$Traits
-  tempData = IsoAnalysis_NP_df[which(IsoAnalysis_NP_df$Isolation == iso),]
-  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
-  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
-  BothSigIsoAnalysis_NP_df = rbind(BothSigIsoAnalysis_NP_df, dataKeep)
-}
-
-write.csv(BothSigIsoAnalysis_NP_df, file = paste("BothSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
-
 ####### Isolation Trait Pair Visualization - Positive (+,+) ####### 
 AllIsoSum_NP_df = merge(IsoAnalysis_NP_df, PermutedIsoSum_NP_df)
 AllIsoSum_NP_df$Difference = AllIsoSum_NP_df$Observed_NP - AllIsoSum_NP_df$Mean_NP
@@ -1635,8 +1854,6 @@ for(i in 1:nrow(AllIsoSum_NP_df)){
 }
 write.csv(AllIsoSum_NP_df, file = paste("AllIsoSum_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Mean_NP_Diff = mean(AllIsoSum_NP_df$Difference)
-                    
 pdf(paste("Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == Isolations[iso]),]
@@ -1649,11 +1866,54 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NP_Diff)
+  Mean_NP_Diff = mean(tempDF$Difference)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Mean_NP_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+AllIsoTraitPairStat_NP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = AllIsoSum_NP_df[which(AllIsoSum_NP_df$Isolation == Isolations[iso]),]
+  AllIsoTraitPairStat_NP_df[iso, 1] = Isolations[iso]
+  AllIsoTraitPairStat_NP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  AllIsoTraitPairStat_NP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  AllIsoTraitPairStat_NP_df[iso, 4] = mean(tempDF$Observed_NP, na.rm = TRUE)
+  AllIsoTraitPairStat_NP_df[iso, 5] = var(tempDF$Observed_NP, na.rm = TRUE)
+}
+
+write.csv(AllIsoTraitPairStat_NP_df, file = paste("AllIsoTraitPairStat_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(AllIsoTraitPairStat_NP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(paste("AllIsoTraitPairStat_NP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(AllIsoTraitPairStat_NP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("IsoTrait_TraitCount_NP_", Sys.Date(), ".pdf", sep = ""))
+
+BothSigIsoAnalysis_NP_df = matrix(0, nrow = 1 ,ncol = ncol(IsoAnalysis_NP_df))
+colnames(BothSigIsoAnalysis_NP_df) = colnames(IsoAnalysis_NP_df)
+
+BothSigIsoAnalysis_NP_df = data.frame(BothSigIsoAnalysis_NP_df)
+
+for(i in 1:length(Neg_SigTraitsIso_NP_list)){
+  iso = Neg_SigTraitsIso_NP_list[[i]]$Isolation
+  keepTraits = Neg_SigTraitsIso_NP_list[[i]]$Traits
+  tempData = IsoAnalysis_NP_df[which(IsoAnalysis_NP_df$Isolation == iso),]
+  dataKeep = tempData[which(tempData$Trait_A %in% keepTraits),] 
+  dataKeep = dataKeep[which(dataKeep$Trait_B %in% keepTraits),]
+  BothSigIsoAnalysis_NP_df = rbind(BothSigIsoAnalysis_NP_df, dataKeep)
+}
+
+write.csv(BothSigIsoAnalysis_NP_df, file = paste("BothSigIsoAnalysis_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
 # Limit Trait pairs in the isolation environment to trait pairs where both traits are significantly associated with the isolation environment - Negative (-/+) #
 Both_IsoSigSub_NP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NP_df))
@@ -1671,9 +1931,9 @@ for(i in 1:length(Neg_SigTraitsIso_NP_list)){
 }
 
 Both_IsoSigSub_NP_df = Both_IsoSigSub_NP_df[-1,]
+
 write.csv(Both_IsoSigSub_NP_df, file = paste("Both_IsoSigSub_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-Both_Mean_NP_Diff = mean(Both_IsoSigSub_NP_df$Difference)
 
 pdf(paste("BothSig_Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
@@ -1687,11 +1947,38 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NP_Diff)
+  Both_Mean_NP_Diff = mean(tempDF$Difference)
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = Both_Mean_NP_Diff, color = "red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+Both_IsoStat_NP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = Both_IsoSigSub_NP_df[which(Both_IsoSigSub_NP_df$Isolation == Isolations[iso]),]
+  Both_IsoStat_NP_df[iso, 1] = Isolations[iso]
+  Both_IsoStat_NP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_NP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  Both_IsoStat_NP_df[iso, 4] = mean(tempDF$Observed_NP, na.rm = TRUE)
+  Both_IsoStat_NP_df[iso, 5] = var(tempDF$Observed_NP, na.rm = TRUE)
+}
+
+write.csv(Both_IsoStat_NP_df, file = paste("Both_IsoStat_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(Both_IsoStat_NP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("Both_IsoStat_NP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(Both_IsoStat_NP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("Both_TraitCount_NP_", Sys.Date(), ".pdf", sep = ""))
 
 All_IsoSigSub_NP_df = matrix(0, nrow = 1 ,ncol = ncol(AllIsoSum_NP_df))
 colnames(All_IsoSigSub_NP_df) = colnames(AllIsoSum_NP_df)
@@ -1710,8 +1997,6 @@ All_IsoSigSub_NP_df = All_IsoSigSub_NP_df[-1,]
 
 write.csv(All_IsoSigSub_NP_df, file = paste("All_IsoSigSub_NP_df", Sys.Date(), ".csv", sep = ""), row.names = F)
 
-All_Mean_NP_Diff = mean(All_IsoSigSub_NP_df$Difference)
-
 pdf(paste("AllSig_Isolation_TraitPair_NP_", Sys.Date(), ".pdf", sep = ""))
 for(iso in 1:length(Isolations)){
   tempDF = All_IsoSigSub_NP_df[which(All_IsoSigSub_NP_df$Isolation == Isolations[iso]),]
@@ -1724,8 +2009,36 @@ for(iso in 1:length(Isolations)){
   }else if(lengthCheck == 2 & length(which(Values == 2) > 0)){
     colorValues = c("#034A58", "grey80")
   }
-  a = ggplot(tempDF, aes(x = Trait_A, y = Difference, color = Color))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NP_Diff)
+  All_Mean_NP_Diff = mean(tempDF$Difference)
+  
+  a = ggplot(tempDF, aes(x = Trait_A, y = Difference))+geom_point()+scale_color_manual(values = colorValues)+geom_hline(yintercept = All_Mean_NP_Diff, color = "Red")
   a = a + theme_bw()+ ggtitle(Isolations[iso]) + xlab("Trait Pairs")+ylab("Count")+scale_fill_grey()+ theme(axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 0, angle = 90),axis.text.y = element_text(size = 8))
   print(a)
 }
 dev.off()
+
+All_IsoStat_NP_df = data.frame(Isolation = character(), AvgDiff = numeric(), VarDiff = numeric(), AvgTraitCounts = numeric(), VarTraitCounts = numeric())
+for(iso in 1:length(Isolations)){
+  tempDF = All_IsoSigSub_NP_df[which(All_IsoSigSub_NP_df$Isolation == Isolations[iso]),]
+  All_IsoStat_NP_df[iso, 1] = Isolations[iso]
+  All_IsoStat_NP_df[iso, 2] = mean(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_NP_df[iso, 3] = var(tempDF$Difference, na.rm = TRUE)
+  All_IsoStat_NP_df[iso, 4] = mean(tempDF$Observed_NP, na.rm = TRUE)
+  All_IsoStat_NP_df[iso, 5] = var(tempDF$Observed_NP, na.rm = TRUE)
+}
+
+write.csv(All_IsoStat_NP_df, file = paste("All_IsoStat_NP_df_", Sys.Date(), ".csv", sep = ""), row.names = F)
+
+a = ggplot(All_IsoStat_NP_df, aes(x = Isolation, y = AvgDiff))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgDiff-VarDiff, ymax=AvgDiff+VarDiff))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Difference")
+ggsave(file = paste("All_IsoStat_NP_", Sys.Date(), ".pdf", sep = ""))
+
+a = ggplot(All_IsoStat_NP_df, aes(x = Isolation, y = AvgTraitCounts))+geom_point(pch = 19, fill = "grey60")
+a = a + geom_errorbar(aes(ymin=AvgTraitCounts-VarTraitCounts, ymax=AvgTraitCounts+VarTraitCounts))
+a = a + geom_hline(yintercept = 0, color = "red", linetype  = 2)
+a = a + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black"),axis.text.x = element_text(angle = 90))  
+a = a + xlab("Isolation") + ylab("Average Trait Counts")
+ggsave(paste("All_TraitCount_NP_", Sys.Date(), ".pdf", sep = ""))
